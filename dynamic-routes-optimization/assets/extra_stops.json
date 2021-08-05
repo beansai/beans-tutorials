@@ -1,0 +1,186 @@
+[
+  {
+    "list_item_id": "t-5511c3052b39595971782e3b9",
+    "address": "27715 S Banta Rd, Tracy, CA",
+    "unit": "",
+    "route": {
+      "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+    }
+  },
+  {
+    "list_item_id": "t-f583f396ba3c69488a01703a6",
+    "address": "8692 Ranch Rd, Tracy, CA",
+    "unit": "",
+    "route": {
+      "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+    }
+  },
+  {
+    "list_item_id": "t-e9ae131c5903c55054a553d31",
+    "address": "37400 S Bird Rd, Tracy, CA",
+    "unit": "",
+    "route": {
+      "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+    }
+  },
+  {
+    "list_item_id": "t-f165d38a4afdf1d997b408908",
+    "address": "28399 S Chrisman Rd, Tracy, CA",
+    "unit": "",
+    "route": {
+      "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+    }
+  },
+  {
+    "list_item_id": "t-c5aa83924a060f46c7cd6649d",
+    "address": "30000 Kasson Rd, Tracy, CA",
+    "unit": "SPC 4E5",
+    "route": {
+      "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+    }
+  },
+  {
+    "list_item_id": "t-a9889394ba33fda6497f23198",
+    "address": "30999 S Koster Rd, Tracy, CA",
+    "unit": "",
+    "route": {
+      "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+    }
+  },
+  {
+    "list_item_id": "t-fea29320882a8f69046a73d73",
+    "address": "31 Griffith Ln, Brentwood, CA",
+    "unit": "",
+    "route": {
+      "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+    }
+  },
+  {
+    "list_item_id": "t-6bce03579b36ae3aa70bf7d88",
+    "address": "762 Campanello Way, Brentwood, CA",
+    "unit": "",
+    "route": {
+      "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+    }
+  },
+  {
+    "list_item_id": "t-25ebe3ba68542b4982c75c89b",
+    "address": "3660 Walnut Blvd, Brentwood, CA",
+    "unit": "TRLR 68",
+    "route": {
+      "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+    }
+  },
+  {
+    "list_item_id": "t-3f60c3fc2b51f4441b11f4a86",
+    "address": "4577 Ford Ct, Brentwood, CA",
+    "unit": "",
+    "route": {
+      "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+    }
+  },
+  {
+    "list_item_id": "t-072533cee83a1f4c2a2ce225d",
+    "address": "314 Pacifica Dr, Brentwood, CA",
+    "unit": "",
+    "route": {
+      "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+    }
+  },
+  {
+    "list_item_id": "t-f69af3043bbb075e4c71fcb8a",
+    "address": "753 Anderson Ave, Brentwood, CA",
+    "unit": "",
+    "route": {
+      "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+    }
+  },
+  {
+    "list_item_id": "t-d8c0f32e2a4da6684f912d3f9",
+    "address": "2639 E Cypress Rd, Oakley, CA",
+    "unit": "",
+    "route": {
+      "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+    }
+  },
+  {
+    "list_item_id": "t-055c23e95949ffd9608a7f186",
+    "address": "2030 Rubens Way, Oakley, CA",
+    "unit": "APT 203",
+    "route": {
+      "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+    }
+  },
+  {
+    "list_item_id": "t-754e831c59528ac13e6616009",
+    "address": "59 Carol Ln, Oakley, CA",
+    "unit": "APT 240",
+    "route": {
+      "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+    }
+  },
+  {
+    "list_item_id": "t-22e4b3b518602b51cf563266a",
+    "address": "424 Sonnet Ct, Oakley, CA",
+    "unit": "",
+    "route": {
+      "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+    }
+  },
+  {
+    "list_item_id": "t-997f3358ab1150f4084ead549",
+    "address": "613 Allagash Ct, Oakley, CA",
+    "unit": "",
+    "route": {
+      "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+    }
+  },
+  {
+    "list_item_id": "t-8ea3e352b8ed3edc17ac22df7",
+    "address": "1235 Marina Cir, Discovery Bay, CA",
+    "unit": "",
+    "route": {
+      "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+    }
+  },
+  {
+    "list_item_id": "t-076c930b18ea1c1381e25c48d",
+    "address": "2459 Pinehurst Ct, Discovery Bay, CA",
+    "unit": "",
+    "route": {
+      "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+    }
+  },
+  {
+    "list_item_id": "t-fd6313d95b8b4133cd6c2933d",
+    "address": "1405 Marlin Pl, Discovery Bay, CA",
+    "unit": "",
+    "route": {
+      "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+    }
+  },
+  {
+    "list_item_id": "t-50093317babcedd2df514f68e",
+    "address": "5581 Starboard Dr, Discovery Bay, CA",
+    "unit": "",
+    "route": {
+      "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+    }
+  },
+  {
+    "list_item_id": "t-ce90a309187c90af3a7946609",
+    "address": "4940 North Pt, Discovery Bay, CA",
+    "unit": "",
+    "route": {
+      "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+    }
+  },
+  {
+    "list_item_id": "t-6660237f5912f22e80073e32f",
+    "address": "2294 Tamarisk Ct, Discovery Bay, CA",
+    "unit": "",
+    "route": {
+      "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+    }
+  }
+]

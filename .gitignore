@@ -1,0 +1,14 @@
+.idea
+**/.classpath
+**/.idea/
+**/.project
+**/.settings/
+**/target/
+**/*.iml
+**/dependency-reduced-pom.xml
+
+\.DS_Store
+
+# swp files
+*.swp
+

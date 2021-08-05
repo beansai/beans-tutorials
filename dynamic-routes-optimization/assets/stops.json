@@ -1,0 +1,2876 @@
+{
+  "item": [
+    {
+      "list_item_id": "t-a801b3605afbd726df743cc66",
+      "address": "32505 Kasson Rd, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-8eca53fefb635f19958ab0cbf",
+      "address": "38504 S Koster Rd, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-faf623593a6ddc608a0f1a9c4",
+      "address": "3757 W Kenner Rd, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-b4d913523baaee8f2ba5e1a25",
+      "address": "630 Blewett Rd, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-6a1633a539ac12ace7513403e",
+      "address": "24214 S Cabe Rd, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-a6f4c36d69394ba11f52b63a7",
+      "address": "32648 S Bird Rd, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-2fd6f3f3ab12cebdddb97ca0f",
+      "address": "4133 Rocky Point Ct, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-fae5d3b6b9c9f2f1a14c43b0a",
+      "address": "4444 Lindsey Ln, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-8bda03a6fb767178ba25105c5",
+      "address": "4185 Oakridge Dr, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-e32013d8aa4923b29487ecbca",
+      "address": "1345 Montauban St, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-10c963c94a45cecc65c59313a",
+      "address": "965 Amaretto Dr, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-43f56380daae6d5dc9cc9c257",
+      "address": "955 Joranollo Dr, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-d6b1b335db1438ab635b6e5b5",
+      "address": "1910 Village Dr, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-039133a6fb5fc362f9e097d2e",
+      "address": "2191 Bentley Ln, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-3ec5430ab8e210a53a1f4e36e",
+      "address": "545 W Deerwood Ln, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-6e75c3992872d12918c5c61a0",
+      "address": "4680 Glenbrook Dr, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-407c4329c9cec536eb8bb7fc6",
+      "address": "217 W Central Ave, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-5a1f334e58afaca1fddd8839e",
+      "address": "192 Kelley Mist Ln, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-2d5323b2990483bdade42350b",
+      "address": "738 Harold Smith Dr, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-2ff0435de8f6ecc0a1f8d67d5",
+      "address": "161 W Willow Creek Dr, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-e3e9f3f8bb8f08a2b2232fa1a",
+      "address": "220 W Central Ave, Tracy, CA",
+      "unit": "APT 3701",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-277fb38c1bd182a33c3b042bc",
+      "address": "4720 Windchime Way, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-2a376311dbe77d2d413abf82b",
+      "address": "455 Peerless Way, Tracy, CA",
+      "unit": "APT 2",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-c91c8372cb8476bdcc20a45ac",
+      "address": "310 Butte Way, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-b4fc43a1e9141bfade500caed",
+      "address": "142 Hollow Brook Ct, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-a68be3aeca73f6fe031b70fec",
+      "address": "467 Yosemite Dr, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-71e6635009ac294bdbecdda80",
+      "address": "312 Kelley Mist Ct, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-43a223a58962e542a5424e8b0",
+      "address": "1853 Mount Pellier St, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-8b7823e778c3ec252b6988861",
+      "address": "971 Tarrogana Dr, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-25068351f80eade28438fddaa",
+      "address": "1858 Crater Pl, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-1d4883572b27cfda3cd103500",
+      "address": "4329 Glenbrook Dr, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-484de31a9b15f4ec9c86af285",
+      "address": "1281 Tulloch Dr, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-5dab7309fad821195253e5eb6",
+      "address": "409 Violet Pl, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-07315365982b0ee781f75cf5d",
+      "address": "1161 Tulloch Dr, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-23be533b0b620f6aad24ade99",
+      "address": "2431 Amatchi Dr, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-ca1ff3ace977b36b816388b84",
+      "address": "621 Avington Ct, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-d99b13e2c86896fcf45fd62b3",
+      "address": "488 Trianda Way, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-c2aca313c8d59b9ec61295a42",
+      "address": "174 Pistachio Pl, Brentwood, CA",
+      "unit": "BRENTWOOD, CA  94513",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-6b6a737a48c1cb55eab11fdef",
+      "address": "744 Campanello Way, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-7b6d03d9ebc30777ea94988b0",
+      "address": "4701 Nunn Ct, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-1593a37a6b682bc0b0a9fdc62",
+      "address": "130 French Dr, Brentwood, CA",
+      "unit": "BRENTWOOD, CA  94513",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-8e85239348a826696d00cd6cb",
+      "address": "3054 Shiles Loop, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-5ec333e2ca6cd29ca7a1ed1c3",
+      "address": "263 Grisby Ct, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-4800536298028871a40d1cc0a",
+      "address": "845 Caribou Ter, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-876cf38edb7f8b5691d97807a",
+      "address": "4603 Balfour Rd, Brentwood, CA",
+      "unit": "TRLR 24",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-d58c139da89dc30392c117459",
+      "address": "780 Heather Pl, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-72e5c394eb244073c9f5007c9",
+      "address": "25484 Marsh Creek Rd, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-90c4b30099840a7b9744bcf0b",
+      "address": "424 Napoli Ct, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-2e2c834faa81e742404988484",
+      "address": "167 Davidson Ct, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-b043d3dbdbd3f13fb0627263e",
+      "address": "1030 Dainty Ave, Brentwood, CA",
+      "unit": "APT G",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-74e16306e80959cf7728f7edb",
+      "address": "135 French Dr, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-decfa3164840f4c3f63ffc1ac",
+      "address": "725 Willow Creek Ter, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-6f90832949afd65a87ed4e06f",
+      "address": "3053 Hudson Dr, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-c928e31aaa5689dbc60b28f1e",
+      "address": "892 Walsh St, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-fa56a38cdb657956f7ea390d6",
+      "address": "601 Amaryllis Ct, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-00a553f5c917a50dce6995180",
+      "address": "3940 Walnut Blvd, Brentwood, CA",
+      "unit": "STE A",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-952733e758751427f4e77128e",
+      "address": "461 Catalano Ct, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-e4d713be1990835781a14fc68",
+      "address": "541 Cashew Pl, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-fb4883633b4dbe6745c2bf1f5",
+      "address": "4704 Carnegie Ln, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-73e4d33e7a1f3784a0a63d888",
+      "address": "382 Fletcher Ln, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-514cf373e90a0e3a62d1552b7",
+      "address": "281 Hazel Ct, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-2e3cf3c6f9bd5bda4908b35f1",
+      "address": "173 Avery Ct, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-ce6303876a193a11a83c3f246",
+      "address": "3042 Hudson Dr, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-941a73696978a7325c74e3a81",
+      "address": "191 Fahmy St, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-341853d9e88afcd8b592508c7",
+      "address": "313 MacArthur Way, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-958763230b1bb2267e12d7cdf",
+      "address": "163 Fisher Ct, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-0e5dc349c8b3c0d710171cc4e",
+      "address": "940 N Estates Dr, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-8ff203570aaf03524054be7ac",
+      "address": "888 S Estates Dr, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-91bc73ed8b00bc3677615c00d",
+      "address": "732 Heather Pl, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-52769324bab0fb19fc1ff5f0f",
+      "address": "3660 Walnut Blvd, Brentwood, CA",
+      "unit": "TRLR 40",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-e214430e489c55478991fa3ca",
+      "address": "573 Divisi Ct, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-59d7c3083af31ac13e300421a",
+      "address": "190 Hickory Ct, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-01cc8390997df69c4cb1c71d9",
+      "address": "200 Continente Ave, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-74de73075a897e3138571c9b8",
+      "address": "360 Fletcher Ln, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-2e0413b82bbac696203aa9803",
+      "address": "697 Bellmeade Way, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-4b1273e0ca4970dd9c0d4b05a",
+      "address": "525 Mandevilla Dr, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-ae26a38b6afb1fdb10e5fbb42",
+      "address": "504 Bougainvilla Ct, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-46ac638749f4ba746bc25595a",
+      "address": "4685 Roosevelt Dr, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-32a403c6aaae5c15afdb21069",
+      "address": "23 Kensington Ct, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-3638d39eb9e056a7b811653d9",
+      "address": "145 Middlefield Ct, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-1148a38d28ebf34f5f3eb6486",
+      "address": "266 Madrone Pl, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-e2cfe3a73b3ee7e74e56830dc",
+      "address": "24630 Marsh Creek Rd, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-b448c3a56b281c69f16dec0eb",
+      "address": "431 Persimmon Dr, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-382ad3cbd88179de55b856849",
+      "address": "303 Mondavi Ln, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-a1b1830e7a68a20ff0553dbba",
+      "address": "11440 Byron Hwy, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-b526b3fd7bdeeee46cc439d42",
+      "address": "500 Edgefield St, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-5df3e3a359e6c52efbf4e79bc",
+      "address": "119 Panorama Way, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-e844b3f33b662b4c5d178e7e1",
+      "address": "25375 Marsh Creek Rd, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-2daff3e48b2eb861edb4f96c1",
+      "address": "695 Timberline Ter, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-efc7e3916821c0dff570fa924",
+      "address": "684 Bellmeade Way, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-5539139e0ac7340474c7af7d0",
+      "address": "951 Villa Ter, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-cb5ce3ac0873068a5d0af0f90",
+      "address": "1015 W 9th St, Tracy, CA",
+      "unit": "APT 12",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-6927c3baf98dfff4086ef3156",
+      "address": "1441 Parker Ave, Tracy, CA",
+      "unit": "APT 6",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-0b030322792db921cecb53153",
+      "address": "3068 Holly Dr, Tracy, CA",
+      "unit": "APT A",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-73d4b3d14985a1ea7c4ca8b2a",
+      "address": "332 W Grant Line Rd, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-0b140330ba80a7f1d8368c695",
+      "address": "950 W Grant Line Rd, Tracy, CA",
+      "unit": "APT 82",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-d02ce3e5db6b73e483f438ac5",
+      "address": "534 W 12th St, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-76fb63ee597eeb9b3940926b2",
+      "address": "323 Granada Way, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-74148390f8d0331061b778a37",
+      "address": "1493 Birch Dr, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-f62b637f085e53d063ee0b192",
+      "address": "1460 Divine Ln, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-deefe3a9aacefe3c844688291",
+      "address": "11 Ramona Way, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-871bc3af8aa1d87f13eee8819",
+      "address": "33 Hollywood Ave, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-d5ada3ece9e06581c3d97fdb0",
+      "address": "318 E Eaton Ave, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-f6690371da8b88fef91bd5d9a",
+      "address": "446 E Eaton Ave, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-293143c84af67ab593c7fe045",
+      "address": "1521 Bessie Ave, Tracy, CA",
+      "unit": "RESIDENTIAL",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-1efba3d7e99f9265a55bbd71d",
+      "address": "900 Beechnut Ave, Tracy, CA",
+      "unit": "APT 4",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-ffe04345eb1dac47521d8b3ec",
+      "address": "81 N Hickory Ave, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-5bcb13005abf349a7147e2bfe",
+      "address": "3355 Holly Dr, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-365623595861a5ffb44be24e7",
+      "address": "90 E Grant Line Rd, Tracy, CA",
+      "unit": "APT 1",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-53a793a96a4d93037ee1a8ba6",
+      "address": "445 W Eaton Ave, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-d846d33949e40584582535ff7",
+      "address": "3500 Crowley Ct, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-048ca385d867b2cd4a3daa386",
+      "address": "2525 Buthmann Ave, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-9ec683fb0a26b59061e201743",
+      "address": "325 Alvarado Way, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-1b3403706a2d9fae8c793f595",
+      "address": "405 W Highland Ave, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-84ed9397a9a46963f78a4b891",
+      "address": "124 E Lowell Ave, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-2ff1e3bec8871574cb7a9ea7b",
+      "address": "1000 Civic Center Dr, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-da65338a3aaa6673b0363350e",
+      "address": "119 E 20th St, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-d5ddb340f86a199fecace3983",
+      "address": "375 Hollywood Ave, Tracy, CA",
+      "unit": "# 95376",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-f9852303fb3cf902da3beed48",
+      "address": "417 Hollywood Ave, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-5ff4331bcbaa7ca883db57a2a",
+      "address": "950 Chestnut Ave, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-9ae763e13ace291c91ffa5265",
+      "address": "518 W Eaton Ave, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-0828c3a7585f23370157ea7e2",
+      "address": "123 W Whittier Ave, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-5b2993346be584396c4202c9f",
+      "address": "306 Portola Way, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-2a4bf306bb7fb5b02bfd97d6b",
+      "address": "447 Dillon Ct, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-3332a3136985bddead081c5bb",
+      "address": "1128 Roosevelt Ave, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-ee3b83f5ab78075ba56a61b24",
+      "address": "5 W Carlton Way, Tracy, CA",
+      "unit": "APT J",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-8090d3516800f4a77e3b3128d",
+      "address": "530 W Eaton Ave, Tracy, CA",
+      "unit": "STE B",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-dde2b33d292d9e88f28786fbe",
+      "address": "101 E Highland Ave, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-ff30d3db5a969a089930b4724",
+      "address": "317 W 22nd St, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-d069f33798f3a4a60bc1f30d2",
+      "address": "552 W Emerson Ave, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-fe6c13f3987300aa167dfe551",
+      "address": "2274 Morningside Ct, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-a32e2316fa8439adbcb7c028c",
+      "address": "190 E Clover Rd, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-ad26b3f1cb2240388eee48858",
+      "address": "1530 Bessie Ave, Tracy, CA",
+      "unit": "STE 106",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-320f83f9bb920dd6f552bceb5",
+      "address": "731 W 10th St, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-b5611310fb113fb273b934d07",
+      "address": "3225 Holly Dr, Tracy, CA",
+      "unit": "UNIT 1",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-0ed09344aacde69ed8730217c",
+      "address": "1030 Beaconfield Ct, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-5fc873666bae66ba714447e24",
+      "address": "160 W Carlton Way, Tracy, CA",
+      "unit": "TRACY, CA  95376",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-bc4a83586a4268f99c9793b38",
+      "address": "2181 N Tracy Blvd, Tracy, CA",
+      "unit": "# 226",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-41f753d089511b960888db779",
+      "address": "1010 Beaconfield Ct, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-1838330dfbc82a7e1fba2d8dc",
+      "address": "1581 Holly Dr, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-d4c7d35b18988374344998f47",
+      "address": "27 W Beverly Pl, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-6a9f231c3b66dddca5782438d",
+      "address": "246 W Whittier Ave, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-815113e8eab6c22e5288bc019",
+      "address": "1025 N Central Ave, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-5ec5937dc9d2b7c3d204e46ee",
+      "address": "500 Hintz Ave, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-82a8a3480925f9246f658740e",
+      "address": "1430 Renown Dr, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-607083c439d51951d49a11a5c",
+      "address": "3362 Buthmann Ave, Tracy, CA",
+      "unit": "APT A",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-9acfe382b9cf2f5470b178cb9",
+      "address": "106 E 21st St, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-e99103c72bfaabcf7d7595e4b",
+      "address": "324 W Clover Rd, Tracy, CA",
+      "unit": "APT F",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-018a138c0842889d1a450c7c4",
+      "address": "2245 Morningside Ct, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-0700c321fafc54df66eaa9fbb",
+      "address": "740 Sequoia Blvd, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-17a8a3778a46483beab2c81a3",
+      "address": "153 Collin Ave, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-ebd8132e1b0aa1a3ba145f2d4",
+      "address": "1547 Bessie Ave, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-4448d31e18f3062feb85713b8",
+      "address": "274 W 23rd St, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-97d33366aafd7de0ee88905b3",
+      "address": "225 W Eaton Ave, Tracy, CA",
+      "unit": "APT 11",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-b6f9d3d5f9a5754752d1ee4b2",
+      "address": "150 E Kavanagh Ave, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-d9b723433a4a6f878bd21ec41",
+      "address": "563 Chestnut Ave, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-d21f43fbb98d775071eb7bd7d",
+      "address": "1210 Tennis Ln, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-a737738d0bb0c697f2154b50b",
+      "address": "3302 Buthmann Ave, Tracy, CA",
+      "unit": "APT A",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-1ec5638fcaebc966e71425132",
+      "address": "412 W 12th St, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-9afbc3a949ee82bc32f470a8e",
+      "address": "349 W Lowell Ave, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-2151232488ae318833c5c70f7",
+      "address": "2850 N Tracy Blvd, Tracy, CA",
+      "unit": "STE 202",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-4a8413cc791aac24889b72b68",
+      "address": "2525 Buthmann Ave, Tracy, CA",
+      "unit": "APT 7",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-729a23a1287e83801df91c7ea",
+      "address": "631 N Hickory Ave, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-0b13337e393875198dc021be9",
+      "address": "845 Lawn Ct, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-82a133ed6a4730597f0297b5d",
+      "address": "318 Coronado Way, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-42eae3f1b83b4fd54dc419539",
+      "address": "427 W 12th St, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-ca97d34db9acbfd84531b284d",
+      "address": "438 W 12th St, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-f43fa34d892daa065e9efc2cb",
+      "address": "210 Club House Way, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-f83733c18b9d7ab9506a96695",
+      "address": "365 Rosewall Way, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-936c83eb0a69e3eb1da61d79d",
+      "address": "11530 Mountain View Rd, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-b72ba34fda5a4bd21389b917e",
+      "address": "985 Alden Glen Dr, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-b3d2032d498314ed8a26b6855",
+      "address": "1865 Lone Fox Ct, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-b018d34768d460aa6df9a7057",
+      "address": "824 Buckinghorse Dr, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-0bf693723aa4dfe24fbd71ca0",
+      "address": "481 Krider Ct, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-8be11349cb968cf6b6b02bcc1",
+      "address": "12058 Midway Dr, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-9950c339fbe65a964b66ee911",
+      "address": "24986 S MacArthur Dr, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-d71dd3300bf869e2167be04e7",
+      "address": "727 Taft Ave, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-f719d380895f4839e512f4736",
+      "address": "911 N Central Ave, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-28762380686f8f93630a74279",
+      "address": "581 Czerny St, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-c2fca3d6ba0ccc7a8c08fde6d",
+      "address": "31 E 6th St, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-7a1c232da907cafead3603fd1",
+      "address": "927 Lourence Dr, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-9eaea369b9ca55334f563a637",
+      "address": "909 Roosevelt Ave, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-4e8273553b4fe24fff4cc087f",
+      "address": "740 Fawn Glen Dr, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-203353484a50785ed85f012cb",
+      "address": "84 E 7th St, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-646f23c5d87d8ebfb81274f2c",
+      "address": "1101 Appalosa Way, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-d44aa38b8b3a5a485961083d2",
+      "address": "64 E 7th St, Tracy, CA",
+      "unit": "APT A",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-1f0143deb90d46d3552b67380",
+      "address": "791 S Tracy Blvd, Tracy, CA",
+      "unit": "# 263",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-f961b339793fadd94c8a42181",
+      "address": "73 E 8th St, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-815ec3dc6849a3270c1c624c7",
+      "address": "605 Natalie Ln, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-32ff83ddc980c7c7dabf77c7c",
+      "address": "1540 Deer Run Ln, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-c8ef23fdbabe828ae987cef17",
+      "address": "645 School St, Tracy, CA",
+      "unit": "APT 4",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-0150b3f26a732c459139e00d8",
+      "address": "485 E 6th St, Tracy, CA",
+      "unit": "APT 6",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-73b0e3b6480b3e12fbfc1d199",
+      "address": "615 D St, Tracy, CA",
+      "unit": "APT D",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-3f2803155a60e81bd82b1907a",
+      "address": "1025 Peacock Ct, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-b543833e0a9409d940c8d90f0",
+      "address": "1100 Plymouth Dr, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-faea43f4eaa9d7b4143796e3d",
+      "address": "1970 Thomas Dehaven Ct, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-de93d31a1a2a3a5d2ca6eea0e",
+      "address": "1891 Earl Way, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-1a38532119f9ab470264ae52f",
+      "address": "723 Saddleback Ct, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-660f53bbc892244e50c14d02e",
+      "address": "1995 Harvest Landing Ct, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-8348b3c76bd1a4843c3714b82",
+      "address": "1532 Reef Ct, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-6cd123513b636778ce73ef700",
+      "address": "1900 Harvest Landing Ct, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-200b539a68472360b2c767fab",
+      "address": "221 Thomas Dehaven Ln, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-b0816337d97e72ba0829ce81d",
+      "address": "300 Accipiter Ct, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-c2715304a8ddbf10a3ea19e8b",
+      "address": "550 Altamont Dr, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-2ee42383d8de795df600f6525",
+      "address": "1901 Summertime Dr, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-b42c835f5ab68415c0e101ca9",
+      "address": "180 Edgewood Ct, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-2bc963db9854f1e80a395c9fd",
+      "address": "363 Sekera Ct, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-4b17b3d93aa895cb1897728b5",
+      "address": "1940 Foxtail Ct, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-2a8d232c0a1a08ca70596c3eb",
+      "address": "440 Czerny St, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-41f653362b12142ab09e36505",
+      "address": "180 Country Ct, Tracy, CA",
+      "unit": "?",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-c59693f5c982c219fea0a924b",
+      "address": "451 Guinevere Ct, Tracy, CA",
+      "unit": "PRIVATE",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-496a63732b0afc98a39fe9d24",
+      "address": "434 W 10th St, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-b421434228f95f4bab4539bd5",
+      "address": "723 Katlin Ct, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-a7af0300a854995c1629f7097",
+      "address": "675 C St, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-4d54938a5ad71a179af06a8f3",
+      "address": "25985 Tesla Ct, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-9b2c93fd59403bfbc2bf34948",
+      "address": "536 Rockingham Way, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-637fd352787a29c0ef240127f",
+      "address": "190 Country Ct, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-479aa38dba21bc6d9b1ba19f1",
+      "address": "320 Gonzalez St, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-9e44b34a78864fe121665288e",
+      "address": "500 W Schulte Rd, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-bc8a0341da1b987f5041e6708",
+      "address": "271 Fox Meadow Ct, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-099e73af1a123d3f496b440b5",
+      "address": "1161 Providence Ct, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-2ccf93b54a2a0c7fb995fb8c7",
+      "address": "86 S C St, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-f9b303d03bce70438c1619628",
+      "address": "67 Primrose Ct, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-41c1a3f65a75e053331aad1b4",
+      "address": "1860 Summertime Dr, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-9a85537cbb26c26efa5236cc4",
+      "address": "1705 Parkside Dr, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-85d3e3952b590bb6e399a4823",
+      "address": "103 Lauriana Ln, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-6a60d3420afe96ac5bd98d106",
+      "address": "632 W 11th St, Tracy, CA",
+      "unit": "STE 219",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-4f9d23bcebce063a9fe2e43e7",
+      "address": "26275 S Corral Hollow Rd, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-cfdb5394aab51cd323dbc6c2e",
+      "address": "378 Burlington Dr, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-587033c588469854ce5e67346",
+      "address": "116 E 10th St, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-56b043b2a84926bbad48d51a8",
+      "address": "1141 Havenbrook Dr, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-60084310a962fe953352468c1",
+      "address": "125 Silkwood Ln, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-2ab4f3b52aa919cd6398510f0",
+      "address": "1655 Meadow Lark Ln, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-5acd439fe8e6d5e8a7d9984be",
+      "address": "1619 S Kendell Pl, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-5d69f328494f113b45b3cc082",
+      "address": "255 E Bobby Gln, Mountain House, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-98016384a92907640d303f61a",
+      "address": "176 E Legacy Dr, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-b744a3da490b68f339456e67e",
+      "address": "1454 S Mattina St, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-4fc063fb9b1344f1b25407920",
+      "address": "19 W Recreo Ct, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-d3fea32a1ae5164fc86b8698a",
+      "address": "1437 S Silverstein Pl, Mountain House, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-8829830558044850ffd1712ba",
+      "address": "46 E Cataldi Ave, Mountain House, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-b9cbe3ebe9a4cd337f2fe4e0e",
+      "address": "420 Steven St, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-aaaa93f7f8f79142e40b2849c",
+      "address": "1103 S Crawford Dr, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-5342f3cee8cfafbb96e6ee31d",
+      "address": "504 E Solare Ave, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-4ba963030b3868c484d1099e3",
+      "address": "374 W Camarada Ct, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-596453ff4acc49da3330489bf",
+      "address": "411 E Solare Ave, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-cddd23261a183758dca06f6a3",
+      "address": "807 S Amor St, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-849e337698ff1b14b24f78638",
+      "address": "19458 W Grant Line Rd, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-a158d3927a1a232324410d7dc",
+      "address": "1469 S Wilshire Ave, Mountain House, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-6812f361db8c4b2587310713c",
+      "address": "663 W Strauss Dr, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-ac9d73d91b21424e4d64013d1",
+      "address": "273 W Recreo Way, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-2763e3ff28766ca87e2c7bfbd",
+      "address": "1069 S Burns Pl, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-b0f7a3d49916718ae3fbcac1a",
+      "address": "1174 S Wilshire Ave, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-1925637c1aa7fd90f9c19e3f5",
+      "address": "2916 Cordelia Ln, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-7ef013bdab6a8e94c1880acc6",
+      "address": "680 W Conejo Ave, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-6508533b1ba2064a6334e8703",
+      "address": "486 Goodall Dr, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-1ba0d3569ba880671fa64804b",
+      "address": "3110 Castle Rock Loop, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-7580c3b47bf78b99bf0b42705",
+      "address": "8059 Westport Cir, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-f18cf36f886f6365d4fc80d6c",
+      "address": "566 Harbor Cove Cir, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-2d54b3411ba23a42b3048c7cf",
+      "address": "411 Shakespeare Ct, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-7bc453735b3478374c0645179",
+      "address": "9860 Key West Way, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-a6c13351e9691da6678370cfe",
+      "address": "6327 Crystal Springs Cir, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-ee0b93c75a0e51be1dcfb23db",
+      "address": "9555 Pescadero Cir, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-4d6bf39c8b6d4e95ee6b79618",
+      "address": "3341 Lookout Point Loop, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-34fa2376aadbc1ea138ea3321",
+      "address": "625 Bristol Ct, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-9c05e355898f71585daeb3486",
+      "address": "2127 Bridgeport Loop, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-70e4e37cf89cdd5f7574ea930",
+      "address": "3165 Castle Rock Loop, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-432c3304e88168a5ea40a35fe",
+      "address": "2219 Winchester Loop, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-3401c30558e2df87deca1ae18",
+      "address": "2049 Bridgeport Loop, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-4a3113b32b8f4cdf3ecd8b0ca",
+      "address": "3045 Castle Rock Loop, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-8197d3357a29a81fe3789a9d8",
+      "address": "39 Tiller Ct, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-8bb5a3c218a2b8a00995a6c63",
+      "address": "9018 Tradewinds Cir, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-746973775924afbdf0cafbfaf",
+      "address": "2230 Newport Ct, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-895833c91b0f14355110e6976",
+      "address": "53 Keel Ct, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-6697a3af694d3859329e8b60a",
+      "address": "8562 Pinehollow Cir, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-dd0843ae094121f00a9a01b97",
+      "address": "5550 Arcadia Cir, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-a7c443d4b8c7dba60653ac8cd",
+      "address": "8373 Brookhaven Cir, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-6628d36488ed4600c7ab1c98a",
+      "address": "6856 New Melones Cir, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-b308f32ef991b51536851ab8c",
+      "address": "5263 Fern Ridge Cir, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-032e738e09106c113648b26e7",
+      "address": "4039 Nautical Ct, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-9126135e7b44e7e43a24cf842",
+      "address": "5568 Arcadia Cir, Discovery Bay, CA",
+      "unit": "5568 ARCADIA CIR",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-2ec6136de8d9b4fba1a5af6f4",
+      "address": "8410 Pinehollow Cir, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-8c0c03ca5b372125c749b63e2",
+      "address": "709 Seminole Ct, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-12a1d3a6696fde36b7bea8e33",
+      "address": "3512 Sailboat Dr, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-16e473afe92ebdf3a62c7abc2",
+      "address": "624 Havasu Ct, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-b9572323f88747f9acabb62c9",
+      "address": "6123 Seneca Cir, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-b05d436bf9267d51026d93b0c",
+      "address": "2515 Crescent Way, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-bb3c534e9bddb36bb5f0f7107",
+      "address": "6262 Crystal Springs Cir, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-837b3341fbc8f92375d8d0359",
+      "address": "3607 Sailboat Dr, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-d7665390996bc20f61759af0e",
+      "address": "5606 Arcadia Cir, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-3126734cabe5c663cbb9984a9",
+      "address": "6828 New Melones Cir, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-5724334ffa944e0dceccc3d06",
+      "address": "2451 Aberdeen Ln, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-9924a3400a1e77488cdea29bc",
+      "address": "8539 Pinehollow Cir, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-ca7c9332a88bc87700e8dc858",
+      "address": "2436 Yosemite Way, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-dc24e3aabb7fb58345d3ef2a1",
+      "address": "2300 Newport N Pl, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-b2aba370caaca1587b1925403",
+      "address": "4241 Slifer Dr, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-d94b6338d9f7e8ce08d7d6c0c",
+      "address": "6246 Crystal Springs Cir, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-e76833fab98f63e4f766010f7",
+      "address": "2350 Winchester Loop, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-634793da0aebeb6030852acde",
+      "address": "8031 Westport Cir, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-9fa4f367486007e729aaf0942",
+      "address": "8455 Pinehollow Cir, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-fdadc3f8cb054181693157f6f",
+      "address": "6096 Seneca Cir, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-38b7d3cdb86e86535619ecfd3",
+      "address": "6724 Yellowstone Cir, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-358a43c27a48776712147bc66",
+      "address": "5435 Gold Creek Cir, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-257fe32248874b889f45a0254",
+      "address": "3719 Yacht Dr, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-0a4af357b8107debc524303c5",
+      "address": "3687 Otter Brook Loop, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-1eeab33998a3d114e98176902",
+      "address": "5344 Gold Creek Cir, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-7b6c33a14ac219fbe62280790",
+      "address": "9229 Shearwater Cir, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-aaf7e3b6fa19f0ad70b27f2f7",
+      "address": "2299 Cambridge Dr, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-357ec36bfab8cb54b422c1ae8",
+      "address": "26962 Marsh Creek Rd, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-ee14734df8e9e040a18f76b3d",
+      "address": "400 Superior Way, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-f920d397f9965da85df86c2e5",
+      "address": "244 Whitman Ct, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-753f33a5e8a3792c4979a8feb",
+      "address": "3918 Worthing Way, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-3fcd03054ac24e4101a1bd69a",
+      "address": "4260 Slifer Dr, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-028b0351f9254faa23d3a89ca",
+      "address": "9090 Tradewinds Cir, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-ec672307d9c643cc865f5daa3",
+      "address": "9420 Davenport Cir, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-c8c7b369795d21a01b199c429",
+      "address": "3353 Lookout Point Loop, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-e707634899629e8a3df29b81e",
+      "address": "2317 Cambridge Dr, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-c7dba3709aae1a9b8968a3b11",
+      "address": "332 Oroville Ct, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-78f463fd1b33fbed39ad57571",
+      "address": "3800 Valley Oak Dr, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-ddd9d3d01a74be17906e7ff37",
+      "address": "4104 N Anchor Ct, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-c02ba3fd6ad33e0965885f745",
+      "address": "3712 Catamaran Ct, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-776c23d6bae40dee1d1887d38",
+      "address": "517 Slifer Ct, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-279f93479bdd5c8b8b3988144",
+      "address": "2346 Winchester Loop, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-695ae34d89f68379c693c0add",
+      "address": "8437 Pinehollow Cir, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-cee4d33ec9bf3871b06e37929",
+      "address": "5367 Gold Creek Cir, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-e2a6e314588c9051d27c24048",
+      "address": "3973 Bolinas Pl, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-dac0636a49e164c66d08359e6",
+      "address": "116 Tennyson Ct, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-1597e38f8831e4ee4ea05d13b",
+      "address": "5111 Fern Ridge Cir, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-ee74a364e9d45f401ff8e0b7a",
+      "address": "1812 Frost Way, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-2dadf3461adde1bf0dbcc1705",
+      "address": "3150 Bixler Rd, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-c3f1c3b058a0c615955966191",
+      "address": "4046 Regatta Dr, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-72e773c65abc98859230c8f0a",
+      "address": "100 Birmingham Ct, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-68983385191600186dddc43a3",
+      "address": "4031 Regatta Dr, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-2f5543823a146ae518a9a3b01",
+      "address": "432 Plymouth Ct, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-5b5d039e1ae437d26b656a5ab",
+      "address": "3583 Sailboat Dr, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-a196e33869e3c89605a82a030",
+      "address": "5643 Arcadia Cir, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-a0bc239678cba618908a5ff9a",
+      "address": "5061 Almanor Dr, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-6255336f19f492652bf74c78f",
+      "address": "6721 Yellowstone Cir, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-182943ad7b964a8ed52b5114d",
+      "address": "1725 Wilde Dr, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-168213fe7ac12a1481017b73d",
+      "address": "3316 Lookout Point Loop, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-7b1fc3977a63ad19818d97a2d",
+      "address": "1775 Newport Dr, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-070323adda40ca91cc7fe9e33",
+      "address": "304 W Portales Dr, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-d3df734a18b7fe4bd7683adf8",
+      "address": "556 N Castellina Ter, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-df1d73b988f4869d50de4badc",
+      "address": "789 Antigua Ter, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-b497234eca0e2f5d5414cecab",
+      "address": "766 N Questa Ct, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-eab5e341d9ad2b421a8c747fd",
+      "address": "145 N Hancock Park Dr, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-704b831a48bd5a9e16849620a",
+      "address": "427 N Sierra Madre St, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-37448352b8172b55cf482aec5",
+      "address": "146 W Ameno Ln, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-92ccf3e15add73f6395bdc3a5",
+      "address": "91 W Jalisco St, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-213a73e978c7d82c4d875799e",
+      "address": "288 W Lucita Way, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-ac4db351e942856c5eaf6eb71",
+      "address": "543 W Questa Trl, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-d32503eef8da3cbbb81e29601",
+      "address": "207 S Aldea St, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-089bd3223b92959415988dacd",
+      "address": "16041 Tsirelas Dr, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-bd97e31709d4ba08d813aba61",
+      "address": "195 S Dulce St, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-f56013aaeb1a1315a39ab1369",
+      "address": "124 S Estados St, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-d610339cc9736170455b0d81f",
+      "address": "531 N Miraloma Ct, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-173ba38699c628f64de899971",
+      "address": "153 W Festivo Ln, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-e62ed33968a03f23e6999f09a",
+      "address": "420 N Orinda Ct, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-451b83ddc941b6314737cf7c2",
+      "address": "225 S Dulce St, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    },
+    {
+      "list_item_id": "t-c88eb3868b9479b9a33693d8b",
+      "address": "2461 Emerald Bay Dr, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "d27e174b-ff71-4854-af85-72c056ae1b05"
+      }
+    }
+  ]
+}
