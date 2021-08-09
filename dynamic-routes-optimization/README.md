@@ -13,7 +13,11 @@ For detailed API shapes, please refer to [Beans Route API](https://www.beansrout
 
 ## Introduction
 
-WIP - need to fill in
+In this tutorial, we will use the API to setup the account for simple route optimizations in
+both "stateless" and "stateful" manners.
+
+"Stateless" optimization can be used to evaluate planning feasibility and experimentation, while
+"Stateful" optimization can be used to adjust existing routes to examine differences.
 
 ### Prerequisites
 
@@ -26,7 +30,11 @@ You will need
    * the credential to used in Authorization in your API interactions
    
 This tutorial uses [cURL](https://curl.se/) to illustrate the interactions with the system, and you
-can use any HTTP based client to interact with the system as well. 
+can use any HTTP based client to interact with the system as well.
+
+We also recommend running cURL command piping to an output file. For example,
+`curl ... | tee /tmp/my.output` would both pipe the output of the curl to the file
+/tmp/my.output and also the standard output as well.
 
 #### Setting up the account with a warehouse
 
@@ -111,7 +119,7 @@ Since there are 359 stops, the response is HUGE, you can find the visualization 
 
 [Tutorial Route Map](https://github.com/beansai/beans-tutorials/blob/main/dynamic-routes-optimization/assets/images/route_map.png)
 
-### Simple DRO with up to 10 Routes
+### Simple Stateless DRO with up to 10 Routes
 
 The Simple Scenario consists of
    * 359 stops from grouping Route `d27e174b-ff71-4854-af85-72c056ae1b05` above
@@ -167,4 +175,27 @@ Since the response is large, an example response is at
 You can find the visualization at
 
 [Simple DRO Output](https://github.com/beansai/beans-tutorials/blob/main/dynamic-routes-optimization/assets/images/simple_dro_result.png)
+   * we specified the name of the request as "dro-tutorial-run-1" in our request, and it would be
+   saved and available in the dropdown menu on the UI
+   * also, we specified the name of the response with the same name, and it would also be available
+   in the dropdown menu on the UI as well
 
+#### Applying the DRO results to create routes
+
+The segments in the [assets/simple_dro_response.json](https://github.com/beansai/beans-tutorials/blob/main/dynamic-routes-optimization/assets/simple_dro_response.json)
+represents the routes that the optimizer found the best solution for given the constraints. To
+finalize those segments, we need to **apply** them into routes for operations.
+
+This tutorial has constructed [assets/simple_dro_apply.json](https://github.com/beansai/beans-tutorials/blob/main/dynamic-routes-optimization/assets/simple_dro_apply.json)
+which included
+   * the "default" warehouse
+   * the "default" start time and shift length
+   * the segment from the result
+
+`curl -k -H 'Authorization: <token>' https://isp.beans.ai/enterprise/v1/dro/apply -XPOST --data '@assets/simple_dro_apply.json'`
+
+A simple visualization showing the routes can be found at
+
+[Simple DRO Routes applied](https://github.com/beansai/beans-tutorials/blob/main/dynamic-routes-optimization/assets/images/routes_applied.png)
+   * the segments with empty stops were also created. There may be situation where you
+   want to remove the empty segments
