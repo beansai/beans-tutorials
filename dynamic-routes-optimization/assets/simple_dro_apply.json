@@ -1,6 +1,5 @@
 {
   "route_name": "All Stops",
-  "route_date_str": "2023-08-01",
   "warehouse": {
     "list_warehouse_id": "b47c3bc1-efc0-49fb-9aad-b3095f13b31b",
     "address": "5655 Hood Way, Tracy, CA 95377",
@@ -11,7 +10,8 @@
   },
   "segment": [
     {
-      "listAssigneeId": "extra-driver-0",
+      "listAssigneeId": "t-tutorial-driver-1",
+      "routeName": "Route 1",
       "item": [
         {
           "listItemId": "t-8eca53fefb635f19958ab0cbf",
@@ -1020,7 +1020,8 @@
       "shiftStartTime": "07:00"
     },
     {
-      "listAssigneeId": "extra-driver-1",
+      "listAssigneeId": "t-tutorial-driver-2",
+      "routeName": "Route 2",
       "item": [
         {
           "listItemId": "t-23be533b0b620f6aad24ade99",
@@ -2029,7 +2030,8 @@
       "shiftStartTime": "07:00"
     },
     {
-      "listAssigneeId": "extra-driver-2",
+      "listAssigneeId": "t-tutorial-driver-3",
+      "routeName": "Route 3",
       "item": [
         {
           "listItemId": "t-1925637c1aa7fd90f9c19e3f5",
@@ -3038,7 +3040,8 @@
       "shiftStartTime": "07:00"
     },
     {
-      "listAssigneeId": "extra-driver-3",
+      "listAssigneeId": "t-tutorial-driver-4",
+      "routeName": "Route 4",
       "item": [
         {
           "listItemId": "t-e2cfe3a73b3ee7e74e56830dc",
@@ -4047,7 +4050,8 @@
       "shiftStartTime": "07:00"
     },
     {
-      "listAssigneeId": "extra-driver-4",
+      "listAssigneeId": "t-tutorial-driver-5",
+      "routeName": "Route 5",
       "item": [
         {
           "listItemId": "t-2fd6f3f3ab12cebdddb97ca0f",
@@ -5056,7 +5060,8 @@
       "shiftStartTime": "07:00"
     },
     {
-      "listAssigneeId": "extra-driver-5",
+      "listAssigneeId": "t-tutorial-driver-6",
+      "routeName": "Route 6",
       "item": [
         {
           "listItemId": "t-8c0c03ca5b372125c749b63e2",
@@ -5605,7 +5610,8 @@
       "shiftStartTime": "07:00"
     },
     {
-      "listAssigneeId": "extra-driver-6",
+      "listAssigneeId": "t-tutorial-driver-7",
+      "routeName": "Route 7",
       "item": [
         {
           "listItemId": "t-7580c3b47bf78b99bf0b42705",
@@ -6334,7 +6340,8 @@
       "shiftStartTime": "07:00"
     },
     {
-      "listAssigneeId": "extra-driver-7",
+      "listAssigneeId": "t-tutorial-driver-8",
+      "routeName": "Route 8",
       "item": [
         {
           "listItemId": "t-c88eb3868b9479b9a33693d8b",
@@ -7259,16 +7266,6 @@
       "timeS": 5894,
       "distanceM": 27007.900000000005,
       "pathEncoded": "iaufFbbzeV~KB?kAJ{BFiAJaB`@kF@UNBF@PDZJ`A`@p@R\\Fb@DnBTL@NB~APv@Hl@Fl@Fb@Fr@HTBhALXDF@HBNDbQhFx@VJB`Bz@LJbAsCZq@T_@X]XYPO\\Uj@_@v@Ur@Kv@CbCE~@EzAY~Bc@^SXMx@c@l@[|Au@|@c@`CaBv@y@v@qArA_BbBkAjBw@~B_A\\UbBiAd@_@b@]b@a@PRLHVDp@?l@Cj@K\\M`@UXWPS`@e@HJZZX`@P\\b@`A\\r@zB`FLTrD~HyAnAaCgFq@uAPSfA}@RQKUUPQP{DfDM^lAfCaBxAu@l@e@b@IFN\\d@|@v@~AbByApAiANMhCyBxAoAr@lBZxAR|AHjB@tAJ`@A~AEtAG~@s@H]BeA?{@M}ABYDXE|ACNBj@HdA?\\Cr@I@xBA\\?|@?`ADz@JjAT~ARh@R`@h@t@e@t@?V{BbDs@bAOYK[K]?eD|@?DRbA??a@cA?ELe@?W?EwDA_Dc@Um@AYAEKeAA?`@dA@DUX@F?d@@b@T@~CDvD?dDJ\\JZNXf@d@n@PfC@ESA_BJ??_A?_@Y?A`BNA@~ADRgCAo@Qg@e@r@cAzBcDPGXc@HMOSi@u@Sa@Si@U_BKkAE{@?aA?}@@]AyBF_ADuA@_BJ_@AuAGkAOkB[cBa@uAEMb@[j@a@HJ~@rDCh@Bi@_@wA_@{AIKj@[zBAT?PJFN?~L?vBM?k@?uA?eAAJ_@AuAGkAOkB[cBa@uAEMb@[j@a@k@kAo@eA{@kB?Q?OLS^k@n@d@??o@e@Zg@`@{AVmCKk@[QIiAVg@b@m@xCeCnD{Cp@k@fA_ALMUa@^Yr@m@P`@SP{@t@MLgA~@@lA?|A?D?tAAzD_@FS?Y?c@?CF?t@BLAl@@m@CM?u@BGb@?X?H?H?^G?nEAvB?hE?X?vD?vE?|@?@?n@AfF?jFQJyBBgDE??fDDxBCPK?kFjIAIyByB?eB???~E?HxB`B?jABhDD@uC?}C?yD?}D?aDwB?D?pB??qDnA?b@HXLRJ^H^?lB@?xDkD?oA?YQ??XPnA?jD?A~DmDBmA@[HZIlAAf@AdCAD`BDNJ^^v@l@a@FEj@]?cJ?e@vC?jB?AlMBbL?H?lAB`F?l@V?fB@AyBrAAG@kA?@xBlA?t@F~@RlAt@Tg@Ne@BMH[Fw@@g@?c@?qEzC@~@Cp@SLp@^lAJl@Bp@@x@J|@Zr@n@`@t@L@|DAlDtA?xF??rAAzGwA@sB?oB?a@KLkA@}A?{D@mDA}Du@Mo@a@[s@K}@Ay@Cq@Km@_@mAMq@l@[h@c@Vo@HgAB}DjC?lC?@uDAgEA}L?tD@fGmCAkC??h@?tIC|DIfAWn@i@b@m@ZKaAEy@?yC?gBwH??sBvECoCBgA??m@AoC?{@?cB?gAJy@La@R[\\[]aAW_@V^JVPh@]ZSZM`@Kx@?fAfDi@Z@[AK@{Cf@sCBsC@AmI@bA?hGkA?M@C{CIqC@qCCgL?e@?q@?sE?aB?c@@_FAkF?wHAcGEkAWT@lA@zC@pJ?T@jMyD@E?_AAa@Po@C{AE}@AMMyD@]??VvEALIF?t@@zADn@Bb@RF?t@@B?zDCV?xA@Z?dA@rD?zCBlDA@hAN~ABRAhC?nB?NA?EBA@C@?BAFM@oBEA`I?yC@gDnBDLA?HBFDBB@@?@?BABA@CBE@IAECGCA?AC?CA?O?oB@iCCSO_BAiA?]@oI?aBv@Gf@Ux@q@wA_Da@qAK]wAaDrBgB}BuEt@xAfAzBhB_BrBcBlB_B_BkDhCeCFHFDH?F?FCFGDKBKDWYBg@f@ONyBtB~AjDmB~A{A_Du@}AqIhHt@~Al@nAl@nAvA`Dl@nBvA~CnBkBjBeBXQ|AeA~@AlAA?gE@yA",
-      "capacity": 50,
-      "shiftStartTime": "07:00"
-    },
-    {
-      "listAssigneeId": "extra-driver-8",
-      "capacity": 50,
-      "shiftStartTime": "07:00"
-    },
-    {
-      "listAssigneeId": "extra-driver-9",
       "capacity": 50,
       "shiftStartTime": "07:00"
     }

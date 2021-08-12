@@ -62,6 +62,7 @@ We also recommend running cURL command piping to an output file. For example,
   ]
 }
 ```
+**Note** your accountBuid field would differ.
 
 ### Configure a grouping Route for Stops
 
@@ -103,6 +104,7 @@ stops to be optimized.
   ]
 }
 ```
+**Note** Your accountBuid, createdAt, updatedAt field values would differ.
 
 #### Loading Stops into the grouping Route
 
@@ -118,6 +120,7 @@ The `--data '@xxx'` option instructed cURL to read the file as the body of the P
 Since there are 359 stops, the response is HUGE, you can find the visualization of the route at
 
 [Tutorial Route Map](https://github.com/beansai/beans-tutorials/blob/main/dynamic-routes-optimization/assets/images/route_map.png)
+
 
 ### Simple Stateless DRO with up to 10 Routes
 
@@ -180,6 +183,21 @@ You can find the visualization at
    * also, we specified the name of the response with the same name, and it would also be available
    in the dropdown menu on the UI as well
 
+### Stateless to Stateful
+
+The optimization above does not create routes nor make any assignments, which is suitable for
+continuous experimentation and tuning. The saved configuration and saved result can be used for
+analysis or route matching prior to finalize the routes.
+
+
+To go from optimization to dispatch, we will need to apply the result of the optimization to create
+routes and thus transition to the **stateful**.
+
+#### Configure some assignees (drivers)
+
+We need to create some assignees (drivers) so we can associate the segments.
+`curl -k -H 'Authorization:<token>' https://isp.beans.ai/enterprise/v1/lists/assignees -XPOST --data '@assets/assignees.json'`
+
 #### Applying the DRO results to create routes
 
 The segments in the [assets/simple_dro_response.json](https://github.com/beansai/beans-tutorials/blob/main/dynamic-routes-optimization/assets/simple_dro_response.json)
@@ -191,11 +209,51 @@ which included
    * the "default" warehouse
    * the "default" start time and shift length
    * the segment from the result
+   * for each segment, the assignee associated with it
 
 `curl -k -H 'Authorization: <token>' https://isp.beans.ai/enterprise/v1/dro/apply -XPOST --data '@assets/simple_dro_apply.json'`
 
 A simple visualization showing the routes can be found at
 
 [Simple DRO Routes applied](https://github.com/beansai/beans-tutorials/blob/main/dynamic-routes-optimization/assets/images/routes_applied.png)
-   * the segments with empty stops were also created. There may be situation where you
-   want to remove the empty segments
+
+### Simple Stateful Route Planning
+
+Now, there are routes with stops that are assigned. We can now add extra stops for optimization by
+adding those extra stops into our grouping Route first.
+
+`curl -k -H 'Authorization:<token>' https://isp.beans.ai/enterprise/v1/lists/items -XPOST --data '@assets/extra_stops.json'`
+
+You can find the simple visual of just the extra stops at
+[Extra Stops](https://github.com/beansai/beans-tutorials/blob/main/dynamic-routes-optimization/assets/images/extra_stops_only.png)
+
+The following place those extra stops in context of the stateful routes
+[Extra Stops In Context](https://github.com/beansai/beans-tutorials/blob/main/dynamic-routes-optimization/assets/images/extra_stops_stateful.png)
+
+#### Perform stateful Optimization
+
+You can find the sample request at [assets/stateful_dro_request.json](https://github.com/beansai/beans-tutorials/blob/main/dynamic-routes-optimization/assets/stateful_dro_request.json)
+which wraps around the request with additional specifications:
+   * route_id array captures the list of routes to be included, you will need to get the list of routes
+   from [Simple DRO Routes applied](https://github.com/beansai/beans-tutorials/blob/main/dynamic-routes-optimization/assets/images/routes_applied.png)
+   * assignee array captures the list of drivers, and whether or not their current items
+   should be kept together. If set to true, this would ensure the stops of the driver's route are
+   kept together
+   
+`curl -k -H 'Authorization: <token>' https://isp.beans.ai/enterprise/v1/dro/run-stateful -XPOST --data '@assets/stateful_dro_request.json'`
+
+You can find the sample response at [assets/stateful_dro_response.json](https://github.com/beansai/beans-tutorials/blob/main/dynamic-routes-optimization/assets/stateful_dro_response.json)
+
+#### Applying the stateful response
+
+This tutorial has constructed [assets/stateful_dro_apply.json](https://github.com/beansai/beans-tutorials/blob/main/dynamic-routes-optimization/assets/stateful_dro_apply.json)
+which included
+   * the "default" warehouse
+   * the "default" start time and shift length
+   * the segment from the result
+   * for each segment, the assignee associated with it
+   * **for each segment**, the route name associated with it if you wish to maintain the route/driver
+   association
+   
+The visualization can be found at
+[Stateful DRO Routes applied](https://github.com/beansai/beans-tutorials/blob/main/dynamic-routes-optimization/assets/images/stateful_routes_applied.png)

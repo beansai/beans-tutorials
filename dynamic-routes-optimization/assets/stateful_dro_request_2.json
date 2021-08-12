@@ -1,0 +1,605 @@
+{
+  "state": {
+    "route_id": [
+      "69169398-20cd-4a27-a7e2-687951374555",
+      "f0784277-7719-4530-af87-95263d3ff6be",
+      "98c3a832-5d25-4d22-8d74-14603e03ba2c",
+      "e8b39749-d174-431c-bfca-3ec877e4b51e",
+      "817cb6ef-cecd-4561-aec8-b40c2d2bd387",
+      "0c19a8d2-b23e-4299-b815-a681b6bd6dbe",
+      "a62d6e9f-14e9-49fb-b052-b1616df38df8",
+      "d57c374f-0c7c-4234-9ab7-c69bf1e70bc3"
+    ],
+    "assignee": [
+      {
+        "list_assignee_id": "t-tutorial-driver-1",
+        "keep_current_items": true
+      },
+      {
+        "list_assignee_id": "t-tutorial-driver-2",
+        "keep_current_items": true
+      },
+      {
+        "list_assignee_id": "t-tutorial-driver-3",
+        "keep_current_items": true
+      },
+      {
+        "list_assignee_id": "t-tutorial-driver-4",
+        "keep_current_items": true
+      },
+      {
+        "list_assignee_id": "t-tutorial-driver-5",
+        "keep_current_items": true
+      },
+      {
+        "list_assignee_id": "t-tutorial-driver-6",
+        "keep_current_items": false
+      },
+      {
+        "list_assignee_id": "t-tutorial-driver-7",
+        "keep_current_items": false
+      },
+      {
+        "list_assignee_id": "t-tutorial-driver-8",
+        "keep_current_items": false
+      }
+    ]
+  },
+  "request": {
+    "warehouse": {
+      "list_warehouse_id": "b47c3bc1-efc0-49fb-9aad-b3095f13b31b",
+      "address": "5655 Hood Way, Tracy, CA 95377",
+      "position": {
+        "lat": 37.7289493,
+        "lng": -121.5082503
+      }
+    },
+    "item": [
+      {
+        "listItemId": "t-5511c3052b39595971782e3b9",
+        "address": "27715 S Banta Rd, Tracy, CA",
+        "formattedAddress": "27715 S Banta Rd, Tracy, CA",
+        "status": "NEW",
+        "updatedAt": 1628709715584,
+        "statusUpdatedAt": 1628709715584,
+        "route": {
+          "listRouteId": "d27e174b-ff71-4854-af85-72c056ae1b05"
+        },
+        "routePriority": 1,
+        "type": "DROPOFF",
+        "position": {
+          "latitude": 37.70352,
+          "longitude": -121.3798
+        },
+        "displayPosition": {
+          "latitude": 37.70351,
+          "longitude": -121.38041
+        },
+        "addressComponents": {
+          "zipcode": "95304"
+        }
+      },
+      {
+        "listItemId": "t-f583f396ba3c69488a01703a6",
+        "address": "8692 Ranch Rd, Tracy, CA",
+        "formattedAddress": "8692 Ranch Rd, Tracy, CA",
+        "status": "NEW",
+        "updatedAt": 1628709715510,
+        "statusUpdatedAt": 1628709715510,
+        "route": {
+          "listRouteId": "d27e174b-ff71-4854-af85-72c056ae1b05"
+        },
+        "routePriority": 2,
+        "type": "DROPOFF",
+        "position": {
+          "latitude": 37.70099,
+          "longitude": -121.4123
+        },
+        "displayPosition": {
+          "latitude": 37.70063,
+          "longitude": -121.41227
+        },
+        "addressComponents": {
+          "zipcode": "95304"
+        }
+      },
+      {
+        "listItemId": "t-c5aa83924a060f46c7cd6649d",
+        "address": "30000 Kasson Rd, Tracy, CA",
+        "unit": "SPC 4E5",
+        "formattedAddress": "30000 Kasson Rd, Tracy, CA",
+        "status": "NEW",
+        "updatedAt": 1628709715726,
+        "statusUpdatedAt": 1628709715726,
+        "route": {
+          "listRouteId": "d27e174b-ff71-4854-af85-72c056ae1b05"
+        },
+        "routePriority": 5,
+        "type": "DROPOFF",
+        "position": {
+          "latitude": 37.67413,
+          "longitude": -121.27491
+        },
+        "displayPosition": {
+          "latitude": 37.67435,
+          "longitude": -121.27459
+        },
+        "addressComponents": {
+          "zipcode": "95304"
+        }
+      },
+      {
+        "listItemId": "t-a9889394ba33fda6497f23198",
+        "address": "30999 S Koster Rd, Tracy, CA",
+        "formattedAddress": "30999 S Koster Rd, Tracy, CA",
+        "status": "NEW",
+        "updatedAt": 1628709716037,
+        "statusUpdatedAt": 1628709716037,
+        "route": {
+          "listRouteId": "d27e174b-ff71-4854-af85-72c056ae1b05"
+        },
+        "routePriority": 6,
+        "type": "DROPOFF",
+        "position": {
+          "latitude": 37.6724,
+          "longitude": -121.32456
+        },
+        "displayPosition": {
+          "latitude": 37.67237,
+          "longitude": -121.32511
+        },
+        "addressComponents": {
+          "zipcode": "95304"
+        }
+      },
+      {
+        "listItemId": "t-fea29320882a8f69046a73d73",
+        "address": "31 Griffith Ln, Brentwood, CA",
+        "formattedAddress": "31 Griffith Ln, Brentwood, CA",
+        "status": "NEW",
+        "updatedAt": 1628709715248,
+        "statusUpdatedAt": 1628709715248,
+        "route": {
+          "listRouteId": "d27e174b-ff71-4854-af85-72c056ae1b05"
+        },
+        "routePriority": 7,
+        "type": "DROPOFF",
+        "position": {
+          "latitude": 37.91931,
+          "longitude": -121.70491
+        },
+        "displayPosition": {
+          "latitude": 37.91931,
+          "longitude": -121.70517
+        },
+        "addressComponents": {
+          "zipcode": "94513"
+        }
+      },
+      {
+        "listItemId": "t-6bce03579b36ae3aa70bf7d88",
+        "address": "762 Campanello Way, Brentwood, CA",
+        "formattedAddress": "762 Campanello Way, Brentwood, CA",
+        "status": "NEW",
+        "updatedAt": 1628709715311,
+        "statusUpdatedAt": 1628709715311,
+        "route": {
+          "listRouteId": "d27e174b-ff71-4854-af85-72c056ae1b05"
+        },
+        "routePriority": 8,
+        "type": "DROPOFF",
+        "position": {
+          "latitude": 37.91907,
+          "longitude": -121.71311
+        },
+        "displayPosition": {
+          "latitude": 37.91909,
+          "longitude": -121.71362
+        },
+        "addressComponents": {
+          "zipcode": "94513"
+        }
+      },
+      {
+        "listItemId": "t-25ebe3ba68542b4982c75c89b",
+        "address": "3660 Walnut Blvd, Brentwood, CA",
+        "unit": "TRLR 68",
+        "formattedAddress": "3660 Walnut Blvd, Brentwood, CA",
+        "status": "NEW",
+        "updatedAt": 1628709715939,
+        "statusUpdatedAt": 1628709715939,
+        "route": {
+          "listRouteId": "d27e174b-ff71-4854-af85-72c056ae1b05"
+        },
+        "routePriority": 9,
+        "type": "DROPOFF",
+        "position": {
+          "latitude": 37.92802,
+          "longitude": -121.6961
+        },
+        "displayPosition": {
+          "latitude": 37.9279,
+          "longitude": -121.69462
+        },
+        "addressComponents": {
+          "zipcode": "94513"
+        }
+      },
+      {
+        "listItemId": "t-3f60c3fc2b51f4441b11f4a86",
+        "address": "4577 Ford Ct, Brentwood, CA",
+        "formattedAddress": "4577 Ford Ct, Brentwood, CA",
+        "status": "NEW",
+        "updatedAt": 1628709715888,
+        "statusUpdatedAt": 1628709715888,
+        "route": {
+          "listRouteId": "d27e174b-ff71-4854-af85-72c056ae1b05"
+        },
+        "routePriority": 10,
+        "type": "DROPOFF",
+        "position": {
+          "latitude": 37.91959,
+          "longitude": -121.69497
+        },
+        "displayPosition": {
+          "latitude": 37.91979,
+          "longitude": -121.69501
+        },
+        "addressComponents": {
+          "zipcode": "94513"
+        }
+      },
+      {
+        "listItemId": "t-072533cee83a1f4c2a2ce225d",
+        "address": "314 Pacifica Dr, Brentwood, CA",
+        "formattedAddress": "314 Pacifica Dr, Brentwood, CA",
+        "status": "NEW",
+        "updatedAt": 1628709715668,
+        "statusUpdatedAt": 1628709715668,
+        "route": {
+          "listRouteId": "d27e174b-ff71-4854-af85-72c056ae1b05"
+        },
+        "routePriority": 11,
+        "type": "DROPOFF",
+        "position": {
+          "latitude": 37.93685,
+          "longitude": -121.70417
+        },
+        "displayPosition": {
+          "latitude": 37.93666,
+          "longitude": -121.70407
+        },
+        "addressComponents": {
+          "zipcode": "94513"
+        }
+      },
+      {
+        "listItemId": "t-f69af3043bbb075e4c71fcb8a",
+        "address": "753 Anderson Ave, Brentwood, CA",
+        "formattedAddress": "753 Anderson Ave, Brentwood, CA",
+        "status": "NEW",
+        "updatedAt": 1628709715425,
+        "statusUpdatedAt": 1628709715425,
+        "route": {
+          "listRouteId": "d27e174b-ff71-4854-af85-72c056ae1b05"
+        },
+        "routePriority": 12,
+        "type": "DROPOFF",
+        "position": {
+          "latitude": 37.9245,
+          "longitude": -121.6998
+        },
+        "displayPosition": {
+          "latitude": 37.92474,
+          "longitude": -121.69981
+        },
+        "addressComponents": {
+          "zipcode": "94513"
+        }
+      },
+      {
+        "listItemId": "t-d8c0f32e2a4da6684f912d3f9",
+        "address": "2639 E Cypress Rd, Oakley, CA",
+        "formattedAddress": "2639 E Cypress Rd, Oakley, CA",
+        "status": "NEW",
+        "updatedAt": 1628709715818,
+        "statusUpdatedAt": 1628709715818,
+        "route": {
+          "listRouteId": "d27e174b-ff71-4854-af85-72c056ae1b05"
+        },
+        "routePriority": 13,
+        "type": "DROPOFF",
+        "position": {
+          "latitude": 37.99068,
+          "longitude": -121.64799
+        },
+        "displayPosition": {
+          "latitude": 37.99007,
+          "longitude": -121.64795
+        },
+        "addressComponents": {
+          "zipcode": "94561"
+        }
+      },
+      {
+        "listItemId": "t-055c23e95949ffd9608a7f186",
+        "address": "2030 Rubens Way, Oakley, CA",
+        "unit": "APT 203",
+        "formattedAddress": "2030 Rubens Way, Oakley, CA",
+        "status": "NEW",
+        "updatedAt": 1628709716006,
+        "statusUpdatedAt": 1628709716006,
+        "route": {
+          "listRouteId": "d27e174b-ff71-4854-af85-72c056ae1b05"
+        },
+        "routePriority": 14,
+        "type": "DROPOFF",
+        "position": {
+          "latitude": 37.98939,
+          "longitude": -121.68956
+        },
+        "displayPosition": {
+          "latitude": 37.98939,
+          "longitude": -121.68964
+        },
+        "addressComponents": {
+          "zipcode": "94561"
+        }
+      },
+      {
+        "listItemId": "t-754e831c59528ac13e6616009",
+        "address": "59 Carol Ln, Oakley, CA",
+        "unit": "APT 240",
+        "formattedAddress": "59 Carol Ln, Oakley, CA",
+        "status": "NEW",
+        "updatedAt": 1628709715961,
+        "statusUpdatedAt": 1628709715961,
+        "route": {
+          "listRouteId": "d27e174b-ff71-4854-af85-72c056ae1b05"
+        },
+        "routePriority": 15,
+        "type": "DROPOFF",
+        "position": {
+          "latitude": 38.002806218767695,
+          "longitude": -121.73756446455239
+        },
+        "displayPosition": {
+          "latitude": 38.0028501338628,
+          "longitude": -121.73774402757678
+        },
+        "addressComponents": {
+          "zipcode": "94561"
+        }
+      },
+      {
+        "listItemId": "t-22e4b3b518602b51cf563266a",
+        "address": "424 Sonnet Ct, Oakley, CA",
+        "formattedAddress": "424 Sonnet Ct, Oakley, CA",
+        "status": "NEW",
+        "updatedAt": 1628709715818,
+        "statusUpdatedAt": 1628709715818,
+        "route": {
+          "listRouteId": "d27e174b-ff71-4854-af85-72c056ae1b05"
+        },
+        "routePriority": 16,
+        "type": "DROPOFF",
+        "position": {
+          "latitude": 37.98596,
+          "longitude": -121.62733
+        },
+        "displayPosition": {
+          "latitude": 37.98583,
+          "longitude": -121.62733
+        },
+        "addressComponents": {
+          "zipcode": "94561"
+        }
+      },
+      {
+        "listItemId": "t-997f3358ab1150f4084ead549",
+        "address": "613 Allagash Ct, Oakley, CA",
+        "formattedAddress": "613 Allagash Ct, Oakley, CA",
+        "status": "NEW",
+        "updatedAt": 1628709715226,
+        "statusUpdatedAt": 1628709715226,
+        "route": {
+          "listRouteId": "d27e174b-ff71-4854-af85-72c056ae1b05"
+        },
+        "routePriority": 17,
+        "type": "DROPOFF",
+        "position": {
+          "latitude": 37.98781,
+          "longitude": -121.62696
+        },
+        "displayPosition": {
+          "latitude": 37.98801,
+          "longitude": -121.62686
+        },
+        "addressComponents": {
+          "zipcode": "94561"
+        }
+      },
+      {
+        "listItemId": "t-8ea3e352b8ed3edc17ac22df7",
+        "address": "1235 Marina Cir, Discovery Bay, CA",
+        "formattedAddress": "1235 Marina Cir, Discovery Bay, CA",
+        "status": "NEW",
+        "updatedAt": 1628709715085,
+        "statusUpdatedAt": 1628709715085,
+        "route": {
+          "listRouteId": "d27e174b-ff71-4854-af85-72c056ae1b05"
+        },
+        "routePriority": 18,
+        "type": "DROPOFF",
+        "position": {
+          "latitude": 37.90703,
+          "longitude": -121.60379
+        },
+        "displayPosition": {
+          "latitude": 37.90733,
+          "longitude": -121.60363
+        },
+        "addressComponents": {
+          "zipcode": "94505"
+        }
+      },
+      {
+        "listItemId": "t-076c930b18ea1c1381e25c48d",
+        "address": "2459 Pinehurst Ct, Discovery Bay, CA",
+        "formattedAddress": "2459 Pinehurst Ct, Discovery Bay, CA",
+        "status": "NEW",
+        "updatedAt": 1628709715541,
+        "statusUpdatedAt": 1628709715541,
+        "route": {
+          "listRouteId": "d27e174b-ff71-4854-af85-72c056ae1b05"
+        },
+        "routePriority": 19,
+        "type": "DROPOFF",
+        "position": {
+          "latitude": 37.89231,
+          "longitude": -121.59226
+        },
+        "displayPosition": {
+          "latitude": 37.89205,
+          "longitude": -121.59207
+        },
+        "addressComponents": {
+          "zipcode": "94505"
+        }
+      },
+      {
+        "listItemId": "t-fd6313d95b8b4133cd6c2933d",
+        "address": "1405 Marlin Pl, Discovery Bay, CA",
+        "formattedAddress": "1405 Marlin Pl, Discovery Bay, CA",
+        "status": "NEW",
+        "updatedAt": 1628709715995,
+        "statusUpdatedAt": 1628709715995,
+        "route": {
+          "listRouteId": "d27e174b-ff71-4854-af85-72c056ae1b05"
+        },
+        "routePriority": 20,
+        "type": "DROPOFF",
+        "position": {
+          "latitude": 37.90602,
+          "longitude": -121.5906
+        },
+        "displayPosition": {
+          "latitude": 37.90634,
+          "longitude": -121.59048
+        },
+        "addressComponents": {
+          "zipcode": "94505"
+        }
+      },
+      {
+        "listItemId": "t-50093317babcedd2df514f68e",
+        "address": "5581 Starboard Dr, Discovery Bay, CA",
+        "formattedAddress": "5581 Starboard Dr, Discovery Bay, CA",
+        "status": "NEW",
+        "updatedAt": 1628709715657,
+        "statusUpdatedAt": 1628709715657,
+        "route": {
+          "listRouteId": "d27e174b-ff71-4854-af85-72c056ae1b05"
+        },
+        "routePriority": 21,
+        "type": "DROPOFF",
+        "position": {
+          "latitude": 37.9094,
+          "longitude": -121.59295
+        },
+        "displayPosition": {
+          "latitude": 37.90966,
+          "longitude": -121.59297
+        },
+        "addressComponents": {
+          "zipcode": "94505"
+        }
+      },
+      {
+        "listItemId": "t-ce90a309187c90af3a7946609",
+        "address": "4940 North Pt, Discovery Bay, CA",
+        "formattedAddress": "4940 North Pt, Discovery Bay, CA",
+        "status": "NEW",
+        "updatedAt": 1628709715226,
+        "statusUpdatedAt": 1628709715226,
+        "route": {
+          "listRouteId": "d27e174b-ff71-4854-af85-72c056ae1b05"
+        },
+        "routePriority": 22,
+        "type": "DROPOFF",
+        "position": {
+          "latitude": 37.90664,
+          "longitude": -121.60641
+        },
+        "displayPosition": {
+          "latitude": 37.90655,
+          "longitude": -121.60669
+        },
+        "addressComponents": {
+          "zipcode": "94505"
+        }
+      },
+      {
+        "listItemId": "t-6660237f5912f22e80073e32f",
+        "address": "2294 Tamarisk Ct, Discovery Bay, CA",
+        "formattedAddress": "2294 Tamarisk Ct, Discovery Bay, CA",
+        "status": "NEW",
+        "updatedAt": 1628709715858,
+        "statusUpdatedAt": 1628709715858,
+        "route": {
+          "listRouteId": "d27e174b-ff71-4854-af85-72c056ae1b05"
+        },
+        "routePriority": 23,
+        "type": "DROPOFF",
+        "position": {
+          "latitude": 37.89351,
+          "longitude": -121.59588
+        },
+        "displayPosition": {
+          "latitude": 37.8932,
+          "longitude": -121.59589
+        },
+        "addressComponents": {
+          "zipcode": "94505"
+        }
+      }
+    ],
+    "assignee_with_vehicle": [
+      {
+        "list_assignee_id": "t-tutorial-driver-9",
+        "capacity": 50,
+        "start_anywhere": true,
+        "end_anywhere": true,
+        "shiftLength": 8
+      }
+    ],
+    "default_shift_start_time": "07:00",
+    "default_shift_length": 8,
+    "default_capacity": 50,
+    "default_stop_time_seconds": 60,
+    "default_dropoff_time_seconds": 60,
+    "default_pickup_time_seconds": 60,
+    "check_seconds": 30,
+    "timeout_seconds": 60,
+    "start_anywhere": true,
+    "end_anywhere": true,
+    "use_assignees_start_address": true,
+    "use_assignees_end_address": true,
+    "allow_drop_time_constraints": false,
+    "optimize_for": "TIME",
+    "debug_print_log": true,
+    "disallow_pickup_dropoff_mode": true,
+    "solution_strategy": "PARALLEL_CHEAPEST_INSERTION",
+    "search_strategy": "GUIDED_LOCAL_SEARCH",
+    "solution_count": 500,
+    "dro_request_id": "",
+    "name": "stateful-dro-tutorial-run-1",
+    "dro_response_id": "",
+    "response_name": "stateful-dro_tutorial-run-1",
+    "allow_assignee_penalty": true,
+    "assignee_penalty": 10,
+    "slowness": 1,
+    "workarea": [],
+    "disallow_transition": []
+  }
+}
