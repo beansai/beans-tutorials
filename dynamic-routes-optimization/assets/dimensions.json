@@ -1,0 +1,154 @@
+{
+  "warehouse": {
+    "address": "1200 Dale Avenue, Mountain View, CA, USA",
+    "position": {
+      "lat": 37.37219086241854,
+      "lng": -122.06502960787174
+    }
+  },
+  "item": [
+    {
+      "formattedAddress": "2255 Showers Dr, Mountain View, CA 94040",
+      "position": {
+        "lat": 37.40767104948917,
+        "lng": -122.10810243791622
+      },
+      "deliver_from_str": "2021-11-30 13:10",
+      "deliver_by_str": "2021-11-30 13:30",
+      "type": "DROPOFF",
+      "num_packages": 1,
+      "dimensions": {
+        "dims": [
+            {
+                "t": "COUNT",
+                "v": "2"
+            },
+            {
+                "t": "COUNT",
+                "v": "2"
+            }
+        ]
+      }
+    },
+    {
+      "formattedAddress": "248 Homer Ave, Palo Alto, CA 94301",
+      "position": {
+        "lat": 37.44581261031037,
+        "lng": -122.15542763585339
+      },
+      "type": "DROPOFF",
+      "num_packages": 1,
+      "dimensions": {
+        "dims": [
+            {
+                "t": "COUNT",
+                "v": "2"
+            },
+            {
+                "t": "COUNT",
+                "v": "2"
+            }
+        ]
+      }
+    },
+    {
+      "formattedAddress": "301 W Washington Ave, Sunnyvale, CA 94086",
+      "position": {
+        "lat": 37.37672713020876,
+        "lng": -122.03256150371668
+      },
+      "type": "DROPOFF",
+      "num_packages": 1,
+      "dimensions": {
+        "dims": [
+            {
+                "v": "2"
+            },
+            {
+                "v": "2"
+            }
+        ]
+      }
+    }
+  ],
+  "assignee_with_vehicle": [
+    {
+      "list_assignee_id": "extra-driver-0",
+      "capacity": 2,
+      "shift_length": 8,
+      "shift_start_time": "07:00",
+      "currentNumPackages": 2,
+      "dimensions": {
+        "dims": [
+            {
+                "v": "2"
+            },
+            {
+                "v": "2"
+            }
+        ]
+      },
+      "currentDimensions": {
+        "dims": [
+            {
+                "v": "2"
+            },
+            {
+                "v": "2"
+            }
+        ]
+      }
+    },
+    {
+      "list_assignee_id": "extra-driver-1",
+      "capacity": 2,
+      "shift_length": 8,
+      "shift_start_time": "07:00",
+      "currentNumPackages": 2,
+      "dimensions": {
+        "dims": [
+            {
+                "v": "4"
+            },
+            {
+                "v": "4"
+            }
+        ]
+      },
+      "currentDimensions": {
+        "dims": [
+            {
+                "v": "4"
+            },
+            {
+                "v": "4"
+            }
+        ]
+      }
+    }
+  ],
+  "defaultDimensions": {
+      "dims": [
+          {
+              "t": "COUNT"
+          },
+          {
+              "t": "COUNT"
+          }
+      ]
+  },
+  "default_shift_start_time": "07:00",
+  "default_shift_length": 8,
+  "default_capacity": 0,
+  "default_stop_time_seconds": 75,
+  "default_dropoff_time_seconds": 75,
+  "default_pickup_time_seconds": 75,
+  "check_seconds": 30,
+  "timeout_seconds": 30,
+  "optimize_for": "TIME",
+  "debug_print_log": true,
+  "solution_strategy": "AUTOMATIC",
+  "search_strategy": "AUTOMATIC",
+  "solution_count": 20,
+  "slowness": 1
+}

@@ -1,0 +1,132 @@
+{
+    "segment": [
+        {
+            "listAssigneeId": "extra-driver-0",
+            "item": [
+                {
+                    "formattedAddress": "301 W Washington Ave, Sunnyvale, CA 94086",
+                    "trackingId": "gen:7984b511-83c0-4181-8844-14426e039f60",
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.37672713020876,
+                        "longitude": -122.03256150371668
+                    },
+                    "estimatedByStr": "07:07",
+                    "estimatedCapacity": 2,
+                    "dimensions": {
+                        "dims": [
+                            {
+                                "v": "2"
+                            },
+                            {
+                                "v": "2"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "timeS": 983.0,
+            "distanceM": 9071.3,
+            "pathEncoded": "ifbcFry_hVI~@G^gAtDc@vAGHIF_Bf@{A^O?SQPk@r@}BPo@n@_CZkAJc@t@eCDSaFmCWOc@UsAq@i@[c@WcAg@IE{Ay@[QEAKGBEZkAd@cBXcA\\qA\\mA`@sAV{@Rm@b@cBRw@Lc@Na@f@cB\\kANa@\\uAJa@Jg@F]Ji@DWf@gCF]@IXuATqAXwAZaBF]F]Lm@Jm@^oB`@uBBQb@uDVyBJs@TsBF_@Fa@ZcCHq@DWReBLcAHk@Fg@PqALaANkALu@j@{DL}@`@cCFYBSJo@BMZaBHg@RiAJg@He@Ls@NaAHe@r@gED[VsBF]He@F_@VaBF]Hc@]K[GqA[yA]i@KiDw@kAWMESE{@S}Bk@]IKC{A]UGSESGq@Os@QwA[}@U]I[KmCm@KCk@O}A_@QIDSZeCNmAAWPqAy@QUGy@USGE\\YfCCN`Cl@PDE^WfBCRCn@TFfBb@RFv@PvBj@VFVDnAZ\\HpCp@b@J^FpAXvBb@nAVb@HRFNBdFjAv@PzBj@l@PZHG\\G^Mv@g@dDs@hEi@fDSdAId@If@O|@Mt@Kl@If@EVO|@k@pDGXOdAETCL]vBG`@ADIn@Gf@q@`FEZAHIn@YvBOfASxAE`@G`@Eb@In@EVIl@e@~D]lCa@zB?@CL]jBSdAId@EXGZw@dEUrAOv@CLMp@Q`Ac@dCKd@Md@On@K^EJSn@c@|A[dAGNq@xB[dAWx@GPOh@KZM^K\\GVg@vBGTIr@w@`DAF?DBFBDJFD@ZPzAx@HDbAf@b@Vh@ZrAp@b@TVN`FlCERu@dCKb@[jAo@~BQn@s@|BQj@RPN?zA_@~Ag@HGFIb@wAfAuDF_@H_A",
+            "capacity": 2,
+            "shiftStartTime": "07:00",
+            "startPosition": {
+                "latitude": 37.37219086241854,
+                "longitude": -122.06502960787174
+            },
+            "endPosition": {
+                "latitude": 37.37219086241854,
+                "longitude": -122.06502960787174
+            },
+            "warehouse": {
+                "address": "1200 Dale Avenue, Mountain View, CA, USA",
+                "position": {
+                    "latitude": 37.37219086241854,
+                    "longitude": -122.06502960787174
+                }
+            },
+            "startMode": "WAREHOUSE",
+            "endMode": "WAREHOUSE"
+        },
+        {
+            "listAssigneeId": "extra-driver-1",
+            "item": [
+                {
+                    "formattedAddress": "248 Homer Ave, Palo Alto, CA 94301",
+                    "trackingId": "gen:0781e2f6-7213-4775-b58f-e461ca07f197",
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.44581261031037,
+                        "longitude": -122.15542763585339
+                    },
+                    "estimatedByStr": "07:17",
+                    "estimatedCapacity": 2,
+                    "dimensions": {
+                        "dims": [
+                            {
+                                "t": "COUNT",
+                                "v": "2"
+                            },
+                            {
+                                "t": "COUNT",
+                                "v": "2"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "formattedAddress": "2255 Showers Dr, Mountain View, CA 94040",
+                    "trackingId": "gen:45bb9ea6-6f0c-473b-bb8c-893ee40b67a2",
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.40767104948917,
+                        "longitude": -122.10810243791622
+                    },
+                    "deliverFromStr": "2021-11-30 13:10",
+                    "deliverByStr": "2021-11-30 13:30",
+                    "estimatedByStr": "13:10",
+                    "estimatedCapacity": 1,
+                    "dimensions": {
+                        "dims": [
+                            {
+                                "t": "COUNT",
+                                "v": "2"
+                            },
+                            {
+                                "t": "COUNT",
+                                "v": "2"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "timeS": 22939.0,
+            "distanceM": 30328.800000000003,
+            "pathEncoded": "ifbcFry_hVI~@G^gAtDc@vAGHIF_Bf@{A^O?SQ_@^c@LU@aAFa@?YAm@Ku@Ko@_@U_@GYCIEm@?m@J[p@aCv@mCRo@Ja@BKJYOGk@YaAk@IEKEwBiASMc@?K\\ITKb@ABGRQn@g@jBk@xBc@dAQVEDEFOHWJkB\\SJUPSTQZk@fBSb@YV[R_@Jy@NmC^}Q`A}DToCPoDPgJf@oA@aA?cACgI]iGY{BKiACcACqABoADsAHqAJuBZcAPaHhAgCd@aFz@cAPkAPcAJaADiAB{A?gECgC?eMKc@AuAE{CEuAA[?Y@WBYBYFUFSFSFWJWJULUNUNSNQPONONQRQVQVQXMXMVM^M^Mb@Md@g@vBo@pCWbAOh@GVu@pCWdBoAhEm@rBm@rBOf@uD`Mc@dBq@vBa@jASj@Qf@Uh@Uh@i@jAo@pAo@jA_@p@a@n@a@p@kDnFqChEuHfLuQtX_MhRgBpCwAvBmA`BkAzAgApAiArAoArAqAtAcKvKkDrDoK`LaChC[ZaS`T_InIwLlMyC`De@d@yLpMeJvJoH~HcInIeShT{@`Ay@bAy@fAw@fAq@dAu@nAw@tAk@fAi@fAw]ns@qEdJ{@|@eCbEuD`IcAlBoBvDOVILILMHIDIDK@M@KAKCKGKKIKGOEQAQ?S@QDQHOHMHIPKX[vD{Aj@U^OdAY`BMZ?\\@b@B^F`@F^JXHTHn@^d@X\\XZXV?NP`@ZHJB@XXZ\\PTP`@XdAFLdBfFfAjDZ`Ar@~BPj@BJTjADb@@RN?\\?xC@RAB?L?F?D?P?`BA^?nB?L?D?L?H?F?J?bC@pA??P?B?tD?pD?dJ?D?HpBB^?D?PPDBjE`EHHd@b@z@|@VVdAdAf@f@HHLLb@b@JHd@d@@BRPNNDDTTBBLLFFd@b@BB@@HHHH@@NLJJn@l@TTHFbBbBNLHF@EBCBGbCoE@CHOBGBEfCyE@AHOBG@CjC{EHMFFBB~A|AvBvBBBDDJJ@@vEtEDDFFFF@Br@p@r@r@DBDFt@r@n@n@@BHFLL@@l@l@n@n@JHDFr@p@p@p@@@HHZg@f@aA`@u@Xi@\\m@h@aAXg@vAkCrAaChAuB|@_BN[b@u@NWP_@HKHQdAoBf@_Ab@w@hAuBrAaCjAwBpAaCpAiCdAqBjAuBpAaCxAiCbAkB|CyFfAsBLWJUTg@r@_BP]JWVm@~@wBTe@Xm@FMHOBEDIJOlAeBJO|AaC`AkBlAyBdAoB`D_GlA{BrCkFLUhAuBp@mAnA_Cl@eA`AkBd@y@lCcF`FgJVe@l@mAd@}@`@o@XWN]bAgBzAsC`@w@dB}CNk@~@_BLSJQHOZk@Xg@~DwHLWd@}@~DcHfAkBJSLU~A{C`B_Dj@cAvDaHtFeK~@iBtByDt@wAfB}CTYRUPWb@s@^m@^o@vAiCHIHEHAH?HBJF\\TV\\l@hAxAlCR\\NRLVDL@L@JCHCJEDEDG@E@GAEAGEEECICKKy@ESIS][MKi@YSGCAG?G?C?QFC?SHCKAKKk@AO?QBQ@I@EHQP]t@uAJQDINU`@m@f@u@NWHORMBG`@q@HOHYLUj@cAFMBGHCn@qA`@}@FU^]PIJEp@?ZBf@BV?v@DX@n@BN@\\DLCVVJNXRDFLLb@`@b@b@NLPRTKTMLIRKHGRMLKJIPQXYNQPUZe@T_@L[Pa@DOJ_@Ni@HYFSRo@Pk@J]DQHYDMPi@Lg@@EVk@HSJUXa@T_@BE|B{BT[NU^m@Vu@HYNa@@E@CDQVLXNzAt@NFP@fB~@~@b@VLHDd@VB@TLNH@@h@VJFb@T\\Pd@V@@PHZRd@yAHWb@sAh@_BPg@p@sBh@_BNa@Vw@@EPe@Ro@J]@AJYHWRi@Re@BCP_@LWFKVe@Xe@PWFI@CDENSPU@A\\_@JMRSDEDGn@k@XW`@]HILKPOLIHILMHGLMRSZ_@^g@Xc@Xe@DGP]LUBGDGVk@Tg@Vq@LYNc@LYRm@^y@Tm@Zw@LYPe@h@uAh@uALYZu@Zu@HQRe@Ri@\\}@L_@HSBGFO@C@ABIDMFM@CDKFQDKFOFQHOHSBI@C@A?ADIXw@j@uA|A{Df@mA`@gALWJYBGb@iAXq@FQBILY@CHUFOHQ^_A@C^_ARg@h@qAHUZu@`@gAXu@BE@EVm@DMTi@FMXu@^}@`@iA`CkGBEPe@Xu@Vm@?AFQN[FS`@cAHU`CiGXs@Ri@Tk@Z{@Ri@Re@J[Vo@Xs@HULYFSL[@CJUL_@JWLa@Ts@`@oA`@oANg@Na@X}@DKX{@X_ADKRo@FWBGNe@J[@GFSTw@FSH]z@uCv@uC\\sAvB{HLg@DMjAqETy@DKVFnAn@d@TLFJF~@d@h@X@@LFCJK`@Sn@w@lCq@`CKZ?l@Dl@BHFXT^n@^t@Jl@JX@`@?`AGTAb@M^_@RPN?zA_@~Ag@HGFIb@wAfAuDF_@H_A",
+            "capacity": 2,
+            "shiftStartTime": "07:00",
+            "startPosition": {
+                "latitude": 37.37219086241854,
+                "longitude": -122.06502960787174
+            },
+            "endPosition": {
+                "latitude": 37.37219086241854,
+                "longitude": -122.06502960787174
+            },
+            "warehouse": {
+                "address": "1200 Dale Avenue, Mountain View, CA, USA",
+                "position": {
+                    "latitude": 37.37219086241854,
+                    "longitude": -122.06502960787174
+                }
+            },
+            "startMode": "WAREHOUSE",
+            "endMode": "WAREHOUSE"
+        }
+    ],
+    "droResponseId": "eea79671-e497-45c5-a159-7a40b588427f",
+    "timeQuantumInSeconds": 1
+}
