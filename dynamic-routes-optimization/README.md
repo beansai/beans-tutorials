@@ -23,4 +23,4 @@ You will need
 
 ### Tutorials
 
-- [Get Started](https://github.com/beansai/beans-tutorials/tree/main/get-started)
+- [Get Started](https://github.com/beansai/beans-tutorials/tree/main/dynamic-routes-optimization/get-started)
