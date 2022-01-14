@@ -1,0 +1,116 @@
+{
+  "item": [
+    {
+      "list_item_id": "l2-6bce03579b36ae3aa70bf7d88",
+      "address": "762 Campanello Way, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "4c432a91-6870-48d1-95ac-bec7468330d6"
+      }
+    },
+    {
+      "list_item_id": "l2-25ebe3ba68542b4982c75c89b",
+      "address": "3660 Walnut Blvd, Brentwood, CA",
+      "unit": "TRLR 68",
+      "route": {
+        "list_route_id": "4c432a91-6870-48d1-95ac-bec7468330d6"
+      }
+    },
+    {
+      "list_item_id": "l2-3f60c3fc2b51f4441b11f4a86",
+      "address": "4577 Ford Ct, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "4c432a91-6870-48d1-95ac-bec7468330d6"
+      }
+    },
+    {
+      "list_item_id": "l2-072533cee83a1f4c2a2ce225d",
+      "address": "314 Pacifica Dr, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "4c432a91-6870-48d1-95ac-bec7468330d6"
+      }
+    },
+    {
+      "list_item_id": "l2-d8c0f32e2a4da6684f912d3f9",
+      "address": "2639 E Cypress Rd, Oakley, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "4c432a91-6870-48d1-95ac-bec7468330d6"
+      }
+    },
+    {
+      "list_item_id": "l2-055c23e95949ffd9608a7f186",
+      "address": "2030 Rubens Way, Oakley, CA",
+      "unit": "APT 203",
+      "route": {
+        "list_route_id": "4c432a91-6870-48d1-95ac-bec7468330d6"
+      }
+    },
+    {
+      "list_item_id": "l2-754e831c59528ac13e6616009",
+      "address": "59 Carol Ln, Oakley, CA",
+      "unit": "APT 240",
+      "route": {
+        "list_route_id": "4c432a91-6870-48d1-95ac-bec7468330d6"
+      }
+    },
+    {
+      "list_item_id": "l2-22e4b3b518602b51cf563266a",
+      "address": "424 Sonnet Ct, Oakley, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "4c432a91-6870-48d1-95ac-bec7468330d6"
+      }
+    },
+    {
+      "list_item_id": "l2-076c930b18ea1c1381e25c48d",
+      "address": "2459 Pinehurst Ct, Discovery Bay, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "4c432a91-6870-48d1-95ac-bec7468330d6"
+      }
+    },
+    {
+      "list_item_id": "l2-6660237f5912f22e80073e32f1",
+      "address": "1618 N Pershing Ave, Stockton, CA 95203, USA",
+      "unit": "",
+      "route": {
+        "list_route_id": "4c432a91-6870-48d1-95ac-bec7468330d6"
+      }
+    },
+    {
+      "list_item_id": "l2-6660237f5912f22e80073e32f2",
+      "address": "5308 Pacific Ave, Stockton, CA 95207, USA",
+      "unit": "",
+      "route": {
+        "list_route_id": "4c432a91-6870-48d1-95ac-bec7468330d6"
+      }
+    },
+    {
+      "list_item_id": "l2-6660237f5912f22e80073e32f3",
+      "address": "10055 CA-99, Stockton, CA 95212, USA",
+      "unit": "",
+      "route": {
+        "list_route_id": "4c432a91-6870-48d1-95ac-bec7468330d6"
+      }
+    },
+    {
+      "list_item_id": "l2-6660237f5912f22e80073e32f4",
+      "address": "4727 Fite Ct, Stockton, CA 95215, United States",
+      "unit": "",
+      "route": {
+        "list_route_id": "4c432a91-6870-48d1-95ac-bec7468330d6"
+      }
+    },
+    {
+      "list_item_id": "l2-6660237f5912f22e80073e32f5",
+      "address": "6505 S Manthey Rd, French Camp, CA 95231, USA",
+      "unit": "",
+      "route": {
+        "list_route_id": "4c432a91-6870-48d1-95ac-bec7468330d6"
+      }
+    }
+  ]
+}

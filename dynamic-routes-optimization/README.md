@@ -24,3 +24,4 @@ You will need
 ### Tutorials
 
 - [Get Started](https://github.com/beansai/beans-tutorials/tree/main/dynamic-routes-optimization/get-started)
+- [Plan a route with stops](https://github.com/beansai/beans-tutorials/tree/main/dynamic-routes-optimization/plan-a-route-with-stops)
