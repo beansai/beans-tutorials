@@ -144,7 +144,7 @@ curl -k -H 'Authorization: <token>' https://isp.beans.ai/enterprise/v1/lists/ass
 **The Simple Scenario consists of**
 
 - 14 stops from the Route `4c432a91-6870-48d1-95ac-bec7468330d6` above
-- 1 routes 1 driver
+- 1 route 1 driver
 - Each driver has capacity up to 50 (thus, up to 50 stops)
 - Each driver has up to 8 hours of shift time
 - Starting and Ending location can be flexible
@@ -190,9 +190,11 @@ curl -k -H 'Authorization: <token>' https://isp.beans.ai/enterprise/v1/dro/run -
 
 **Note**: the above assumes that the file `assets/stateless-dro-request.json` is relative to where the cURL is run. The `--data '@xxx'` option instructed cURL to read the file as the body of the POST request.
 
+**Response**
+You can find the sample response at [assets/stateless-dro-response.json](assets/stateless-dro-response.json)
 
 
-Here's a visualization of the map after we ran DRO.
+Here's a visualization of the results.
 
 ![Optimized Route](assets/images/optimized-route.png)
 
