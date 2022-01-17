@@ -18,7 +18,7 @@ For detailed API shapes, please refer to [Beans Route API](https://www.beansrout
   - [Configure a warehouse](#configure-a-warehouse)
   - [Add a route to the warehouse](#add-a-route-to-the-warehouse)
   - [Loading stops into the route](#loading-stops-into-the-route)
-  - [Configure an assignee](configure-an-assignee)
+  - [Configure an assignee](#configure-an-assignee)
   - [Run stateless DRO](#run-stateless-dro)
 
 ## Introduction
