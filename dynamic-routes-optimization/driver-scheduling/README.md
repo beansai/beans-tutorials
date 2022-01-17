@@ -231,7 +231,7 @@ The segments in the [assets/stateless-dro-response.json](assets/stateless-dro-re
 represents the routes that the optimizer found the best solution for given the constraints. To
 finalize those segments, we need to **apply** them into routes for operations.
 
-This tutorial has constructed [assets/apply-dro](assets/dro.json) which included
+This tutorial has constructed [assets/apply-dro](assets/apply-dro.json) which included
    * the "default" warehouse
    * the "default" start time and shift length
    * the segment from the result
