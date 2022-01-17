@@ -25,3 +25,5 @@ You will need
 
 - [Get Started](https://github.com/beansai/beans-tutorials/tree/main/dynamic-routes-optimization/get-started)
 - [Plan a route with stops](https://github.com/beansai/beans-tutorials/tree/main/dynamic-routes-optimization/plan-a-route-with-stops)
+- [Driver Scheduling](https://github.com/beansai/beans-tutorials/tree/main/dynamic-routes-optimization/driver-scheduling)
+

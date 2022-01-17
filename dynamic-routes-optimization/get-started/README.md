@@ -231,7 +231,6 @@ which included
 
 `curl -k -H 'Authorization: <token>' https://isp.beans.ai/enterprise/v1/dro/apply -XPOST --data '@assets/simple_dro_apply.json'`
 
-A simple visualization showing the routes can be found at
 
 Here's the visualization showing the routes
 
