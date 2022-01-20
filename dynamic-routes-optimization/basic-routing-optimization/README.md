@@ -11,7 +11,7 @@ This is an example of how to do the basic routing optimization where there's onl
 ## Table of contents
 
 - [Create the data](#create-the-data)
-  - [Create a warehouse](#configure-a-warehouse)
+  - [Create a warehouse](#create-a-warehouse)
   - [Create a route](#create-a-route)
   - [Add stops to the route](#add-stops-to-the-route)
   - [Configure an assignee](#configure-an-assignee)
@@ -107,7 +107,7 @@ curl -k -H 'Authorization: <token>' https://isp.beans.ai/enterprise/v1/lists/ass
 
 **Note**: Your list_assignee_id should be differ.
 
-##Run stateless DRO
+## Run stateless DRO
 
 **The Simple Scenario consists of**
 

@@ -12,7 +12,7 @@ This is an example of how to optimize the routes for drivers to complete all the
 
 We can also see routes optimizations with different constraints.
 
-- [Capacity constraint](https://github.com/beansai/beans-tutorials/tree/main/dynamic-routes-optimization/vehicles-routeing-optimization-with-capacity-constraints) which vehicles have maximum capacities for items they can carry.
+- [Capacity constraint](https://github.com/beansai/beans-tutorials/tree/main/dynamic-routes-optimization/vehicles-routing-optimization-with-capacity-constraint) which vehicles have maximum capacities for items they can carry.
 - [Time windows](https://github.com/beansai/beans-tutorials/tree/main/dynamic-routes-optimization/vehicles-routing-optimization-with-time-windows) which locations need to be visit in specfic time window.
 
 ## Table of contents
