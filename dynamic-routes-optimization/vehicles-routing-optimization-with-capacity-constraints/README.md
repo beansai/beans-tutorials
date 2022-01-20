@@ -2,7 +2,7 @@
 
 <img src="../assets/images/beans-128x128.png" align="right" />
 
-# Vehicles routing optimization with capacity constraint
+# Vehicles routing optimization with capacity constraints
 
 For optimizing routes for vehicles, sometimes each one might have different capacity limitations.
 
