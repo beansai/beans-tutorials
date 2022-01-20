@@ -18,12 +18,20 @@ can examine, from our UI, the effects as well.
 
 You will need
 
-   * a registered account at [Beans Route](https://beansroute.ai)
-   * the credential to used in Authorization in your API interactions
+   * A registered account at [Beans Route](https://beansroute.ai)
+   * The credential to used in Authorization in your API interactions
 
-### Tutorials
+### Optimizations
 
-- [Get Started](https://github.com/beansai/beans-tutorials/tree/main/dynamic-routes-optimization/get-started)
-- [Plan a route with stops](https://github.com/beansai/beans-tutorials/tree/main/dynamic-routes-optimization/plan-a-route-with-stops)
-- [Driver Scheduling](https://github.com/beansai/beans-tutorials/tree/main/dynamic-routes-optimization/driver-scheduling)
+When we are offering services that need to travel on the way every day, we might want to find an efficient way to visit all the locations with shorter distances or time. Also, sometimes, we might have limitations for location visits.
 
+- A logistic comapny wants to assign routes for drivers to delivery packages.
+- A real estate agent wants to optimize routes for visiting houses with customers.
+- A firestation wants to assign routes for fireman to check fire facilities.
+
+The followings are how we solve these problems with DRO ( Dynamic route optimization )
+
+- [Basic routing optimization](basic-routing-optimization) in which there's only one vehicle.
+- [Vehicles routing optimization](vehicles-routing-optimization).
+- [Vehicles routing optimization with capacity constraints](vehicles-routeing-optimization-with-capacity-constraints) that vehicles have limitation capcities for items they can carry.
+- [Vehicles routing optimization with time windows](vehicles-routing-optimization-with-time-windows) that each stop has time window for visiting.

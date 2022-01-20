@@ -1,0 +1,244 @@
+{
+    "warehouse":
+    {
+        "list_warehouse_id": "b3dfdc19-777c-44e6-85a3-e2b9296d4ac0",
+        "address": "401 Superior Way, Discovery Bay, CA 94505",
+        "position":
+        {
+            "lat": 37.91712,
+            "lng": -121.61918
+        }
+    },
+    "item":
+    [
+        {
+            "list_item_id": "ea29-a6f4c36d69394ba11f52b63a7",
+            "formattedAddress": "6400 Bridgehead Rd, Antioch, CA 94509",
+            "position":
+            {
+                "lat": 38.01683999999999,
+                "lng": -121.7543064
+            },
+            "display_position":
+            {
+                "lat": 38.01683999999999,
+                "lng": -121.7543064
+            },
+            "deliver_from_str": "2033-01-01 09:00",
+            "deliver_by_str": "2033-01-01 11:00",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "ea2928e6-2548-412b-8b19-7f1043324ec3"
+            }
+        },
+        {
+            "list_item_id": "ea29-6a1633a539ac12ace7513403e",
+            "formattedAddress": "4350 Sellers Ave, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.95961,
+                "lng": -121.67764
+            },
+            "display_position":
+            {
+                "lat": 37.95961,
+                "lng": -121.67547
+            },
+            "deliver_from_str": "2033-01-01 09:00",
+            "deliver_by_str": "2033-01-01 10:00",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "ea2928e6-2548-412b-8b19-7f1043324ec3"
+            }
+        },
+        {
+            "list_item_id": "ea29-fae5d3b6b9c9f2f1a14c43b0a",
+            "formattedAddress": "7901 Deer Valley Rd, Antioch, CA 94531",
+            "position":
+            {
+                "lat": 37.92694669999999,
+                "lng": -121.7800247
+            },
+            "display_position":
+            {
+                "lat": 37.92694669999999,
+                "lng": -121.7800247
+            },
+            "deliver_from_str": "2033-01-01 09:00",
+            "deliver_by_str": "2033-01-01 11:00",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "ea2928e6-2548-412b-8b19-7f1043324ec3"
+            }
+        },
+        {
+            "list_item_id": "ea29-8bda03a6fb767178ba25105c5",
+            "formattedAddress": "1700 Trilogy Pkwy, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.90217,
+                "lng": -121.72991
+            },
+            "display_position":
+            {
+                "lat": 37.90206,
+                "lng": -121.72998
+            },
+            "deliver_from_str": "2033-01-01 16:00",
+            "deliver_by_str": "2033-01-01 17:00",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "ea2928e6-2548-412b-8b19-7f1043324ec3"
+            }
+        },
+        {
+            "list_item_id": "ea29-faf623593a6ddc608a0f1a9c4",
+            "formattedAddress": "4701 Lone Tree Way, Antioch, CA 94531",
+            "position":
+            {
+                "lat": 37.96421,
+                "lng": -121.77372
+            },
+            "display_position":
+            {
+                "lat": 37.96651,
+                "lng": -121.77401
+            },
+            "deliver_from_str": "2033-01-01 10:30",
+            "deliver_by_str": "2033-01-01 11:00",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "ea2928e6-2548-412b-8b19-7f1043324ec3"
+            }
+        },
+        {
+            "list_item_id": "ea29-8eca53fefb635f19958ab0cbf",
+            "formattedAddress": "3201 Main St, Oakley, CA 94561",
+            "position":
+            {
+                "lat": 37.99781,
+                "lng": -121.71895
+            },
+            "display_position":
+            {
+                "lat": 37.99736,
+                "lng": -121.71896
+            },
+            "deliver_from_str": "2033-01-01 14:00",
+            "deliver_by_str": "2033-01-01 18:00",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "ea2928e6-2548-412b-8b19-7f1043324ec3"
+            }
+        },
+        {
+            "list_item_id": "ea29-a801b3605afbd726df743cc66",
+            "formattedAddress": "3365 Deer Valley Rd, Antioch, CA 94531",
+            "position":
+            {
+                "lat": 37.98784,
+                "lng": -121.78451
+            },
+            "display_position":
+            {
+                "lat": 37.98784,
+                "lng": -121.78445
+            },
+            "deliver_from_str": "2033-01-01 09:00",
+            "deliver_by_str": "2033-01-01 10:00",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "ea2928e6-2548-412b-8b19-7f1043324ec3"
+            }
+        },
+        {
+            "list_item_id": "ea29-2fd6f3f3ab12cebdddb97ca0f",
+            "formattedAddress": "6700 Balfour Rd, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.92555,
+                "lng": -121.65762
+            },
+            "display_position":
+            {
+                "lat": 37.92265,
+                "lng": -121.65761
+            },
+            "deliver_from_str": "2033-01-01 09:00",
+            "deliver_by_str": "2033-01-01 10:00",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "ea2928e6-2548-412b-8b19-7f1043324ec3"
+            }
+        },
+        {
+            "list_item_id": "ea29-b4d913523baaee8f2ba5e1a25",
+            "formattedAddress": "3110 Balfour Rd, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.92529,
+                "lng": -121.7218
+            },
+            "display_position":
+            {
+                "lat": 37.92434,
+                "lng": -121.7221
+            },
+            "deliver_from_str": "2033-01-01 14:30",
+            "deliver_by_str": "2033-01-01 15:00",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "ea2928e6-2548-412b-8b19-7f1043324ec3"
+            }
+        }
+    ],
+    "assignee_with_vehicle":
+    [
+        {
+            "list_assignee_id": "tu1-tutorial-driver-1"
+        }
+    ],
+    "default_shift_start_time": "09:00",
+    "default_shift_length": 8,
+    "default_capacity": 0,
+    "default_stop_time_seconds": 60,
+    "default_dropoff_time_seconds": 60,
+    "default_pickup_time_seconds": 60,
+    "optimize_for": "DISTANCE"
+}
