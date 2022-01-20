@@ -33,5 +33,5 @@ The followings are how we solve these problems with DRO ( Dynamic route optimiza
 
 - [Basic routing optimization](basic-routing-optimization) in which there's only one vehicle.
 - [Vehicles routing optimization](vehicles-routing-optimization).
-- [Vehicles routing optimization with capacity constraints](vehicles-routeing-optimization-with-capacity-constraints) that vehicles have limitation capcities for items they can carry.
+- [Vehicles routing optimization with capacity constraints](vehicles-routing-optimization-with-capacity-constraints) that vehicles have limitation capcities for items they can carry.
 - [Vehicles routing optimization with time windows](vehicles-routing-optimization-with-time-windows) that each stop has time window for visiting.
