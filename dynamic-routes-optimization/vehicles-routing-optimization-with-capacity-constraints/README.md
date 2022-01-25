@@ -84,7 +84,7 @@ curl -k -H 'Authorization: <token>' -X POST 'https://isp.beans.ai/enterprise/v1/
 curl -k -H 'Authorization: <token>' https://isp.beans.ai/enterprise/v1/lists/items -XPOST --data '@assets/stops.json'
 ```
 
-- You will find file [assets/stops.json](assets/stops.json) containing 359stops in couples of cities in Califonia
+- You will find file [assets/stops.json](assets/stops.json) containing 359 stops in couples of cities in Califonia
 
 - An important thing to note is that each stop contains the route reference to the route that was created above with route id `bd17f760-e214-45e1-b8a6-787f8292724f`
 

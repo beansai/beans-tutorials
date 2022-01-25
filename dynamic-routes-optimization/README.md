@@ -36,3 +36,4 @@ The followings are how we solve these problems with DRO ( Dynamic route optimiza
 - [Vehicles routing optimization with capacity constraints](vehicles-routing-optimization-with-capacity-constraints) that vehicles have limitation capcities for items they can carry.
 - [Vehicles routing optimization with time windows](vehicles-routing-optimization-with-time-windows) that each stop has time window for visiting.
 - [Vehicles routing optimization with shift time](vehicles-routing-optimization-with-shift-time) which drivers have a different schedule for working.
+- [Vehicles routing optimization with floating drivers](vehicles-routing-optimization-with-floating-drivers) that drivers have no schedule or we want to plan in advance.

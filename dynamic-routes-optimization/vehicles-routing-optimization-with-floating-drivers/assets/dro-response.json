@@ -1,0 +1,1836 @@
+{
+    "segment": [
+        {
+            "listAssigneeId": "extra-driver-0",
+            "item": [
+                {
+                    "listItemId": "f07d-3638d39eb9e056a7b811653d9",
+                    "formattedAddress": "145 Middlefield Ct, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.92319,
+                        "longitude": -121.6844
+                    },
+                    "displayPosition": {
+                        "latitude": 37.9232,
+                        "longitude": -121.68491
+                    },
+                    "estimatedByStr": "09:40"
+                },
+                {
+                    "listItemId": "f07d-941a73696978a7325c74e3a81",
+                    "formattedAddress": "191 Fahmy St, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.92243,
+                        "longitude": -121.68219
+                    },
+                    "displayPosition": {
+                        "latitude": 37.92262,
+                        "longitude": -121.68219
+                    },
+                    "estimatedByStr": "09:44",
+                    "estimatedCapacity": 1
+                },
+                {
+                    "listItemId": "f07d-c928e31aaa5689dbc60b28f1e",
+                    "formattedAddress": "892 Walsh St, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.9215773,
+                        "longitude": -121.6800837
+                    },
+                    "displayPosition": {
+                        "latitude": 37.9215773,
+                        "longitude": -121.6800837
+                    },
+                    "estimatedByStr": "09:46",
+                    "estimatedCapacity": 2
+                },
+                {
+                    "listItemId": "f07d-90c4b30099840a7b9744bcf0b",
+                    "formattedAddress": "424 Napoli Ct, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.919426,
+                        "longitude": -121.68189
+                    },
+                    "displayPosition": {
+                        "latitude": 37.919426,
+                        "longitude": -121.68189
+                    },
+                    "estimatedByStr": "09:48",
+                    "estimatedCapacity": 3
+                },
+                {
+                    "listItemId": "f07d-952733e758751427f4e77128e",
+                    "formattedAddress": "461 Catalano Ct, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.9190232,
+                        "longitude": -121.681577
+                    },
+                    "displayPosition": {
+                        "latitude": 37.9190232,
+                        "longitude": -121.681577
+                    },
+                    "estimatedByStr": "09:49",
+                    "estimatedCapacity": 4
+                },
+                {
+                    "listItemId": "f07d-e214430e489c55478991fa3ca",
+                    "formattedAddress": "573 Divisi Ct, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.918852,
+                        "longitude": -121.6789042
+                    },
+                    "displayPosition": {
+                        "latitude": 37.918852,
+                        "longitude": -121.6789042
+                    },
+                    "estimatedByStr": "09:51",
+                    "estimatedCapacity": 5
+                },
+                {
+                    "listItemId": "f07d-5df3e3a359e6c52efbf4e79bc",
+                    "formattedAddress": "119 Panorama Way, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.92328,
+                        "longitude": -121.67875
+                    },
+                    "displayPosition": {
+                        "latitude": 37.92328,
+                        "longitude": -121.67903
+                    },
+                    "estimatedByStr": "09:54",
+                    "estimatedCapacity": 6
+                },
+                {
+                    "listItemId": "f07d-a1b1830e7a68a20ff0553dbba",
+                    "formattedAddress": "11440 Byron Hwy, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.9193,
+                        "longitude": -121.6412
+                    },
+                    "displayPosition": {
+                        "latitude": 37.91931,
+                        "longitude": -121.64183
+                    },
+                    "estimatedByStr": "10:02",
+                    "estimatedCapacity": 7
+                }
+            ],
+            "timeS": 5853.0,
+            "distanceM": 67190.90000000001,
+            "pathEncoded": "wjheF~esdV?@EvIfEJDzE`A@|BT~DD`AAdAcC^_BNUjAAE~M{RAyHBeAAkE@mE@{B?mH@G?cE?e@?uC@iB?yA@aJAaC?qIH}@@Q?M?yIGeB?}C@oDLY?_G@u@Cg@AI?u@AaEIuV?}F@sDAwG@aOBkB?c@?aGBgCA{A?g@?kD@}BAS?gC?kHCyC@}@?yKB{@Aa@YsHnN}@~A{AtCuClFmA|BqGvLoHjNeBtD_BxDsAdDsBrEo@nAINgAtBaIrOMR_EbHc@t@}BnDwEvGyBtDUb@aFjJs@nAw@zAiA|BcEtHyCtF_Q~[gE`IgFjJq@rAeAnBOXkCbF{B`EeCvEcClE}DnHcGbLmm@rhAqWjg@sD`H_@n@}ClFWb@aLnTcDjGwf@d_AuBzDu@vAwB~DqA~BoDxGsJzNoKjNqBlEi@bAw@|@s@f@oA~@wB^c@BgBDgBD_AJ}@R}@b@s@`@i@b@e@h@g@t@_@h@{@lB{@xA_QnOkl@fg@_]dZg@b@gHjGis@tm@qG`GiEpD{Y~VgA~@cDrAuCzBoE`E_DnCa@\\o@h@SHSD}C?i@AeA?kGA_BAyFAoFAcEAwE?]?u@A_B?iG?_B?M?C?qHCe@?aCAoB?aB?KAgFAkHAs@?WA_B?s@Am@?q@?WCWGMGWOQQOSKQaAj@_AXu@LeADoG?yFEuAA_C?gBAsB?{KGiTA}AAeG?iA?aHAyNCoDJ}A`@gBx@E@uA`B{@hBO\\Qv@]`BEzC@`D@lF@fW?~DA`V?`\\Ctw@AdS?|AAdRCz@Gl@Gf@Ot@{@xCgApCoAvBgBpB__@z[u@p@SLk@d@oAbAuB`ByFvEqC~BeA~@}DjDuChCy@iBs@_BUe@a@}@GMAGCMI[@aB?oC|@A`@?^?^AT?L?@@d@_@fB?PyD@QESQAqAEiACIBEFEH?Z@zC?z@_@@_@?a@?}@@?]?oB?]AoB?Y?_B?cC?i@?WjA?pC?vCA`@??S?C?oCIOmD?lD?HN?fA?fA?B?RzA?tA??Y?mDO?SIGO@cH?MDOHKRCxAAAnJl@?bCBh@?~A@@bB?zB?{BA_A?c@?oA`FAwB?iB@?oDAuDs@?QO?a@?_ChHEuA@sEB?gC{KG{DCApDgA?wF??lC?nC}A?Iv@eBA?gH@q@?aCC]Ay]?cG?y@?S?_A?wCAmE?}A?G?[@{RA_d@?kA?cK?}D?qI?gB?gN@ab@?c]`UJX?zMDl@?pA@N?nR@pR?zA?bF?h@Dh@D`A`@v@~@DAfBy@|Aa@nDKxNB`H@hA?dG?|A@hT@zKFrB?fB@~B?tA@xFDnG?dAEt@M~@Y`Ak@JPNRPPVNLFVFVBp@?l@?r@@~A?V@r@?jH@fF@J@`B?nB?`C@d@?pHBB?L?~A?hG?~A?t@@\\?vE?bE@nF@xF@~A@jG@dA?h@@|C?RERIn@i@`@]~CoCnEaEtC{BbDsAfA_AzY_WhEqDpGaGhs@um@fHkGf@c@~\\eZjl@gg@~PoOz@yAz@mB^i@f@u@d@i@h@c@r@a@|@c@|@S~@KfBEfBEb@CvB_@nA_Ar@g@v@}@h@cApBmEnKkNrJ{NnDyGpA_CvB_Et@wAtB{Dvf@e_AbDkG`LoTVc@|CmF^o@rDaHpWkg@lm@shAbGcL|DoHbCmEdCwEzBaEjCcFNYdAoBp@sAfFkJfEaI~P_\\xCuFbEuHhA}Bv@{Ar@oA`FkJTc@xBuDvEwG|BoDb@u@~DcHLS`IsOfAuBHOn@oArBsErAeD~AyDdBuDnHkNpGwLlA}BtCmFzAuC|@_BrHoN`@Xz@@xKC|@?xCAjHBfC?R?|B@jDAf@?zA?fC@`GCb@?jB?`OCvGArD@|FAtV?`EHt@@H?f@@t@B~FAX?nDM|CAdB?xIFL?P?|@ApII`C?`J@xAAhB?tCAd@?bE?F?lHAzB?lEAjEAdA@xHCzR@D_NkA@OT_@~AeAbCaA@_EE}BUaAAE{EgEKDwI?A",
+            "capacity": 10,
+            "shiftStartTime": "09:00"
+        },
+        {
+            "listAssigneeId": "extra-driver-1",
+            "item": [
+                {
+                    "listItemId": "f07d-72e5c394eb244073c9f5007c9",
+                    "formattedAddress": "25484 Marsh Creek Rd, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.89652,
+                        "longitude": -121.65115
+                    },
+                    "displayPosition": {
+                        "latitude": 37.89581,
+                        "longitude": -121.65116
+                    },
+                    "estimatedByStr": "09:32"
+                },
+                {
+                    "listItemId": "f07d-e844b3f33b662b4c5d178e7e1",
+                    "formattedAddress": "25375 Marsh Creek Rd, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.89652,
+                        "longitude": -121.65323
+                    },
+                    "displayPosition": {
+                        "latitude": 37.89822,
+                        "longitude": -121.65328
+                    },
+                    "estimatedByStr": "09:34",
+                    "estimatedCapacity": 1
+                },
+                {
+                    "listItemId": "f07d-46ac638749f4ba746bc25595a",
+                    "formattedAddress": "4685 Roosevelt Dr, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.91879,
+                        "longitude": -121.69061
+                    },
+                    "displayPosition": {
+                        "latitude": 37.91899,
+                        "longitude": -121.69061
+                    },
+                    "estimatedByStr": "09:42",
+                    "estimatedCapacity": 2
+                },
+                {
+                    "listItemId": "f07d-ce6303876a193a11a83c3f246",
+                    "formattedAddress": "3042 Hudson Dr, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.91919,
+                        "longitude": -121.69203
+                    },
+                    "displayPosition": {
+                        "latitude": 37.91918,
+                        "longitude": -121.69171
+                    },
+                    "estimatedByStr": "09:44",
+                    "estimatedCapacity": 3
+                },
+                {
+                    "listItemId": "f07d-6f90832949afd65a87ed4e06f",
+                    "formattedAddress": "3053 Hudson Dr, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.91998,
+                        "longitude": -121.69243
+                    },
+                    "displayPosition": {
+                        "latitude": 37.91985,
+                        "longitude": -121.69267
+                    },
+                    "estimatedByStr": "09:45",
+                    "estimatedCapacity": 4
+                },
+                {
+                    "listItemId": "f07d-7b6d03d9ebc30777ea94988b0",
+                    "formattedAddress": "4701 Nunn Ct, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.92108,
+                        "longitude": -121.68909
+                    },
+                    "displayPosition": {
+                        "latitude": 37.92125,
+                        "longitude": -121.68925
+                    },
+                    "estimatedByStr": "09:47",
+                    "estimatedCapacity": 5
+                },
+                {
+                    "listItemId": "f07d-8e85239348a826696d00cd6cb",
+                    "formattedAddress": "3054 Shiles Loop, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.91995,
+                        "longitude": -121.68797
+                    },
+                    "displayPosition": {
+                        "latitude": 37.92007,
+                        "longitude": -121.68774
+                    },
+                    "estimatedByStr": "09:49",
+                    "estimatedCapacity": 6
+                },
+                {
+                    "listItemId": "f07d-5ec333e2ca6cd29ca7a1ed1c3",
+                    "formattedAddress": "263 Grisby Ct, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.92211,
+                        "longitude": -121.69027
+                    },
+                    "displayPosition": {
+                        "latitude": 37.92228,
+                        "longitude": -121.69043
+                    },
+                    "estimatedByStr": "09:51",
+                    "estimatedCapacity": 7
+                },
+                {
+                    "listItemId": "f07d-fb4883633b4dbe6745c2bf1f5",
+                    "formattedAddress": "4704 Carnegie Ln, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.92182,
+                        "longitude": -121.69236
+                    },
+                    "displayPosition": {
+                        "latitude": 37.92163,
+                        "longitude": -121.69224
+                    },
+                    "estimatedByStr": "09:53",
+                    "estimatedCapacity": 8
+                },
+                {
+                    "listItemId": "f07d-876cf38edb7f8b5691d97807a",
+                    "formattedAddress": "4603 Balfour Rd, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.92691523490194,
+                        "longitude": -121.69532192762657
+                    },
+                    "displayPosition": {
+                        "latitude": 37.92702587089997,
+                        "longitude": -121.6953199989272
+                    },
+                    "estimatedByStr": "09:56",
+                    "estimatedCapacity": 9
+                },
+                {
+                    "listItemId": "f07d-52769324bab0fb19fc1ff5f0f",
+                    "formattedAddress": "3660 Walnut Blvd, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.92802,
+                        "longitude": -121.6961
+                    },
+                    "displayPosition": {
+                        "latitude": 37.9279,
+                        "longitude": -121.69462
+                    },
+                    "estimatedByStr": "09:59",
+                    "estimatedCapacity": 10
+                },
+                {
+                    "listItemId": "f07d-00a553f5c917a50dce6995180",
+                    "formattedAddress": "3940 Walnut Blvd, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.93212,
+                        "longitude": -121.69744
+                    },
+                    "displayPosition": {
+                        "latitude": 37.93218,
+                        "longitude": -121.69733
+                    },
+                    "estimatedByStr": "10:01",
+                    "estimatedCapacity": 11
+                },
+                {
+                    "listItemId": "f07d-5539139e0ac7340474c7af7d0",
+                    "formattedAddress": "951 Villa Ter, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.93283,
+                        "longitude": -121.70038
+                    },
+                    "displayPosition": {
+                        "latitude": 37.93283,
+                        "longitude": -121.69976
+                    },
+                    "estimatedByStr": "10:03",
+                    "estimatedCapacity": 12
+                },
+                {
+                    "listItemId": "f07d-b043d3dbdbd3f13fb0627263e",
+                    "formattedAddress": "1030 Dainty Ave, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.93265,
+                        "longitude": -121.70546
+                    },
+                    "displayPosition": {
+                        "latitude": 37.93221,
+                        "longitude": -121.70546
+                    },
+                    "estimatedByStr": "10:05",
+                    "estimatedCapacity": 13
+                },
+                {
+                    "listItemId": "f07d-8ff203570aaf03524054be7ac",
+                    "formattedAddress": "888 S Estates Dr, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.9342,
+                        "longitude": -121.70809
+                    },
+                    "displayPosition": {
+                        "latitude": 37.93421,
+                        "longitude": -121.70777
+                    },
+                    "estimatedByStr": "10:07",
+                    "estimatedCapacity": 14
+                },
+                {
+                    "listItemId": "f07d-4b1273e0ca4970dd9c0d4b05a",
+                    "formattedAddress": "525 Mandevilla Dr, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.93363,
+                        "longitude": -121.70392
+                    },
+                    "displayPosition": {
+                        "latitude": 37.93363,
+                        "longitude": -121.70406
+                    },
+                    "estimatedByStr": "10:10",
+                    "estimatedCapacity": 15
+                },
+                {
+                    "listItemId": "f07d-ae26a38b6afb1fdb10e5fbb42",
+                    "formattedAddress": "504 Bougainvilla Ct, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.93426,
+                        "longitude": -121.70453
+                    },
+                    "displayPosition": {
+                        "latitude": 37.93408,
+                        "longitude": -121.70442
+                    },
+                    "estimatedByStr": "10:11",
+                    "estimatedCapacity": 16
+                },
+                {
+                    "listItemId": "f07d-fa56a38cdb657956f7ea390d6",
+                    "formattedAddress": "601 Amaryllis Ct, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.93475,
+                        "longitude": -121.70253
+                    },
+                    "displayPosition": {
+                        "latitude": 37.93458,
+                        "longitude": -121.7023
+                    },
+                    "estimatedByStr": "10:13",
+                    "estimatedCapacity": 17
+                },
+                {
+                    "listItemId": "f07d-341853d9e88afcd8b592508c7",
+                    "formattedAddress": "313 MacArthur Way, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.93618,
+                        "longitude": -121.70346
+                    },
+                    "displayPosition": {
+                        "latitude": 37.93645,
+                        "longitude": -121.70369
+                    },
+                    "estimatedByStr": "10:16",
+                    "estimatedCapacity": 18
+                },
+                {
+                    "listItemId": "f07d-d99b13e2c86896fcf45fd62b3",
+                    "formattedAddress": "488 Trianda Way, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.93751,
+                        "longitude": -121.70566
+                    },
+                    "displayPosition": {
+                        "latitude": 37.93751,
+                        "longitude": -121.70566
+                    },
+                    "estimatedByStr": "10:18",
+                    "estimatedCapacity": 19
+                },
+                {
+                    "listItemId": "f07d-0e5dc349c8b3c0d710171cc4e",
+                    "formattedAddress": "940 N Estates Dr, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.93552,
+                        "longitude": -121.70807
+                    },
+                    "displayPosition": {
+                        "latitude": 37.93549,
+                        "longitude": -121.70778
+                    },
+                    "estimatedByStr": "10:21",
+                    "estimatedCapacity": 20
+                },
+                {
+                    "listItemId": "f07d-2daff3e48b2eb861edb4f96c1",
+                    "formattedAddress": "695 Timberline Ter, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.93508,
+                        "longitude": -121.71155
+                    },
+                    "displayPosition": {
+                        "latitude": 37.93508,
+                        "longitude": -121.71178
+                    },
+                    "estimatedByStr": "10:23",
+                    "estimatedCapacity": 21
+                },
+                {
+                    "listItemId": "f07d-decfa3164840f4c3f63ffc1ac",
+                    "formattedAddress": "725 Willow Creek Ter, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.93561,
+                        "longitude": -121.70972
+                    },
+                    "displayPosition": {
+                        "latitude": 37.93561,
+                        "longitude": -121.7101
+                    },
+                    "estimatedByStr": "10:25",
+                    "estimatedCapacity": 22
+                },
+                {
+                    "listItemId": "f07d-4800536298028871a40d1cc0a",
+                    "formattedAddress": "845 Caribou Ter, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.93391,
+                        "longitude": -121.71221
+                    },
+                    "displayPosition": {
+                        "latitude": 37.93427,
+                        "longitude": -121.71221
+                    },
+                    "estimatedByStr": "10:27",
+                    "estimatedCapacity": 23
+                },
+                {
+                    "listItemId": "f07d-91bc73ed8b00bc3677615c00d",
+                    "formattedAddress": "732 Heather Pl, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.93164,
+                        "longitude": -121.70622
+                    },
+                    "displayPosition": {
+                        "latitude": 37.93164,
+                        "longitude": -121.70582
+                    },
+                    "estimatedByStr": "10:31",
+                    "estimatedCapacity": 24
+                },
+                {
+                    "listItemId": "f07d-d58c139da89dc30392c117459",
+                    "formattedAddress": "780 Heather Pl, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.93216,
+                        "longitude": -121.70622
+                    },
+                    "displayPosition": {
+                        "latitude": 37.93229,
+                        "longitude": -121.70588
+                    },
+                    "estimatedByStr": "10:32",
+                    "estimatedCapacity": 25
+                },
+                {
+                    "listItemId": "f07d-32a403c6aaae5c15afdb21069",
+                    "formattedAddress": "23 Kensington Ct, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.92982,
+                        "longitude": -121.70265
+                    },
+                    "displayPosition": {
+                        "latitude": 37.92984,
+                        "longitude": -121.70298
+                    },
+                    "estimatedByStr": "10:35",
+                    "estimatedCapacity": 26
+                },
+                {
+                    "listItemId": "f07d-74e16306e80959cf7728f7edb",
+                    "formattedAddress": "135 French Dr, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.92855,
+                        "longitude": -121.70194
+                    },
+                    "displayPosition": {
+                        "latitude": 37.92855,
+                        "longitude": -121.70223
+                    },
+                    "estimatedByStr": "10:37",
+                    "estimatedCapacity": 27
+                },
+                {
+                    "listItemId": "f07d-1593a37a6b682bc0b0a9fdc62",
+                    "formattedAddress": "130 French Dr, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.92812,
+                        "longitude": -121.70207
+                    },
+                    "displayPosition": {
+                        "latitude": 37.92813,
+                        "longitude": -121.70174
+                    },
+                    "estimatedByStr": "10:38",
+                    "estimatedCapacity": 28
+                },
+                {
+                    "listItemId": "f07d-958763230b1bb2267e12d7cdf",
+                    "formattedAddress": "163 Fisher Ct, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.92898,
+                        "longitude": -121.70291
+                    },
+                    "displayPosition": {
+                        "latitude": 37.92905,
+                        "longitude": -121.7032
+                    },
+                    "estimatedByStr": "10:40",
+                    "estimatedCapacity": 29
+                },
+                {
+                    "listItemId": "f07d-2e3cf3c6f9bd5bda4908b35f1",
+                    "formattedAddress": "173 Avery Ct, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.92825,
+                        "longitude": -121.70399
+                    },
+                    "displayPosition": {
+                        "latitude": 37.92825,
+                        "longitude": -121.70419
+                    },
+                    "estimatedByStr": "10:42",
+                    "estimatedCapacity": 30
+                },
+                {
+                    "listItemId": "f07d-73e4d33e7a1f3784a0a63d888",
+                    "formattedAddress": "382 Fletcher Ln, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.92705,
+                        "longitude": -121.70479
+                    },
+                    "displayPosition": {
+                        "latitude": 37.92696,
+                        "longitude": -121.70499
+                    },
+                    "estimatedByStr": "10:43",
+                    "estimatedCapacity": 31
+                },
+                {
+                    "listItemId": "f07d-74de73075a897e3138571c9b8",
+                    "formattedAddress": "360 Fletcher Ln, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.92679,
+                        "longitude": -121.70279
+                    },
+                    "displayPosition": {
+                        "latitude": 37.92657,
+                        "longitude": -121.70279
+                    },
+                    "estimatedByStr": "10:45",
+                    "estimatedCapacity": 32
+                },
+                {
+                    "listItemId": "f07d-1148a38d28ebf34f5f3eb6486",
+                    "formattedAddress": "266 Madrone Pl, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.92495,
+                        "longitude": -121.70127
+                    },
+                    "displayPosition": {
+                        "latitude": 37.92463,
+                        "longitude": -121.70127
+                    },
+                    "estimatedByStr": "10:47",
+                    "estimatedCapacity": 33
+                },
+                {
+                    "listItemId": "f07d-59d7c3083af31ac13e300421a",
+                    "formattedAddress": "190 Hickory Ct, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.92269,
+                        "longitude": -121.70237
+                    },
+                    "displayPosition": {
+                        "latitude": 37.92273,
+                        "longitude": -121.70208
+                    },
+                    "estimatedByStr": "10:49",
+                    "estimatedCapacity": 34
+                },
+                {
+                    "listItemId": "f07d-514cf373e90a0e3a62d1552b7",
+                    "formattedAddress": "281 Hazel Ct, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.92318,
+                        "longitude": -121.70126
+                    },
+                    "displayPosition": {
+                        "latitude": 37.92334,
+                        "longitude": -121.70136
+                    },
+                    "estimatedByStr": "10:51",
+                    "estimatedCapacity": 35
+                },
+                {
+                    "listItemId": "f07d-b448c3a56b281c69f16dec0eb",
+                    "formattedAddress": "431 Persimmon Dr, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.92346,
+                        "longitude": -121.70409
+                    },
+                    "displayPosition": {
+                        "latitude": 37.92368,
+                        "longitude": -121.70409
+                    },
+                    "estimatedByStr": "10:53",
+                    "estimatedCapacity": 36
+                },
+                {
+                    "listItemId": "f07d-c2aca313c8d59b9ec61295a42",
+                    "formattedAddress": "174 Pistachio Pl, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.9231,
+                        "longitude": -121.70429
+                    },
+                    "displayPosition": {
+                        "latitude": 37.9231,
+                        "longitude": -121.70401
+                    },
+                    "estimatedByStr": "10:54",
+                    "estimatedCapacity": 37
+                },
+                {
+                    "listItemId": "f07d-ca1ff3ace977b36b816388b84",
+                    "formattedAddress": "621 Avington Ct, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.92447,
+                        "longitude": -121.7082
+                    },
+                    "displayPosition": {
+                        "latitude": 37.92447,
+                        "longitude": -121.7085
+                    },
+                    "estimatedByStr": "10:57",
+                    "estimatedCapacity": 38
+                },
+                {
+                    "listItemId": "f07d-2e0413b82bbac696203aa9803",
+                    "formattedAddress": "697 Bellmeade Way, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.92326,
+                        "longitude": -121.70877
+                    },
+                    "displayPosition": {
+                        "latitude": 37.92349,
+                        "longitude": -121.70866
+                    },
+                    "estimatedByStr": "10:59",
+                    "estimatedCapacity": 39
+                },
+                {
+                    "listItemId": "f07d-efc7e3916821c0dff570fa924",
+                    "formattedAddress": "684 Bellmeade Way, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.92316,
+                        "longitude": -121.70815
+                    },
+                    "displayPosition": {
+                        "latitude": 37.92282,
+                        "longitude": -121.70816
+                    },
+                    "estimatedByStr": "11:00",
+                    "estimatedCapacity": 40
+                },
+                {
+                    "listItemId": "f07d-382ad3cbd88179de55b856849",
+                    "formattedAddress": "303 Mondavi Ln, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.92035,
+                        "longitude": -121.71086
+                    },
+                    "displayPosition": {
+                        "latitude": 37.92035,
+                        "longitude": -121.71114
+                    },
+                    "estimatedByStr": "11:03",
+                    "estimatedCapacity": 41
+                },
+                {
+                    "listItemId": "f07d-6b6a737a48c1cb55eab11fdef",
+                    "formattedAddress": "744 Campanello Way, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.9191,
+                        "longitude": -121.71127
+                    },
+                    "displayPosition": {
+                        "latitude": 37.91876,
+                        "longitude": -121.71127
+                    },
+                    "estimatedByStr": "11:04",
+                    "estimatedCapacity": 42
+                },
+                {
+                    "listItemId": "f07d-01cc8390997df69c4cb1c71d9",
+                    "formattedAddress": "200 Continente Ave, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.9219,
+                        "longitude": -121.70542
+                    },
+                    "displayPosition": {
+                        "latitude": 37.92167,
+                        "longitude": -121.70542
+                    },
+                    "estimatedByStr": "11:07",
+                    "estimatedCapacity": 43
+                },
+                {
+                    "listItemId": "f07d-b526b3fd7bdeeee46cc439d42",
+                    "formattedAddress": "500 Edgefield St, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.92118,
+                        "longitude": -121.70323
+                    },
+                    "displayPosition": {
+                        "latitude": 37.92097,
+                        "longitude": -121.70323
+                    },
+                    "estimatedByStr": "11:09",
+                    "estimatedCapacity": 44
+                },
+                {
+                    "listItemId": "f07d-e4d713be1990835781a14fc68",
+                    "formattedAddress": "541 Cashew Pl, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.91978,
+                        "longitude": -121.70171
+                    },
+                    "displayPosition": {
+                        "latitude": 37.91999,
+                        "longitude": -121.70171
+                    },
+                    "estimatedByStr": "11:11",
+                    "estimatedCapacity": 45
+                },
+                {
+                    "listItemId": "f07d-2e2c834faa81e742404988484",
+                    "formattedAddress": "167 Davidson Ct, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.92261,
+                        "longitude": -121.69949
+                    },
+                    "displayPosition": {
+                        "latitude": 37.92282,
+                        "longitude": -121.69949
+                    },
+                    "estimatedByStr": "11:14",
+                    "estimatedCapacity": 46
+                },
+                {
+                    "listItemId": "f07d-e2cfe3a73b3ee7e74e56830dc",
+                    "formattedAddress": "24630 Marsh Creek Rd, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.8933741,
+                        "longitude": -121.6633117
+                    },
+                    "displayPosition": {
+                        "latitude": 37.8933741,
+                        "longitude": -121.6633117
+                    },
+                    "estimatedByStr": "11:24",
+                    "estimatedCapacity": 47
+                }
+            ],
+            "timeS": 10862.0,
+            "distanceM": 88526.4,
+            "pathEncoded": "wjheF~esdV?@EvIfEJDzE`A@|BT~DD`AAdAcC^_BNUjAAE~M{RAyHBeAAkE@mE@{B?mH@G?cE?e@?uC@iB?yA@aJAaC?qIH}@@Q?M?yIGeB?}C@oDLY?_G@u@Cg@AI?u@AaEIuV?}F@sDAwG@aOBkB?c@?aGBgCA{A?g@?kD@}BAS?gC?kHCyC@}@?yKB{@Aa@YsHnN}@~A{AtCuClFmA|BqGvLoHjNeBtD_BxDsAdDsBrEo@nAINgAtBaIrOMR_EbHc@t@}BnDwEvGyBtDUb@aFjJs@nAw@zAiA|BcEtHyCtF_Q~[gE`IgFjJq@rAeAnBOXkCbF{B`EeCvEcClE}DnHcGbLmm@rhAqWjg@sD`H_@n@}ClFWb@aLnTcDjGwf@d_AuBzDu@vAwB~DqA~BoDxGsJzNoKjNqBlEi@bAw@|@s@f@oA~@wB^c@BgBDgBD_AJ}@R}@b@s@`@i@b@e@h@g@t@_@h@{@lB{@xA_QnOkl@fg@_]dZg@b@gHjGis@tm@qG`GiEpD{Y~VgA~@cDrAuCzBoE`E_DnCa@\\o@h@SHSD}C?i@AeA?kGA_BAyFAoFAcEAwE?]?u@A_B?iG?_B?M?C?qHCe@?aCAoB?aB?KAgFAkHAs@?WA_B?s@Am@?q@?WCWGMGWOQQOSKQaAj@_AXu@LeADoG?yFEuAA_C?gBAsB??jB?D?`E?vFAbIArGAxEGrM?j@?jAAjK?R@dG@bB@z@?`@BbD?t@?vC?dK?J?|@CjMAvK?f@?xB?vBAhG?|MAhHAhV@hVD~G?z@FxI@jA@nBB|FCjEE|H?R?jM?pB@fBLhM?bFC~GB|HkLCaGAkOES?mFBeAAkICYAiA?sAAeCAgHCsICaAAe@?aG@a@@g@?wA?{F@gH@}J?a@?S?OEq@EAiM?kJAoMqA@?jDAxA?fEmA@_A@}AdAYPkBdBoBjBwA_Dm@oBwAaDm@oAm@oAu@_BpIiHt@|AzA~ClB_B_BkDhCeCFHFDH?F?FCFGDKBKDWYBg@f@ONyBtB~AjDmB~AsBbBiB~A}BuEt@xAfAzBsBfBvA`DJ\\`@pAvA~Cy@p@g@Tw@FyC?gA?iAAoA?kAAQ?WASG@G?KAKEIAAEEKAI@GFEHCHQCmB@Y?_A?cA@Ac@CMUM[OK?m@ZELCF@jACN?rF?j@DNHHlA?dA?NAHMBM?{I~@?@jMyD@E?_AAa@Po@C{AEu@AG?MMyD@]?uACuAAa@Bo@L]PQZe@b@_BzAy@t@URQa@s@l@_@XT`@MLgA~@@lA?|A?D?tAAzD_@FS?Y?c@?CF?t@BLAl@@m@CM?u@BGb@?X?H?H?^G?nEAvB?hE?X?vD?vE?|@?@?n@AfF?jFQJyBBgDE??fDDxBCPK?kFQ?oBASA?wB?_MGOQKU?{B@k@ZHJ~@rDCh@Bi@_@wA_@{AIKk@kAo@eA{@kB?Q?OLS^k@n@d@??o@e@Zg@`@{AVmCKk@[QIiAW`@ObAWpBGZQl@a@t@c@h@o@j@OLUPQP{DfDM^VGvBiBp@tA`CfFiCxBOLqAhAcBxAw@_Be@}@O]HGd@c@t@m@LX|A`DpAiANMhCyBxAoAr@lBZxAR|AHjB@tAJ`@A~AEtAG~@s@H]BeA?{@M}ABYDXE|ACNBj@HdA?\\Cr@I@xBA\\?|@?`ADz@JjAT~ARh@R`@h@t@e@t@?V{BbDs@bAOYK[K]?eD|@?DRbA??a@cA?ELe@?W?EwDA_Dc@Um@AYAEKeAA?`@dA@DUX@F?d@@b@T@~CDvD?dDJ\\JZNXf@d@n@PfC@ESA_BJ??_A?_@Y?A`BNA@~ADRgCAo@Qg@e@r@cAzBcDPGXc@HMOSi@u@Sa@Si@U_BKkAE{@?aA?}@@]AyBF_ADuA@_BdA@tA?j@?L?R@nB@P?jIAIyByB?eB???~E?HxB`B?jABhDD@uC?}C?yD?}D?aDwB?D?pB??qDnA?b@HXLRJ^H^?lB@?xDkD?oA?YQ??XPnA?jD?A~DmDBmA@[HZIlAAf@AdCAD`BDNJ^^v@l@a@FEj@]?cJ?e@vC?jB?AlMXAAiMLAjA?AmI@bA?hGrCArCCfDi@Z@[AK@{Cf@?gAJy@La@R[\\[]aAW_@V^JVPh@]ZSZM`@Kx@?fA?bB?z@@nC?l@vECoCBgA??rBqB?iC?eC?Y@BbL?H?lAB`F?l@V?fB@AyBrAAG@kA?@xBlA?t@F~@RlAt@Tg@Ne@BMH[Fw@@g@?c@?qEzC@~@Cp@SLp@^lAJl@Bp@@x@J|@Zr@n@`@t@L@|DAlDtA?xF??rAAzGwA@sB?oB?a@KLkA@}A?{D@mDA}Du@Mo@a@[s@K}@Ay@Cq@Km@_@mAMq@KaAEy@?yC?gBnCF?uI?i@jC?lC@A}L?tD@fGmCAkC?oC@?iI@uN?O@?BABA@CBE@IAECGCA?AC?CAA?EBA@C@?BAFM@oBEA`I?yC@gDnBDLA?HBFDBB@@?@?BABA@CBE@IAECGCA?AC?CA?O?oB@iCCSO_BAiApC@vD@vHCZAv@Ap@ANER?`@?|J?fHAzFAvA?f@?`@A`GAd@?`A@rIBfHBdC@rA@hA?X@jIBdA@lFCR?jOD`G@jLBC}HB_H?cFMiMAgB?qB?kM?SD}HBkEC}FAoBAkAGyI?{@E_HAiV@iV@iH?}MfA?fAAF?X@b@Cd@W`@e@v@}@n@u@LIXOTITIf@WXYPYLYJWJMPERCXKNKDOB]B]Ae@KsAMsAC[@J@NLrAJrA@d@C\\C\\ENOJYJSBQDKLKVMXQXYXg@VUHUHYNMHo@t@w@|@a@d@e@Vc@BYAG?gA@gA?@iG?wB?yB?g@@wKBkM?}@?K?eK?wC?u@CcD?a@A{@AcBAyG@wM?k@FsM@yE@sG@cI?wF?aE?EXs@`@Yv@]fB@~B?tA@xFDnG?dAEt@M~@Y`Ak@JPNRPPVNLFVFVBp@?l@?r@@~A?V@r@?jH@fF@J@`B?nB?`C@d@?pHBB?L?~A?hG?~A?t@@\\?vE?bE@nF@xF@~A@jG@dA?h@@|C?RERIn@i@`@]~CoCnEaEtC{BbDsAfA_AzY_WhEqDpGaGhs@um@fHkGf@c@~\\eZjl@gg@~PoOz@yAz@mB^i@f@u@d@i@h@c@r@a@|@c@|@S~@KfBEfBEb@CvB_@nA_Ar@g@v@}@h@cApBmEnKkNrJ{NnDyGpA_CvB_Et@wAtB{Dvf@e_AbDkG`LoTVc@|CmF^o@rDaHpWkg@lm@shAbGcL|DoHbCmEdCwEzBaEjCcFNYdAoBp@sAfFkJfEaI~P_\\xCuFbEuHhA}Bv@{Ar@oA`FkJTc@xBuDvEwG|BoDb@u@~DcHLS`IsOfAuBHOn@oArBsErAeD~AyDdBuDnHkNpGwLlA}BtCmFzAuC|@_BrHoN`@Xz@@xKC|@?xCAjHBfC?R?|B@jDAf@?zA?fC@`GCb@?jB?`OCvGArD@|FAtV?`EHt@@H?f@@t@B~FAX?nDM|CAdB?xIFL?P?|@ApII`C?`J@xAAhB?tCAd@?bE?F?lHAzB?lEAjEAdA@xHCzR@D_NkA@OT_@~AeAbCaA@_EE}BUaAAE{EgEKDwI?A",
+            "capacity": 50,
+            "shiftStartTime": "09:00"
+        },
+        {
+            "listAssigneeId": "extra-driver-2",
+            "item": [
+                {
+                    "listItemId": "f07d-5dab7309fad821195253e5eb6",
+                    "formattedAddress": "409 Violet Pl, Tracy, CA 95377",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.69868,
+                        "longitude": -121.4316
+                    },
+                    "displayPosition": {
+                        "latitude": 37.69887,
+                        "longitude": -121.43162
+                    },
+                    "estimatedByStr": "09:19"
+                },
+                {
+                    "listItemId": "f07d-277fb38c1bd182a33c3b042bc",
+                    "formattedAddress": "4720 Windchime Way, Tracy, CA 95377",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.69718,
+                        "longitude": -121.42864
+                    },
+                    "displayPosition": {
+                        "latitude": 37.69718,
+                        "longitude": -121.42836
+                    },
+                    "estimatedByStr": "09:21",
+                    "estimatedCapacity": 1
+                },
+                {
+                    "listItemId": "f07d-fae5d3b6b9c9f2f1a14c43b0a",
+                    "formattedAddress": "4444 Lindsey Ln, Tracy, CA 95377",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.69936,
+                        "longitude": -121.42394
+                    },
+                    "displayPosition": {
+                        "latitude": 37.69939,
+                        "longitude": -121.4236
+                    },
+                    "estimatedByStr": "09:25",
+                    "estimatedCapacity": 2
+                },
+                {
+                    "listItemId": "f07d-6e75c3992872d12918c5c61a0",
+                    "formattedAddress": "4680 Glenbrook Dr, Tracy, CA 95377",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.69791,
+                        "longitude": -121.42169
+                    },
+                    "displayPosition": {
+                        "latitude": 37.69791,
+                        "longitude": -121.42137
+                    },
+                    "estimatedByStr": "09:27",
+                    "estimatedCapacity": 3
+                },
+                {
+                    "listItemId": "f07d-1d4883572b27cfda3cd103500",
+                    "formattedAddress": "4329 Glenbrook Dr, Tracy, CA 95377",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.69999,
+                        "longitude": -121.42101
+                    },
+                    "displayPosition": {
+                        "latitude": 37.70015,
+                        "longitude": -121.42118
+                    },
+                    "estimatedByStr": "09:28",
+                    "estimatedCapacity": 4
+                },
+                {
+                    "listItemId": "f07d-8bda03a6fb767178ba25105c5",
+                    "formattedAddress": "4185 Oakridge Dr, Tracy, CA 95377",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.70111,
+                        "longitude": -121.42286
+                    },
+                    "displayPosition": {
+                        "latitude": 37.70114,
+                        "longitude": -121.42317
+                    },
+                    "estimatedByStr": "09:30",
+                    "estimatedCapacity": 5
+                },
+                {
+                    "listItemId": "f07d-71e6635009ac294bdbecdda80",
+                    "formattedAddress": "312 Kelley Mist Ct, Tracy, CA 95377",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.70293,
+                        "longitude": -121.42132
+                    },
+                    "displayPosition": {
+                        "latitude": 37.70267,
+                        "longitude": -121.42133
+                    },
+                    "estimatedByStr": "09:32",
+                    "estimatedCapacity": 6
+                },
+                {
+                    "listItemId": "f07d-5a1f334e58afaca1fddd8839e",
+                    "formattedAddress": "192 Kelley Mist Ln, Tracy, CA 95377",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.70293,
+                        "longitude": -121.42392
+                    },
+                    "displayPosition": {
+                        "latitude": 37.70269,
+                        "longitude": -121.42391
+                    },
+                    "estimatedByStr": "09:34",
+                    "estimatedCapacity": 7
+                },
+                {
+                    "listItemId": "f07d-b4fc43a1e9141bfade500caed",
+                    "formattedAddress": "142 Hollow Brook Ct, Tracy, CA 95377",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.70785,
+                        "longitude": -121.42426
+                    },
+                    "displayPosition": {
+                        "latitude": 37.70759,
+                        "longitude": -121.42426
+                    },
+                    "estimatedByStr": "09:36",
+                    "estimatedCapacity": 8
+                },
+                {
+                    "listItemId": "f07d-e3e9f3f8bb8f08a2b2232fa1a",
+                    "formattedAddress": "220 W Central Ave, Tracy, CA 95376",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.71490517992172,
+                        "longitude": -121.42926457434231
+                    },
+                    "displayPosition": {
+                        "latitude": 37.7150202828065,
+                        "longitude": -121.42946607183285
+                    },
+                    "estimatedByStr": "09:42",
+                    "estimatedCapacity": 9
+                },
+                {
+                    "listItemId": "f07d-407c4329c9cec536eb8bb7fc6",
+                    "formattedAddress": "217 W Central Ave, Tracy, CA 95376",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.71524,
+                        "longitude": -121.42981
+                    },
+                    "displayPosition": {
+                        "latitude": 37.71544,
+                        "longitude": -121.42989
+                    },
+                    "estimatedByStr": "09:44",
+                    "estimatedCapacity": 10
+                },
+                {
+                    "listItemId": "f07d-d6b1b335db1438ab635b6e5b5",
+                    "formattedAddress": "1910 Village Dr, Tracy, CA 95376",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.71638,
+                        "longitude": -121.43162
+                    },
+                    "displayPosition": {
+                        "latitude": 37.71637,
+                        "longitude": -121.43133
+                    },
+                    "estimatedByStr": "09:45",
+                    "estimatedCapacity": 11
+                },
+                {
+                    "listItemId": "f07d-3ec5430ab8e210a53a1f4e36e",
+                    "formattedAddress": "545 W Deerwood Ln, Tracy, CA 95376",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.71752,
+                        "longitude": -121.43355
+                    },
+                    "displayPosition": {
+                        "latitude": 37.71775,
+                        "longitude": -121.43356
+                    },
+                    "estimatedByStr": "09:47",
+                    "estimatedCapacity": 12
+                },
+                {
+                    "listItemId": "f07d-2ff0435de8f6ecc0a1f8d67d5",
+                    "formattedAddress": "161 W Willow Creek Dr, Tracy, CA 95376",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.7161,
+                        "longitude": -121.42952
+                    },
+                    "displayPosition": {
+                        "latitude": 37.71628,
+                        "longitude": -121.42962
+                    },
+                    "estimatedByStr": "09:49",
+                    "estimatedCapacity": 13
+                },
+                {
+                    "listItemId": "f07d-8b7823e778c3ec252b6988861",
+                    "formattedAddress": "971 Tarrogana Dr, Tracy, CA 95376",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.72304,
+                        "longitude": -121.42475
+                    },
+                    "displayPosition": {
+                        "latitude": 37.72303,
+                        "longitude": -121.42502
+                    },
+                    "estimatedByStr": "09:55",
+                    "estimatedCapacity": 14
+                },
+                {
+                    "listItemId": "f07d-10c963c94a45cecc65c59313a",
+                    "formattedAddress": "965 Amaretto Dr, Tracy, CA 95376",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.72311,
+                        "longitude": -121.42227
+                    },
+                    "displayPosition": {
+                        "latitude": 37.72302,
+                        "longitude": -121.42252
+                    },
+                    "estimatedByStr": "09:57",
+                    "estimatedCapacity": 15
+                },
+                {
+                    "listItemId": "f07d-c91c8372cb8476bdcc20a45ac",
+                    "formattedAddress": "310 Butte Way, Tracy, CA 95376",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.7217,
+                        "longitude": -121.42072
+                    },
+                    "displayPosition": {
+                        "latitude": 37.72149,
+                        "longitude": -121.42068
+                    },
+                    "estimatedByStr": "09:59",
+                    "estimatedCapacity": 16
+                },
+                {
+                    "listItemId": "f07d-43f56380daae6d5dc9cc9c257",
+                    "formattedAddress": "955 Joranollo Dr, Tracy, CA 95376",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.72333,
+                        "longitude": -121.41953
+                    },
+                    "displayPosition": {
+                        "latitude": 37.72333,
+                        "longitude": -121.41982
+                    },
+                    "estimatedByStr": "10:01",
+                    "estimatedCapacity": 17
+                },
+                {
+                    "listItemId": "f07d-2a376311dbe77d2d413abf82b",
+                    "formattedAddress": "455 Peerless Way, Tracy, CA 95376",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.72369,
+                        "longitude": -121.41828
+                    },
+                    "displayPosition": {
+                        "latitude": 37.72403,
+                        "longitude": -121.41833
+                    },
+                    "estimatedByStr": "10:02",
+                    "estimatedCapacity": 18
+                },
+                {
+                    "listItemId": "f07d-a68be3aeca73f6fe031b70fec",
+                    "formattedAddress": "467 Yosemite Dr, Tracy, CA 95376",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.72087,
+                        "longitude": -121.418
+                    },
+                    "displayPosition": {
+                        "latitude": 37.7211,
+                        "longitude": -121.41801
+                    },
+                    "estimatedByStr": "10:05",
+                    "estimatedCapacity": 19
+                },
+                {
+                    "listItemId": "f07d-039133a6fb5fc362f9e097d2e",
+                    "formattedAddress": "2191 Bentley Ln, Tracy, CA 95376",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.71505,
+                        "longitude": -121.41709
+                    },
+                    "displayPosition": {
+                        "latitude": 37.71503,
+                        "longitude": -121.41734
+                    },
+                    "estimatedByStr": "10:08",
+                    "estimatedCapacity": 20
+                },
+                {
+                    "listItemId": "f07d-2d5323b2990483bdade42350b",
+                    "formattedAddress": "738 Harold Smith Dr, Tracy, CA 95304",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.71112,
+                        "longitude": -121.41416
+                    },
+                    "displayPosition": {
+                        "latitude": 37.7109,
+                        "longitude": -121.41415
+                    },
+                    "estimatedByStr": "10:12",
+                    "estimatedCapacity": 21
+                },
+                {
+                    "listItemId": "f07d-25068351f80eade28438fddaa",
+                    "formattedAddress": "1858 Crater Pl, Tracy, CA 95304",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.71712,
+                        "longitude": -121.41186
+                    },
+                    "displayPosition": {
+                        "latitude": 37.71712,
+                        "longitude": -121.41155
+                    },
+                    "estimatedByStr": "10:15",
+                    "estimatedCapacity": 22
+                },
+                {
+                    "listItemId": "f07d-07315365982b0ee781f75cf5d",
+                    "formattedAddress": "1161 Tulloch Dr, Tracy, CA 95304",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.71759,
+                        "longitude": -121.40756
+                    },
+                    "displayPosition": {
+                        "latitude": 37.7178,
+                        "longitude": -121.40756
+                    },
+                    "estimatedByStr": "10:18",
+                    "estimatedCapacity": 23
+                },
+                {
+                    "listItemId": "f07d-484de31a9b15f4ec9c86af285",
+                    "formattedAddress": "1281 Tulloch Dr, Tracy, CA 95304",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.71757,
+                        "longitude": -121.40575
+                    },
+                    "displayPosition": {
+                        "latitude": 37.71778,
+                        "longitude": -121.40575
+                    },
+                    "estimatedByStr": "10:19",
+                    "estimatedCapacity": 24
+                },
+                {
+                    "listItemId": "f07d-43a223a58962e542a5424e8b0",
+                    "formattedAddress": "1853 Mount Pellier St, Tracy, CA 95304",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.71707,
+                        "longitude": -121.404
+                    },
+                    "displayPosition": {
+                        "latitude": 37.71707,
+                        "longitude": -121.40417
+                    },
+                    "estimatedByStr": "10:21",
+                    "estimatedCapacity": 25
+                },
+                {
+                    "listItemId": "f07d-e32013d8aa4923b29487ecbca",
+                    "formattedAddress": "1345 Montauban St, Tracy, CA 95304",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.71591,
+                        "longitude": -121.40486
+                    },
+                    "displayPosition": {
+                        "latitude": 37.71611,
+                        "longitude": -121.40487
+                    },
+                    "estimatedByStr": "10:23",
+                    "estimatedCapacity": 26
+                },
+                {
+                    "listItemId": "f07d-23be533b0b620f6aad24ade99",
+                    "formattedAddress": "2431 Amatchi Dr, Tracy, CA 95304",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.71327,
+                        "longitude": -121.39999
+                    },
+                    "displayPosition": {
+                        "latitude": 37.71327,
+                        "longitude": -121.40028
+                    },
+                    "estimatedByStr": "10:26",
+                    "estimatedCapacity": 27
+                },
+                {
+                    "listItemId": "f07d-6a1633a539ac12ace7513403e",
+                    "formattedAddress": "24214 S Cabe Rd, Tracy, CA 95304",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.73758,
+                        "longitude": -121.40382
+                    },
+                    "displayPosition": {
+                        "latitude": 37.73758,
+                        "longitude": -121.40294
+                    },
+                    "estimatedByStr": "10:33",
+                    "estimatedCapacity": 28
+                },
+                {
+                    "listItemId": "f07d-cb5ce3ac0873068a5d0af0f90",
+                    "formattedAddress": "1015 W 9th St, Tracy, CA 95376",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.73873,
+                        "longitude": -121.43968
+                    },
+                    "displayPosition": {
+                        "latitude": 37.73873,
+                        "longitude": -121.43947
+                    },
+                    "estimatedByStr": "10:39",
+                    "estimatedCapacity": 29
+                },
+                {
+                    "listItemId": "f07d-6927c3baf98dfff4086ef3156",
+                    "formattedAddress": "1441 Parker Ave, Tracy, CA 95376",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.74413,
+                        "longitude": -121.42987
+                    },
+                    "displayPosition": {
+                        "latitude": 37.74413,
+                        "longitude": -121.43048
+                    },
+                    "estimatedByStr": "10:42",
+                    "estimatedCapacity": 30
+                },
+                {
+                    "listItemId": "f07d-73d4b3d14985a1ea7c4ca8b2a",
+                    "formattedAddress": "332 W Grant Line Rd, Tracy, CA 95376",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.75419,
+                        "longitude": -121.43085
+                    },
+                    "displayPosition": {
+                        "latitude": 37.75406,
+                        "longitude": -121.43085
+                    },
+                    "estimatedByStr": "10:46",
+                    "estimatedCapacity": 31
+                },
+                {
+                    "listItemId": "f07d-0b030322792db921cecb53153",
+                    "formattedAddress": "3068 Holly Dr, Tracy, CA 95376",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.75878,
+                        "longitude": -121.42599
+                    },
+                    "displayPosition": {
+                        "latitude": 37.75878,
+                        "longitude": -121.42569
+                    },
+                    "estimatedByStr": "10:49",
+                    "estimatedCapacity": 32
+                },
+                {
+                    "listItemId": "f07d-2fd6f3f3ab12cebdddb97ca0f",
+                    "formattedAddress": "4133 Rocky Point Ct, Tracy, CA 95304",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.7521,
+                        "longitude": -121.3574
+                    },
+                    "displayPosition": {
+                        "latitude": 37.75254,
+                        "longitude": -121.35718
+                    },
+                    "estimatedByStr": "10:59",
+                    "estimatedCapacity": 33
+                },
+                {
+                    "listItemId": "f07d-a801b3605afbd726df743cc66",
+                    "formattedAddress": "32505 Kasson Rd, Tracy, CA 95304",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.65859,
+                        "longitude": -121.25952
+                    },
+                    "displayPosition": {
+                        "latitude": 37.65823,
+                        "longitude": -121.26243
+                    },
+                    "estimatedByStr": "11:18",
+                    "estimatedCapacity": 34
+                },
+                {
+                    "listItemId": "f07d-b4d913523baaee8f2ba5e1a25",
+                    "formattedAddress": "630 Blewett Rd, Tracy, CA 95304",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.62372,
+                        "longitude": -121.30579
+                    },
+                    "displayPosition": {
+                        "latitude": 37.62313,
+                        "longitude": -121.31438
+                    },
+                    "estimatedByStr": "11:31",
+                    "estimatedCapacity": 35
+                },
+                {
+                    "listItemId": "f07d-8eca53fefb635f19958ab0cbf",
+                    "formattedAddress": "38504 S Koster Rd, Tracy, CA 95304",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.59982,
+                        "longitude": -121.32416
+                    },
+                    "displayPosition": {
+                        "latitude": 37.60006,
+                        "longitude": -121.32337
+                    },
+                    "estimatedByStr": "11:43",
+                    "estimatedCapacity": 36
+                },
+                {
+                    "listItemId": "f07d-faf623593a6ddc608a0f1a9c4",
+                    "formattedAddress": "3757 W Kenner Rd, Tracy, CA 95304",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.64538,
+                        "longitude": -121.35092
+                    },
+                    "displayPosition": {
+                        "latitude": 37.64723,
+                        "longitude": -121.35092
+                    },
+                    "estimatedByStr": "12:00",
+                    "estimatedCapacity": 37
+                },
+                {
+                    "listItemId": "f07d-a6f4c36d69394ba11f52b63a7",
+                    "formattedAddress": "32648 S Bird Rd, Tracy, CA 95304",
+                    "route": {
+                        "listRouteId": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.65584,
+                        "longitude": -121.36126
+                    },
+                    "displayPosition": {
+                        "latitude": 37.65585,
+                        "longitude": -121.35979
+                    },
+                    "estimatedByStr": "12:05",
+                    "estimatedCapacity": 38
+                }
+            ],
+            "timeS": 12581.0,
+            "distanceM": 114448.79999999999,
+            "pathEncoded": "wjheF~esdV?@EvIfEJDzE`A@|BT~DD`AAdAcC^_BNUjAAE~MJ?tKGlI@vG?BqK@iB@aG@wDDmQ@}J?cCDcNBaRBeOFc_@@aKBc[BwEFm@Lu@Nm@`@kAlBcFnCcIp@cCl@eCJg@@UpAAnD?^?~AAbA?vBAr@?pEA`D?h@FXE`HCnGAxCAE}LCq[?cG?oBAsHA}H?c@Ao[AwI?kJ?_A?qAAqDAmK?sD?_C?yACmk@?{@Jk@?{D?gSA[?wFAaF?{BDcB@gB@i@XApQA`@AnA?~CBP?`E@X?PAV?~AAtD@rA@vIArG@R?T?@QAgBCi@MoAI}@CqB?aBhAB\\Hb@Jv@LBe@DsAAS?MhCOjAWlBCAoD@oANgAHu@JoBAUCICEEAi@CG?gA@{ADq@HEBCDCNAHDb@VlBkAh@uA~@YJgAPCc@@qEBqD?eAKmAMuAA[?YAuCNoA?{BAqEd@?~D@b@Cb@KJEAaEwHAAwABgAFk@FYH]f@Ph@Jh@BnD?t@?zAA?X?@@rJ?\\Ej@Kh@Od@U`@[Z]T_@La@DeHCAqEaI?OCGGEO?I@iD?eFAmEdC?TC`@I^QJ\\JVTb@FJT\\`@`@^VD@HFI\\GXGj@CfA@vAwHFe@?cD@eAC{AG?yH?J?lH?r@?dD@nDCTQL{@?yACqD@qCKeI?aD??oH?lD?`CyC?a@I]IUKYYYk@M_@Ka@E_@?wBaF?DfM?L?dA?~E@dC?lA?j@?jAAbGEpBMdEAvE@tCBzEeE?gB?C?qA@_L@A_OC{@Iq@UiA{@{EbCaA]iBSc@u@uDt@tDJRFN\\hBcC`AKk@c@{BOo@Si@S[Y_@WUQM]S]Oe@Ig@CiD@@xD?pDAtD@pDnCAvA?r@?TAZGRGl@SRnAD\\@f@@dJ}G@}B?KGEU?w@?_KAqDlGATC\\KRQ@Ys@wDAIM]MWQQQOUKYE[AsCBAyDmC?mB?cC?yD?u@?q@?g@Cq@Gu@Kg@Mg@Qc@SgDgB_B{@]O_@Ki@Ki@Gi@AyB??gD?Q?[?iN@mD`BA\\B`CPKxBCxDvCF~BFErDkBEmFMcA@IAEECG?M?}C~CHByDJyBn@D\\?x@C??EoD`G]NEFG@EDU?g@CWKuAe@H}BJGqDkCDi@@YA?yBAgACaBC{@b@AZ@[Ac@@Bz@@f@@x@@fA?xBX@tDGhAEt@IjDw@r@E?_FAyHdA?xLG`JAN?bFBrA@@fBF`@_D@EoBDnBxBAd@?F_@AiBO?sAAcFC@_H@q@B_@Fg@Ji@Vu@Zy@Fa@ZV`@Pb@FZ@^Ab@Kl@Yn@Wb@Ir@GX?NAt@F|@P^@j@Cd@Mf@W^YPWR]Ri@dCrAPLPTTd@F`@Bh@@^?v@?pEAdACJEDIBiH?UCm@Qk@IKEAGCK?_F?sD}@Qu@GO@Y?s@Fc@Ho@Vm@Xc@J_@@[Ac@Ga@Q[WWT[x@Wv@Kj@Ih@Cb@mE?AuD?iEAcDBKHIDAhA?xB??kCAuA?c@@_@BY@a@Ha@]MYIe@E}B@IKESBmEAaD?c@AkBFgD?uAAeCx@CXGj@Mp@EB{DgCDYGKIE_@@}ChD@iDAA|CD^JHXFv@AnACp@CdBS@T@xC?V?tDt@?H?XEVIbAi@VKVE|ACfB?nA?vBRr@??cADy@?qA?aC@kC?iJ?aBJ_B?_AoD?cC?eB@?eC?wCRe@X_@JC`EU}F@mE@i@?kPDuF@{@?cA@e@?eD@qIBkKBe@@g@?a@?qTBW?Q?i@?{Q@sUBA~J@nC@tOARINKFqC@_C@o@?a@?gA?_@?_@?uB?{A@@pC?jA?rA@dC?n@?R@~P?dHBrQCbI?FAfF?L?T?lB?bA?zB?X?~D?pF?vB?N?`GAbC?lCB|D?`@?z@Az@?zA@|C?`A?`B?~@?p@@lA?xA?\\?V?F?hB@jA?lAAfD?H?bE?\\@fA?l@@l@?fD?XK|BAx@?F?bA?bA?d@?`@?b@@jE?l@@r@?hB?dA?|A?bA?Z@lH?XAXTIAmF?kCd@A|AAHO`@@~A?J^gCbM]rBmAE?Mc@?AwDAmF?kCA{C@oD@qC?mA?a@?m@?a@@c@Ag@?}AAw@?QCsAEgA?Y?gDAm@?m@AgA?]?cE?I@gD?mAAkAw@?mCCcE?qB?yE?cD?[?mC?wD@uA@uC?I?iC@eA?sB?sB?gA@gD?gA?eCAgC@cC?qA?kA?{@?[?WB?dA@vA?Z?~A?t@?jCT??S?cA?a@?]?wD?oC?sFA_I?E?sA?_B?u@WBk@DG@e@?Q?O?iB@{@?kB@_AAy@?c@@e@?k@AcA?kC@mA?k@??kB?jBj@?R?x@?jCAbA?j@@d@?b@Ax@?~@@jBAz@?hBAN?P?d@?FAj@EVC?cA?{@?mA?i@?s@?s@?wAAeA?mA?eB?{B?qB?S?_B?uBAyA?Q?uA?uEAwA?eE?U?y@?cD?gA?eA?[?q@?g@?wB?sAAcE?E?yG?_G?_@C{H?MAu@CM?EAiA?cA?wB?cEAyO?kB?qB?aO?k@AwF?{A?{C?O?cVCmFE{F?a@KaLKuLK_L?]IsIAgACkDGkGCsCE}E?e@AgAAk@EgFEoDEmEBaBBw@LeAXcBN{@F[J_ADcABsAAwQ?SAoX@qCHILEXAnJC?iFDc@F[NUZWZQXMa@yBMm@[cBIwA?MCk@?e@@]??A\\?d@Bj@?LHvAZbBLl@`@xBYL[P[VOTGZEb@?hFoJBY@MDIHBoBD}BVuLBaA@]FeB@MLiETqGDs@F_ARiBd@yC`@sBJs@FWHKNANANIJOFS?UAKAGFy@Lg@x@iBr@cBpIqPLUpA{BFKdBaDr@sApCqFjBoDtC_Gh@iAh@iA|CeGd@w@h@s@r@q@TMrAm@vCiA\\M|DyAHCjDsAjK}DrIcDbCoAjIiC~JwDzAm@x@_@d@YbCmBvIsHxBkBnC_CBAdCwBdCuBdCsBrCcCrGqFlBeBDG`@g@~DqF~DuFzCgEbDmEjBeCjD{EDEdBaCvAmB`CiDzEuGv@eAX_@`AwA~AqBdBeBjGoFbDcCnAoAJK`FiEbA{@hA_An@i@hGgFnC}BfEeDBE\\YpC{BxDyCdA{@h@a@x@q@xF_EzKqIhIkGvS}OdIiG`LsIrC{B`@]rAsAj@k@f@o@rPiRzHyIbOsPpK{LlLuMhMoNbBqB`FaGbKkLzDkEbDqDkCoDuAqBgBkCe@s@`@g@bBkBnJyK~DyE`F}F\\_@`FaGJOnGaId@i@f@k@`@[\\Ov@Wj@O|@Sb@KlKaCdAWhAQjKiAjJ_ANCvU}BnAOn@O\\GbAtAbRtV``@ph@dGhI`MxPbKfNpFpHBBz@z@L@@r@?nu@@~@N?xc@GL?xEAN?FBDBFH\\_@HBNBJ@J?bB?R?lN@nA?tS@Dh\\?F?V?x@@fBAvQ@zA@p@@vOApE?~D?vX?RAbS?vB@pC?d@?l@?vA?p@?|AAzA@~G?zEBzx@vAK`G?zA@pSIj@B\\HZPZZNVTh@BH\\lATl@V`@HH\\RVJ|Fx@lH|@fAP`D`@bBXtBXtBT`AFt@?rGApB?p@?hD?`CAX?|FEzEDZCh@Kb@SbGyDrHgFhBgAdAk@j@S`@GNCCU@SCMESEO?a@?q@EIOKSEK?KHJIJ?RDNJDH?p@?`@DNDRBLARBTOBa@FIDa@LeAj@iBfAsHfFcGxDc@Ri@J[B{EE}FDY?aC@iD?q@?qB?sG@u@?aAGuBUuBYcBYaDa@gAQmH}@}Fy@WK]SIIWa@Um@]mACIUi@OW[[[Q]Ik@CqSH{AAaG?wAJiIByPIePLQ?u]@{KA@hJ@zBA`K?xA?zHBtQ@`O@~I?jBBfTCjC?lFB`ABzQ?jA?zC@zb@Ide@GdBC|BCvAKdB[dA[\\i@Cc@a@WoBA}@@aAOq@qJDaB?{@?aI?k@?gK@@gQAyJ?mC?oI?yLeGA?_ANc@RMr@El@EDYF[\\EtAA?LAnD?xL?nI?lC@xJAfQa@@w@?{]?oJ?{D?cFDc@?mB?uF?_@?sB?iGB}D@}A??TA^@h@CZB[Ai@@_@?U|A?|DAhGCrB?^?dD?nA?lB?b@?bFEzD?nJ?z]?v@?`@AfKAj@?`I?z@?`B?pJE@n@IpCBlA\\|Al@pAlAnCj@tDJ`IClB?fDGjv@CrDChFu@~m@CtDOhJYfSGjFU`OGfIGzCE`BIbBIlAWvBe@tCOx@c@hBm@vB]`A]x@IPkArCsCbGgBfEiOzY_CnEaJ|PuBbEwBfEgF~JyC`GmEnIkElIuKzS{DrHuCxFaDlGeIvOuPj\\mDzG_FpJuJfR{AvCyC|FoDbH{DtHiDtG_GnLs@vA{AjCmCpFy@zA}AdDwE`JaCxEwJ`Rk@jAuGdMsE~IwE|IiL|TgElIkCdFgKfSkDjHYj@_LxSaH~MgV|e@uEjIuArCoBrDkHpNwE`JyJ|R]r@kI~Oy@`BgFdKoCpFgEdIkHlNYj@uCvFwEfJaFrJgElIgDpGaDjGmA`CwAlC_CxEaGhLaFvJoClFaDfG}@pAgAdBiAdBaAnAuCnC_@@WEUMUOw@gBuAuC{@aB[g@S[a@e@O_@W]IOGMKa@PgADs@@kD@kD@qJ?sCDkX?]@iDAsF@yFAgDAqC?qB@wA@uDCYHmHBuCwG?mIAuKFK?D_NkA@OT_@~AeAbCaA@_EE}BUaAAE{EgEKDwI?A",
+            "capacity": 50,
+            "shiftStartTime": "09:00"
+        }
+    ]
+}

@@ -1,0 +1,764 @@
+{
+  "item": [
+    {
+      "list_item_id": "f07d-a801b3605afbd726df743cc66",
+      "address": "32505 Kasson Rd, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-8eca53fefb635f19958ab0cbf",
+      "address": "38504 S Koster Rd, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-faf623593a6ddc608a0f1a9c4",
+      "address": "3757 W Kenner Rd, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-b4d913523baaee8f2ba5e1a25",
+      "address": "630 Blewett Rd, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-6a1633a539ac12ace7513403e",
+      "address": "24214 S Cabe Rd, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-a6f4c36d69394ba11f52b63a7",
+      "address": "32648 S Bird Rd, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-2fd6f3f3ab12cebdddb97ca0f",
+      "address": "4133 Rocky Point Ct, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-fae5d3b6b9c9f2f1a14c43b0a",
+      "address": "4444 Lindsey Ln, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-8bda03a6fb767178ba25105c5",
+      "address": "4185 Oakridge Dr, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-e32013d8aa4923b29487ecbca",
+      "address": "1345 Montauban St, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-10c963c94a45cecc65c59313a",
+      "address": "965 Amaretto Dr, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-43f56380daae6d5dc9cc9c257",
+      "address": "955 Joranollo Dr, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-d6b1b335db1438ab635b6e5b5",
+      "address": "1910 Village Dr, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-039133a6fb5fc362f9e097d2e",
+      "address": "2191 Bentley Ln, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-3ec5430ab8e210a53a1f4e36e",
+      "address": "545 W Deerwood Ln, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-6e75c3992872d12918c5c61a0",
+      "address": "4680 Glenbrook Dr, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-407c4329c9cec536eb8bb7fc6",
+      "address": "217 W Central Ave, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-5a1f334e58afaca1fddd8839e",
+      "address": "192 Kelley Mist Ln, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-2d5323b2990483bdade42350b",
+      "address": "738 Harold Smith Dr, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-2ff0435de8f6ecc0a1f8d67d5",
+      "address": "161 W Willow Creek Dr, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-e3e9f3f8bb8f08a2b2232fa1a",
+      "address": "220 W Central Ave, Tracy, CA",
+      "unit": "APT 3701",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-277fb38c1bd182a33c3b042bc",
+      "address": "4720 Windchime Way, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-2a376311dbe77d2d413abf82b",
+      "address": "455 Peerless Way, Tracy, CA",
+      "unit": "APT 2",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-c91c8372cb8476bdcc20a45ac",
+      "address": "310 Butte Way, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-b4fc43a1e9141bfade500caed",
+      "address": "142 Hollow Brook Ct, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-a68be3aeca73f6fe031b70fec",
+      "address": "467 Yosemite Dr, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-71e6635009ac294bdbecdda80",
+      "address": "312 Kelley Mist Ct, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-43a223a58962e542a5424e8b0",
+      "address": "1853 Mount Pellier St, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-8b7823e778c3ec252b6988861",
+      "address": "971 Tarrogana Dr, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-25068351f80eade28438fddaa",
+      "address": "1858 Crater Pl, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-1d4883572b27cfda3cd103500",
+      "address": "4329 Glenbrook Dr, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-484de31a9b15f4ec9c86af285",
+      "address": "1281 Tulloch Dr, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-5dab7309fad821195253e5eb6",
+      "address": "409 Violet Pl, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-07315365982b0ee781f75cf5d",
+      "address": "1161 Tulloch Dr, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-23be533b0b620f6aad24ade99",
+      "address": "2431 Amatchi Dr, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-ca1ff3ace977b36b816388b84",
+      "address": "621 Avington Ct, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-d99b13e2c86896fcf45fd62b3",
+      "address": "488 Trianda Way, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-c2aca313c8d59b9ec61295a42",
+      "address": "174 Pistachio Pl, Brentwood, CA",
+      "unit": "BRENTWOOD, CA  94513",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-6b6a737a48c1cb55eab11fdef",
+      "address": "744 Campanello Way, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-7b6d03d9ebc30777ea94988b0",
+      "address": "4701 Nunn Ct, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-1593a37a6b682bc0b0a9fdc62",
+      "address": "130 French Dr, Brentwood, CA",
+      "unit": "BRENTWOOD, CA  94513",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-8e85239348a826696d00cd6cb",
+      "address": "3054 Shiles Loop, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-5ec333e2ca6cd29ca7a1ed1c3",
+      "address": "263 Grisby Ct, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-4800536298028871a40d1cc0a",
+      "address": "845 Caribou Ter, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-876cf38edb7f8b5691d97807a",
+      "address": "4603 Balfour Rd, Brentwood, CA",
+      "unit": "TRLR 24",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-d58c139da89dc30392c117459",
+      "address": "780 Heather Pl, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-72e5c394eb244073c9f5007c9",
+      "address": "25484 Marsh Creek Rd, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-90c4b30099840a7b9744bcf0b",
+      "address": "424 Napoli Ct, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-2e2c834faa81e742404988484",
+      "address": "167 Davidson Ct, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-b043d3dbdbd3f13fb0627263e",
+      "address": "1030 Dainty Ave, Brentwood, CA",
+      "unit": "APT G",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-74e16306e80959cf7728f7edb",
+      "address": "135 French Dr, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-decfa3164840f4c3f63ffc1ac",
+      "address": "725 Willow Creek Ter, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-6f90832949afd65a87ed4e06f",
+      "address": "3053 Hudson Dr, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-c928e31aaa5689dbc60b28f1e",
+      "address": "892 Walsh St, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-fa56a38cdb657956f7ea390d6",
+      "address": "601 Amaryllis Ct, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-00a553f5c917a50dce6995180",
+      "address": "3940 Walnut Blvd, Brentwood, CA",
+      "unit": "STE A",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-952733e758751427f4e77128e",
+      "address": "461 Catalano Ct, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-e4d713be1990835781a14fc68",
+      "address": "541 Cashew Pl, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-fb4883633b4dbe6745c2bf1f5",
+      "address": "4704 Carnegie Ln, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-73e4d33e7a1f3784a0a63d888",
+      "address": "382 Fletcher Ln, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-514cf373e90a0e3a62d1552b7",
+      "address": "281 Hazel Ct, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-2e3cf3c6f9bd5bda4908b35f1",
+      "address": "173 Avery Ct, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-ce6303876a193a11a83c3f246",
+      "address": "3042 Hudson Dr, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-941a73696978a7325c74e3a81",
+      "address": "191 Fahmy St, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-341853d9e88afcd8b592508c7",
+      "address": "313 MacArthur Way, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-958763230b1bb2267e12d7cdf",
+      "address": "163 Fisher Ct, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-0e5dc349c8b3c0d710171cc4e",
+      "address": "940 N Estates Dr, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-8ff203570aaf03524054be7ac",
+      "address": "888 S Estates Dr, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-91bc73ed8b00bc3677615c00d",
+      "address": "732 Heather Pl, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-52769324bab0fb19fc1ff5f0f",
+      "address": "3660 Walnut Blvd, Brentwood, CA",
+      "unit": "TRLR 40",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-e214430e489c55478991fa3ca",
+      "address": "573 Divisi Ct, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-59d7c3083af31ac13e300421a",
+      "address": "190 Hickory Ct, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-01cc8390997df69c4cb1c71d9",
+      "address": "200 Continente Ave, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-74de73075a897e3138571c9b8",
+      "address": "360 Fletcher Ln, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-2e0413b82bbac696203aa9803",
+      "address": "697 Bellmeade Way, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-4b1273e0ca4970dd9c0d4b05a",
+      "address": "525 Mandevilla Dr, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-ae26a38b6afb1fdb10e5fbb42",
+      "address": "504 Bougainvilla Ct, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-46ac638749f4ba746bc25595a",
+      "address": "4685 Roosevelt Dr, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-32a403c6aaae5c15afdb21069",
+      "address": "23 Kensington Ct, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-3638d39eb9e056a7b811653d9",
+      "address": "145 Middlefield Ct, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-1148a38d28ebf34f5f3eb6486",
+      "address": "266 Madrone Pl, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-e2cfe3a73b3ee7e74e56830dc",
+      "address": "24630 Marsh Creek Rd, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-b448c3a56b281c69f16dec0eb",
+      "address": "431 Persimmon Dr, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-382ad3cbd88179de55b856849",
+      "address": "303 Mondavi Ln, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-a1b1830e7a68a20ff0553dbba",
+      "address": "11440 Byron Hwy, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-b526b3fd7bdeeee46cc439d42",
+      "address": "500 Edgefield St, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-5df3e3a359e6c52efbf4e79bc",
+      "address": "119 Panorama Way, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-e844b3f33b662b4c5d178e7e1",
+      "address": "25375 Marsh Creek Rd, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-2daff3e48b2eb861edb4f96c1",
+      "address": "695 Timberline Ter, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-efc7e3916821c0dff570fa924",
+      "address": "684 Bellmeade Way, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-5539139e0ac7340474c7af7d0",
+      "address": "951 Villa Ter, Brentwood, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-cb5ce3ac0873068a5d0af0f90",
+      "address": "1015 W 9th St, Tracy, CA",
+      "unit": "APT 12",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-6927c3baf98dfff4086ef3156",
+      "address": "1441 Parker Ave, Tracy, CA",
+      "unit": "APT 6",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-0b030322792db921cecb53153",
+      "address": "3068 Holly Dr, Tracy, CA",
+      "unit": "APT A",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    },
+    {
+      "list_item_id": "f07d-73d4b3d14985a1ea7c4ca8b2a",
+      "address": "332 W Grant Line Rd, Tracy, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+      }
+    }
+  ]
+}

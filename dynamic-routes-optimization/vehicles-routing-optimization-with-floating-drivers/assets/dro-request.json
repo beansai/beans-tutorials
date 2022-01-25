@@ -1,0 +1,2311 @@
+{
+    "warehouse":
+    {
+        "list_warehouse_id": "cabb46d6-776a-11ec-90d6-0242ac120003",
+        "address": "5655 Hood Way, Tracy, CA 95377",
+        "position":
+        {
+            "lat": 37.730987,
+            "lng": -121.5088363
+        }
+    },
+    "item":
+    [
+        {
+            "list_item_id": "f07d-00a553f5c917a50dce6995180",
+            "formattedAddress": "3940 Walnut Blvd, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.93212,
+                "lng": -121.69744
+            },
+            "display_position":
+            {
+                "lat": 37.93218,
+                "lng": -121.69733
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-43f56380daae6d5dc9cc9c257",
+            "formattedAddress": "955 Joranollo Dr, Tracy, CA 95376",
+            "position":
+            {
+                "lat": 37.72333,
+                "lng": -121.41953
+            },
+            "display_position":
+            {
+                "lat": 37.72333,
+                "lng": -121.41982
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-3638d39eb9e056a7b811653d9",
+            "formattedAddress": "145 Middlefield Ct, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.92319,
+                "lng": -121.6844
+            },
+            "display_position":
+            {
+                "lat": 37.9232,
+                "lng": -121.68491
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-25068351f80eade28438fddaa",
+            "formattedAddress": "1858 Crater Pl, Tracy, CA 95304",
+            "position":
+            {
+                "lat": 37.71712,
+                "lng": -121.41186
+            },
+            "display_position":
+            {
+                "lat": 37.71712,
+                "lng": -121.41155
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-46ac638749f4ba746bc25595a",
+            "formattedAddress": "4685 Roosevelt Dr, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.91879,
+                "lng": -121.69061
+            },
+            "display_position":
+            {
+                "lat": 37.91899,
+                "lng": -121.69061
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-8eca53fefb635f19958ab0cbf",
+            "formattedAddress": "38504 S Koster Rd, Tracy, CA 95304",
+            "position":
+            {
+                "lat": 37.59982,
+                "lng": -121.32416
+            },
+            "display_position":
+            {
+                "lat": 37.60006,
+                "lng": -121.32337
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-382ad3cbd88179de55b856849",
+            "formattedAddress": "303 Mondavi Ln, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.92035,
+                "lng": -121.71086
+            },
+            "display_position":
+            {
+                "lat": 37.92035,
+                "lng": -121.71114
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-958763230b1bb2267e12d7cdf",
+            "formattedAddress": "163 Fisher Ct, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.92898,
+                "lng": -121.70291
+            },
+            "display_position":
+            {
+                "lat": 37.92905,
+                "lng": -121.7032
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-ae26a38b6afb1fdb10e5fbb42",
+            "formattedAddress": "504 Bougainvilla Ct, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.93426,
+                "lng": -121.70453
+            },
+            "display_position":
+            {
+                "lat": 37.93408,
+                "lng": -121.70442
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-2d5323b2990483bdade42350b",
+            "formattedAddress": "738 Harold Smith Dr, Tracy, CA 95304",
+            "position":
+            {
+                "lat": 37.71112,
+                "lng": -121.41416
+            },
+            "display_position":
+            {
+                "lat": 37.7109,
+                "lng": -121.41415
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-5ec333e2ca6cd29ca7a1ed1c3",
+            "formattedAddress": "263 Grisby Ct, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.92211,
+                "lng": -121.69027
+            },
+            "display_position":
+            {
+                "lat": 37.92228,
+                "lng": -121.69043
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-952733e758751427f4e77128e",
+            "formattedAddress": "461 Catalano Ct, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.9190232,
+                "lng": -121.681577
+            },
+            "display_position":
+            {
+                "lat": 37.9190232,
+                "lng": -121.681577
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-277fb38c1bd182a33c3b042bc",
+            "formattedAddress": "4720 Windchime Way, Tracy, CA 95377",
+            "position":
+            {
+                "lat": 37.69718,
+                "lng": -121.42864
+            },
+            "display_position":
+            {
+                "lat": 37.69718,
+                "lng": -121.42836
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-23be533b0b620f6aad24ade99",
+            "formattedAddress": "2431 Amatchi Dr, Tracy, CA 95304",
+            "position":
+            {
+                "lat": 37.71327,
+                "lng": -121.39999
+            },
+            "display_position":
+            {
+                "lat": 37.71327,
+                "lng": -121.40028
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-5539139e0ac7340474c7af7d0",
+            "formattedAddress": "951 Villa Ter, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.93283,
+                "lng": -121.70038
+            },
+            "display_position":
+            {
+                "lat": 37.93283,
+                "lng": -121.69976
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-8ff203570aaf03524054be7ac",
+            "formattedAddress": "888 S Estates Dr, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.9342,
+                "lng": -121.70809
+            },
+            "display_position":
+            {
+                "lat": 37.93421,
+                "lng": -121.70777
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-4b1273e0ca4970dd9c0d4b05a",
+            "formattedAddress": "525 Mandevilla Dr, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.93363,
+                "lng": -121.70392
+            },
+            "display_position":
+            {
+                "lat": 37.93363,
+                "lng": -121.70406
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-decfa3164840f4c3f63ffc1ac",
+            "formattedAddress": "725 Willow Creek Ter, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.93561,
+                "lng": -121.70972
+            },
+            "display_position":
+            {
+                "lat": 37.93561,
+                "lng": -121.7101
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-fa56a38cdb657956f7ea390d6",
+            "formattedAddress": "601 Amaryllis Ct, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.93475,
+                "lng": -121.70253
+            },
+            "display_position":
+            {
+                "lat": 37.93458,
+                "lng": -121.7023
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-7b6d03d9ebc30777ea94988b0",
+            "formattedAddress": "4701 Nunn Ct, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.92108,
+                "lng": -121.68909
+            },
+            "display_position":
+            {
+                "lat": 37.92125,
+                "lng": -121.68925
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-b526b3fd7bdeeee46cc439d42",
+            "formattedAddress": "500 Edgefield St, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.92118,
+                "lng": -121.70323
+            },
+            "display_position":
+            {
+                "lat": 37.92097,
+                "lng": -121.70323
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-e844b3f33b662b4c5d178e7e1",
+            "formattedAddress": "25375 Marsh Creek Rd, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.89652,
+                "lng": -121.65323
+            },
+            "display_position":
+            {
+                "lat": 37.89822,
+                "lng": -121.65328
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-a68be3aeca73f6fe031b70fec",
+            "formattedAddress": "467 Yosemite Dr, Tracy, CA 95376",
+            "position":
+            {
+                "lat": 37.72087,
+                "lng": -121.418
+            },
+            "display_position":
+            {
+                "lat": 37.7211,
+                "lng": -121.41801
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-4800536298028871a40d1cc0a",
+            "formattedAddress": "845 Caribou Ter, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.93391,
+                "lng": -121.71221
+            },
+            "display_position":
+            {
+                "lat": 37.93427,
+                "lng": -121.71221
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-5df3e3a359e6c52efbf4e79bc",
+            "formattedAddress": "119 Panorama Way, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.92328,
+                "lng": -121.67875
+            },
+            "display_position":
+            {
+                "lat": 37.92328,
+                "lng": -121.67903
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-2daff3e48b2eb861edb4f96c1",
+            "formattedAddress": "695 Timberline Ter, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.93508,
+                "lng": -121.71155
+            },
+            "display_position":
+            {
+                "lat": 37.93508,
+                "lng": -121.71178
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-52769324bab0fb19fc1ff5f0f",
+            "formattedAddress": "3660 Walnut Blvd, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.92802,
+                "lng": -121.6961
+            },
+            "display_position":
+            {
+                "lat": 37.9279,
+                "lng": -121.69462
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-59d7c3083af31ac13e300421a",
+            "formattedAddress": "190 Hickory Ct, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.92269,
+                "lng": -121.70237
+            },
+            "display_position":
+            {
+                "lat": 37.92273,
+                "lng": -121.70208
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-2e3cf3c6f9bd5bda4908b35f1",
+            "formattedAddress": "173 Avery Ct, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.92825,
+                "lng": -121.70399
+            },
+            "display_position":
+            {
+                "lat": 37.92825,
+                "lng": -121.70419
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-0b030322792db921cecb53153",
+            "formattedAddress": "3068 Holly Dr, Tracy, CA 95376",
+            "position":
+            {
+                "lat": 37.75878,
+                "lng": -121.42599
+            },
+            "display_position":
+            {
+                "lat": 37.75878,
+                "lng": -121.42569
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-6f90832949afd65a87ed4e06f",
+            "formattedAddress": "3053 Hudson Dr, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.91998,
+                "lng": -121.69243
+            },
+            "display_position":
+            {
+                "lat": 37.91985,
+                "lng": -121.69267
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-a801b3605afbd726df743cc66",
+            "formattedAddress": "32505 Kasson Rd, Tracy, CA 95304",
+            "position":
+            {
+                "lat": 37.65859,
+                "lng": -121.25952
+            },
+            "display_position":
+            {
+                "lat": 37.65823,
+                "lng": -121.26243
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-74e16306e80959cf7728f7edb",
+            "formattedAddress": "135 French Dr, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.92855,
+                "lng": -121.70194
+            },
+            "display_position":
+            {
+                "lat": 37.92855,
+                "lng": -121.70223
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-8b7823e778c3ec252b6988861",
+            "formattedAddress": "971 Tarrogana Dr, Tracy, CA 95376",
+            "position":
+            {
+                "lat": 37.72304,
+                "lng": -121.42475
+            },
+            "display_position":
+            {
+                "lat": 37.72303,
+                "lng": -121.42502
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-b448c3a56b281c69f16dec0eb",
+            "formattedAddress": "431 Persimmon Dr, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.92346,
+                "lng": -121.70409
+            },
+            "display_position":
+            {
+                "lat": 37.92368,
+                "lng": -121.70409
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-6e75c3992872d12918c5c61a0",
+            "formattedAddress": "4680 Glenbrook Dr, Tracy, CA 95377",
+            "position":
+            {
+                "lat": 37.69791,
+                "lng": -121.42169
+            },
+            "display_position":
+            {
+                "lat": 37.69791,
+                "lng": -121.42137
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-a6f4c36d69394ba11f52b63a7",
+            "formattedAddress": "32648 S Bird Rd, Tracy, CA 95304",
+            "position":
+            {
+                "lat": 37.65584,
+                "lng": -121.36126
+            },
+            "display_position":
+            {
+                "lat": 37.65585,
+                "lng": -121.35979
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-ce6303876a193a11a83c3f246",
+            "formattedAddress": "3042 Hudson Dr, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.91919,
+                "lng": -121.69203
+            },
+            "display_position":
+            {
+                "lat": 37.91918,
+                "lng": -121.69171
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-e32013d8aa4923b29487ecbca",
+            "formattedAddress": "1345 Montauban St, Tracy, CA 95304",
+            "position":
+            {
+                "lat": 37.71591,
+                "lng": -121.40486
+            },
+            "display_position":
+            {
+                "lat": 37.71611,
+                "lng": -121.40487
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-73e4d33e7a1f3784a0a63d888",
+            "formattedAddress": "382 Fletcher Ln, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.92705,
+                "lng": -121.70479
+            },
+            "display_position":
+            {
+                "lat": 37.92696,
+                "lng": -121.70499
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-c2aca313c8d59b9ec61295a42",
+            "formattedAddress": "174 Pistachio Pl, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.9231,
+                "lng": -121.70429
+            },
+            "display_position":
+            {
+                "lat": 37.9231,
+                "lng": -121.70401
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-c91c8372cb8476bdcc20a45ac",
+            "formattedAddress": "310 Butte Way, Tracy, CA 95376",
+            "position":
+            {
+                "lat": 37.7217,
+                "lng": -121.42072
+            },
+            "display_position":
+            {
+                "lat": 37.72149,
+                "lng": -121.42068
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-2e2c834faa81e742404988484",
+            "formattedAddress": "167 Davidson Ct, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.92261,
+                "lng": -121.69949
+            },
+            "display_position":
+            {
+                "lat": 37.92282,
+                "lng": -121.69949
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-8e85239348a826696d00cd6cb",
+            "formattedAddress": "3054 Shiles Loop, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.91995,
+                "lng": -121.68797
+            },
+            "display_position":
+            {
+                "lat": 37.92007,
+                "lng": -121.68774
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-341853d9e88afcd8b592508c7",
+            "formattedAddress": "313 MacArthur Way, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.93618,
+                "lng": -121.70346
+            },
+            "display_position":
+            {
+                "lat": 37.93645,
+                "lng": -121.70369
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-01cc8390997df69c4cb1c71d9",
+            "formattedAddress": "200 Continente Ave, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.9219,
+                "lng": -121.70542
+            },
+            "display_position":
+            {
+                "lat": 37.92167,
+                "lng": -121.70542
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-73d4b3d14985a1ea7c4ca8b2a",
+            "formattedAddress": "332 W Grant Line Rd, Tracy, CA 95376",
+            "position":
+            {
+                "lat": 37.75419,
+                "lng": -121.43085
+            },
+            "display_position":
+            {
+                "lat": 37.75406,
+                "lng": -121.43085
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-2a376311dbe77d2d413abf82b",
+            "formattedAddress": "455 Peerless Way, Tracy, CA 95376",
+            "position":
+            {
+                "lat": 37.72369,
+                "lng": -121.41828
+            },
+            "display_position":
+            {
+                "lat": 37.72403,
+                "lng": -121.41833
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-407c4329c9cec536eb8bb7fc6",
+            "formattedAddress": "217 W Central Ave, Tracy, CA 95376",
+            "position":
+            {
+                "lat": 37.71524,
+                "lng": -121.42981
+            },
+            "display_position":
+            {
+                "lat": 37.71544,
+                "lng": -121.42989
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-b4d913523baaee8f2ba5e1a25",
+            "formattedAddress": "630 Blewett Rd, Tracy, CA 95304",
+            "position":
+            {
+                "lat": 37.62372,
+                "lng": -121.30579
+            },
+            "display_position":
+            {
+                "lat": 37.62313,
+                "lng": -121.31438
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-c928e31aaa5689dbc60b28f1e",
+            "formattedAddress": "892 Walsh St, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.9215773,
+                "lng": -121.6800837
+            },
+            "display_position":
+            {
+                "lat": 37.9215773,
+                "lng": -121.6800837
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-d6b1b335db1438ab635b6e5b5",
+            "formattedAddress": "1910 Village Dr, Tracy, CA 95376",
+            "position":
+            {
+                "lat": 37.71638,
+                "lng": -121.43162
+            },
+            "display_position":
+            {
+                "lat": 37.71637,
+                "lng": -121.43133
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-d58c139da89dc30392c117459",
+            "formattedAddress": "780 Heather Pl, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.93216,
+                "lng": -121.70622
+            },
+            "display_position":
+            {
+                "lat": 37.93229,
+                "lng": -121.70588
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-2ff0435de8f6ecc0a1f8d67d5",
+            "formattedAddress": "161 W Willow Creek Dr, Tracy, CA 95376",
+            "position":
+            {
+                "lat": 37.7161,
+                "lng": -121.42952
+            },
+            "display_position":
+            {
+                "lat": 37.71628,
+                "lng": -121.42962
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-cb5ce3ac0873068a5d0af0f90",
+            "formattedAddress": "1015 W 9th St, Tracy, CA 95376",
+            "position":
+            {
+                "lat": 37.73873,
+                "lng": -121.43968
+            },
+            "display_position":
+            {
+                "lat": 37.73873,
+                "lng": -121.43947
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-72e5c394eb244073c9f5007c9",
+            "formattedAddress": "25484 Marsh Creek Rd, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.89652,
+                "lng": -121.65115
+            },
+            "display_position":
+            {
+                "lat": 37.89581,
+                "lng": -121.65116
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-6a1633a539ac12ace7513403e",
+            "formattedAddress": "24214 S Cabe Rd, Tracy, CA 95304",
+            "position":
+            {
+                "lat": 37.73758,
+                "lng": -121.40382
+            },
+            "display_position":
+            {
+                "lat": 37.73758,
+                "lng": -121.40294
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-07315365982b0ee781f75cf5d",
+            "formattedAddress": "1161 Tulloch Dr, Tracy, CA 95304",
+            "position":
+            {
+                "lat": 37.71759,
+                "lng": -121.40756
+            },
+            "display_position":
+            {
+                "lat": 37.7178,
+                "lng": -121.40756
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-039133a6fb5fc362f9e097d2e",
+            "formattedAddress": "2191 Bentley Ln, Tracy, CA 95376",
+            "position":
+            {
+                "lat": 37.71505,
+                "lng": -121.41709
+            },
+            "display_position":
+            {
+                "lat": 37.71503,
+                "lng": -121.41734
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-941a73696978a7325c74e3a81",
+            "formattedAddress": "191 Fahmy St, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.92243,
+                "lng": -121.68219
+            },
+            "display_position":
+            {
+                "lat": 37.92262,
+                "lng": -121.68219
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-5a1f334e58afaca1fddd8839e",
+            "formattedAddress": "192 Kelley Mist Ln, Tracy, CA 95377",
+            "position":
+            {
+                "lat": 37.70293,
+                "lng": -121.42392
+            },
+            "display_position":
+            {
+                "lat": 37.70269,
+                "lng": -121.42391
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-ca1ff3ace977b36b816388b84",
+            "formattedAddress": "621 Avington Ct, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.92447,
+                "lng": -121.7082
+            },
+            "display_position":
+            {
+                "lat": 37.92447,
+                "lng": -121.7085
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-b043d3dbdbd3f13fb0627263e",
+            "formattedAddress": "1030 Dainty Ave, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.93265,
+                "lng": -121.70546
+            },
+            "display_position":
+            {
+                "lat": 37.93221,
+                "lng": -121.70546
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-efc7e3916821c0dff570fa924",
+            "formattedAddress": "684 Bellmeade Way, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.92316,
+                "lng": -121.70815
+            },
+            "display_position":
+            {
+                "lat": 37.92282,
+                "lng": -121.70816
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-484de31a9b15f4ec9c86af285",
+            "formattedAddress": "1281 Tulloch Dr, Tracy, CA 95304",
+            "position":
+            {
+                "lat": 37.71757,
+                "lng": -121.40575
+            },
+            "display_position":
+            {
+                "lat": 37.71778,
+                "lng": -121.40575
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-1148a38d28ebf34f5f3eb6486",
+            "formattedAddress": "266 Madrone Pl, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.92495,
+                "lng": -121.70127
+            },
+            "display_position":
+            {
+                "lat": 37.92463,
+                "lng": -121.70127
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-91bc73ed8b00bc3677615c00d",
+            "formattedAddress": "732 Heather Pl, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.93164,
+                "lng": -121.70622
+            },
+            "display_position":
+            {
+                "lat": 37.93164,
+                "lng": -121.70582
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-1d4883572b27cfda3cd103500",
+            "formattedAddress": "4329 Glenbrook Dr, Tracy, CA 95377",
+            "position":
+            {
+                "lat": 37.69999,
+                "lng": -121.42101
+            },
+            "display_position":
+            {
+                "lat": 37.70015,
+                "lng": -121.42118
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-43a223a58962e542a5424e8b0",
+            "formattedAddress": "1853 Mount Pellier St, Tracy, CA 95304",
+            "position":
+            {
+                "lat": 37.71707,
+                "lng": -121.404
+            },
+            "display_position":
+            {
+                "lat": 37.71707,
+                "lng": -121.40417
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-514cf373e90a0e3a62d1552b7",
+            "formattedAddress": "281 Hazel Ct, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.92318,
+                "lng": -121.70126
+            },
+            "display_position":
+            {
+                "lat": 37.92334,
+                "lng": -121.70136
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-d99b13e2c86896fcf45fd62b3",
+            "formattedAddress": "488 Trianda Way, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.93751,
+                "lng": -121.70566
+            },
+            "display_position":
+            {
+                "lat": 37.93751,
+                "lng": -121.70566
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-32a403c6aaae5c15afdb21069",
+            "formattedAddress": "23 Kensington Ct, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.92982,
+                "lng": -121.70265
+            },
+            "display_position":
+            {
+                "lat": 37.92984,
+                "lng": -121.70298
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-74de73075a897e3138571c9b8",
+            "formattedAddress": "360 Fletcher Ln, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.92679,
+                "lng": -121.70279
+            },
+            "display_position":
+            {
+                "lat": 37.92657,
+                "lng": -121.70279
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-5dab7309fad821195253e5eb6",
+            "formattedAddress": "409 Violet Pl, Tracy, CA 95377",
+            "position":
+            {
+                "lat": 37.69868,
+                "lng": -121.4316
+            },
+            "display_position":
+            {
+                "lat": 37.69887,
+                "lng": -121.43162
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-71e6635009ac294bdbecdda80",
+            "formattedAddress": "312 Kelley Mist Ct, Tracy, CA 95377",
+            "position":
+            {
+                "lat": 37.70293,
+                "lng": -121.42132
+            },
+            "display_position":
+            {
+                "lat": 37.70267,
+                "lng": -121.42133
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-8bda03a6fb767178ba25105c5",
+            "formattedAddress": "4185 Oakridge Dr, Tracy, CA 95377",
+            "position":
+            {
+                "lat": 37.70111,
+                "lng": -121.42286
+            },
+            "display_position":
+            {
+                "lat": 37.70114,
+                "lng": -121.42317
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-1593a37a6b682bc0b0a9fdc62",
+            "formattedAddress": "130 French Dr, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.92812,
+                "lng": -121.70207
+            },
+            "display_position":
+            {
+                "lat": 37.92813,
+                "lng": -121.70174
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-90c4b30099840a7b9744bcf0b",
+            "formattedAddress": "424 Napoli Ct, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.919426,
+                "lng": -121.68189
+            },
+            "display_position":
+            {
+                "lat": 37.919426,
+                "lng": -121.68189
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-e214430e489c55478991fa3ca",
+            "formattedAddress": "573 Divisi Ct, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.918852,
+                "lng": -121.6789042
+            },
+            "display_position":
+            {
+                "lat": 37.918852,
+                "lng": -121.6789042
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-e2cfe3a73b3ee7e74e56830dc",
+            "formattedAddress": "24630 Marsh Creek Rd, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.8933741,
+                "lng": -121.6633117
+            },
+            "display_position":
+            {
+                "lat": 37.8933741,
+                "lng": -121.6633117
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-fae5d3b6b9c9f2f1a14c43b0a",
+            "formattedAddress": "4444 Lindsey Ln, Tracy, CA 95377",
+            "position":
+            {
+                "lat": 37.69936,
+                "lng": -121.42394
+            },
+            "display_position":
+            {
+                "lat": 37.69939,
+                "lng": -121.4236
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-e3e9f3f8bb8f08a2b2232fa1a",
+            "formattedAddress": "220 W Central Ave, Tracy, CA 95376",
+            "position":
+            {
+                "lat": 37.71490517992172,
+                "lng": -121.42926457434231
+            },
+            "display_position":
+            {
+                "lat": 37.7150202828065,
+                "lng": -121.42946607183285
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-faf623593a6ddc608a0f1a9c4",
+            "formattedAddress": "3757 W Kenner Rd, Tracy, CA 95304",
+            "position":
+            {
+                "lat": 37.64538,
+                "lng": -121.35092
+            },
+            "display_position":
+            {
+                "lat": 37.64723,
+                "lng": -121.35092
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-10c963c94a45cecc65c59313a",
+            "formattedAddress": "965 Amaretto Dr, Tracy, CA 95376",
+            "position":
+            {
+                "lat": 37.72311,
+                "lng": -121.42227
+            },
+            "display_position":
+            {
+                "lat": 37.72302,
+                "lng": -121.42252
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-2e0413b82bbac696203aa9803",
+            "formattedAddress": "697 Bellmeade Way, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.92326,
+                "lng": -121.70877
+            },
+            "display_position":
+            {
+                "lat": 37.92349,
+                "lng": -121.70866
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-3ec5430ab8e210a53a1f4e36e",
+            "formattedAddress": "545 W Deerwood Ln, Tracy, CA 95376",
+            "position":
+            {
+                "lat": 37.71752,
+                "lng": -121.43355
+            },
+            "display_position":
+            {
+                "lat": 37.71775,
+                "lng": -121.43356
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-b4fc43a1e9141bfade500caed",
+            "formattedAddress": "142 Hollow Brook Ct, Tracy, CA 95377",
+            "position":
+            {
+                "lat": 37.70785,
+                "lng": -121.42426
+            },
+            "display_position":
+            {
+                "lat": 37.70759,
+                "lng": -121.42426
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-e4d713be1990835781a14fc68",
+            "formattedAddress": "541 Cashew Pl, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.91978,
+                "lng": -121.70171
+            },
+            "display_position":
+            {
+                "lat": 37.91999,
+                "lng": -121.70171
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-6927c3baf98dfff4086ef3156",
+            "formattedAddress": "1441 Parker Ave, Tracy, CA 95376",
+            "position":
+            {
+                "lat": 37.74413,
+                "lng": -121.42987
+            },
+            "display_position":
+            {
+                "lat": 37.74413,
+                "lng": -121.43048
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-6b6a737a48c1cb55eab11fdef",
+            "formattedAddress": "744 Campanello Way, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.9191,
+                "lng": -121.71127
+            },
+            "display_position":
+            {
+                "lat": 37.91876,
+                "lng": -121.71127
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-0e5dc349c8b3c0d710171cc4e",
+            "formattedAddress": "940 N Estates Dr, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.93552,
+                "lng": -121.70807
+            },
+            "display_position":
+            {
+                "lat": 37.93549,
+                "lng": -121.70778
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-2fd6f3f3ab12cebdddb97ca0f",
+            "formattedAddress": "4133 Rocky Point Ct, Tracy, CA 95304",
+            "position":
+            {
+                "lat": 37.7521,
+                "lng": -121.3574
+            },
+            "display_position":
+            {
+                "lat": 37.75254,
+                "lng": -121.35718
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-a1b1830e7a68a20ff0553dbba",
+            "formattedAddress": "11440 Byron Hwy, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.9193,
+                "lng": -121.6412
+            },
+            "display_position":
+            {
+                "lat": 37.91931,
+                "lng": -121.64183
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-fb4883633b4dbe6745c2bf1f5",
+            "formattedAddress": "4704 Carnegie Ln, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.92182,
+                "lng": -121.69236
+            },
+            "display_position":
+            {
+                "lat": 37.92163,
+                "lng": -121.69224
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        },
+        {
+            "list_item_id": "f07d-876cf38edb7f8b5691d97807a",
+            "formattedAddress": "4603 Balfour Rd, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.92691523490194,
+                "lng": -121.69532192762657
+            },
+            "display_position":
+            {
+                "lat": 37.92702587089997,
+                "lng": -121.6953199989272
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "f07d7425-1776-4abc-9790-35cb1a0696aa"
+            }
+        }
+    ],
+    "assignee_with_vehicle":
+    [
+        {
+            "list_assignee_id": "extra-driver-0",
+            "capacity": 10
+        },
+        {
+            "list_assignee_id": "extra-driver-1",
+            "capacity": 50
+        },
+        {
+            "list_assignee_id": "extra-driver-2",
+            "capacity": 50
+        }
+    ],
+    "default_shift_length": 4
+}
