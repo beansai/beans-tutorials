@@ -1,0 +1,58 @@
+{
+  "item": [
+    {
+      "list_item_id": "e6d3-a801b3605afbd726df743cc66",
+      "address": "3416 Deer Valley Rd, Antioch, CA 94531",
+      "route": {
+        "list_route_id": "e6d3785d-ffb0-40f6-b1c4-00793bb276f1"
+      },
+      "deliver_from_str":"2033-01-01 08:00",
+      "deliver_by_str":"2033-01-01 08:30"
+    },
+    {
+      "list_item_id": "e6d3-8eca53fefb635f19958ab0cbf",
+      "address": "4901 Lone Tree Way, Antioch, CA 94531",
+      "route": {
+        "list_route_id": "e6d3785d-ffb0-40f6-b1c4-00793bb276f1"
+      },
+      "deliver_from_str":"2033-01-01 08:30",
+      "deliver_by_str":"2033-01-01 09:00"
+    },
+    {
+      "list_item_id": "e6d3-faf623593a6ddc608a0f1a9c4",
+      "address": "7610 Brentwood Blvd, Brentwood, CA 94513",
+      "route": {
+        "list_route_id": "e6d3785d-ffb0-40f6-b1c4-00793bb276f1"
+      },
+      "deliver_from_str":"2033-01-01 09:00",
+      "deliver_by_str":"2033-01-01 09:30"
+    },
+    {
+      "list_item_id": "e6d3-b4d913523baaee8f2ba5e1a25",
+      "address": "8626 N Lower Sacramento Rd #20, Stockton, CA 95210",
+      "route": {
+        "list_route_id": "e6d3785d-ffb0-40f6-b1c4-00793bb276f1"
+      },
+      "deliver_from_str":"2033-01-01 14:00",
+      "deliver_by_str":"2033-01-01 14:30"
+    },
+    {
+      "list_item_id": "e6d3-6a1633a539ac12ace7513403e",
+      "address": "1640 N Broadway Ave, Stockton, CA 95205",
+      "route": {
+        "list_route_id": "e6d3785d-ffb0-40f6-b1c4-00793bb276f1"
+      },
+      "deliver_from_str":"2033-01-01 14:30",
+      "deliver_by_str":"2033-01-01 15:00"
+    },
+    {
+      "list_item_id": "e6d3-a6f4c36d69394ba11f52b63a7",
+      "address": "500 W Hospital Rd, French Camp, CA 95231",
+      "route": {
+        "list_route_id": "e6d3785d-ffb0-40f6-b1c4-00793bb276f1"
+      },
+      "deliver_from_str":"2033-01-01 15:00",
+      "deliver_by_str":"2033-01-01 15:30"
+    }
+  ]
+}

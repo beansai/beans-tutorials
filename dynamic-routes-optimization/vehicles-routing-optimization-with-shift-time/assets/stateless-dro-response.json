@@ -1,0 +1,148 @@
+{
+    "segment": [
+        {
+            "listAssigneeId": "tu1-tutorial-driver-1",
+            "item": [
+                {
+                    "listItemId": "e6d3-a801b3605afbd726df743cc66",
+                    "formattedAddress": "3416 Deer Valley Rd, Antioch, CA 94531",
+                    "route": {
+                        "listRouteId": "e6d3785d-ffb0-40f6-b1c4-00793bb276f1"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.98956,
+                        "longitude": -121.78517
+                    },
+                    "displayPosition": {
+                        "latitude": 37.98998,
+                        "longitude": -121.78592
+                    },
+                    "deliverFromStr": "2033-01-01 08:00",
+                    "deliverByStr": "2033-01-01 08:30",
+                    "estimatedByStr": "08:00"
+                },
+                {
+                    "listItemId": "e6d3-8eca53fefb635f19958ab0cbf",
+                    "formattedAddress": "4901 Lone Tree Way, Antioch, CA 94531",
+                    "route": {
+                        "listRouteId": "e6d3785d-ffb0-40f6-b1c4-00793bb276f1"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.96223,
+                        "longitude": -121.76049
+                    },
+                    "displayPosition": {
+                        "latitude": 37.96228,
+                        "longitude": -121.76049
+                    },
+                    "deliverFromStr": "2033-01-01 08:30",
+                    "deliverByStr": "2033-01-01 09:00",
+                    "estimatedByStr": "08:30",
+                    "estimatedCapacity": 1
+                },
+                {
+                    "listItemId": "e6d3-faf623593a6ddc608a0f1a9c4",
+                    "formattedAddress": "7610 Brentwood Blvd, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "e6d3785d-ffb0-40f6-b1c4-00793bb276f1"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.94517,
+                        "longitude": -121.69611
+                    },
+                    "displayPosition": {
+                        "latitude": 37.94517,
+                        "longitude": -121.69594
+                    },
+                    "deliverFromStr": "2033-01-01 09:00",
+                    "deliverByStr": "2033-01-01 09:30",
+                    "estimatedByStr": "09:00",
+                    "estimatedCapacity": 2
+                }
+            ],
+            "timeS": 9729.0,
+            "distanceM": 91762.6,
+            "pathEncoded": "wjheF~esdV?@EvIfEJDzE`A@|BT~DD`AAdAcC^_BNUjAAE~M{RAyHBeAAkE@mE@{B?mH@G?cE?e@?uC@iB?yA@aJAaC?qIH}@@Q?M?yIGeB?}C@oDLY?_G@u@Cg@AI?u@AaEIuV?}F@sDAwG@aOBkB?c@?aGBgCA{A?g@?kD@}BAS?gC?kHCyC@}@?yKB{@Aa@YsHnN}@~A{AtCuClFmA|BqGvLoHjNeBtD_BxDsAdDsBrEo@nAINgAtBaIrOMR_EbHc@t@}BnDwEvGyBtDUb@aFjJs@nAw@zAiA|BcEtHyCtF_Q~[gE`IgFjJq@rAeAnBOXkCbF{B`EeCvEcClE}DnHcGbLmm@rhAqWjg@sD`H_@n@}ClFWb@aLnTcDjGwf@d_AuBzDu@vAwB~DqA~BoDxGsJzNoKjNqBlEi@bAw@|@s@f@oA~@wB^c@BgBDgBD_AJ}@R}@b@s@`@i@b@e@h@g@t@_@h@{@lB{@xA_QnOkl@fg@_]dZg@b@gHjGis@tm@qG`GiEpD{Y~VgA~@@dA@lAA^AtE?vFBxL@|D?p@?fC?fA?ZAlR?xG?R?|@?~A@nA?hA@jO@t\\@\\@bA@VD`@R`ARv@b@`B|@pCb@`BJh@lA|JHn@Hv@Lv@N|@Jj@bArDb@`Bm@~@yD~FgAbB}@`Bc@v@_@x@y@hBmArCyJpUaBtDaAlBk@bAo@z@aCtCeAhAkAbAuCfCwd@fa@uXfVa@^c@`@_@\\]^_@f@g@r@o@`Ao@dAqGxJ{@xA]p@Uh@Sn@St@Qh@G`@Kh@Gb@Ij@Ev@Ev@?h@@bB?fFAxA?dBAnAChAAv@Ev@GfAIfAKt@K|@Kt@UlA[|A_@xA[fA]`Ae@lAc@~@i@dAa@t@o@`AcAtAk@n@o@p@_BvAqFnEcElDwDxEeEdHmDnIsF|KoC~FeBfCwAdBc@h@{AtA}GbEkGzCiDjB{@n@eBtAaBdB{AnBmAdBqFhJgAjByNnT_CjDkAzAqAzAaBnA}ApA{At@cBz@wBv@}EhA}BLcEFoE@{@CcHAsD@iCDeBHkAFoAHmDZqBLkBPaAH_ALy@Ns@Py@Te@Ns@TQFWJqAd@eBn@sBt@cC~@_Ct@kBh@wBh@gAXqCt@kJrC_AZoQzG}K`EcJjDyAf@[LyQ~GiC`AmQrGm@TgBn@sEdBy@Zu@Vg@Ns@Ls@Lq@Hq@Fu@Fq@Bq@@w@?gUBeDAoCCy@C{@E{@G_AI_AMu@K{@My@Oy@Ss@Qu@Ss@Uu@Ys@[{@_@_Ae@m@]q@a@u@e@o@e@wAkAqBiBqDsDk@a@k@c@i@_@i@_@m@]o@]u@]o@Ym@Uo@S{@Uw@Qq@Ow@Mw@Ky@Gq@Eo@Cw@Cw@?u@@w@Du@DwANyB\\eBd@_Bf@uBz@}BpAkG~D{FpDoFnDgOpJwP`LuFxDmBrA{@j@i@XoJjGeBlAsAhAyCpDaA|AaAfBYn@y@tB}@nCy@hDYlBQvBS~BWlDSvCYbE[jEi@jJq@xHa@vCUtAWhAc@hBq@~BwBlHoBbHi@lB_@xA_@hBYvAc@nC_@~CwBfT}BxVMvAu@hEo@xDKt@WnAYj@_@d@a@Zc@N_@DWF]F[d@E`@?f@YbDGt@Aj@AnA?\\@\\XM|Ai@b@QbAc@fAc@x@]`A[jAc@dAa@~@a@p@WhAe@xAk@jAY|@Cx@BrBXnCb@t@Ll@NNDfAb@PLp@Z~@x@??z@j@HBh@Rr@T|@PN@L@@_@M?MAk@Ko@OUKYMw@_@iCqBH]j@eBj@eAt@cAvAqBjBiCp@_Ap@}@tAqBfBeCHMjBkC\\g@JQHKr@cBXk@d@{@nDwEt@cAJQ^q@NSx@_BZy@b@kAXkAJg@Fm@Dw@?}BA_KA_E@cA@WDa@Fq@Pq@V_A|BcH~@qCHWHSDKZu@rBmEfA_Dp@oBf@eAn@w@j@g@d@Ub@O^Kt@If@A~AHfERjAFpAD~A?dBCpDCfEHrC@z@C|@O^KXMf@Y\\Yf@g@RYXg@Vm@d@yAZm@j@u@`Au@h@YXIh@Id@EpQEvMAj@?pE?`CAfA?PA?T@xBm@@[?GEGG?GAi@?g@?g@fA?PAXC?]?]?mN@yI?}C?S?}P?cEFmGAkC?]DeF?]DwFBiIE_IBqE?a@AoB?_A?oB@{C?k@?cB?S?iH@e@AwF?}C?yA?uD?kD?a@CsK?sC@eC???oF@iC?kJCcBEqD@yE?yG?eC?{KN[CcNA}B?oG?Q?UIU@{E@eE@iE?_A@gB?aB?qA@uA@sC?E?{B?wAAcA?eC?cEC}B?uDAaC?qD?a@?qAAmA?C?cA?w@@qB?E?aB?GAu@?_C@IBaA?q@?{@?_@@gB?{@RJb@?bAA~@?pA?T?f@@T@|@AdA@l@?t@Ad@AN@d@?d@@zA@|B@vB?v@?^?l@?r@ARI`B?|A@zBAvFU`E@pA@hE@fA@P?jBB~@@vBBjC@\\?nBETAfB@fB@lAB`ABD?hA?jD?F?vD?D?pBB\\@V?|@@Z?H?R?V?T@`@?`@?Z?tB@Z@r@?x@?z@?`@@hA?t@?R?`A?N?T@hA?b@D\\ZXd@NZbB|DJT|@rB`@~@HLNFLDL?LCPGrAmAfB_B`@_@b@a@p@m@~AuAZGhAeALK`B{AnBcBBA@At@q@b@[BQjEaBp@e@bA}@nC_ClBaBhBeBbB}Al@k@vCkCfAeAVU~@y@nBcBfAaAvCgCtCiC|DkDdA_ApC_CxFwEtBaBnAcAj@e@RMt@q@~^{[fBqBnAwBfAqCz@yCNu@Fg@Fm@B{@@eR?}A@eSBuw@?a\\@aV?_EAgWAmFAaDD{C\\aBPw@N]z@iBtAaBDAfBy@|Aa@nDKxNB`H@hA?dG?|A@hT@zKFrB?fB@~B?tA@xFDnG?dAEt@M~@Y`Ak@JPNRPPVNLFVFVBp@?l@?r@@~A?V@r@?jH@fF@J@`B?nB?`C@d@?pHBB?L?~A?hG?~A?t@@\\?vE?bE@nF@xF@~A@jG@dA?h@@|C?RERIn@i@`@]~CoCnEaEtC{BbDsAfA_AzY_WhEqDpGaGhs@um@fHkGf@c@~\\eZjl@gg@~PoOz@yAz@mB^i@f@u@d@i@h@c@r@a@|@c@|@S~@KfBEfBEb@CvB_@nA_Ar@g@v@}@h@cApBmEnKkNrJ{NnDyGpA_CvB_Et@wAtB{Dvf@e_AbDkG`LoTVc@|CmF^o@rDaHpWkg@lm@shAbGcL|DoHbCmEdCwEzBaEjCcFNYdAoBp@sAfFkJfEaI~P_\\xCuFbEuHhA}Bv@{Ar@oA`FkJTc@xBuDvEwG|BoDb@u@~DcHLS`IsOfAuBHOn@oArBsErAeD~AyDdBuDnHkNpGwLlA}BtCmFzAuC|@_BrHoN`@Xz@@xKC|@?xCAjHBfC?R?|B@jDAf@?zA?fC@`GCb@?jB?`OCvGArD@|FAtV?`EHt@@H?f@@t@B~FAX?nDM|CAdB?xIFL?P?|@ApII`C?`J@xAAhB?tCAd@?bE?F?lHAzB?lEAjEAdA@xHCzR@D_NkA@OT_@~AeAbCaA@_EE}BUaAAE{EgEKDwI?A",
+            "capacity": 3,
+            "shiftStartTime": "07:00"
+        },
+        {
+            "listAssigneeId": "tu1-tutorial-driver-2",
+            "item": [
+                {
+                    "listItemId": "e6d3-b4d913523baaee8f2ba5e1a25",
+                    "formattedAddress": "8626 Lower Sacramento Rd, Stockton, CA 95210",
+                    "route": {
+                        "listRouteId": "e6d3785d-ffb0-40f6-b1c4-00793bb276f1"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 38.02906,
+                        "longitude": -121.32269
+                    },
+                    "displayPosition": {
+                        "latitude": 38.02905,
+                        "longitude": -121.32186
+                    },
+                    "deliverFromStr": "2033-01-01 14:00",
+                    "deliverByStr": "2033-01-01 14:30",
+                    "estimatedByStr": "14:00"
+                },
+                {
+                    "listItemId": "e6d3-6a1633a539ac12ace7513403e",
+                    "formattedAddress": "1640 N Broadway Ave, Stockton, CA 95205",
+                    "route": {
+                        "listRouteId": "e6d3785d-ffb0-40f6-b1c4-00793bb276f1"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.97907,
+                        "longitude": -121.25163
+                    },
+                    "displayPosition": {
+                        "latitude": 37.97929,
+                        "longitude": -121.2508
+                    },
+                    "deliverFromStr": "2033-01-01 14:30",
+                    "deliverByStr": "2033-01-01 15:00",
+                    "estimatedByStr": "14:30",
+                    "estimatedCapacity": 1
+                },
+                {
+                    "listItemId": "e6d3-a6f4c36d69394ba11f52b63a7",
+                    "formattedAddress": "500 W Hospital Rd, French Camp, CA 95231",
+                    "route": {
+                        "listRouteId": "e6d3785d-ffb0-40f6-b1c4-00793bb276f1"
+                    },
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.88652,
+                        "longitude": -121.28206
+                    },
+                    "displayPosition": {
+                        "latitude": 37.88664,
+                        "longitude": -121.28308
+                    },
+                    "deliverFromStr": "2033-01-01 15:00",
+                    "deliverByStr": "2033-01-01 15:30",
+                    "estimatedByStr": "15:00",
+                    "estimatedCapacity": 2
+                }
+            ],
+            "timeS": 9273.0,
+            "distanceM": 121235.7,
+            "pathEncoded": "wjheF~esdV?@EvIfEJDzE`A@|BT~DD`AAdAcC^_BNUjAAE~MJ?tKGlI@vG?CtCIlHGVGrGArB?zB?LAtSCzDCjG?jCAjLCzNAbDAjDEp@Kp@Y`Ac@SeBc@s@Go@Cm@@kBFkD@kA?iCAwDA{A?gBA_AAwA?WLiBGe@?}@?a@AcA?i@BiCRuAFoC@gC?a@?}G@sFAmA?]?gJ@oAAsEA_B@k@?aCNaBcKq@_FK{AAqB@cECyAj@kUReJ|A{m@XqKJwCBuAJ}Cn@eWLiGZsLH}D@yAAyDGkDKsCKgBM{AQgBU_Bm@aEUoAa@sBe@kBaAoD}Ks^_FePgSkp@}@wCgAwDaEwMcAcDwCsJgDyKcKo\\{A_FeHoUeEeN}EcPUs@K[Ww@wPmj@s@}Bo@}BGYk@wBMo@_AgFWaBg@mEWgDUaDGoBG}D?kBAoA@eH?iB@__@@uJE{IBaD?c@CoDIiDIwBImA[cEg@iGWwCKyAsBeVSsCq@aJWsCK}AAo@M_FAwDA_QCeo@Csq@?{GAi]AyOA{B?o\\AwX?aACslA?o@?oUEiEGaCs@yKMeD[cHYyFsAo\\mDct@m@aLIgBa@_FMmAYoBa@wBo@{Bm@uBw@oBgA{BiAiBgAaBwB}Ba@a@eEcD_HeFkA}@kAmAsAcByGeJsAsBoAqBmB{CiF{H}DeGuAwBoBwCuCsEaAeBiAaBaBqBkDgFwBcEkBoDaFoJy@yAsDaHq@yAaAaBsAgBsA{AaAaAcA}@iBqA}DqBkAg@iBi@wA[sASgAMkBK_ACmA?wA@}CCqG@uACoAEmAGuC[oAO_BY{A]ep@gPu]mI_B_@uZgIs^qKsDeAuUiG{Ac@m\\yJ}EuAeBe@SGeDu@uB_@wCc@yc@oGkImAmG}@cW{DqUgDyF}@cOuB}ASg[qFaGaA}^mHqQqDsB_@mBQ{AOuBI}DKwC@uBHqOfAsLdAqPfAsAJyGj@uCf@yATcAVqA`@{A\\{K|C}TnF}Cv@mZ`IeBb@{@RaQvEoLpCm[jIgCr@cH`Bw@PcCp@cOzDqA\\sQrEyA`@kA\\kIrBg]bJeCf@kMjDyA^uPhEsSjFaDp@kJ~@uCXgBPkP|A{D^eAHqCVuD`@kAH{Fh@sBRoARqAXwA^cAb@s@X}@b@g@VYP[NcBnAi@b@qBlB[`@YZUXg@p@_@f@_@l@]j@]n@mAdC_C|FoCzGq@fBoHbRaAbBkCjFMX]`@YTSJe@PQBUB_@Aa@E{@W{@U}A]y@Ik@@u@Dq@PUNg@LQL}A\\aBXmBZuAViCd@}Ch@yCj@eDj@aAP_BXiCb@gARaARuBZy@LQDeA^KBu@V}C~@{C|@eAVcAZq@P]Jw@TcCt@}C|@{Cz@gBh@s@Rs@TaBj@a@J_@Hg@Ju@N}@XyAd@wBl@eAZ_Ct@_AXyBn@u@Jk@FO@mA@}EOW?[As@@s@Du@Jm@LcCr@eCt@_Cp@cCt@gAZwA`@k@N{Ab@s@PuDdAg@Rg@ROF_DnAKDOFiAd@{Al@QFYJgCr@e@LaAVOBqA\\gJfCeUhGSD_@LwA`@eAXa@Jy@TwA`@eBd@UFuBj@m@P]JkAZgAZoBj@qDfAiBj@oDfAkA^aBf@aBf@c@LA@G@G@gA^}Bn@oDz@iDt@_Ep@{BXI@}BVuAN_BJq@FeBHqBHkBD_FBoACiA?oABy@BG?O?k@@M?K@eB?cD@qHDeHBMBI@G?}B?YA@g@BgB@_D?eBAqDAiA?gAI{BCm@E_AAuAAaBBoBHoAB[e@KeAUi@GWCuACeBEM?C?g@Ay@AqDGmCEmAAiAAa@Ck@AmHIYAkA@GAW@I?O?qBAQ?{BCi@?k@AAf@V@pC@hC?l@?L?X?H?b@?f@AbCDbA@nABbCDbA@hA@nCBhBB`CDj@?zBBB?~@Bz@HD?lAVb@HB[@a@FgADeBAmA?E?mD?wG?cD@}F@_F?oD@]?oIA}@@kVEsXAsD@aK?mK?cF?cC?i@@aE@iC?gE@kD@m@?uD?sA@oDAcE?iD?w@CsBAcH?ICwB?SCqBAq@AqA?sAAOA}BCuKAyCAkDA}@EqRAeH?O?OCwJA{FAoJ?eD@eG?uC?WA}C@sF?O@iA@aC?_@?{DAk@?s@?kE?{GAcD?i@J{@HWLKVMnBAn@SZQp@i@\\_@hAcA~@q@dAe@dAWnDOj@Eb@IrDKxMGzBC`SIxBArGAxDCdJMhAG`@?dAGRAz@Qd@Mr@YLGPIdAk@bDgBhAg@f@OpHyBb@MdHuBnEsA`X_IlEqAzIoCdEiAlBg@vIqCd@DtB_@d@?X@h@NRHf@^zBjBZXh@NP?PCNBp@GL?J?HBXNZPv@vAlAvBP\\b@t@NQ^[ZWLG\\KfAYDCr@UJEPIbA[pA]nDmANGdA]FA^MHEVIj@Q`@Ml@S~@Y|Ag@zHcC~CaAjA_@lBo@j@QjA_@`Bi@hEuAv@Wd@OjBk@RELATDLNJNDLZrALd@Pr@FPBHDFDDLFJ@J?FAzDmAh@Q`@rAb@pAl@~A~AtEHTf@|ABFRp@JXd@xABDp@tBl@hBf@xABHv@bCDJx@dCXz@HCBARKLKHELILIDCBA^Qv@UZMr@QVInBk@hCw@zCaAz@]FCj@SZM`Bg@nA_@pA_@^xB~@rD`FvTnArHVxAPfAXjAXlAZhARh@Lb@b@jA^z@b@`Af@`Al@bA@BDHzAlCtAzBJRbAjB^z@b@dAl@dB~@`Dh@bC^xBd@nD\\fDz@hJVpCXvCd@pFn@`HzAdO|Cv[~@jJfAjMx@xLp@jKNrBNtDl@rJLlBPnBVzDNxB@FF^FZJ\\Pf@NZNVRZx@|@r@`@d@Lv@N\\Bb@?ZA`@Ib@Kz@]`Bo@NCj@YxAo@h@S\\O\\M^Q\\Md@Ov@STEbAOdAKXCfAUnAU~Fi@bAIxEe@nOwAbBObIu@jC[n@KvDw@lBe@dMaDvA_@fPeErA]dO{DnA]vg@uMdAY|@UfBc@hO{DtA]rOaEtBk@jHiBlCu@zd@qLdU_GjA[lBe@lGaBhJaCj@QzKsCh`@_KvA_@jEm@|BQfCKt@?r@?tADd@NK~CiBOgBMg@EWCeAGkBMw@Be@FeDp@WF?H?j@AJGJMLWHIJMXLBKdAIGGEIBGH]pA?FBLD@FBLELSJe@DW@UJeAHBHQBCVIHGJKDODU?U?a@?IdDq@d@Gv@CjBLdAFVBf@DfBLhBNJ_DJBb@A`@K~Ag@|Ak@jA[~AYpBSt@Y`]eCrDOpCC`BBlCHrALfBPbBX|RvDv]|GbKjBjGhAxGhAvGdAvATfXjExUhDfO|BlC`@hIjAlIlA|e@~GvCf@vCl@bAVrA\\fHrBzZxIdBf@tThG|F`Bj`@zKtW`HzA^vZxHjUxFl[|H|Cp@dC`@hALtBPnCJjBCnPFzADnBLnAPbAPtA\\xAd@vAj@bCpAdBjA^ZlBdBhApAt@bApAlBr@nAnGvLp@rAhBhDvHnN`DbFz@rAhC|DlDlFjBrChK~OlNfT~OhVxAzBbElGzBdDfI~Ot@~Al@|A\\`Ap@`Cl@hCPbAZxBXtCHlAhAfVt@dP~Bdh@VlGLtBRhEZrFXhHDdC@`XD`u@EfZ@dABvVH~kC@no@BdR?h@JhGFrAZvEx@jKTvCjBhUPhBTzC~@lLVnEJrE@jI@~N?lBCzb@BhB@tJ?t@@rBH|FRdDXdDP~Af@vD`@fCf@bCp@xCDRPp@rNde@xCvJZfAPp@|HhWpA`EbKl\\vAtE~D`NjA`EdBhFhCnIlL|_@hApDtT`t@dBzFrCxIrCnJvB|Gv@nCt@zBp@dCf@pBt@rD\\pBJp@b@bDZ|CZnELvCFnBHpB@bCAxCC`Ca@nN{@p[KdFOdGSvHq@dX[dMSbH}@h\\O~@{@tMOlBeArLGxBxDBz@HzBAlDUdBIjEMnA@fJA\\?lA?rF@|GA`@?fC?nCAtAGhCSh@CbA?`@@|@?d@?hBFZN`BBx@?~A@fF@dC?tB?~BApBCpAAr@@RBXDz@Rr@VZLTJJa@To@PgADs@@kD@kD@qJ?sCDkX?]@iDAsF@yFAgDAqC?qB@wA@uDCYHmHBuCwG?mIAuKFK?D_NkA@OT_@~AeAbCaA@_EE}BUaAAE{EgEKDwI?A",
+            "capacity": 3,
+            "shiftStartTime": "13:00"
+        }
+    ]
+}
