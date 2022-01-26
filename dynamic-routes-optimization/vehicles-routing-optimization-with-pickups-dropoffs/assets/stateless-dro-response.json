@@ -1,0 +1,172 @@
+{
+    "segment": [
+        {
+            "listAssigneeId": "tu1-tutorial-driver-1",
+            "item": [
+                {
+                    "listItemId": "9d0b-2fd6f3f3ab12cebdddb97ca0f",
+                    "formattedAddress": "101 American Ave, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "9d0b5ee9-fa02-4d6e-8633-f7980b225ae1"
+                    },
+                    "trackingId": "9d0b-004",
+                    "numPackages": 1,
+                    "type": "PICKUP",
+                    "position": {
+                        "latitude": 37.92187,
+                        "longitude": -121.75555
+                    },
+                    "displayPosition": {
+                        "latitude": 37.92185,
+                        "longitude": -121.75568
+                    },
+                    "estimatedByStr": "09:16"
+                },
+                {
+                    "listItemId": "9d0b-6a1633a539ac12ace7513403e",
+                    "formattedAddress": "4501 Sand Creek Rd, Antioch, CA 94531",
+                    "route": {
+                        "listRouteId": "9d0b5ee9-fa02-4d6e-8633-f7980b225ae1"
+                    },
+                    "trackingId": "9d0b-003",
+                    "numPackages": 1,
+                    "type": "PICKUP",
+                    "position": {
+                        "latitude": 37.95058,
+                        "longitude": -121.77574
+                    },
+                    "displayPosition": {
+                        "latitude": 37.95087,
+                        "longitude": -121.77535
+                    },
+                    "estimatedByStr": "09:27",
+                    "estimatedCapacity": 1
+                },
+                {
+                    "listItemId": "9d0b-faf623593a6ddc608a0f1a9c4",
+                    "formattedAddress": "4893 Lone Tree Way, Antioch, CA 94531",
+                    "route": {
+                        "listRouteId": "9d0b5ee9-fa02-4d6e-8633-f7980b225ae1"
+                    },
+                    "trackingId": "9d0b-002",
+                    "numPackages": 1,
+                    "type": "PICKUP",
+                    "position": {
+                        "latitude": 37.96287,
+                        "longitude": -121.76203
+                    },
+                    "displayPosition": {
+                        "latitude": 37.96318,
+                        "longitude": -121.76203
+                    },
+                    "estimatedByStr": "09:34",
+                    "estimatedCapacity": 2
+                },
+                {
+                    "listItemId": "9d0b-a801b3605afbd726df743cc66",
+                    "formattedAddress": "3365 Deer Valley Rd, Antioch, CA 94531",
+                    "route": {
+                        "listRouteId": "9d0b5ee9-fa02-4d6e-8633-f7980b225ae1"
+                    },
+                    "trackingId": "9d0b-001",
+                    "numPackages": 1,
+                    "type": "PICKUP",
+                    "position": {
+                        "latitude": 37.98784,
+                        "longitude": -121.78451
+                    },
+                    "displayPosition": {
+                        "latitude": 37.98784,
+                        "longitude": -121.78445
+                    },
+                    "estimatedByStr": "09:42",
+                    "estimatedCapacity": 3
+                },
+                {
+                    "listItemId": "9d0b-8eca53fefb635f19958ab0cbf",
+                    "formattedAddress": "4320 E Summer Lake Dr, Oakley, CA 94561",
+                    "route": {
+                        "listRouteId": "9d0b5ee9-fa02-4d6e-8633-f7980b225ae1"
+                    },
+                    "trackingId": "9d0b-001",
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.9849409,
+                        "longitude": -121.6276116
+                    },
+                    "displayPosition": {
+                        "latitude": 37.9849409,
+                        "longitude": -121.6276116
+                    },
+                    "estimatedByStr": "10:05",
+                    "estimatedCapacity": 4
+                },
+                {
+                    "listItemId": "9d0b-b4d913523baaee8f2ba5e1a25",
+                    "formattedAddress": "1923 Delta Rd, Knightsen, CA 94548",
+                    "route": {
+                        "listRouteId": "9d0b5ee9-fa02-4d6e-8633-f7980b225ae1"
+                    },
+                    "trackingId": "9d0b-002",
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.96883,
+                        "longitude": -121.6603
+                    },
+                    "displayPosition": {
+                        "latitude": 37.96792,
+                        "longitude": -121.6603
+                    },
+                    "estimatedByStr": "10:20",
+                    "estimatedCapacity": 3
+                },
+                {
+                    "listItemId": "9d0b-a6f4c36d69394ba11f52b63a7",
+                    "formattedAddress": "2525 Sunset Rd, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "9d0b5ee9-fa02-4d6e-8633-f7980b225ae1"
+                    },
+                    "trackingId": "9d0b-003",
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.95452,
+                        "longitude": -121.65075
+                    },
+                    "displayPosition": {
+                        "latitude": 37.95447,
+                        "longitude": -121.65075
+                    },
+                    "estimatedByStr": "10:27",
+                    "estimatedCapacity": 2
+                },
+                {
+                    "listItemId": "9d0b-fae5d3b6b9c9f2f1a14c43b0a",
+                    "formattedAddress": "4451 Orwood Rd, Brentwood, CA 94513",
+                    "route": {
+                        "listRouteId": "9d0b5ee9-fa02-4d6e-8633-f7980b225ae1"
+                    },
+                    "trackingId": "9d0b-004",
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.93916,
+                        "longitude": -121.61148
+                    },
+                    "displayPosition": {
+                        "latitude": 37.93911,
+                        "longitude": -121.61149
+                    },
+                    "estimatedByStr": "10:36",
+                    "estimatedCapacity": 1
+                }
+            ],
+            "timeS": 6518.0,
+            "distanceM": 70607.9,
+            "pathEncoded": "chgfFjeieV@F?hC?P@vC?pCAtDAlI?lBAzDDnHL`EN~G?rA?jY@j@@nJChAKfAQz@YdAq@tAo@x@_A`AaAj@_AXu@LeADoG?yFEuAA_C?gBAsB??jB?D?`E?vFAbIArGAxEGrM?j@AvM@xG@bB@z@?`@BbD?t@?vC?dK?J?|@CjMAvK?f@?xB?vBAhG?|MAhHAhV@hVD~G?z@FxI@jA@nBB|FCjEE|H?R?jM?pB@fBLhM?bFC~GB|HDfj@Bd\\?hCAhH@n@@p@Bf@Bd@Hp@Hj@Nv@VbAf@xBsF|KoC~FeBfCwAdBc@h@{AtA}GbEkGzCiDjB{@n@eBtAaBdB{AnBmAdBqFhJgAjByNnT_CjDkAzAqAzAaBnA}ApA{At@cBz@wBv@}EhA}BLcEFoE@{@CcHAsD@iCD_BCsB?q@?k@Au@Gu@Kk@Ka@Om@Wg@Y_Bw@o@]a@Qi@Q]Ia@G[AsB@WB?`@?jFCrM@b@B~EAhC?H?J?dD@fEBrU?`@?vW@nV?hB?~I?\\Z?zKDxAHRB|AXdBf@nAh@|BvAr@h@r@p@|AjBFJORYb@EJKXGTCNMVGLcApAm@h@YZo@z@w@|@MHUFuASc@IIKO[CGVcC?A@Y?_@ACJCVC@?TEf@WZ[JSDc@Yq@QAUFk@\\YXSl@IXB@Nb@@B?^AXKLOR_@p@MI_@GKAe@ImASmAOSCc@Ka@Ge@Qa@_@]Sk@Iy@?a@AFxkA?tF?bOAjGCfU?fIwL?s@Ma@G[I[OuCgBMISKSIWG_@Ic@EcGG_@@[B]D]HYHUHmDpB[PYJWFS@W@WAUCWGSIWKUOOKOMoKiJcDeCkFcEy@g@c@Ua@O]K_@I[E[ESCG?e@AuG?sB?s@?kPBmABm@He@Jg@Pc@N_@Rc@Xa@Z_@\\Y\\_@h@]n@c@fAeBhDYh@e@n@YZ{@t@aAt@{@f@{@wD_@uFBeC_@K{A??X?`@N~@Pj@eAl@KQWCYLABENBb@PTZ?Ph@KF[R[Ra@VYR]Rc@Xb@vAJd@Z~A}IFuCC{AGgAYaCm@qBe@aAGw@B_IhAKoCSaBYeA_@}Ae@{A]mAk@cCUgBAkABeAJw@}@_@IC_AKgAT}EbBMFqBVe@?IAs@KMEwA]{Bm@iCo@fHig@vBuOYESEa@CgB?AOMi@Me@ESEQIU?Q?e@?e@@]?I?g@jDEZ?T?@dFOrBsBrOAH{@vFkFl^EVEV}AvKGh@{CbTeC|JUMA?{BkAm@Sm@KSAq@AsCV{ALkAXyCrBgApA_AlAuCjDqBtCWX[VeF`DcNbJe@Va@Pg@L_G|@{@Hq@?m@Em@Oi@Qs@_@k@e@i@o@uF}FYYgAo@uAc@sAGuADs@LiA^}Af@g@Vy@v@o@r@k@j@y@h@QLQFIDa@PgAVaAHe@?iA?OAgACS?BoBa@CiAEHuACIGIUAa@CQAKA]Cc@CIvBEAGnBMAk@Ko@OUKYMw@_@iCqBOKkAc@}@Ww@IoCe@iBYKAMAo@CcADSDy@T{Aj@w@ZcC~@eA^aA`@Co@Co@Aq@D_AD}@L_CHcACiChH{u@VkCNkANwAVeB`@_CV}A\\}Aj@cCXmAVy@fBoGn@aCdBaExDcPVkBLuADwAAuAIcBQaBUuA]oAW{@m@iAi@cAu@_AiAeAmAw@oAk@iA]uAYyBe@wG}@qc@qGyBk@}Bk@mBg@WISISMQMOOOQOSOUaA_BMQKMQKOEQASAiA?AeE?S?wBAwAAmCAaAG{J?{AMk@?i@?gA?u@?i@CuM?yD?OAaD?gC?gB@yD?kB@mC@mEB}JDgADo@BMNiAXiALWXo@d@q@Za@RCNOx@m@z@]~A_@l@?rC?bDA`E?x@Ax@Gp@M`@OJErAu@LKPQl@s@HUb@u@NW\\cATkANuAD_A?kACaE?{J@mF?gJ?MAaB?cD?wB?}H?Q?qBE_@@kF?G?O@qC?i@?{A?eE?_ACiC?g@?MAeC@_@BSDYrAgFd@gBf@{BfAcFv@qDPw@tAmFj@kCj@eCj@eCH]zAmGBKBGFWzBkJrAmD`CgErBaD`@m@tCwCt@e@d@[`@YJEHgAC}A?S?SAu@@_A@cBBmA?Q@_B?{E?mF?gF?k@?aE?O?cBAcE?}@A_CAwAEuB?W?aW?}A?K@oJAaMB}[Cg[?mL?uD?_e@?qP?gK?aA?eC?{B?a@?u@?aC?_E?iB?{@?wE?gB?MKwC?QC]C]Iw@E_@@]OsBAkD?kC?gAA_AAs@Cu@Cs@Gi@GcAMaA[wDEa@[yCm@gG_@uFKeFRkEb@oD~AuJ~BsLz@R^A^C`@Qj@Wb@e@jAkAZa@|A}Bb@i@TSTW^[^S\\O^Qf@Md@ID?j@Ij@?d@Gd@AHAZJT@ZHb@NBBPs@`@IFBDBnB|A^XIHaAx@OSQQQWSWUUWQOGCCc@O[IUA[KI@e@@e@Fk@?k@HE?e@Hg@L_@P]N_@R_@ZUVURc@h@}A|B[`@kAjAc@d@k@Va@P_@B_@@{@S_CrL_BtJc@nDMr@KvAG|AAzABzA@RHrBN~ANzAT|BVlCNzAFb@Fn@d@dFNtCBfB@pCBtDFrA@PJxA@VJ\\D^Hv@B\\B\\?PJvC?L?fB?vE?z@?hB?~D?`C?t@?`@?zB?dC?`A?fK?pP?~d@?tD?lLhGBvJDH?|B@F?`C@jD@bA?`A@bC@dA?^?~@?`K@j@?rF?nB@dF?hC@D?lC@|A?`C?\\@hE?T?xA@fA?R?`C@H?Z?dB?bEuFn@cAXe@xBsDdBoCbAaBt@kAA{B?i@?Q?MCqCBwRjHAhAAtBAb@@c@AuB@iA@kH@A~DAvLBpC?L?P?h@@zB`PqVnAqBl@k@p@a@r@Ul@IzE@|B?~@?dDAD?L?|B?nA?`A?`D?rA?V@jA@fCBnDAjCCVBzIBG}DB}R?_P?G?yF?_B?cB?S?qL?{G?e@AmEXqBh@qB|AcC~GmKDqBvDBtE@|F@fH@rU?vB@x@?jP?b@??gV@eX?sA?qD@m]@uF?yE?{E?cDV[n@@NgIDgCBmA\\kRRgKB_BLsFHcEBmA@u@JcECi@?_DA[uDhAq@MUYWe@E_@BqA?e@@aA?I@oBMAQBGRCV?^FTFLXFA`A?d@CpAD^Vd@TXp@LtDiA@Z?~CBh@IdDA\\At@ClAIbEMrFC~ASfK]jRClAEfCOfIvG?fJ?bJAvL@tj@HdJ@f^BL@jGB~E@v@?~W@zD@bC?|C@`D@nB?z@@B?vC?J?fD@pF@R@~LB`G@rB@xF@lD?`@@vK@fKDzD@nD?nA?zA@|ABf@A`C?xAA@_Af@o@Aw@?m@?o@?M@]?q@HJh@?FD@DBR",
+            "shiftStartTime": "09:00"
+        }
+    ]
+}

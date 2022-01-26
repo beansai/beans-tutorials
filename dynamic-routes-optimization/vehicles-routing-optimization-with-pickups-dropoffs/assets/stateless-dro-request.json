@@ -1,0 +1,214 @@
+{
+    "warehouse":
+    {
+        "list_warehouse_id": "7bc71186-9d6f-4541-a1b3-ffcfe0b6234f",
+        "address": "14840 CA-4, Discovery Bay, CA 94505",
+        "position":
+        {
+            "lat": 37.88946,
+            "lng": -121.6215
+        }
+    },
+    "item":
+    [
+        {
+            "list_item_id": "9d0b-6a1633a539ac12ace7513403e",
+            "formattedAddress": "4501 Sand Creek Rd, Antioch, CA 94531",
+            "position":
+            {
+                "lat": 37.95058,
+                "lng": -121.77574
+            },
+            "display_position":
+            {
+                "lat": 37.95087,
+                "lng": -121.77535
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "9d0b-003",
+            "type": "PICKUP",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "9d0b5ee9-fa02-4d6e-8633-f7980b225ae1"
+            }
+        },
+        {
+            "list_item_id": "9d0b-2fd6f3f3ab12cebdddb97ca0f",
+            "formattedAddress": "101 American Ave, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.92187,
+                "lng": -121.75555
+            },
+            "display_position":
+            {
+                "lat": 37.92185,
+                "lng": -121.75568
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "9d0b-004",
+            "type": "PICKUP",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "9d0b5ee9-fa02-4d6e-8633-f7980b225ae1"
+            }
+        },
+        {
+            "list_item_id": "9d0b-b4d913523baaee8f2ba5e1a25",
+            "formattedAddress": "1923 Delta Rd, Knightsen, CA 94548",
+            "position":
+            {
+                "lat": 37.96883,
+                "lng": -121.6603
+            },
+            "display_position":
+            {
+                "lat": 37.96792,
+                "lng": -121.6603
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "9d0b-002",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "9d0b5ee9-fa02-4d6e-8633-f7980b225ae1"
+            }
+        },
+        {
+            "list_item_id": "9d0b-a6f4c36d69394ba11f52b63a7",
+            "formattedAddress": "2525 Sunset Rd, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.95452,
+                "lng": -121.65075
+            },
+            "display_position":
+            {
+                "lat": 37.95447,
+                "lng": -121.65075
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "9d0b-003",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "9d0b5ee9-fa02-4d6e-8633-f7980b225ae1"
+            }
+        },
+        {
+            "list_item_id": "9d0b-faf623593a6ddc608a0f1a9c4",
+            "formattedAddress": "4893 Lone Tree Way, Antioch, CA 94531",
+            "position":
+            {
+                "lat": 37.96287,
+                "lng": -121.76203
+            },
+            "display_position":
+            {
+                "lat": 37.96318,
+                "lng": -121.76203
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "9d0b-002",
+            "type": "PICKUP",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "9d0b5ee9-fa02-4d6e-8633-f7980b225ae1"
+            }
+        },
+        {
+            "list_item_id": "9d0b-fae5d3b6b9c9f2f1a14c43b0a",
+            "formattedAddress": "4451 Orwood Rd, Brentwood, CA 94513",
+            "position":
+            {
+                "lat": 37.93916,
+                "lng": -121.61148
+            },
+            "display_position":
+            {
+                "lat": 37.93911,
+                "lng": -121.61149
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "9d0b-004",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "9d0b5ee9-fa02-4d6e-8633-f7980b225ae1"
+            }
+        },
+        {
+            "list_item_id": "9d0b-8eca53fefb635f19958ab0cbf",
+            "formattedAddress": "4320 E Summer Lake Dr, Oakley, CA 94561",
+            "position":
+            {
+                "lat": 37.9849409,
+                "lng": -121.6276116
+            },
+            "display_position":
+            {
+                "lat": 37.9849409,
+                "lng": -121.6276116
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "9d0b-001",
+            "type": "DROPOFF",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "9d0b5ee9-fa02-4d6e-8633-f7980b225ae1"
+            }
+        },
+        {
+            "list_item_id": "9d0b-a801b3605afbd726df743cc66",
+            "formattedAddress": "3365 Deer Valley Rd, Antioch, CA 94531",
+            "position":
+            {
+                "lat": 37.98784,
+                "lng": -121.78451
+            },
+            "display_position":
+            {
+                "lat": 37.98784,
+                "lng": -121.78445
+            },
+            "deliver_from_str": "",
+            "deliver_by_str": "",
+            "tracking_id": "9d0b-001",
+            "type": "PICKUP",
+            "num_packages": 1,
+            "placement": "",
+            "route":
+            {
+                "list_route_id": "9d0b5ee9-fa02-4d6e-8633-f7980b225ae1"
+            }
+        }
+    ],
+    "assignee_with_vehicle":
+    [
+        {
+            "list_assignee_id": "tu1-tutorial-driver-1"
+        }
+    ],
+    "disallow_pickup_dropoff_mode": false
+}

@@ -1,0 +1,76 @@
+{
+  "item": [
+    {
+      "list_item_id": "9d0b-a801b3605afbd726df743cc66",
+      "address": "3365 Deer Valley Rd, Antioch, CA 94531",
+      "route": {
+        "list_route_id": "9d0b5ee9-fa02-4d6e-8633-f7980b225ae1"
+      },
+      "type":"PICKUP",
+      "tracking_id":"9d0b-001"
+    },
+    {
+      "list_item_id": "9d0b-8eca53fefb635f19958ab0cbf",
+      "address": "4320 E Summer Lake Dr, Oakley, CA 94561",
+      "route": {
+        "list_route_id": "9d0b5ee9-fa02-4d6e-8633-f7980b225ae1"
+      },
+      "type":"DROPOFF",
+      "tracking_id":"9d0b-001"
+    },
+    {
+      "list_item_id": "9d0b-faf623593a6ddc608a0f1a9c4",
+      "address": "4893 Lone Tree Way, Antioch, CA 94531",
+      "route": {
+        "list_route_id": "9d0b5ee9-fa02-4d6e-8633-f7980b225ae1"
+      },
+      "type":"PICKUP",
+      "tracking_id":"9d0b-002"
+    },
+    {
+      "list_item_id": "9d0b-b4d913523baaee8f2ba5e1a25",
+      "address": "1923 Delta Rd, Knightsen, CA 94548",
+      "route": {
+        "list_route_id": "9d0b5ee9-fa02-4d6e-8633-f7980b225ae1"
+      },
+      "type":"DROPOFF",
+      "tracking_id":"9d0b-002"
+    },
+    {
+      "list_item_id": "9d0b-6a1633a539ac12ace7513403e",
+      "address": "4501 Sand Creek Rd, Antioch, CA 94531",
+      "route": {
+        "list_route_id": "9d0b5ee9-fa02-4d6e-8633-f7980b225ae1"
+      },
+      "type":"PICKUP",
+      "tracking_id":"9d0b-003"
+    },
+    {
+      "list_item_id": "9d0b-a6f4c36d69394ba11f52b63a7",
+      "address": "2525 Sunset Rd, Brentwood, CA 94513",
+      "route": {
+        "list_route_id": "9d0b5ee9-fa02-4d6e-8633-f7980b225ae1"
+      },
+      "type":"DROPOFF",
+      "tracking_id":"9d0b-003"
+    },
+    {
+      "list_item_id": "9d0b-2fd6f3f3ab12cebdddb97ca0f",
+      "address": "101 American Ave, Brentwood, CA 94513",
+      "route": {
+        "list_route_id": "9d0b5ee9-fa02-4d6e-8633-f7980b225ae1"
+      },
+      "type":"PICKUP",
+      "tracking_id":"9d0b-004"
+    },
+    {
+      "list_item_id": "9d0b-fae5d3b6b9c9f2f1a14c43b0a",
+      "address": "4451 Orwood Rd, Brentwood, CA 94513",
+      "route": {
+        "list_route_id": "9d0b5ee9-fa02-4d6e-8633-f7980b225ae1"
+      },
+      "type":"DROPOFF",
+      "tracking_id":"9d0b-004"
+    }
+  ]
+}
