@@ -4,7 +4,6 @@
 Welcome to [One Hundred Feet](https://www.beans.ai) Developer Tutorials!
 
 
-
 ## Tutorials
 
 - [Dynamic Routes Optimization](https://github.com/beansai/beans-tutorials/tree/main/dynamic-routes-optimization)
