@@ -4,17 +4,19 @@
 
 # Vehicles routing optimization with capacity constraints
 
-For optimizing routes for vehicles, sometimes each one might have different capacity limitations.
+When optimizing routes for vehicles, sometimes each vehicle may have different capacity limitations.
 
-This is an example of how to consume 359 packages by 5 drivers/vehicles without exceeding the capacity as soon as possible with DRO.
+This is an example of how to consume 359 packages by 5 drivers/vehicles with DRO, without exceeding their capacity, and as quickly as possible.
 
 ## Table of contents
-- [Create the data](#create-the-data)
-  - [Create a warehouse](#create-a-warehouse)
-  - [Create a route](#create-a-route)
-  - [Add stops to the route](#add-stops-to-the-route)
-  - [Configure assignees](#configure-assignees)
-- [Run stateless DRO](#run-stateless-dro)
+- [Vehicles routing optimization with capacity constraints](#vehicles-routing-optimization-with-capacity-constraints)
+  - [Table of contents](#table-of-contents)
+  - [Create the data](#create-the-data)
+    - [Create a warehouse](#create-a-warehouse)
+    - [Create a route](#create-a-route)
+    - [Add stops to the route](#add-stops-to-the-route)
+    - [Configure assignees](#configure-assignees)
+    - [Run stateless DRO](#run-stateless-dro)
 
 
 
@@ -27,7 +29,7 @@ This is an example of how to consume 359 packages by 5 drivers/vehicles without 
 curl -k -H 'Authorization: <token>' https://isp.beans.ai/enterprise/v1/lists/warehouses -XPOST -d '{"warehouse":[{"list_warehouse_id":"d0686fa0-c24b-40c1-b81f-0615bfa3718a","address":"5655 Hood Way, Tracy, CA 95377"}]}'
 ```
 
-- It is important to set list_warehouse_id that is unique in your account.
+- It is important to set list_warehouse_id to a value that is unique within your account.
 
 ```json
 {
@@ -41,12 +43,11 @@ curl -k -H 'Authorization: <token>' https://isp.beans.ai/enterprise/v1/lists/war
 }
 ```
 
-**Note**: Your account_buid, list_warehouse_id, address would be differ.
+**Note**: Your account_buid, list_warehouse_id, address will be different from the example.
 
 ### Create a route
 
-A grouping Route, although isn't required for optimization, is a convenient bucket to gather
-stops to be optimized.
+A grouping Route is not required for optimization, but it is a convenient way to 'bucket' stops that will be optimized.
 
 **Request example**
 
@@ -54,8 +55,8 @@ stops to be optimized.
 curl -k -H 'Authorization: <token>' -X POST 'https://isp.beans.ai/enterprise/v1/lists/routes' -d '{"route":[{"name":"Tutorial Route A","warehouse":{"list_warehouse_id":"cabb46d6-776a-11ec-90d6-0242ac120003"},"list_route_id":"bd17f760-e214-45e1-b8a6-787f8292724f","status":"OPEN","date_str":"2023-01-10"}]}'
 ```
 
-- It is important to set the list_route_id that is unique in your account
-- It is important to confgure the date_str with yyyy-MM-dd format
+- It is important to set list_route_id to a value that is unique within your account
+- It is important to confgure date_str with the yyyy-MM-dd format
 
 ```json
 {
@@ -74,7 +75,7 @@ curl -k -H 'Authorization: <token>' -X POST 'https://isp.beans.ai/enterprise/v1/
 }
 ```
 
-**Note**: Your list_warehouse_id, list_route_id would be differ.
+**Note**: Your list_warehouse_id, list_route_id will be different from the example
 
 ### Add stops to the route
 
@@ -84,7 +85,7 @@ curl -k -H 'Authorization: <token>' -X POST 'https://isp.beans.ai/enterprise/v1/
 curl -k -H 'Authorization: <token>' https://isp.beans.ai/enterprise/v1/lists/items -XPOST --data '@assets/stops.json'
 ```
 
-- You will find file [assets/stops.json](assets/stops.json) containing 359 stops in couples of cities in Califonia
+- This file [assets/stops.json](assets/stops.json) contains 359 stops in a few cities in California
 
 - An important thing to note is that each stop contains the route reference to the route that was created above with route id `bd17f760-e214-45e1-b8a6-787f8292724f`
 
@@ -104,7 +105,7 @@ You can see the example data at [assets/assignees.json](assets/assignees.json)
 curl -k -H 'Authorization: <token>' https://isp.beans.ai/enterprise/v1/lists/assignees -XPOST --data '@assets/assignees.json'
 ```
 
-- list_assignee_id should be unique in your account.
+- list_assignee_id should be unique within your account.
 
 ```json
 {
@@ -133,19 +134,19 @@ curl -k -H 'Authorization: <token>' https://isp.beans.ai/enterprise/v1/lists/ass
 }
 ```
 
-**Note**: Your list_assignee_id should be differ.
+**Note**: Your list_assignee_id will be different from the example.
 
 ### Run stateless DRO
 
 **The Simple Scenario consists of**
 
-- 359 stops from the Route `bd17f760-e214-45e1-b8a6-787f8292724f` above
-- Up to 5 drivers (where optimization may not use all of them)
+- 359 stops from the above Route `bd17f760-e214-45e1-b8a6-787f8292724f`
+- Up to 5 drivers (where optimization may not be used for all of them)
 - Each driver has up to 6 hours of shift time
 - Starting and Ending location can be flexible
-- Each driver's package maximum capacity
+- Each driver's maximum package capacity
 
-The respective configurations for the above is at [assets/stateless-dro-request](assets/stateless-dro-request.json)  where the partial configuration is
+The configurations for above are in [assets/stateless-dro-request](assets/stateless-dro-request.json) The partial configuration is:
 
 ```json
   "default_shift_start_time": "07:00",
@@ -190,13 +191,13 @@ Configure each driver's maximum capacity.
 curl -k -H 'Authorization: <token>' https://isp.beans.ai/enterprise/v1/dro/run -X POST --data '@assets/stateless-dro-request.json'
 ```
 
-**Note**: the above assumes that the file `assets/stateless-dro-request.json` is relative to where the cURL is run. The `--data '@xxx'` option instructed cURL to read the file as the body of the POST request.
+**Note**: The above assumes that the file `assets/stateless-dro-request.json` is relative to where cURL is run. The `--data '@xxx'` option instructs cURL to read the file as the body of the POST request.
 
 **Response**
-You can find the sample response at [assets/stateless-dro-response.json](assets/stateless-dro-response.json) where you can see the result with multiple segments ( assignee with packages )
+You can find the sample response at [assets/stateless-dro-response.json](assets/stateless-dro-response.json) You can see the result with multiple segments ( assignee with packages )
 
-The following is an visualized result of DRO, all 359 stops have been assigned to three drivers with different routes, 
-and each of them is within the maximum capacity.
+The following is a visualized result of DRO. All 359 stops have been assigned to three drivers with different routes, 
+and each driver is within their maximum capacity.
 
 - Route 1 - 198 packages
 - Route 2 - 150 packages
