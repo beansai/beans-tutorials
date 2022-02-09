@@ -19,7 +19,7 @@ For details of an assignee's shape please see https://www.beansroute.ai/route-ap
 
 **Request Example**
 
-```http
+```
 POST https://isp.beans.ai/enterprise/v1/lists/assignees
 ```
 
@@ -73,7 +73,7 @@ POST https://isp.beans.ai/enterprise/v1/lists/assignees
 
 **Request Example**
 
-```http
+```
 POST https://isp.beans.ai/enterprise/v1/lists/assignees/{{list-assingee-id}}
 ```
 
@@ -94,7 +94,7 @@ POST https://isp.beans.ai/enterprise/v1/lists/assignees/{{list-assingee-id}}
 
 **Request Example**
 
-```http
+```
 GET https://isp.beans.ai/enterprise/v1/lists/assignees
 ```
 
@@ -139,7 +139,7 @@ GET https://isp.beans.ai/enterprise/v1/lists/assignees
 
 **Request Example**
 
-```http
+```
 GET https://isp.beans.ai/enterprise/v1/lists/assignees/{{list-assingee-id}}
 ```
 

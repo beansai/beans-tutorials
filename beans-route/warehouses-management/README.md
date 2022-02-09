@@ -20,7 +20,7 @@ For details of a warehouse's shape please see https://www.beansroute.ai/route-ap
 
 **Request example**
 
-```http
+```
 POST https://isp.beans.ai/enterprise/v1/lists/warehouses
 ```
 
@@ -66,7 +66,7 @@ POST https://isp.beans.ai/enterprise/v1/lists/warehouses
 
 **Request example**
 
-```http
+```
 POST https://isp.beans.ai/enterprise/v1/lists/warehouses/{{list-warehouse-id}}
 ```
 
@@ -106,7 +106,7 @@ POST https://isp.beans.ai/enterprise/v1/lists/warehouses/{{list-warehouse-id}}
 
 **Request Example**
 
-```http
+```
 GET https://isp.beans.ai/enterprise/v1/lists/warehouses
 ```
 
@@ -136,7 +136,7 @@ GET https://isp.beans.ai/enterprise/v1/lists/warehouses
 
 **Request Example**
 
-```http
+```
 GET https://isp.beans.ai/enterprise/v1/lists/warehouses/{{list-warehouse-id}}
 ```
 
@@ -162,7 +162,7 @@ GET https://isp.beans.ai/enterprise/v1/lists/warehouses/{{list-warehouse-id}}
 
 **Request Example**
 
-```http
+```
 DELETE https://isp.beans.ai/enterprise/v1/lists/warehouses/{{list-warehouse-id}}
 ```
 
