@@ -21,7 +21,7 @@ You will need
 Once you have your key and secret available, you are required to specify them in the `Authorization header` of all your requests, as below.
 
 ```
-Authorization: 8OAwhbK0:C7752E2405914945E7D08
+Authorization: Basic OE9Bd2hiSzA6Qzc3NTJFMjQwNTkxNDk0NUU3RDA4
 ```
 
 ### Basic Management
