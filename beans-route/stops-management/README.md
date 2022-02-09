@@ -19,13 +19,13 @@ For details of a stop (Item)  please see https://www.beansroute.ai/route-api-v1.
 
 **Request Example**
 
-```http
+```
 POST https://isp.beans.ai/enterprise/v1/lists/items
 ```
 
 **Body**
 
-```json
+```
 {
   "item": [
     {
@@ -120,13 +120,13 @@ POST https://isp.beans.ai/enterprise/v1/lists/items
 
 **Request Example**
 
-```http
+```
 POST https://isp.beans.ai/enterprise/v1/lists/items/{{list-item-id}}
 ```
 
 **Body**
 
-```
+```json
 {
     "address": "3365 Deer Valley Rd, Antioch, CA 94532",
     "route": {
@@ -140,7 +140,7 @@ POST https://isp.beans.ai/enterprise/v1/lists/items/{{list-item-id}}
 
 **Response Example**
 
-```
+```json
 {
     "item": [
         {
@@ -205,7 +205,7 @@ POST https://isp.beans.ai/enterprise/v1/lists/items/{{list-item-id}}
 
 **Request Example**
 
-```http
+```
 GET https://isp.beans.ai/enterprise/v1/lists/items
 ```
 
@@ -249,13 +249,13 @@ GET https://isp.beans.ai/enterprise/v1/lists/items
 
 **Request Example**
 
-```http
+```
 GET https://isp.beans.ai/enterprise/v1/lists/items/{{list-item-id}}
 ```
 
 **Response Example**
 
-```
+```json
 {
     "listItemId": "d3f6-b4d913523baaee8f2ba5e1a25",
     "address": "1923 Delta Rd, Knightsen, CA 94548",

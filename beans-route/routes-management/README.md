@@ -19,7 +19,7 @@ For details of a route's shape please see https://www.beansroute.ai/route-api-v1
 
 **Request Example**
 
-```http
+```
 POST https://isp.beans.ai/enterprise/v1/lists/routes
 ```
 
@@ -86,7 +86,7 @@ POST https://isp.beans.ai/enterprise/v1/lists/routes
 
 **Request Example**
 
-```http
+```
 POST https://isp.beans.ai/enterprise/v1/lists/routes/{{list-route-id}}
 ```
 
@@ -144,7 +144,7 @@ POST https://isp.beans.ai/enterprise/v1/lists/routes/{{list-route-id}}
 
 **Request Example**
 
-```http
+```
 GET https://isp.beans.ai/enterprise/v1/lists/routes
 ```
 
@@ -183,7 +183,7 @@ GET https://isp.beans.ai/enterprise/v1/lists/routes
 
 **Request Example**
 
-```http
+```
 GET https://isp.beans.ai/enterprise/v1/lists/routes/{{list-route-id}}
 ```
 
