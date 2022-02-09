@@ -14,7 +14,6 @@ For details of a warehouse's shape please see https://www.beansroute.ai/route-ap
 - [Update Warehouse](#update-warehouse)
 - [Get Warehouse list](#get-warehouse-list)
 - [Get Warehouse](#get-warehouse)
-- [Delete warehouse](#delete-warehouse)
 
 ### Create warehouses
 
@@ -156,13 +155,5 @@ GET https://isp.beans.ai/enterprise/v1/lists/warehouses/{{list-warehouse-id}}
     },
     "name": "Tutorial Warehouse2"
 }
-```
-
-### Delete Warehouse
-
-**Request Example**
-
-```
-DELETE https://isp.beans.ai/enterprise/v1/lists/warehouses/{{list-warehouse-id}}
 ```
 
