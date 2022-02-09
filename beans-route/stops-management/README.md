@@ -25,7 +25,7 @@ POST https://isp.beans.ai/enterprise/v1/lists/items
 
 **Body**
 
-```
+```json
 {
   "item": [
     {
@@ -55,7 +55,7 @@ POST https://isp.beans.ai/enterprise/v1/lists/items
 
 **Response Example**
 
-```
+```json
 {
     "item": [
         {

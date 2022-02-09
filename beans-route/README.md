@@ -33,12 +33,19 @@ and they all need an efficient way to schedule/manage the daily works.
 
 - A route which contains one or more stops to visit.
 - An assignee (driver) who is responsible to do the delivery.
-- A warehouse which may be a starting point for drivers as they will load packages on truck then star a day's delivery.
+- A warehouse where a driver can pick up packages and start doing the delivery.
 
 ### Basic tutorials
 
 - [Warehouses management](warehouses-management)
+
 - [Routes management](routes-management)
+
+  - Assign route to a warehouse
+  - Assign assignee (driver) to a route
+
 - [Assignees (driver) management](assignees-management)
+
 - [Stops management](stops-management)
 
+  
