@@ -1,0 +1,168 @@
+
+
+<img src="../../assets/images/beans-128x128.png" align="right" />
+
+# Warehouses Managements
+
+
+
+For details of a warehouse's shape please see https://www.beansroute.ai/route-api-v1.php#warehouse-list-object
+
+
+## Table of contents
+- [Create Warehouses](#create-warehouses)
+- [Update Warehouse](#update-warehouse)
+- [Get Warehouse list](#get-warehouse-list)
+- [Get Warehouse](#get-warehouse)
+- [Delete warehouse](#delete-warehouse)
+
+### Create warehouses
+
+**Request example**
+
+```http
+POST https://isp.beans.ai/enterprise/v1/lists/warehouses
+```
+
+**Body**
+
+```json
+{
+    "warehouse":
+    [
+        {
+            "name": "Tutorial Warehouse",
+            "domicile": "",
+            "address": "14840 CA-4, Discovery Bay, CA 94505",
+            "list_warehouse_id": "7bc71186-9d6f-4541-a1b3-ffcfe0b6234f"
+        }
+    ]
+}
+```
+
+**Response Example**
+
+```json
+{
+    "warehouse": [
+        {
+            "listWarehouseId": "7bc71186-9d6f-4541-a1b3-ffcfe0b6234f",
+            "accountBuid": "4022a1aada0e4c4684e61e3f73290a68",
+            "address": "14840 CA-4, Discovery Bay, CA 94505",
+            "formattedAddress": "14840 CA-4, Discovery Bay, CA",
+            "createdAt": 1643183316000,
+            "updatedAt": 1643183316000,
+            "position": {
+                "latitude": 37.88946,
+                "longitude": -121.6215
+            },
+            "name": "Tutorial Warehouse"
+        }
+    ]
+}
+```
+
+### Update warehouse
+
+**Request example**
+
+```http
+POST https://isp.beans.ai/enterprise/v1/lists/warehouses/{{list-warehouse-id}}
+```
+
+**Body**
+
+```json
+{
+    "name": "Tutorial Warehouse",
+    "domicile": "",
+    "address": "14840 CA-4, Discovery Bay, CA 94505"
+}
+```
+
+**Response Example**
+
+```json
+{
+    "warehouse": [
+        {
+            "listWarehouseId": "7bc71186-9d6f-4541-a1b3-ffcfe0b6234f",
+            "accountBuid": "4022a1aada0e4c4684e61e3f73290a68",
+            "address": "14840 CA-4, Discovery Bay, CA 94505",
+            "formattedAddress": "14840 CA-4, Discovery Bay, CA",
+            "createdAt": 1643183316000,
+            "updatedAt": 1643183316000,
+            "position": {
+                "latitude": 37.88946,
+                "longitude": -121.6215
+            },
+            "name": "Tutorial Warehouse"
+        }
+    ]
+}
+```
+
+### Get Warehouse List
+
+**Request Example**
+
+```http
+GET https://isp.beans.ai/enterprise/v1/lists/warehouses
+```
+
+**Response Example**
+
+```json
+{
+    "warehouse": [
+        {
+            "listWarehouseId": "7bc71186-9d6f-4541-a1b3-ffcfe0b6234f",
+            "accountBuid": "4022a1aada0e4c4684e61e3f73290a68",
+            "address": "14840 CA-4, Discovery Bay, CA 94505",
+            "formattedAddress": "14840 CA-4, Discovery Bay, CA",
+            "createdAt": 1643183316000,
+            "updatedAt": 1643183316000,
+            "position": {
+                "latitude": 37.88946,
+                "longitude": -121.6215
+            },
+            "name": "Tutorial Warehouse"
+        }
+    ]
+}
+```
+
+### Get Warehouse
+
+**Request Example**
+
+```http
+GET https://isp.beans.ai/enterprise/v1/lists/warehouses/{{list-warehouse-id}}
+```
+
+**Response Example**
+
+```json
+{
+    "listWarehouseId": "7bc71186-9d6f-4541-a1b3-ffcfe0b6234f2",
+    "accountBuid": "4022a1aada0e4c4684e61e3f73290a68",
+    "address": "14840 CA-4, Discovery Bay, CA 94505",
+    "formattedAddress": "14840 CA-4, Discovery Bay, CA",
+    "createdAt": 1644384027000,
+    "updatedAt": 1644384739000,
+    "position": {
+        "latitude": 37.88946,
+        "longitude": -121.6215
+    },
+    "name": "Tutorial Warehouse2"
+}
+```
+
+### Delete Warehouse
+
+**Request Example**
+
+```http
+DELETE https://isp.beans.ai/enterprise/v1/lists/warehouses/{{list-warehouse-id}}
+```
+
