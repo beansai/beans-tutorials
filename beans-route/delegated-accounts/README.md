@@ -14,9 +14,9 @@ As we are in the world of APIs, Beans Route provides RPC (remote procedure calls
 
 ## Table of contents
 
-- [Delegated Accounts Managerment](#delegate-accounts)
+- [Delegated Accounts](#delegated-accounts)
   - [Terms](#terms)
-  - [Prerequisites on the Delegator](#prerequistes-on-the-delegator)
+  - [Prerequisites on the Delegator](#prerequisites-on-the-delegator)
   - [API Examples](#api-examples)
     - [Create a Delegated Account](#create-a-delegated-account)
     - [Get Delegated Account-List](#get-delegated-account-list)
