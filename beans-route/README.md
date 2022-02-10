@@ -38,14 +38,9 @@ and they all need an efficient way to schedule/manage the daily works.
 ### Basic tutorials
 
 - [Warehouses management](warehouses-management)
-
 - [Routes management](routes-management)
-
   - Assign route to a warehouse
   - Assign assignee (driver) to a route
-
 - [Assignees (driver) management](assignees-management)
-
 - [Stops management](stops-management)
-
-  
+- [Delegate Accounts](delegate-accounts)
