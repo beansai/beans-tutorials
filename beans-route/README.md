@@ -43,4 +43,5 @@ and they all need an efficient way to schedule/manage the daily works.
   - Assign assignee (driver) to a route
 - [Assignees (driver) management](assignees-management)
 - [Stops management](stops-management)
-- [Delegate Accounts](delegate-accounts)
+- [Delegated Accounts](delegated-accounts)
+

@@ -2,7 +2,7 @@
 
 <img src="../../assets/images/beans-128x128.png" align="right" />
 
-# Delegate Accounts
+# Delegated Accounts
 
 A delegated account is a Beans Route account that are created and delegated by another Beans Route Account.
 
@@ -14,9 +14,9 @@ As we are in the world of APIs, Beans Route provides RPC (remote procedure calls
 
 ## Table of contents
 
-- [Delegate Accounts Managerment](#delegate-accounts-management)
+- [Delegated Accounts Managerment](#delegate-accounts)
   - [Terms](#terms)
-  - [Prerequisites on the Delegator](#prerequisties-on-the-delegator)
+  - [Prerequisites on the Delegator](#prerequistes-on-the-delegator)
   - [API Examples](#api-examples)
     - [Create a Delegated Account](#create-a-delegated-account)
     - [Get Delegated Account-List](#get-delegated-account-list)
