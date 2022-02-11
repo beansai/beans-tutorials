@@ -19,6 +19,7 @@
       - [Item Callback Example](#item-callback-example)
       - [Assignee Callback Example](#assignee-callback-example)
       - [Assignee Vehicle Callback Example](#assignee-vehicle-callback-example)
+      - [Route What-If Async Callback Example](#route-what-if-async-callback-example)
 
 ## Supported Callbacks
 
@@ -34,7 +35,7 @@ Callbacks would trigger an HTTP POST on the following object types when modified
 
 ## Callback Config API
 
-### Get Calback Configs
+### Get Callback Configs
 
 **Request Example**
 
@@ -239,6 +240,38 @@ The system ensures that the value of the watermark is strictly increasing. In ot
         "dimensions": {}
     },
     "watermark": "1644548670282"
+}
+```
+
+#### Route What-if Async Callback Example
+
+```json
+{
+    "type": "ROUTE_WHATIF_ASYNC",
+    "action": "CREATE",
+    "account_buid": "4022a1aada0e4c4684e61e3f73290a68",
+    "object": {
+        "item": [
+            {
+                "list_item_id": "bdf4489a1f7c374691fd38657fe8c7b1",
+                "address": "685 PROVIDENCE MAIN ST NW, HUNTSVILLE, AL 35806264414"
+            }
+        ],
+        "list_route_ids": [
+            "0c515c53ae9632319302d2af4badb329",
+            "1f3ce17c77893509905cc9851b4745af",
+            "2ee5b6974d263d4fb4489562095b4b64"
+        ],
+        "route_size_limit": 60,
+        "request_id": "35b4284e-1d07-483a-ac4a-c2bd6d9969aa001",
+        "asynchronous": true,
+        "internal_ref": "7f572f3b325d4348880010b80dbb1bed",
+        "start_time_epoch": "1644549843",
+        "end_time_epoch": "1644549844",
+        "result": {},
+        "message": "There are 3 routes where 3 are not suitable and 0 are possibilities"
+    },
+    "watermark": "1644549844"
 }
 ```
 
