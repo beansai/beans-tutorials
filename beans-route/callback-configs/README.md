@@ -9,15 +9,15 @@
 - [Callback Configs](#callback-configs)
   - [Supported Callbacks](#supported-callbacks)
   - [Callback Config API](#callback-config-api)
-    - [Get Callback Configs](get-callback-configs)
+    - [Get Callback Configs](#get-callback-configs)
     - [Update Callback Configs](#update-callback-configs)
   - [Callback](#callback)
     - [Enumerations](#enumerations)
     - [Callback Examples](#callback-examples)
-      - [Warehouse Callback Example](warehouse-callback-example)
-      - [Route Callback Example](route-callback-example)
+      - [Warehouse Callback Example](#warehouse-callback-example)
+      - [Route Callback Example](#route-callback-example)
       - [Item Callback Example](#item-callback-example)
-      - [Assignee Callback Example](assignee-callback-example)
+      - [Assignee Callback Example](#assignee-callback-example)
       - [Assignee Vehicle Callback Example](#assignee-vehicle-callback-example)
 
 ## Supported Callbacks
@@ -39,7 +39,7 @@ Callbacks would trigger an HTTP POST on the following object types when modified
 **Request Example**
 
 ```
-GET {{baseURL}}/enterprise/v1/lists/assignees
+GET https://isp.beans.ai/enterprise/v1/lists/assignees
 ```
 
 **Response Example**
@@ -63,7 +63,7 @@ GET {{baseURL}}/enterprise/v1/lists/assignees
 **Request Example**
 
 ```
-POST {{baseURL}}/enterprise/v1/lists/callback_configs
+POST https://isp.beans.ai/enterprise/v1/lists/callback_configs
 ```
 
 **Response Example**
@@ -88,7 +88,7 @@ POST {{baseURL}}/enterprise/v1/lists/callback_configs
 
 We can dynamically resolve the object type by parsing the "type" field to determine the type of the object.
 
-###Enumerations
+### Enumerations
 
 **Types**
 
