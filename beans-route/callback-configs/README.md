@@ -4,9 +4,7 @@
 
 # Callback Configs
 
-In order to receive callback requests on object updating,
-
-we need to set the global_url for callbacks and enable the feature through [Update Callback Configs](#update-callback-configs)
+In order to receive callbacks, we need to set the globalUrl for callbacks and enable the feature through [Update Callback Configs](#update-callback-configs)
 
 
 
