@@ -45,7 +45,7 @@ Callbacks would trigger an HTTP POST on the following object types when modified
 **Request Example**
 
 ```
-GET https://isp.beans.ai/enterprise/v1/lists/assignees
+GET https://isp.beans.ai/enterprise/v1/lists/callback_configs
 ```
 
 **Response Example**
