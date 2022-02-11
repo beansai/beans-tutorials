@@ -4,6 +4,12 @@
 
 # Callback Configs
 
+In order to receive callback requests on object updating,
+
+we need to set the global_url for callbacks and enable the feature through [Update Callback Configs](#update-callback-configs)
+
+
+
 ## Table of contents
 
 - [Callback Configs](#callback-configs)
@@ -14,6 +20,7 @@
   - [Callback](#callback)
     - [Enumerations](#enumerations)
     - [Callback Examples](#callback-examples)
+      - [Account Callback Example](#account-callback-example)
       - [Warehouse Callback Example](#warehouse-callback-example)
       - [Route Callback Example](#route-callback-example)
       - [Item Callback Example](#item-callback-example)
@@ -112,6 +119,43 @@ We can dynamically resolve the object type by parsing the "type" field to determ
 The system ensures that the value of the watermark is strictly increasing. In other words, if the receiver of the callback receives a message on the same object with earlier watermark, the receiver can safely assume that payload represented an earlier version of the object.
 
 ### Callback Examples
+
+#### Account Callback Example
+
+```json
+{
+    "type": "ACCOUNT",
+    "action": "UPDATE",
+    "account_buid": "35138aee-b003-3ac9-ba7a-9c8bca9eb906",
+    "object": {
+        "account_buid": "35138aee-b003-3ac9-ba7a-9c8bca9eb906",
+        "email": "donchen+delegator-10@beans.ai",
+        "subscription_plan": "beans_routes-free-trial-01",
+        "created_at": "1644478996000",
+        "updated_at": "1644550508947",
+        "account_name": "don-delegated",
+        "tags": [
+            {
+                "key": "/ACCOUNT/DEFAULT/TIMEZONE_ID",
+                "value": "America/New_York"
+            },
+            {
+                "key": "/ACCOUNT/DELEGATOR",
+                "value": "4022a1aada0e4c4684e61e3f73290a68"
+            },
+            {
+                "key": "/ACCOUNT/DELEGATOR/REFID",
+                "value": "delegator-10"
+            },
+            {
+                "key": "/ACCOUNT/ROUTE/PREFERENCE/USE_BEANS_SEQUENCING",
+                "value": "true"
+            }
+        ]
+    },
+    "watermark": "1644550508947"
+}
+```
 
 #### Warehouse Callback Example
 
