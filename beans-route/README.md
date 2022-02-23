@@ -35,17 +35,14 @@ and they all need an efficient way to schedule/manage the daily works.
 - An assignee (driver) who is responsible to do the delivery.
 - A warehouse where a driver can pick up packages and start doing the delivery.
 
-### Basic tutorials
+### Basic Tutorials
 
 - [Warehouses management](warehouses-management)
-
 - [Routes management](routes-management)
-
-  - Assign route to a warehouse
-  - Assign assignee (driver) to a route
-
+  - Assign a route to a warehouse
+  - Assign an assignee (driver) to a route
 - [Assignees (driver) management](assignees-management)
-
 - [Stops management](stops-management)
+- [Delegated Accounts](delegated-accounts)
+- [Callback Configs](callback-configs)
 
-  
