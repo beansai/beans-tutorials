@@ -1,0 +1,227 @@
+{
+    "warehouse": {
+        "list_warehouse_id": "55c40094-f1d9-45cb-a4c0-60811652a7d9",
+        "address": "401 Superior Way, Discovery Bay, CA 94505",
+        "position": {
+            "lat": 37.88946,
+            "lng": -121.6215
+        }
+    },
+    "item": [
+        {
+            "listItemId": "ae8e-8eca53fefb635f19958ab0cbf",
+            "route": {
+                "listRouteId": "ae8ec1f6-6818-42d9-83c5-e2061fb9d3aa"
+            },
+            "address": "4320 E Summer Lake Dr, Oakley, CA 94561",
+            "type": "PICKUP",
+            "position": {
+                "lat": 37.9849409,
+                "lng": -121.6276116
+            },
+            "dimensions": {
+                "dims": [
+                    {
+                        "t": "WEIGHT",
+                        "v": "60"
+                    }
+                ]
+            }
+        },
+        {
+            "listItemId": "ae8e-a801b3605afbd726df743cc66",
+            "address": "3365 Deer Valley Rd, Antioch, CA 94531",
+            "position": {
+                "lat": 37.98784,
+                "lng": -121.78451
+            },
+            "route": {
+                "listRouteId": "ae8ec1f6-6818-42d9-83c5-e2061fb9d3aa"
+            },
+            "type": "PICKUP",
+            "dimensions": {
+                "dims": [
+                    {
+                        "t": "WEIGHT",
+                        "v": "60"
+                    }
+                ]
+            }
+        },
+        {
+            "listItemId": "ae8e-2fd6f3f3ab12cebdddb97ca0f",
+            "address": "101 American Ave, Brentwood, CA 94513",
+            "position": {
+                "lat": 37.92187,
+                "lng": -121.75555
+            },
+            "route": {
+                "listRouteId": "ae8ec1f6-6818-42d9-83c5-e2061fb9d3aa"
+            },
+            "type": "PICKUP",
+            "dimensions": {
+                "dims": [
+                    {
+                        "t": "WEIGHT",
+                        "v": "60"
+                    }
+                ]
+            }
+        },
+        {
+            "listItemId": "ae8e-6a1633a539ac12ace7513403e",
+            "address": "4501 Sand Creek Rd, Antioch, CA 94531",
+            "position": {
+                "lat": 37.95058,
+                "lng": -121.77574
+            },
+            "route": {
+                "listRouteId": "ae8ec1f6-6818-42d9-83c5-e2061fb9d3aa"
+            },
+            "type": "PICKUP",
+            "dimensions": {
+                "dims": [
+                    {
+                        "t": "WEIGHT",
+                        "v": "60"
+                    }
+                ]
+            }
+        },
+        {
+            "listItemId": "ae8e-fae5d3b6b9c9f2f1a14c43b0a",
+            "address": "4451 Orwood Rd, Brentwood, CA 94513",
+            "position": {
+                "lat": 37.93916,
+                "lng": -121.61148
+            },
+            "route": {
+                "listRouteId": "ae8ec1f6-6818-42d9-83c5-e2061fb9d3aa"
+            },
+            "type": "PICKUP",
+            "dimensions": {
+                "dims": [
+                    {
+                        "t": "WEIGHT",
+                        "v": "60"
+                    }
+                ]
+            }
+        },
+        {
+            "listItemId": "ae8e-a6f4c36d69394ba11f52b63a7",
+            "address": "2525 Sunset Rd, Brentwood, CA 94513",
+            "position": {
+                "lat": 37.95452,
+                "lng": -121.65075
+            },
+            "route": {
+                "listRouteId": "ae8ec1f6-6818-42d9-83c5-e2061fb9d3aa"
+            },
+            "type": "PICKUP",
+            "dimensions": {
+                "dims": [
+                    {
+                        "t": "WEIGHT",
+                        "v": "60"
+                    }
+                ]
+            }
+        },
+        {
+            "listItemId": "ae8e-faf623593a6ddc608a0f1a9c4",
+            "address": "4893 Lone Tree Way, Antioch, CA 94531",
+            "position": {
+                "lat": 37.96287,
+                "lng": -121.76203
+            },
+            "route": {
+                "listRouteId": "ae8ec1f6-6818-42d9-83c5-e2061fb9d3aa"
+            },
+            "type": "PICKUP",
+            "dimensions": {
+                "dims": [
+                    {
+                        "t": "WEIGHT",
+                        "v": "60"
+                    }
+                ]
+            }
+        },
+        {
+            "listItemId": "ae8e-b4d913523baaee8f2ba5e1a25",
+            "address": "1923 Delta Rd, Knightsen, CA 94548",
+            "position": {
+                "lat": 37.96883,
+                "lng": -121.6603
+            },
+            "route": {
+                "listRouteId": "ae8ec1f6-6818-42d9-83c5-e2061fb9d3aa"
+            },
+            "type": "PICKUP",
+            "dimensions": {
+                "dims": [
+                    {
+                        "t": "WEIGHT",
+                        "v": "60"
+                    }
+                ]
+            }
+        }
+    ],
+    "assignee_with_vehicle": [
+        {
+            "list_assignee_id": "6b3f-0a3889d0-a756",
+            "dimensions": {
+                "dims": [
+                    {
+                        "t": "WEIGHT",
+                        "v": "360"
+                    }
+                ]
+            },
+            "current_dimensions": {
+                "dims": [
+                    {
+                        "t": "WEIGHT",
+                        "v": "0"
+                    }
+                ]
+            }
+        },
+        {
+            "list_assignee_id": "6b3f-f6908a1b",
+            "dimensions": {
+                "dims": [
+                    {
+                        "t": "WEIGHT",
+                        "v": "120"
+                    }
+                ]
+            },
+            "current_dimensions": {
+                "dims": [
+                    {
+                        "t": "WEIGHT",
+                        "v": "0"
+                    }
+                ]
+            }
+        }
+    ],
+    "default_shift_start_time": "07:00",
+    "default_shift_length": 8,
+    "default_capacity": 0,
+    "default_stop_time_seconds": 60,
+    "default_dropoff_time_seconds": 60,
+    "default_pickup_time_seconds": 60,
+    "optimize_for": "DISTANCE",
+    "default_dimensions": {
+        "dims": [
+            {
+                "t": "WEIGHT",
+                "v": "0"
+            }
+        ]
+    },
+}

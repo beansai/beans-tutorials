@@ -58,7 +58,7 @@ curl -k -H 'Authorization: <token>' -X POST 'https://isp.beans.ai/enterprise/v1/
 ```
 
 - It is important to set the list_route_id that is unique in your account
-- It is important to confgure the date_str with yyyy-MM-dd format
+- It is important to configure the date_str with yyyy-MM-dd format
 
 ```json
 {

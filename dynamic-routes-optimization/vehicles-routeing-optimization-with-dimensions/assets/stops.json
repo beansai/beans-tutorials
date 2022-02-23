@@ -1,0 +1,300 @@
+{
+    "item": [
+        {
+            "listItemId": "fdec-2fd6f3f3ab12cebdddb97ca0f",
+            "address": "101 American Ave, Brentwood, CA 94513",
+            "formattedAddress": "101 American Ave, Brentwood, CA",
+            "status": "NEW",
+            "updatedAt": 1645583156000,
+            "statusUpdatedAt": 1645583156000,
+            "route": {
+                "listRouteId": "fdeca64b-1e12-44e4-8b11-9f2c558b5761"
+            },
+            "routePriority": 7,
+            "type": "PICKUP",
+            "position": {
+                "latitude": 37.92187,
+                "longitude": -121.75555
+            },
+            "displayPosition": {
+                "latitude": 37.92185,
+                "longitude": -121.75568
+            },
+            "addressComponents": {
+                "city": "Brentwood",
+                "state": "CA",
+                "zipcode": "94513",
+                "street": "101 American Ave",
+                "countryIso3": "USA"
+            },
+            "countryIso3": "USA",
+            "dimensions": {
+                "dims": [
+                    {
+                        "t": "WEIGHT",
+                        "v": "60"
+                    }
+                ]
+            }
+        },
+        {
+            "listItemId": "fdec-8eca53fefb635f19958ab0cbf",
+            "address": "4320 E Summer Lake Dr, Oakley, CA 94561",
+            "formattedAddress": "4320 E Summer Lake Dr, Oakley, CA",
+            "status": "NEW",
+            "updatedAt": 1645583155000,
+            "statusUpdatedAt": 1645583155000,
+            "route": {
+                "listRouteId": "fdeca64b-1e12-44e4-8b11-9f2c558b5761"
+            },
+            "routePriority": 2,
+            "type": "PICKUP",
+            "position": {
+                "latitude": 37.9849409,
+                "longitude": -121.6276116
+            },
+            "displayPosition": {
+                "latitude": 37.9849409,
+                "longitude": -121.6276116
+            },
+            "addressComponents": {
+                "city": "Oakley",
+                "state": "CA",
+                "zipcode": "94561",
+                "street": "4320 E Summer Lake Dr",
+                "countryIso3": "USA"
+            },
+            "countryIso3": "USA",
+            "dimensions": {
+                "dims": [
+                    {
+                        "t": "WEIGHT",
+                        "v": "60"
+                    }
+                ]
+            }
+        },
+        {
+            "listItemId": "fdec-a6f4c36d69394ba11f52b63a7",
+            "address": "2525 Sunset Rd, Brentwood, CA 94513",
+            "formattedAddress": "2525 Sunset Rd, Brentwood, CA",
+            "status": "NEW",
+            "updatedAt": 1645583155000,
+            "statusUpdatedAt": 1645583156000,
+            "route": {
+                "listRouteId": "fdeca64b-1e12-44e4-8b11-9f2c558b5761"
+            },
+            "routePriority": 6,
+            "type": "PICKUP",
+            "position": {
+                "latitude": 37.95452,
+                "longitude": -121.65075
+            },
+            "displayPosition": {
+                "latitude": 37.95447,
+                "longitude": -121.65075
+            },
+            "addressComponents": {
+                "city": "Brentwood",
+                "state": "CA",
+                "zipcode": "94513",
+                "street": "2525 Sunset Rd",
+                "countryIso3": "USA"
+            },
+            "countryIso3": "USA",
+            "dimensions": {
+                "dims": [
+                    {
+                        "t": "WEIGHT",
+                        "v": "60"
+                    }
+                ]
+            }
+        },
+        {
+            "listItemId": "fdec-b4d913523baaee8f2ba5e1a25",
+            "address": "1923 Delta Rd, Knightsen, CA 94548",
+            "formattedAddress": "1923 Delta Rd, Knightsen, CA",
+            "status": "NEW",
+            "updatedAt": 1645583155000,
+            "statusUpdatedAt": 1645583156000,
+            "route": {
+                "listRouteId": "fdeca64b-1e12-44e4-8b11-9f2c558b5761"
+            },
+            "routePriority": 4,
+            "type": "PICKUP",
+            "position": {
+                "latitude": 37.96883,
+                "longitude": -121.6603
+            },
+            "displayPosition": {
+                "latitude": 37.96792,
+                "longitude": -121.6603
+            },
+            "addressComponents": {
+                "city": "Knightsen",
+                "state": "CA",
+                "zipcode": "94548",
+                "street": "1923 Delta Rd",
+                "countryIso3": "USA"
+            },
+            "countryIso3": "USA",
+            "dimensions": {
+                "dims": [
+                    {
+                        "t": "WEIGHT",
+                        "v": "60"
+                    }
+                ]
+            }
+        },
+        {
+            "listItemId": "fdec-faf623593a6ddc608a0f1a9c4",
+            "address": "4893 Lone Tree Way, Antioch, CA 94531",
+            "formattedAddress": "4893 Lone Tree Way, Antioch, CA",
+            "status": "NEW",
+            "updatedAt": 1645583155000,
+            "statusUpdatedAt": 1645583155000,
+            "route": {
+                "listRouteId": "fdeca64b-1e12-44e4-8b11-9f2c558b5761"
+            },
+            "routePriority": 3,
+            "type": "PICKUP",
+            "position": {
+                "latitude": 37.96287,
+                "longitude": -121.76203
+            },
+            "displayPosition": {
+                "latitude": 37.96318,
+                "longitude": -121.76203
+            },
+            "addressComponents": {
+                "city": "Antioch",
+                "state": "CA",
+                "zipcode": "94531",
+                "street": "4893 Lone Tree Way",
+                "countryIso3": "USA"
+            },
+            "countryIso3": "USA",
+            "dimensions": {
+                "dims": [
+                    {
+                        "t": "WEIGHT",
+                        "v": "60"
+                    }
+                ]
+            }
+        },
+        {
+            "listItemId": "fdec-6a1633a539ac12ace7513403e",
+            "address": "4501 Sand Creek Rd, Antioch, CA 94531",
+            "formattedAddress": "4501 Sand Creek Rd, Antioch, CA",
+            "status": "NEW",
+            "updatedAt": 1645583155000,
+            "statusUpdatedAt": 1645583155000,
+            "route": {
+                "listRouteId": "fdeca64b-1e12-44e4-8b11-9f2c558b5761"
+            },
+            "routePriority": 5,
+            "type": "PICKUP",
+            "position": {
+                "latitude": 37.95058,
+                "longitude": -121.77574
+            },
+            "displayPosition": {
+                "latitude": 37.95087,
+                "longitude": -121.77535
+            },
+            "addressComponents": {
+                "city": "Antioch",
+                "state": "CA",
+                "zipcode": "94531",
+                "street": "4501 Sand Creek Rd",
+                "countryIso3": "USA"
+            },
+            "countryIso3": "USA",
+            "dimensions": {
+                "dims": [
+                    {
+                        "t": "WEIGHT",
+                        "v": "60"
+                    }
+                ]
+            }
+        },
+        {
+            "listItemId": "fdec-a801b3605afbd726df743cc66",
+            "address": "3365 Deer Valley Rd, Antioch, CA 94531",
+            "formattedAddress": "3365 Deer Valley Rd, Antioch, CA",
+            "status": "NEW",
+            "updatedAt": 1645583155000,
+            "statusUpdatedAt": 1645583155000,
+            "route": {
+                "listRouteId": "fdeca64b-1e12-44e4-8b11-9f2c558b5761"
+            },
+            "routePriority": 1,
+            "type": "PICKUP",
+            "position": {
+                "latitude": 37.98784,
+                "longitude": -121.78451
+            },
+            "displayPosition": {
+                "latitude": 37.98784,
+                "longitude": -121.78445
+            },
+            "addressComponents": {
+                "city": "Antioch",
+                "state": "CA",
+                "zipcode": "94531",
+                "street": "3365 Deer Valley Rd",
+                "countryIso3": "USA"
+            },
+            "countryIso3": "USA",
+            "dimensions": {
+                "dims": [
+                    {
+                        "t": "WEIGHT",
+                        "v": "60"
+                    }
+                ]
+            }
+        },
+        {
+            "listItemId": "fdec-fae5d3b6b9c9f2f1a14c43b0a",
+            "address": "4451 Orwood Rd, Brentwood, CA 94513",
+            "formattedAddress": "4451 Orwood Rd, Brentwood, CA",
+            "status": "NEW",
+            "updatedAt": 1645583156000,
+            "statusUpdatedAt": 1645583156000,
+            "route": {
+                "listRouteId": "fdeca64b-1e12-44e4-8b11-9f2c558b5761"
+            },
+            "routePriority": 8,
+            "type": "PICKUP",
+            "position": {
+                "latitude": 37.93916,
+                "longitude": -121.61148
+            },
+            "displayPosition": {
+                "latitude": 37.93911,
+                "longitude": -121.61149
+            },
+            "addressComponents": {
+                "city": "Brentwood",
+                "state": "CA",
+                "zipcode": "94513",
+                "street": "4451 Orwood Rd",
+                "countryIso3": "USA"
+            },
+            "countryIso3": "USA",
+            "dimensions": {
+                "dims": [
+                    {
+                        "t": "WEIGHT",
+                        "v": "60"
+                    }
+                ]
+            }
+        }
+    ]
+}
