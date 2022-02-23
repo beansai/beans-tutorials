@@ -35,4 +35,4 @@ The following tutorials explain how we solve these problems with DRO ( Dynamic r
 - [Vehicles routing optimization with shift time](vehicles-routing-optimization-with-shift-time) when drivers have different schedules for working.
 - [Vehicles routing optimization with floating drivers](vehicles-routing-optimization-with-floating-drivers) when drivers have no schedule, or want to plan in advance.
 - [Vehicles routing optimization with pickups dropoffs](vehicles-routing-optimization-with-pickups-dropoffs)
-- [Vehicles routing optimization with dimensions](vehicles-routing-optimization-with-dimensions)
+- [Vehicles routing optimization with dimensions](vehicles-routing-optimization-with-dimensions) when vehicles have constraints like weight or  volume.
