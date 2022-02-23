@@ -207,7 +207,7 @@ To configure vehicles with dimensions
 
 - 8 stops from the Route `fdeca64b-1e12-44e4-8b11-9f2c558b5761` above
 
-The respective configurations for the above are at [assets/stateless-dro-request](assets/stateless-dro-request.json)  where the partial configuration is 
+The full configurations are at [assets/stateless-dro-request](assets/stateless-dro-request.json) where the partial configuration is 
 
 ```json
 "default_dimensions": {
