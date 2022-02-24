@@ -25,12 +25,19 @@ POST https://isp.beans.ai/enterprise/v1/lists/assignees
 
 **Body**
 
+- disable_invite_communication - whether or not to send an email to inform the driver.
+
+For more detail on ListAssignee please see https://www.beansroute.ai/route-api-v1.php#assignee-list-object
+
 ```json
 {
   "assignee": [
     {
       "list_assignee_id": "tu1-tutorial-driver-1",
-      "name": "Driver One"
+      "name": "Driver One",
+      "email": "integrator@beans.ai",
+      "role": "DRIVER",
+      "disable_invite_communication": false,
     },
     {
       "list_assignee_id": "tu1-tutorial-driver-2",
