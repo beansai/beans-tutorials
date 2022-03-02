@@ -199,18 +199,16 @@ To configure vehicles with flavors
 The full configurations are at [assets/stateless-dro-request](assets/stateless-dro-request.json) where the partial configuration is 
 
 ```json
-	...
-    "assignee_with_vehicle": [
-        {
-            "list_assignee_id": "ca8d-0a3889d0-a756",
-            "flavors": "HOT"
-        },
-        {
-            "list_assignee_id": "ca8d-f6908a1b",
-            "flavors": "COLD"
-        }
-    ],
-    ...
+"assignee_with_vehicle": [
+    {
+        "list_assignee_id": "ca8d-0a3889d0-a756",
+        "flavors": "HOT"
+    },
+    {
+        "list_assignee_id": "ca8d-f6908a1b",
+        "flavors": "COLD"
+    }
+]
 ```
 
 **Request example**
