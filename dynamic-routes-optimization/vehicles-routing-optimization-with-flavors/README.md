@@ -1,0 +1,258 @@
+
+
+<img src="../assets/images/beans-128x128.png" align="right" />
+
+# Vehicles routing optimization with flavors
+
+
+## Table of contents
+- [Create the data](#create-the-data)
+  - [Create a warehouse](#create-a-warehouse)
+  - [Create a route](#create-a-route)
+  - [Add stops to the route](#add-stops-to-the-route)
+  - [Configure Assignees](#configure-assignees)
+  - [Configure AssigneeVehicles](#configure-AssigneeVehicles)
+- [Run stateless DRO](#run-stateless-dro)
+- [Run stateful DRO](#run-stateful-dro)
+- [About Flavors](#about-flavors)
+
+
+
+## Create the data
+### Create a warehouse
+
+**Request example**
+
+```
+curl -k -H 'Authorization: <token>' https://isp.beans.ai/enterprise/v1/lists/warehouses -XPOST -d '{"warehouse":[{"name":"Pompeii","listWarehouseId":"fb364c4a-abe5-40d0-a846-63ae4364f0cd","address":"100 State St, Los Altos, CA 94022, United States"}]}'
+```
+
+- It is important to set list_warehouse_id that is unique in your account.
+
+```json
+{
+  "warehouse": [
+    {
+      "name": "Pompeii",
+      "listWarehouseId": "fb364c4a-abe5-40d0-a846-63ae4364f0cd",
+      "address": "100 State St, Los Altos, CA 94022, United States"
+    }
+  ]
+}
+```
+
+**Note**: Your list_warehouse_id and address would be different.
+
+### Create a route
+
+A grouping Route, although isn't required for optimization, is a convenient bucket to gather
+stops to be optimized.
+
+**Request example**
+
+```
+curl -k -H 'Authorization: <token>' -X POST 'https://isp.beans.ai/enterprise/v1/lists/routes' -d '{"route":[{"name":"Via Sacra","list_route_id":"ca8daa7f-0625-4ebe-9b57-6314e6746fef","status":"OPEN","date_str":"2023-02-21","warehouse":{"list_warehouse_id":"fb364c4a-abe5-40d0-a846-63ae4364f0cd"}}]}'
+```
+
+- It is important to set the list_route_id that is unique in your account
+- It is important to configure the date_str with a yyyy-MM-dd format
+
+```json
+{
+    "route":[
+        {
+            "name": "Via Sacra",
+            "list_route_id": "ca8daa7f-0625-4ebe-9b57-6314e6746fef",
+            "status": "OPEN",
+            "date_str": "2023-02-21",
+            "warehouse":
+            {
+                "list_warehouse_id": "fb364c4a-abe5-40d0-a846-63ae4364f0cd"
+            }
+        }
+    ]
+}
+```
+
+**Note**: Your list_warehouse_id, list_route_id would be different.
+
+### Add stops to the route
+
+**Request example**
+
+```
+curl -k -H 'Authorization: <token>' https://isp.beans.ai/enterprise/v1/lists/items -XPOST --data '@assets/stops.json'
+```
+
+
+```json
+{
+    "item":
+    [
+    	  ......
+    	  
+        {
+            "list_item_id": "ca8d-2fd6f3f3ab12cebdddb97ca0f",
+            "address": "13100 Montebello Rd, Cupertino, CA 95014, United States",
+            "route":
+            {
+                "list_route_id": "ca8daa7f-0625-4ebe-9b57-6314e6746fef"
+            },
+            "type": "DROPOFF",
+            "flavors":"HOT"
+        },
+        {
+            "list_item_id": "ca8d-fae5d3b6b9c9f2f1a14c43b0a1",
+            "address": "2732 Augustine Dr Ste 1600, Santa Clara, CA 95054, United States",
+            "route":
+            {
+                "list_route_id": "ca8daa7f-0625-4ebe-9b57-6314e6746fef"
+            },
+            "type": "DROPOFF",
+            "flavors":"COLD"
+        },
+        
+        ......
+        
+        {
+            "list_item_id": "ca8d-fae5d3b6b9c9f2f1a14c43b0a8",
+            "address": "158 Cody Rd, Mountain View, CA 94043, United States",
+            "route":
+            {
+                "list_route_id": "ca8daa7f-0625-4ebe-9b57-6314e6746fef"
+            },
+            "type": "DROPOFF",
+            "flavors":""
+        }
+    ]
+}
+```
+
+- You can see the payload detail here [assets/stops.json](assets/stops.json) which contains 15 stops which 7 have a HOT flavor, 7 have a COLD flavor and 1 without any flavor.
+- An important thing to note is that each stop contains the route reference to the route that was created above with route id `ca8daa7f-0625-4ebe-9b57-6314e6746fef`
+
+Here's a visualization of the result, black dot warehouse, blue stops with COLD flavor, red stops with HOT flavor and green stop without any flavor.
+
+![stops](assets/images/stops.png)
+
+### Configure Assignees
+
+To configure two drivers for delivery.
+
+**Request**
+
+```
+curl -k -H 'Authorization: <token>' https://isp.beans.ai/enterprise/v1/lists/assignees -XPOST -d '{"assignee":[{"list_assignee_id":"ca8d-0a3889d0-a756","name":"Proximo"},{"list_assignee_id":"ca8d-f6908a1b","name":"Maximus"}]}'
+```
+
+- list_assignee_id should be unique in your account.
+
+```json
+{
+  "assignee": [
+    {
+      "list_assignee_id": "ca8d-0a3889d0-a756",
+      "name": "Proximo"
+
+    },
+    {
+      "list_assignee_id": "ca8d-f6908a1b",
+      "name": "Maximus"
+    }
+  ]
+}
+```
+
+**Note**: Your list_assignee_id should be different.
+
+### Configure AssigneeVehicles
+
+To configure vehicles with flavors
+- One to deliver HOT packages
+- One to deliver COLD packages
+
+```json
+{
+    "vehicle":
+    [
+        {
+            "listAssigneeId": "ca8d-0a3889d0-a756"
+        },
+        {
+            "listAssigneeId": "ca8d-f6908a1b"
+        }
+
+    ]
+}
+```
+
+**Note**: Your listAssgineeId should be different.
+
+### Run stateless DRO
+
+**The Simple Scenario consists of**
+
+- 15 stops from the Route `ca8daa7f-0625-4ebe-9b57-6314e6746fef` above
+- One vehicle to deliver HOT packages
+- One vehicle to deliver COLD packages
+
+The full configurations are at [assets/stateless-dro-request](assets/stateless-dro-request.json) where the partial configuration is 
+
+```json
+	...
+    "assignee_with_vehicle": [
+        {
+            "list_assignee_id": "ca8d-0a3889d0-a756",
+            "flavors": "HOT"
+        },
+        {
+            "list_assignee_id": "ca8d-f6908a1b",
+            "flavors": "COLD"
+        }
+    ],
+    ...
+```
+
+**Request example**
+
+```
+curl -k -H 'Authorization: <token>' https://isp.beans.ai/enterprise/v1/dro/run -X POST --data '@assets/stateless-dro-request.json'
+```
+
+**Note**: the above assumes that the file `assets/stateless-dro-request.json` is relative to where the cURL is run. 
+
+**Response example**
+
+You can find the sample response at [assets/stateless-dro-response.json](assets/stateless-dro-response.json) where you can see the result with multiple segments ( assignee with packages )
+
+Here's a visualization of the result, as we can see, the packages have been devided into two routes
+
+- Blue Route for delivering cold packages
+- Gray Route for delivering Hot packages
+- The stop (ca8d-fae5d3b6b9c9f2f1a14c43b0a8) without any flavors has also been assigned to the blue route.
+
+![DRO Result](assets/images/stateless-dro-result.png)
+
+### Run stateful DRO
+
+// coming soon
+
+
+
+### About flavors
+Both ListItem and AssigneVehicles are supporting multiple flavors with a comma separated list.
+
+AssigneeVehicle Example
+
+```json
+{
+    "list_assignee_id": "ca8d-f6908a1b",
+    "flavors": "COLD,HOT,FRAGILE"
+}
+```
+So the AssigneeVehicle with flavors of cold, hot, fragile means it can do deliver for these ListItems
+- ListItem with COLD flavors
+- ListItem with HOT and FRAGILE flavors
+
+But if there is a ListItem with flavor "LIQUID" in the DRO request which no AssigneeVehicle can fit it, the algorithm will return a failure result.
+

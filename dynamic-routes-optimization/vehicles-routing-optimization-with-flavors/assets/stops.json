@@ -1,0 +1,155 @@
+{
+    "item":
+    [
+        {
+            "list_item_id": "ca8d-a801b3605afbd726df743cc66",
+            "address": "999 E Caribbean Dr, Sunnyvale, CA 94089, United States",
+            "route":
+            {
+                "list_route_id": "ca8daa7f-0625-4ebe-9b57-6314e6746fef"
+            },
+            "type": "DROPOFF",
+            "flavors":"HOT"
+        },
+        {
+            "list_item_id": "ca8d-8eca53fefb635f19958ab0cbf",
+            "address": "Milpitas Square, 338 Barber Ln, Milpitas, CA 95035, United States",
+            "route":
+            {
+                "list_route_id": "ca8daa7f-0625-4ebe-9b57-6314e6746fef"
+            },
+            "type": "DROPOFF",
+            "flavors":"HOT"
+        },
+        {
+            "list_item_id": "ca8d-faf623593a6ddc608a0f1a9c4",
+            "address": "1091 McCreery Ave, San Jose, CA 95116, United States",
+            "route":
+            {
+                "list_route_id": "ca8daa7f-0625-4ebe-9b57-6314e6746fef"
+            },
+            "type": "DROPOFF",
+            "flavors":"HOT"
+        },
+        {
+            "list_item_id": "ca8d-b4d913523baaee8f2ba5e1a25",
+            "address": "6898 Raleigh Rd, San Jose, CA 95123, United States",
+            "route":
+            {
+                "list_route_id": "ca8daa7f-0625-4ebe-9b57-6314e6746fef"
+            },
+            "type": "DROPOFF",
+            "flavors":"HOT"
+        },
+        {
+            "list_item_id": "ca8d-6a1633a539ac12ace7513403e",
+            "address": "330 Belgatos Rd, Los Gatos, CA 95032, United States",
+            "route":
+            {
+                "list_route_id": "ca8daa7f-0625-4ebe-9b57-6314e6746fef"
+            },
+            "type": "DROPOFF",
+            "flavors":"HOT"
+        },
+        {
+            "list_item_id": "ca8d-a6f4c36d69394ba11f52b63a7",
+            "address": "20764 4th St, Saratoga, CA 95070, United States",
+            "route":
+            {
+                "list_route_id": "ca8daa7f-0625-4ebe-9b57-6314e6746fef"
+            },
+            "type": "DROPOFF",
+            "flavors":"HOT"
+        },
+        {
+            "list_item_id": "ca8d-2fd6f3f3ab12cebdddb97ca0f",
+            "address": "13100 Montebello Rd, Cupertino, CA 95014, United States",
+            "route":
+            {
+                "list_route_id": "ca8daa7f-0625-4ebe-9b57-6314e6746fef"
+            },
+            "type": "DROPOFF",
+            "flavors":"HOT"
+        },
+        {
+            "list_item_id": "ca8d-fae5d3b6b9c9f2f1a14c43b0a1",
+            "address": "2732 Augustine Dr Ste 1600, Santa Clara, CA 95054, United States",
+            "route":
+            {
+                "list_route_id": "ca8daa7f-0625-4ebe-9b57-6314e6746fef"
+            },
+            "type": "DROPOFF",
+            "flavors":"COLD"
+        },
+        {
+            "list_item_id": "ca8d-fae5d3b6b9c9f2f1a14c43b0a2",
+            "address": "1709 Automation Pkwy, San Jose, CA 95101, United States",
+            "route":
+            {
+                "list_route_id": "ca8daa7f-0625-4ebe-9b57-6314e6746fef"
+            },
+            "type": "DROPOFF",
+            "flavors":"COLD"
+        },
+        {
+            "list_item_id": "ca8d-fae5d3b6b9c9f2f1a14c43b0a3",
+            "address": "1661 McKee Rd, San Jose, CA 95116, United States",
+            "route":
+            {
+                "list_route_id": "ca8daa7f-0625-4ebe-9b57-6314e6746fef"
+            },
+            "type": "DROPOFF",
+            "flavors":"COLD"
+        },
+        {
+            "list_item_id": "ca8d-fae5d3b6b9c9f2f1a14c43b0a4",
+            "address": "62 S Second St, San Jose, CA 95113, United States",
+            "route":
+            {
+                "list_route_id": "ca8daa7f-0625-4ebe-9b57-6314e6746fef"
+            },
+            "type": "DROPOFF",
+            "flavors":"COLD"
+        },
+        {
+            "list_item_id": "ca8d-fae5d3b6b9c9f2f1a14c43b0a5",
+            "address": "2855 Stevens Creek Blvd, Santa Clara, CA 95050, United States",
+            "route":
+            {
+                "list_route_id": "ca8daa7f-0625-4ebe-9b57-6314e6746fef"
+            },
+            "type": "DROPOFF",
+            "flavors":"COLD"
+        },
+        {
+            "list_item_id": "ca8d-fae5d3b6b9c9f2f1a14c43b0a6",
+            "address": "675 Saratoga Ave, San Jose, CA 95129, United States",
+            "route":
+            {
+                "list_route_id": "ca8daa7f-0625-4ebe-9b57-6314e6746fef"
+            },
+            "type": "DROPOFF",
+            "flavors":"COLD"
+        },
+        {
+            "list_item_id": "ca8d-fae5d3b6b9c9f2f1a14c43b0a7",
+            "address": "1701 Airport Blvd, San Jose, CA 95110, United States",
+            "route":
+            {
+                "list_route_id": "ca8daa7f-0625-4ebe-9b57-6314e6746fef"
+            },
+            "type": "DROPOFF",
+            "flavors":"COLD"
+        },
+        {
+            "list_item_id": "ca8d-fae5d3b6b9c9f2f1a14c43b0a8",
+            "address": "158 Cody Rd, Mountain View, CA 94043, United States",
+            "route":
+            {
+                "list_route_id": "ca8daa7f-0625-4ebe-9b57-6314e6746fef"
+            },
+            "type": "DROPOFF",
+            "flavors":""
+        }
+    ]
+}

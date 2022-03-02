@@ -1,0 +1,478 @@
+{
+    "warehouse": {
+        "list_warehouse_id": "fb364c4a-abe5-40d0-a846-63ae4364f0cd",
+        "address": "100 State St, Los Altos, CA 94022, United States",
+        "position": {
+            "lat": 37.38009,
+            "lng": -122.11547
+        }
+    },
+    "item": [
+        {
+            "listItemId": "ca8d-fae5d3b6b9c9f2f1a14c43b0a1",
+            "address": "2732 Augustine Dr Ste 1600, Santa Clara, CA 95054, United States",
+            "formattedAddress": "2732 Augustine Dr, Santa Clara, CA",
+            "status": "NEW",
+            "updatedAt": 1646181071000,
+            "statusUpdatedAt": 1646178421000,
+            "route": {
+                "listRouteId": "ca8daa7f-0625-4ebe-9b57-6314e6746fef"
+            },
+            "routePriority": 8,
+            "type": "PICKUP",
+            "position": {
+                "latitude": 37.38235,
+                "longitude": -121.976
+            },
+            "displayPosition": {
+                "latitude": 37.38226,
+                "longitude": -121.976
+            },
+            "addressComponents": {
+                "city": "Santa Clara",
+                "state": "CA",
+                "zipcode": "95054",
+                "street": "2732 Augustine Dr 1600",
+                "countryIso3": "USA"
+            },
+            "countryIso3": "USA",
+            "flavors": "COLD"
+        },
+        {
+            "listItemId": "ca8d-fae5d3b6b9c9f2f1a14c43b0a3",
+            "address": "1661 McKee Rd, San Jose, CA 95116, United States",
+            "formattedAddress": "1661 McKee Rd, San Jose, CA",
+            "status": "NEW",
+            "updatedAt": 1646181071000,
+            "statusUpdatedAt": 1646178422000,
+            "route": {
+                "listRouteId": "ca8daa7f-0625-4ebe-9b57-6314e6746fef"
+            },
+            "routePriority": 10,
+            "type": "PICKUP",
+            "position": {
+                "latitude": 37.35755,
+                "longitude": -121.86157
+            },
+            "displayPosition": {
+                "latitude": 37.35809,
+                "longitude": -121.86171
+            },
+            "addressComponents": {
+                "city": "San Jose",
+                "state": "CA",
+                "zipcode": "95116",
+                "street": "1661 McKee Rd",
+                "countryIso3": "USA"
+            },
+            "countryIso3": "USA",
+            "flavors": "COLD"
+        },
+        {
+            "listItemId": "ca8d-a801b3605afbd726df743cc66",
+            "address": "999 E Caribbean Dr, Sunnyvale, CA 94089, United States",
+            "formattedAddress": "999 E Caribbean Dr, Sunnyvale, CA",
+            "status": "NEW",
+            "updatedAt": 1646181071000,
+            "statusUpdatedAt": 1646178420000,
+            "route": {
+                "listRouteId": "ca8daa7f-0625-4ebe-9b57-6314e6746fef"
+            },
+            "routePriority": 1,
+            "type": "PICKUP",
+            "position": {
+                "latitude": 37.4124569,
+                "longitude": -121.9979576
+            },
+            "displayPosition": {
+                "latitude": 37.4124569,
+                "longitude": -121.9979576
+            },
+            "addressComponents": {
+                "city": "Sunnyvale",
+                "state": "CA",
+                "zipcode": "94089",
+                "street": "999 E Caribbean Dr",
+                "countryIso3": "USA"
+            },
+            "countryIso3": "USA",
+            "flavors": "HOT"
+        },
+        {
+            "listItemId": "ca8d-fae5d3b6b9c9f2f1a14c43b0a2",
+            "address": "1709 Automation Pkwy, San Jose, CA 95101, United States",
+            "formattedAddress": "1709 Automation Pkwy, San Jose, CA",
+            "status": "NEW",
+            "updatedAt": 1646181071000,
+            "statusUpdatedAt": 1646178421000,
+            "route": {
+                "listRouteId": "ca8daa7f-0625-4ebe-9b57-6314e6746fef"
+            },
+            "routePriority": 9,
+            "type": "PICKUP",
+            "position": {
+                "latitude": 37.38925,
+                "longitude": -121.88306
+            },
+            "displayPosition": {
+                "latitude": 37.3892,
+                "longitude": -121.88322
+            },
+            "addressComponents": {
+                "city": "San Jose",
+                "state": "CA",
+                "zipcode": "95131",
+                "street": "1709 Automation Pkwy",
+                "countryIso3": "USA"
+            },
+            "countryIso3": "USA",
+            "flavors": "COLD"
+        },
+        {
+            "listItemId": "ca8d-fae5d3b6b9c9f2f1a14c43b0a5",
+            "address": "2855 Stevens Creek Blvd, Santa Clara, CA 95050, United States",
+            "formattedAddress": "2855 Stevens Creek Blvd, Santa Clara, CA",
+            "status": "NEW",
+            "updatedAt": 1646181071000,
+            "statusUpdatedAt": 1646178422000,
+            "route": {
+                "listRouteId": "ca8daa7f-0625-4ebe-9b57-6314e6746fef"
+            },
+            "routePriority": 12,
+            "type": "PICKUP",
+            "position": {
+                "latitude": 37.32345,
+                "longitude": -121.94435
+            },
+            "displayPosition": {
+                "latitude": 37.32366,
+                "longitude": -121.94436
+            },
+            "addressComponents": {
+                "city": "Santa Clara",
+                "state": "CA",
+                "zipcode": "95050",
+                "street": "2855 Stevens Creek Blvd",
+                "countryIso3": "USA"
+            },
+            "countryIso3": "USA",
+            "flavors": "COLD"
+        },
+        {
+            "listItemId": "ca8d-fae5d3b6b9c9f2f1a14c43b0a4",
+            "address": "62 S Second St, San Jose, CA 95113, United States",
+            "formattedAddress": "62 S 2nd St, San Jose, CA",
+            "status": "NEW",
+            "updatedAt": 1646181071000,
+            "statusUpdatedAt": 1646178422000,
+            "route": {
+                "listRouteId": "ca8daa7f-0625-4ebe-9b57-6314e6746fef"
+            },
+            "routePriority": 11,
+            "type": "PICKUP",
+            "position": {
+                "latitude": 37.33546,
+                "longitude": -121.88861
+            },
+            "displayPosition": {
+                "latitude": 37.33562,
+                "longitude": -121.88829
+            },
+            "addressComponents": {
+                "city": "San Jose",
+                "state": "CA",
+                "zipcode": "95113",
+                "street": "62 S 2nd St",
+                "countryIso3": "USA"
+            },
+            "countryIso3": "USA",
+            "flavors": "COLD"
+        },
+        {
+            "listItemId": "ca8d-fae5d3b6b9c9f2f1a14c43b0a7",
+            "address": "1701 Airport Blvd, San Jose, CA 95110, United States",
+            "formattedAddress": "1701 Airport Blvd, San Jose, CA",
+            "status": "NEW",
+            "updatedAt": 1646181071000,
+            "statusUpdatedAt": 1646178422000,
+            "route": {
+                "listRouteId": "ca8daa7f-0625-4ebe-9b57-6314e6746fef"
+            },
+            "routePriority": 14,
+            "type": "PICKUP",
+            "position": {
+                "latitude": 37.36503,
+                "longitude": -121.92384
+            },
+            "displayPosition": {
+                "latitude": 37.35839,
+                "longitude": -121.923
+            },
+            "addressComponents": {
+                "city": "San Jose",
+                "state": "CA",
+                "zipcode": "95110",
+                "street": "1701 Airport Blvd",
+                "countryIso3": "USA"
+            },
+            "countryIso3": "USA",
+            "flavors": "COLD"
+        },
+        {
+            "listItemId": "ca8d-fae5d3b6b9c9f2f1a14c43b0a6",
+            "address": "675 Saratoga Ave, San Jose, CA 95129, United States",
+            "formattedAddress": "675 Saratoga Ave, San Jose, CA",
+            "status": "NEW",
+            "updatedAt": 1646181071000,
+            "statusUpdatedAt": 1646178422000,
+            "route": {
+                "listRouteId": "ca8daa7f-0625-4ebe-9b57-6314e6746fef"
+            },
+            "routePriority": 13,
+            "type": "PICKUP",
+            "position": {
+                "latitude": 37.31514,
+                "longitude": -121.97756
+            },
+            "displayPosition": {
+                "latitude": 37.31514,
+                "longitude": -121.97765
+            },
+            "addressComponents": {
+                "city": "San Jose",
+                "state": "CA",
+                "zipcode": "95129",
+                "street": "675 Saratoga Ave",
+                "countryIso3": "USA"
+            },
+            "countryIso3": "USA",
+            "flavors": "COLD"
+        },
+        {
+            "listItemId": "ca8d-fae5d3b6b9c9f2f1a14c43b0a8",
+            "address": "158 Cody Rd, Mountain View, CA 94043, United States",
+            "formattedAddress": "158 Cody Rd, Mountain View, CA",
+            "status": "NEW",
+            "updatedAt": 1646182524000,
+            "statusUpdatedAt": 1646182525000,
+            "route": {
+                "listRouteId": "ca8daa7f-0625-4ebe-9b57-6314e6746fef"
+            },
+            "routePriority": 29,
+            "type": "PICKUP",
+            "position": {
+                "latitude": 37.40936,
+                "longitude": -122.05119
+            },
+            "displayPosition": {
+                "latitude": 37.40909,
+                "longitude": -122.05074
+            },
+            "addressComponents": {
+                "city": "Mountain View",
+                "state": "CA",
+                "zipcode": "94035",
+                "street": "158 Cody Rd",
+                "countryIso3": "USA"
+            },
+            "countryIso3": "USA"
+        },
+        {
+            "listItemId": "ca8d-2fd6f3f3ab12cebdddb97ca0f",
+            "address": "13100 Montebello Rd, Cupertino, CA 95014, United States",
+            "formattedAddress": "13100 Montebello Rd, Cupertino, CA",
+            "status": "NEW",
+            "updatedAt": 1646181071000,
+            "statusUpdatedAt": 1646178421000,
+            "route": {
+                "listRouteId": "ca8daa7f-0625-4ebe-9b57-6314e6746fef"
+            },
+            "routePriority": 7,
+            "type": "PICKUP",
+            "position": {
+                "latitude": 37.2946926,
+                "longitude": -122.0904685
+            },
+            "displayPosition": {
+                "latitude": 37.2946926,
+                "longitude": -122.0904685
+            },
+            "addressComponents": {
+                "city": "Cupertino",
+                "state": "CA",
+                "zipcode": "95014",
+                "street": "13100 Montebello Rd",
+                "countryIso3": "USA"
+            },
+            "countryIso3": "USA",
+            "flavors": "HOT"
+        },
+        {
+            "listItemId": "ca8d-8eca53fefb635f19958ab0cbf",
+            "address": "Milpitas Square, 338 Barber Ln, Milpitas, CA 95035, United States",
+            "formattedAddress": "338 Barber Ln, Milpitas, CA",
+            "status": "NEW",
+            "updatedAt": 1646181071000,
+            "statusUpdatedAt": 1646178420000,
+            "route": {
+                "listRouteId": "ca8daa7f-0625-4ebe-9b57-6314e6746fef"
+            },
+            "routePriority": 2,
+            "type": "PICKUP",
+            "position": {
+                "latitude": 37.42237,
+                "longitude": -121.91722
+            },
+            "displayPosition": {
+                "latitude": 37.42239,
+                "longitude": -121.91723
+            },
+            "addressComponents": {
+                "city": "Milpitas",
+                "state": "CA",
+                "zipcode": "95035-7905",
+                "street": "338 Barber Ln",
+                "countryIso3": "USA"
+            },
+            "countryIso3": "USA",
+            "flavors": "HOT"
+        },
+        {
+            "listItemId": "ca8d-a6f4c36d69394ba11f52b63a7",
+            "address": "20764 4th St, Saratoga, CA 95070, United States",
+            "formattedAddress": "20764 4th St, Saratoga, CA",
+            "status": "NEW",
+            "updatedAt": 1646181071000,
+            "statusUpdatedAt": 1646178421000,
+            "route": {
+                "listRouteId": "ca8daa7f-0625-4ebe-9b57-6314e6746fef"
+            },
+            "routePriority": 6,
+            "type": "PICKUP",
+            "position": {
+                "latitude": 37.2585819,
+                "longitude": -122.0353217
+            },
+            "displayPosition": {
+                "latitude": 37.2585819,
+                "longitude": -122.0353217
+            },
+            "addressComponents": {
+                "city": "Saratoga",
+                "state": "CA",
+                "zipcode": "95070",
+                "street": "20764 4th St",
+                "countryIso3": "USA"
+            },
+            "countryIso3": "USA",
+            "flavors": "HOT"
+        },
+        {
+            "listItemId": "ca8d-faf623593a6ddc608a0f1a9c4",
+            "address": "1091 McCreery Ave, San Jose, CA 95116, United States",
+            "formattedAddress": "1091 McCreery Ave, San Jose, CA",
+            "status": "NEW",
+            "updatedAt": 1646181071000,
+            "statusUpdatedAt": 1646178420000,
+            "route": {
+                "listRouteId": "ca8daa7f-0625-4ebe-9b57-6314e6746fef"
+            },
+            "routePriority": 3,
+            "type": "PICKUP",
+            "position": {
+                "latitude": 37.34217,
+                "longitude": -121.84136
+            },
+            "displayPosition": {
+                "latitude": 37.3421,
+                "longitude": -121.84128
+            },
+            "addressComponents": {
+                "city": "San Jose",
+                "state": "CA",
+                "zipcode": "95116",
+                "street": "1091 McCreery Ave",
+                "countryIso3": "USA"
+            },
+            "countryIso3": "USA",
+            "flavors": "HOT"
+        },
+        {
+            "listItemId": "ca8d-6a1633a539ac12ace7513403e",
+            "address": "330 Belgatos Rd, Los Gatos, CA 95032, United States",
+            "formattedAddress": "330 Belgatos Ln, Los Gatos, CA",
+            "status": "NEW",
+            "updatedAt": 1646181071000,
+            "statusUpdatedAt": 1646178421000,
+            "route": {
+                "listRouteId": "ca8daa7f-0625-4ebe-9b57-6314e6746fef"
+            },
+            "routePriority": 5,
+            "type": "PICKUP",
+            "position": {
+                "latitude": 37.2306427,
+                "longitude": -121.9209996
+            },
+            "displayPosition": {
+                "latitude": 37.2306427,
+                "longitude": -121.9209996
+            },
+            "addressComponents": {
+                "city": "Los Gatos",
+                "state": "CA",
+                "zipcode": "95032",
+                "street": "330 Belgatos Ln",
+                "countryIso3": "USA"
+            },
+            "countryIso3": "USA",
+            "flavors": "HOT"
+        },
+        {
+            "listItemId": "ca8d-b4d913523baaee8f2ba5e1a25",
+            "address": "6898 Raleigh Rd, San Jose, CA 95123, United States",
+            "formattedAddress": "6898 Raleigh Rd, San Jose, CA",
+            "status": "NEW",
+            "updatedAt": 1646181071000,
+            "statusUpdatedAt": 1646178420000,
+            "route": {
+                "listRouteId": "ca8daa7f-0625-4ebe-9b57-6314e6746fef"
+            },
+            "routePriority": 4,
+            "type": "PICKUP",
+            "position": {
+                "latitude": 37.24359,
+                "longitude": -121.78592
+            },
+            "displayPosition": {
+                "latitude": 37.24384,
+                "longitude": -121.78527
+            },
+            "addressComponents": {
+                "city": "San Jose",
+                "state": "CA",
+                "zipcode": "95119",
+                "street": "6898 Raleigh Rd",
+                "countryIso3": "USA"
+            },
+            "countryIso3": "USA",
+            "flavors": "HOT"
+        }
+    ],
+    "assignee_with_vehicle": [
+        {
+            "list_assignee_id": "ca8d-0a3889d0-a756",
+            "flavors": "HOT"
+        },
+        {
+            "list_assignee_id": "ca8d-f6908a1b",
+            "flavors": "COLD"
+        }
+    ],
+    "default_shift_start_time": "07:00",
+    "default_shift_length": 8,
+    "default_capacity": 0,
+    "default_stop_time_seconds": 60,
+    "default_DROPOFF_time_seconds": 60,
+    "default_pickup_time_seconds": 60,
+    "optimize_for": "DISTANCE"
+}

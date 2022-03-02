@@ -1,0 +1,567 @@
+{
+    "segment": [
+        {
+            "listAssigneeId": "ca8d-0a3889d0-a756",
+            "item": [
+                {
+                    "listItemId": "ca8d-2fd6f3f3ab12cebdddb97ca0f",
+                    "address": "13100 Montebello Rd, Cupertino, CA 95014, United States",
+                    "formattedAddress": "13100 Montebello Rd, Cupertino, CA",
+                    "status": "NEW",
+                    "updatedAt": 1646181071000,
+                    "statusUpdatedAt": 1646178421000,
+                    "route": {
+                        "listRouteId": "ca8daa7f-0625-4ebe-9b57-6314e6746fef"
+                    },
+                    "routePriority": 7,
+                    "trackingId": "gen:09555cf2-40fa-48cb-88ad-bad288ea2baa",
+                    "numPackages": 1,
+                    "type": "PICKUP",
+                    "position": {
+                        "latitude": 37.2946926,
+                        "longitude": -122.0904685
+                    },
+                    "displayPosition": {
+                        "latitude": 37.2946926,
+                        "longitude": -122.0904685
+                    },
+                    "addressComponents": {
+                        "city": "Cupertino",
+                        "state": "CA",
+                        "zipcode": "95014",
+                        "street": "13100 Montebello Rd",
+                        "countryIso3": "USA"
+                    },
+                    "countryIso3": "USA",
+                    "estimatedByStr": "07:18",
+                    "flavors": "HOT"
+                },
+                {
+                    "listItemId": "ca8d-a6f4c36d69394ba11f52b63a7",
+                    "address": "20764 4th St, Saratoga, CA 95070, United States",
+                    "formattedAddress": "20764 4th St, Saratoga, CA",
+                    "status": "NEW",
+                    "updatedAt": 1646181071000,
+                    "statusUpdatedAt": 1646178421000,
+                    "route": {
+                        "listRouteId": "ca8daa7f-0625-4ebe-9b57-6314e6746fef"
+                    },
+                    "routePriority": 6,
+                    "trackingId": "gen:949cd355-c263-486b-8668-7c3af4553a95",
+                    "numPackages": 1,
+                    "type": "PICKUP",
+                    "position": {
+                        "latitude": 37.2585819,
+                        "longitude": -122.0353217
+                    },
+                    "displayPosition": {
+                        "latitude": 37.2585819,
+                        "longitude": -122.0353217
+                    },
+                    "addressComponents": {
+                        "city": "Saratoga",
+                        "state": "CA",
+                        "zipcode": "95070",
+                        "street": "20764 4th St",
+                        "countryIso3": "USA"
+                    },
+                    "countryIso3": "USA",
+                    "estimatedByStr": "07:38",
+                    "estimatedCapacity": 1,
+                    "flavors": "HOT"
+                },
+                {
+                    "listItemId": "ca8d-6a1633a539ac12ace7513403e",
+                    "address": "330 Belgatos Rd, Los Gatos, CA 95032, United States",
+                    "formattedAddress": "330 Belgatos Ln, Los Gatos, CA",
+                    "status": "NEW",
+                    "updatedAt": 1646181071000,
+                    "statusUpdatedAt": 1646178421000,
+                    "route": {
+                        "listRouteId": "ca8daa7f-0625-4ebe-9b57-6314e6746fef"
+                    },
+                    "routePriority": 5,
+                    "trackingId": "gen:16dabc9f-499c-4e50-8ff6-f8d2f80a5452",
+                    "numPackages": 1,
+                    "type": "PICKUP",
+                    "position": {
+                        "latitude": 37.2306427,
+                        "longitude": -121.9209996
+                    },
+                    "displayPosition": {
+                        "latitude": 37.2306427,
+                        "longitude": -121.9209996
+                    },
+                    "addressComponents": {
+                        "city": "Los Gatos",
+                        "state": "CA",
+                        "zipcode": "95032",
+                        "street": "330 Belgatos Ln",
+                        "countryIso3": "USA"
+                    },
+                    "countryIso3": "USA",
+                    "estimatedByStr": "07:56",
+                    "estimatedCapacity": 2,
+                    "flavors": "HOT"
+                },
+                {
+                    "listItemId": "ca8d-b4d913523baaee8f2ba5e1a25",
+                    "address": "6898 Raleigh Rd, San Jose, CA 95123, United States",
+                    "formattedAddress": "6898 Raleigh Rd, San Jose, CA",
+                    "status": "NEW",
+                    "updatedAt": 1646181071000,
+                    "statusUpdatedAt": 1646178420000,
+                    "route": {
+                        "listRouteId": "ca8daa7f-0625-4ebe-9b57-6314e6746fef"
+                    },
+                    "routePriority": 4,
+                    "trackingId": "gen:cbc9920c-ac6d-4f50-a563-e81cbf480e53",
+                    "numPackages": 1,
+                    "type": "PICKUP",
+                    "position": {
+                        "latitude": 37.24359,
+                        "longitude": -121.78592
+                    },
+                    "displayPosition": {
+                        "latitude": 37.24384,
+                        "longitude": -121.78527
+                    },
+                    "addressComponents": {
+                        "city": "San Jose",
+                        "state": "CA",
+                        "zipcode": "95119",
+                        "street": "6898 Raleigh Rd",
+                        "countryIso3": "USA"
+                    },
+                    "countryIso3": "USA",
+                    "estimatedByStr": "08:14",
+                    "estimatedCapacity": 3,
+                    "flavors": "HOT"
+                },
+                {
+                    "listItemId": "ca8d-faf623593a6ddc608a0f1a9c4",
+                    "address": "1091 McCreery Ave, San Jose, CA 95116, United States",
+                    "formattedAddress": "1091 McCreery Ave, San Jose, CA",
+                    "status": "NEW",
+                    "updatedAt": 1646181071000,
+                    "statusUpdatedAt": 1646178420000,
+                    "route": {
+                        "listRouteId": "ca8daa7f-0625-4ebe-9b57-6314e6746fef"
+                    },
+                    "routePriority": 3,
+                    "trackingId": "gen:2e344610-c90b-4f14-9772-30b021539fea",
+                    "numPackages": 1,
+                    "type": "PICKUP",
+                    "position": {
+                        "latitude": 37.34217,
+                        "longitude": -121.84136
+                    },
+                    "displayPosition": {
+                        "latitude": 37.3421,
+                        "longitude": -121.84128
+                    },
+                    "addressComponents": {
+                        "city": "San Jose",
+                        "state": "CA",
+                        "zipcode": "95116",
+                        "street": "1091 McCreery Ave",
+                        "countryIso3": "USA"
+                    },
+                    "countryIso3": "USA",
+                    "estimatedByStr": "08:31",
+                    "estimatedCapacity": 4,
+                    "flavors": "HOT"
+                },
+                {
+                    "listItemId": "ca8d-8eca53fefb635f19958ab0cbf",
+                    "address": "Milpitas Square, 338 Barber Ln, Milpitas, CA 95035, United States",
+                    "formattedAddress": "338 Barber Ln, Milpitas, CA",
+                    "status": "NEW",
+                    "updatedAt": 1646181071000,
+                    "statusUpdatedAt": 1646178420000,
+                    "route": {
+                        "listRouteId": "ca8daa7f-0625-4ebe-9b57-6314e6746fef"
+                    },
+                    "routePriority": 2,
+                    "trackingId": "gen:8ff817c0-2243-42ba-a387-a092f10958e7",
+                    "numPackages": 1,
+                    "type": "PICKUP",
+                    "position": {
+                        "latitude": 37.42237,
+                        "longitude": -121.91722
+                    },
+                    "displayPosition": {
+                        "latitude": 37.42239,
+                        "longitude": -121.91723
+                    },
+                    "addressComponents": {
+                        "city": "Milpitas",
+                        "state": "CA",
+                        "zipcode": "95035-7905",
+                        "street": "338 Barber Ln",
+                        "countryIso3": "USA"
+                    },
+                    "countryIso3": "USA",
+                    "estimatedByStr": "08:46",
+                    "estimatedCapacity": 5,
+                    "flavors": "HOT"
+                },
+                {
+                    "listItemId": "ca8d-a801b3605afbd726df743cc66",
+                    "address": "999 E Caribbean Dr, Sunnyvale, CA 94089, United States",
+                    "formattedAddress": "999 E Caribbean Dr, Sunnyvale, CA",
+                    "status": "NEW",
+                    "updatedAt": 1646181071000,
+                    "statusUpdatedAt": 1646178420000,
+                    "route": {
+                        "listRouteId": "ca8daa7f-0625-4ebe-9b57-6314e6746fef"
+                    },
+                    "routePriority": 1,
+                    "trackingId": "gen:bc00ab03-c9df-4590-99a4-74fb71d445b2",
+                    "numPackages": 1,
+                    "type": "PICKUP",
+                    "position": {
+                        "latitude": 37.4124569,
+                        "longitude": -121.9979576
+                    },
+                    "displayPosition": {
+                        "latitude": 37.4124569,
+                        "longitude": -121.9979576
+                    },
+                    "addressComponents": {
+                        "city": "Sunnyvale",
+                        "state": "CA",
+                        "zipcode": "94089",
+                        "street": "999 E Caribbean Dr",
+                        "countryIso3": "USA"
+                    },
+                    "countryIso3": "USA",
+                    "estimatedByStr": "08:56",
+                    "estimatedCapacity": 6,
+                    "flavors": "HOT"
+                }
+            ],
+            "timeS": 7984.0,
+            "distanceM": 110688.1,
+            "pathEncoded": "qxccFxtihVC?IUEKCISe@O_@?EASa@G]Iq@UCEAEEG?G?G@I?CDGBCTEh@?J?lC?X?D?R?~A@\\Ah@?R?~B?b@?L?R?L?X?J?T?rC@T?V@J?lABV?B?b@@H?PAj@?hB?F?D?t@?`@?B?Z@pACh@CPAf@IhCoDf@o@nFyHrAoB@A@CHONWDIt@cAvY{a@lMsQjHiKtAkBt@eAjCsDbAwAp@aA@CJMNQDGJMfFoH`GoIHKlIoLlLgPzA{B|D{FrBaCfPwVxL{Q|AsBdBgC@ARWn@w@vTq[~@sARYLOHM\\i@rJaNt@{@d@i@TQh@i@t@i@ROfAa@rBw@fCY~B?R@z@H|@L~E|@l@LvB\\x@P^F`BPpCXRBn@@tBHh@BP@zADrDDhAGj@A|@EdKe@xCUb@ChES^CvBMZCL?L?XAxAAt@?LGXQX@^@T?f@?pH@nB?z@?fA?bCATAhC@H@H?r@?x@A|@AZ@b@?z@A|@AjA?`A?V?f@?l@?PBRDpATRDHBzFlA|B`@|A\\\\JLJPVdAfBLLNHj@Jp@Fj@LHB`@T`@TVRb@l@b@d@RT^\\h@\\j@`@Td@FX?ZGnA@l@VlAPp@`@zAPZRTfBz@HFTRrAzAZZZVpAh@b@Lp@PbAHpAD`@?d@FXLTN^`@\\Z`@Rf@D`@G\\Ml@]h@Y|@YZCFAP?XDHBTHPJPR^r@HT^dAp@xBZfAN`@\\`@LJNHLDZFrAP`An@p@b@bB|AvAxA^`@\\R\\@P@LAREPI\\IPGTCPBJDJHJPJVBNBPBLBVDb@XdDBb@LzAC~@g@zCC`@B`@Pn@X^LNPHTBRA^OBDBZUj@wArCoA~DAL@@?BDFJ@LGR[JYLSLIJE^Mf@M^EFAF@FH@HENKJw@h@MPGPE^QbD[|BEv@Cx@Kl@K`@APBVNJTBr@IRAL@n@VXPPh@AnAAtBP?RBX?NIDAROPOROTGLdA@ZKF]BYCOYa@KY?SCQ?@uB@oAQi@YQo@WMAS@s@HUCOKCW@QJa@Jm@By@Dw@Z}BPcDD_@FQLQv@i@JKDOAIGIGAG@_@Dg@L_@LKDMHMRKXSZMFKAEG?CAA@MnA_EvAsCTk@C[CE_@NS@UCQIMOY_@Qo@Ca@Ba@f@{CB_AM{ACc@YeDEc@CWCMCQCOKWKQKIKEQCUBQF]HQHSDM@QA]A]S_@a@wAyAcB}Aq@c@aAo@sAQ[GMEOIMK]a@Oa@[gAq@yB_@eAIU_@s@QSQKUIICYEQ?G@[B}@Xi@Xm@\\]La@Fg@Ea@S][_@a@UOYMe@Ga@?qAEcAIq@Qc@MqAi@[W[[sA{AUSIGgB{@SUQ[a@{AQq@WmAAm@FoA?[GYUe@k@a@i@]_@]SUc@e@c@m@WSa@Ua@UICk@Mq@Gk@KOIMMeAgBQWMK]K}A]}Ba@{FmAICSEqAUSEQCm@?g@?W?aA?kA?}@@{@@c@?[A}@@y@@s@?I?IAiCAU@cC@gA?{@?oB?qHAg@?U?_@AYA?]?K?eA?c@As@?gD?_BA}AM_DCYGy@W}AUyAs@}DKe@[wAEYCWEYM_BAcAAe@AOAy@AY?w@?aAEoJ?s@?wA@iB@U@U@S@c@@YD{@?SDm@?G?SBs@?G?E?}@@_A?W?kB?G?QFOBsA?E@{@?c@@u@?{@@u@DsC?UZEb@MdAa@rF}BpAk@|Aw@~C}AdFmCdE_BlVkJfAe@dAe@jAq@dAo@`Au@bA{@~@aA|@cAle@cl@`CyCxBwBpDiDf@c@lDmDV]\\]b@[RQPWJUdDG\\?TArBAD?bA?`@?R?D?h@?L?d@?V?fAA|@?P?n@?j@?hAAbA?L?pB@D?^?p@?^AH?Z@N?B?JAJ?L?L?v@@P?\\@pA@tBBrA?dA@N?nDFZ?F?x@Ax@@n@?V@|@?D@R?x@BdAFP@r@@b@?h@@P?tCG`BGl@CfBCz@?`C@P?zD@Z?V@d@?rE@N@Z?N?VApBEX?^AVAjDIx@AB?L?RAL?lAEV?vEGdBCrAChHCbAAlA?n@A\\?fLG~@AjAAdDC|@?xCCVAr@?jCGdB?x@?Z?z@?v@AzEEnB?^?N?B?T?|ACj@AhC@~@?p@@h@?p@?pC@tAApAAx@??ZHjBBf@f@zAXlANXHb@jCtBTAJ?JB\\LNR??OS]MKCK?U@kCuBIc@OYYmAg@{ACg@IkB?[|@@p@@^?|@?J?XCEYCUK_ACYEc@AKIw@?GGu@Ee@Ea@G_@IWMa@Qa@]o@e@y@OWq@eA}EyHq@gAcAkBS[y@yAS[k@eAyBuDw@yA_AqAqCuCUUq@o@CCSSGGuEqE[YaBsAe@a@{@s@qAeAWS[Us@eASY[e@e@eAWe@e@w@IOS_@sAaCSa@EGEUCOIQ[{@CGa@y@iAcCi@gAACUg@KSUg@KSwAwB}@qAq@{@sAgBSWOSMSwBaDmB{Bq@w@e@]WO[Qi@g@IGKMgAcAGGo@gAeAmBg@kAEKUe@`@u@\\o@p@uAf@mAf@sAb@yAjAoE^qA~DuMv@aCv@qCl@eCl@oCdCaNd@}Bh@}Bj@sBr@yBz@aCvGiP^}@`BaElAaD`D}IhOmb@hBqFtAiErAoEdA_DjAiDhOqb@bAaDx@}Ct@kDl@aDfAkHh@}Cj@{CpBiI@[p@mCf@mBfEwP^wAjAsElCkLlAyGzA}LdAqKpBqRj@uFv@mHpBuSjA}Kh@qCf@{D\\qB^aDR{AFQLQLGTGTCPACkH?s@??Bu@Hw@De@Di@`AAJAD?zACV?nAAhB?`AAN?d@?P?R?rFA^?V?lA?V?|@AdDAz@?\\?b@DX?lA?P??W?iA?IA}C?iB?wDA{EAaD?_A?q@AcA?mAAqG?}@?kB?C?i@?C?]V?B?`@?L?t@@d@?N?`BA|C@zCAv@FX@^@V?^?`@?j@APAfAKbJ@fAAl@?r@?AqH?E?Q?m@?CAw@?U?{@?W?{@?QdDEdD?pD?dBAdGAp@B^VFj@Fn@HRXTTDZBz@AdABx@C\\HRLPXJXD^A\\Kt@Q\\EDEBE@EBMFEDEBGFGFEDCDCBCBE@E@E@E@C@IBGBC?C?CAEAAACIBH@@D@B@B?B?FCHCBADADADADABCBCBEDEFGFGDCDELGDCDADCDEP]Ju@@]E_@KYQYSM]Iy@BeAC{@@[C??UEYUISGo@Gk@_@Wq@CeG@eB@qD?eD?eDD?E?{@?U?g@?w@CsD?iB?[?SAs@?Q?aD?GAeC?a@?_A?[?oB?C?[AoAAG?G?s@[?wF@O?M?aFBO?O?sD@Q?GWAAAcD?Q?U?wC?_@?_@?iICaAKo@IQCIIKw@}@g@m@mA_Ao@e@YMMGQGiC{@OOS}@GUCKEOSy@GSE_@QJqBnAyClBcAn@]TwAz@m@`@yA|@oFlDGFq@^q@b@_@VuAv@g@Ve@Lk@LIYOc@Yq@OWmAcAaAy@e@k@Ua@Qs@Km@I_EEiGQiFA}GAuHCuLCgM@eIEuDq@iK_AyGsAoIcBsJgB}KmB_L_A{Ei@mCYmAc@}AkBiHuAmFa@sBa@mBIs@i@cE_@{EQeFFiID{BNuH\\gL@GB_BFoEBo@J}CDoEBgC@}C?_EC}I?cDCwKJqLHcKJuMHeHDsADm@FwA\\wDh@{Cp@}Ct@cCh@wAhB{EdAgCrByFHUd@oAxF}NjB{E`DmIhByEnA_Df@qAzDaKnQ{d@`@gAX{@Vs@Po@XaAXqATiAToAPiANeANyALyALgBFwADmA@sA@eB@kD@qDBkG@sDDuJBqQByG@wC@mA@eADmABy@FiABi@Dq@Fy@JqAPeBJ}@PuA\\}B|AaJlCoO~@kFj@eDlB{Lh@mCZoBRwALeANeBH{@H{AJaCBcA@_B?{@AwAAqACoAGeAE_AGeA_@kE]uJu@kOEyDAkBAmCScBG[GKWKOXyC|FgBpDs@zAuB|Dw@bC_@x@OV}BtEQ\\PNlEtDc@d@S`@Ub@Ud@S`@S`@MTGL`Az@Ra@Tc@Ra@@C`@^l@mAj@m@J@HCHIBMAKAKGGGEI?SEWKqFmFQQQ\\sAlCyG|MO\\_DfGeBfDaApB_DhGEJMRgBnD[n@O`@eBtBmAfCe@bA_@`@_AjBg@bA_ApCKPiEtIiDzGQz@Cr@?B@PBXDLJb@Zp@rApAnAdAt@t@RZNZJ|@BrB?X@~EcC?i@Eo@Iu@Ug@Sm@[s@i@EEOMKNENMp@EJGJIHKHIDMBM@KAKCKCKGWQy@q@}@oAcCsD{A{B}@iBa@eAYgAMoASyAEcBCyFBiDB{G@m@Z}EJuAVg@ZW\\A^FXXN`@Bd@AXSp@kAnCgAjCy@xA{BpC_ChC}BvBaChB_Bz@eAv@oDhBsEjBcFxAcgAlVaDx@oCz@gAf@uE|BaBbAkC|A{Az@uBhA}EjCyAr@eA`@uA`@wA^cB`@uANwALgBFwj@pAiELqBBaADy@Dm@FwARmD|@u@TiA`@o@Zo@\\iAr@w@f@eAt@o@h@oBjB{TdToChCwMfMgFfF{FtF}e@nd@iZjYmJxIoCjCcF|EyAvAwUdU{AvAyArAiJfIyEfEOPkAhAmMlM]B{BlBq@j@m@h@yBtBSJMJMHOFMFOBOBO?QAQAw@OOAMAO?M@MBODc@NOBM@O?QEMGOIU@wCiCa@a@]c@o@eAKOs@oAWc@_BqCIMEGiB}CIOQYKO[i@_BmCgAgBIMIOkAmB]m@a@q@WTQPUTg@f@FJf@z@??g@{@GKf@g@TUPQh@|@FJV`@^l@@@`@r@HLpBhDT`@@@Zh@d@v@JPNTJNVd@zE`IHNf@z@NVp@fA^b@b@b@VRF\\JNLVJXHXDXh@|E@`@?ZAXEVGXGRIPKPMPIPi@h@sEdEkAfAOLeAbAkBjB[^[\\uA`Bu@v@uArB}IpIaC|ByGlGcJjIQPyJrIaBvAkGpFeA`AqAtAmBrBgBrB_MpNwBfCeCvCoAzAQRW\\_C~CaB~BuA|BiAnBmAbC_ApBaA~Bq@fB[z@_@hAaAdDo@jCm@rCa@nB_@zBYtBY~BQ~AOdBYfEmCje@g@bKc@|JkAhXo@vQg@~CKdAERITKPIPg@d@yE~CWJUFQDS@]@cBD_AE}@AmA?qBH_AHy@JuMhBuEl@w@LgQlC_MfBgK~AwMhBcCV_Er@yTbDcf@fHiTzCk`@~F}QlCkDf@aDf@eOjCmHbBiC\\aIfAa@@c@G[O]Yi@i@qAuA]U_@O_@C_@@eBNUBYHID[LBx@@v@Fx@Fx@Hv@J|@^bCHh@F^`@|BPz@Pv@Rp@Nl@Vx@NZl@jAVb@Zf@^b@LNSZyArB[j@Wj@MXIRGRIVMd@DNCJCNc@dCUlACJCPIb@a@vBCPc@Oc@Oa@MMAo@EaAMo@E_@AW?a@Ac@@_AD_@Iq@FeAPQDQF}@b@{@b@eAh@_Ab@kB|@]NIWQq@I[Y_AK]@e@]sAOI[gAm@}B?[U}@c@yAGSGSKa@Ee@S_AWgABAHE^OJ`@L`@_@PIDEBKFNl@Fx@H^DTFRx@xCPNl@|BZfACT\\pAPZJ\\X~@HZPp@HVUJqBz@uAn@kC|@E@UFWHuAb@o@N{@T]HNj@DNHX^lAdBxETp@P|@N|@J~@J~@Dp@nAbLb@nHPtBPvBTtBt@xF~Fpa@f@fEzBbPTzALzADpA?lA@jU@vYCfT@bD@zBDvBZrOFnCDpCBjCHhHHhJRjNDtAFtALvAPzAV~AXzAd@fBd@~Az@lC~BnH`FxO`AzCtCdJ~@|C~F|QbBhFr@zBj@pB`@bBd@tBj@`C^vBb@`C`@dCf@rDvAdL\\~DZdEHx@RbBPtBVrCB`@Ab@Cb@Gb@K`@cDfJS`@W\\y@|@OFcAh@QJK]@ScAmDQSzAw@^S\\Q`@Sh@dB@LCLWNq@}B]P_@R[N_Af@A`@dAhDNHJ\\Ph@bB}@jAa@ZGZCZ?VBXFZJ|CnBXVV^Rb@Nd@Jd@Nd@nAvHh@`CfBlMJt@`BlLzEt]bBhLz@vF\\dC`AbH|BdPd@fD\\zCVjCXvCPzBLtANrATxBZ|BZxBxAbJh@bDZjB\\bC^~Bd@|Bf@bCn@fCt@nCTp@Tt@L^\\dAh@xAh@tAn@xA|EjLfE~JLZjApCzBlFj@vAl@tAn@rAv@xA`A`BtAzBdAbBdDnF~AhC~AjCZh@\\l@^p@vK`Sh@dAhJpPr@nAZj@j@bAp@nAVb@hApB`@x@\\z@X~@V~@P`ALx@J`AF|@BpALfHDvAFtAJnALlANfA\\dBZlA^fAvFvMXn@r@bB`AzBN\\b@|@`ArAZ\\j@h@l@b@|ApAvAhAVPzAnA@@TNKXe@pA]bAINIXIPSh@_@bAc@dA[t@O\\Sh@i@lA_AdCIR??Sh@Ul@KXA@GNKZGLGNSd@GPSd@[v@Un@O^IRGNc@dACHKV_@~@Yr@m@|AYr@GPYr@GN_@~@_@|@Sh@i@tAEJ[t@c@dAGJYr@CFKTMZQb@AFCDYr@A@[|@Uj@k@vAa@bAQd@a@dAKVWn@a@dAKXQh@Qb@ENCDO`@GRCFABA@A@IREJELGNEJGLABIRA@GPABCFO\\ABGPQb@Sf@Yv@{@rBYt@c@fAUl@Qf@KRM\\Sf@O\\w@rB_@~@[v@MXYp@KVIPYd@QXGJY`@[b@ORKLA@GHQR_@`@UTEDC@KJQPP\\JRRb@HPPRlAFT@X@P?H@V@N@L?l@BJ@`@BN@rADh@?PE\\?R?hDBrD?H?z@?x@?p@PNF\\THFBBNLRB^^JHnAlAZX\\\\?P?F?vBAhCAlG?^?bB@tA?|@?h@?V?`B?jB?zB@`B?zB?zEBhE?fC?H?P?rB?T?tA?dC?f@?fF?pC?|A?nD?vB?|@?jA?D?N?XjG?t@?P?nA?h@Ax@An@@P?@?pBBB?T?FXBHDDh@RNDp@T\\H`@F@R?DN^Rd@BHHEBCH?l@JG\\ICWBG@",
+            "shiftStartTime": "07:00",
+            "startPosition": {
+                "latitude": 37.38009,
+                "longitude": -122.11547
+            },
+            "endPosition": {
+                "latitude": 37.38009,
+                "longitude": -122.11547
+            },
+            "warehouse": {
+                "listWarehouseId": "fb364c4a-abe5-40d0-a846-63ae4364f0cd",
+                "address": "100 State St, Los Altos, CA 94022, United States",
+                "position": {
+                    "latitude": 37.38009,
+                    "longitude": -122.11547
+                }
+            },
+            "startMode": "WAREHOUSE",
+            "endMode": "WAREHOUSE"
+        },
+        {
+            "listAssigneeId": "ca8d-f6908a1b",
+            "item": [
+                {
+                    "listItemId": "ca8d-fae5d3b6b9c9f2f1a14c43b0a8",
+                    "address": "158 Cody Rd, Mountain View, CA 94043, United States",
+                    "formattedAddress": "158 Cody Rd, Mountain View, CA",
+                    "status": "NEW",
+                    "updatedAt": 1646182524000,
+                    "statusUpdatedAt": 1646182525000,
+                    "route": {
+                        "listRouteId": "ca8daa7f-0625-4ebe-9b57-6314e6746fef"
+                    },
+                    "routePriority": 29,
+                    "trackingId": "gen:23017239-f38c-4d8d-abd1-4fda112ef2c5",
+                    "numPackages": 1,
+                    "type": "PICKUP",
+                    "position": {
+                        "latitude": 37.40936,
+                        "longitude": -122.05119
+                    },
+                    "displayPosition": {
+                        "latitude": 37.40909,
+                        "longitude": -122.05074
+                    },
+                    "addressComponents": {
+                        "city": "Mountain View",
+                        "state": "CA",
+                        "zipcode": "94035",
+                        "street": "158 Cody Rd",
+                        "countryIso3": "USA"
+                    },
+                    "countryIso3": "USA",
+                    "estimatedByStr": "07:13"
+                },
+                {
+                    "listItemId": "ca8d-fae5d3b6b9c9f2f1a14c43b0a1",
+                    "address": "2732 Augustine Dr Ste 1600, Santa Clara, CA 95054, United States",
+                    "formattedAddress": "2732 Augustine Dr, Santa Clara, CA",
+                    "status": "NEW",
+                    "updatedAt": 1646181071000,
+                    "statusUpdatedAt": 1646178421000,
+                    "route": {
+                        "listRouteId": "ca8daa7f-0625-4ebe-9b57-6314e6746fef"
+                    },
+                    "routePriority": 8,
+                    "trackingId": "gen:61e4ed5e-714c-41fd-a4d2-c0c1b762c5ee",
+                    "numPackages": 1,
+                    "type": "PICKUP",
+                    "position": {
+                        "latitude": 37.38235,
+                        "longitude": -121.976
+                    },
+                    "displayPosition": {
+                        "latitude": 37.38226,
+                        "longitude": -121.976
+                    },
+                    "addressComponents": {
+                        "city": "Santa Clara",
+                        "state": "CA",
+                        "zipcode": "95054",
+                        "street": "2732 Augustine Dr 1600",
+                        "countryIso3": "USA"
+                    },
+                    "countryIso3": "USA",
+                    "estimatedByStr": "07:26",
+                    "estimatedCapacity": 1,
+                    "flavors": "COLD"
+                },
+                {
+                    "listItemId": "ca8d-fae5d3b6b9c9f2f1a14c43b0a7",
+                    "address": "1701 Airport Blvd, San Jose, CA 95110, United States",
+                    "formattedAddress": "1701 Airport Blvd, San Jose, CA",
+                    "status": "NEW",
+                    "updatedAt": 1646181071000,
+                    "statusUpdatedAt": 1646178422000,
+                    "route": {
+                        "listRouteId": "ca8daa7f-0625-4ebe-9b57-6314e6746fef"
+                    },
+                    "routePriority": 14,
+                    "trackingId": "gen:5eb91033-81e7-47d2-9c27-251b894b7b3e",
+                    "numPackages": 1,
+                    "type": "PICKUP",
+                    "position": {
+                        "latitude": 37.36503,
+                        "longitude": -121.92384
+                    },
+                    "displayPosition": {
+                        "latitude": 37.35839,
+                        "longitude": -121.923
+                    },
+                    "addressComponents": {
+                        "city": "San Jose",
+                        "state": "CA",
+                        "zipcode": "95110",
+                        "street": "1701 Airport Blvd",
+                        "countryIso3": "USA"
+                    },
+                    "countryIso3": "USA",
+                    "estimatedByStr": "07:35",
+                    "estimatedCapacity": 2,
+                    "flavors": "COLD"
+                },
+                {
+                    "listItemId": "ca8d-fae5d3b6b9c9f2f1a14c43b0a2",
+                    "address": "1709 Automation Pkwy, San Jose, CA 95101, United States",
+                    "formattedAddress": "1709 Automation Pkwy, San Jose, CA",
+                    "status": "NEW",
+                    "updatedAt": 1646181071000,
+                    "statusUpdatedAt": 1646178421000,
+                    "route": {
+                        "listRouteId": "ca8daa7f-0625-4ebe-9b57-6314e6746fef"
+                    },
+                    "routePriority": 9,
+                    "trackingId": "gen:73376157-8018-4689-8485-090a3b21ac8f",
+                    "numPackages": 1,
+                    "type": "PICKUP",
+                    "position": {
+                        "latitude": 37.38925,
+                        "longitude": -121.88306
+                    },
+                    "displayPosition": {
+                        "latitude": 37.3892,
+                        "longitude": -121.88322
+                    },
+                    "addressComponents": {
+                        "city": "San Jose",
+                        "state": "CA",
+                        "zipcode": "95131",
+                        "street": "1709 Automation Pkwy",
+                        "countryIso3": "USA"
+                    },
+                    "countryIso3": "USA",
+                    "estimatedByStr": "07:45",
+                    "estimatedCapacity": 3,
+                    "flavors": "COLD"
+                },
+                {
+                    "listItemId": "ca8d-fae5d3b6b9c9f2f1a14c43b0a3",
+                    "address": "1661 McKee Rd, San Jose, CA 95116, United States",
+                    "formattedAddress": "1661 McKee Rd, San Jose, CA",
+                    "status": "NEW",
+                    "updatedAt": 1646181071000,
+                    "statusUpdatedAt": 1646178422000,
+                    "route": {
+                        "listRouteId": "ca8daa7f-0625-4ebe-9b57-6314e6746fef"
+                    },
+                    "routePriority": 10,
+                    "trackingId": "gen:52e391b9-8042-4d54-92ca-fcd0f66d0249",
+                    "numPackages": 1,
+                    "type": "PICKUP",
+                    "position": {
+                        "latitude": 37.35755,
+                        "longitude": -121.86157
+                    },
+                    "displayPosition": {
+                        "latitude": 37.35809,
+                        "longitude": -121.86171
+                    },
+                    "addressComponents": {
+                        "city": "San Jose",
+                        "state": "CA",
+                        "zipcode": "95116",
+                        "street": "1661 McKee Rd",
+                        "countryIso3": "USA"
+                    },
+                    "countryIso3": "USA",
+                    "estimatedByStr": "07:51",
+                    "estimatedCapacity": 4,
+                    "flavors": "COLD"
+                },
+                {
+                    "listItemId": "ca8d-fae5d3b6b9c9f2f1a14c43b0a4",
+                    "address": "62 S Second St, San Jose, CA 95113, United States",
+                    "formattedAddress": "62 S 2nd St, San Jose, CA",
+                    "status": "NEW",
+                    "updatedAt": 1646181071000,
+                    "statusUpdatedAt": 1646178422000,
+                    "route": {
+                        "listRouteId": "ca8daa7f-0625-4ebe-9b57-6314e6746fef"
+                    },
+                    "routePriority": 11,
+                    "trackingId": "gen:32c0753d-2046-4891-bc49-a917aa29eefa",
+                    "numPackages": 1,
+                    "type": "PICKUP",
+                    "position": {
+                        "latitude": 37.33546,
+                        "longitude": -121.88861
+                    },
+                    "displayPosition": {
+                        "latitude": 37.33562,
+                        "longitude": -121.88829
+                    },
+                    "addressComponents": {
+                        "city": "San Jose",
+                        "state": "CA",
+                        "zipcode": "95113",
+                        "street": "62 S 2nd St",
+                        "countryIso3": "USA"
+                    },
+                    "countryIso3": "USA",
+                    "estimatedByStr": "07:58",
+                    "estimatedCapacity": 5,
+                    "flavors": "COLD"
+                },
+                {
+                    "listItemId": "ca8d-fae5d3b6b9c9f2f1a14c43b0a5",
+                    "address": "2855 Stevens Creek Blvd, Santa Clara, CA 95050, United States",
+                    "formattedAddress": "2855 Stevens Creek Blvd, Santa Clara, CA",
+                    "status": "NEW",
+                    "updatedAt": 1646181071000,
+                    "statusUpdatedAt": 1646178422000,
+                    "route": {
+                        "listRouteId": "ca8daa7f-0625-4ebe-9b57-6314e6746fef"
+                    },
+                    "routePriority": 12,
+                    "trackingId": "gen:2204fd1b-ba5e-429e-b923-f4ee0fc275bf",
+                    "numPackages": 1,
+                    "type": "PICKUP",
+                    "position": {
+                        "latitude": 37.32345,
+                        "longitude": -121.94435
+                    },
+                    "displayPosition": {
+                        "latitude": 37.32366,
+                        "longitude": -121.94436
+                    },
+                    "addressComponents": {
+                        "city": "Santa Clara",
+                        "state": "CA",
+                        "zipcode": "95050",
+                        "street": "2855 Stevens Creek Blvd",
+                        "countryIso3": "USA"
+                    },
+                    "countryIso3": "USA",
+                    "estimatedByStr": "08:07",
+                    "estimatedCapacity": 6,
+                    "flavors": "COLD"
+                },
+                {
+                    "listItemId": "ca8d-fae5d3b6b9c9f2f1a14c43b0a6",
+                    "address": "675 Saratoga Ave, San Jose, CA 95129, United States",
+                    "formattedAddress": "675 Saratoga Ave, San Jose, CA",
+                    "status": "NEW",
+                    "updatedAt": 1646181071000,
+                    "statusUpdatedAt": 1646178422000,
+                    "route": {
+                        "listRouteId": "ca8daa7f-0625-4ebe-9b57-6314e6746fef"
+                    },
+                    "routePriority": 13,
+                    "trackingId": "gen:e5a0f427-2280-49cf-be9b-918f1b31cec8",
+                    "numPackages": 1,
+                    "type": "PICKUP",
+                    "position": {
+                        "latitude": 37.31514,
+                        "longitude": -121.97756
+                    },
+                    "displayPosition": {
+                        "latitude": 37.31514,
+                        "longitude": -121.97765
+                    },
+                    "addressComponents": {
+                        "city": "San Jose",
+                        "state": "CA",
+                        "zipcode": "95129",
+                        "street": "675 Saratoga Ave",
+                        "countryIso3": "USA"
+                    },
+                    "countryIso3": "USA",
+                    "estimatedByStr": "08:13",
+                    "estimatedCapacity": 7,
+                    "flavors": "COLD"
+                }
+            ],
+            "timeS": 5459.0,
+            "distanceM": 71925.20000000001,
+            "pathEncoded": "qxccFxtihVC?IUEKCISe@O_@?EASa@G]Iq@UCC]]GGAAEGKOMa@U?iC?aBAS?c@?_@?i@AS@kGFG?U?U?O?i@?iF?{@AsC@{@?Q?K?_@@C?sDDaD@_DE[?[CM?sAC_@?[?_@?o@AI?G?eBBm@?{A?iBDwBJ[Bi@Bw@@yB@sBAcAAC?O?i@Ay@Ae@@eC@I?c@?g@?wA@iA?sC@WE]Oc@UYQ_@Wa@[CCSQ]SOIaAi@m@]qBaA[OiAm@EAIEECKGQI}@g@w@_@i@Wk@Yi@Wa@Sk@YMEMIc@SGCIEECYOa@UGCKEMIUM??WMc@W{@e@IEGEWSQQSWSYU[QYoAyBQYU[y@cABW?K@UDOFSvCaFTa@Re@N]Tg@BCXo@HS@U~AgDl@aBpDcLx@kCv@mC~DaNv@mC@CDSFWDSj@cC`@mBj@oBl@oBjGkS~@aDJ[FSnAeExDqMbEsOdA}DV_AZiADMFUv@iCh@cBTy@HUHWhB}Fr@gCRo@Li@^qATw@@EBI@CH[YQKGi@SGEUGe@USKWOk@[MGGEKEo@]y@e@AAAAIEECSMOKSMQMQOUSUWWYc@k@q@eAEEY_@MWMQm@cAAAU]IOKMa@m@eA{ACS_@m@MUACKOOYMOuAuBW_@]e@i@w@o@cAS[eA{AcEoFMO_@g@kBmBu@w@g@g@m@m@i@e@OIYSm@[o@W_Aa@aA]KE]MSGgA_@YIk@U[IUIaBk@u@WeAa@KGOGc@YOKWQ_@i@Yk@Qg@Qy@_@cBa@gBK]EUWgAMe@UkAOa@ESEUI[i@wBCM@]@MBOBIDIFIFEDEBCTOPSHQNSVc@^y@Tw@L{@@ODg@@k@?g@?EEq@Ee@Mi@Kg@LEfCgAWeDKyAAAASBS^oCJo@?Gj@iENmAFa@@IBSD_@TgB@WAWGWCU??BTFV@VAVUfBE^CRAHG`@OlAk@hE?FKn@_@nCCRUDC@yCrAC@IDKDE@gAb@]Nu@XIB{An@A@MFKDwAj@IDDTNj@Rx@DPFVJ^t@jDDNp@xC`@lBJPRVDFRFPJLPHRBLh@vBHZDTDR@`@Hd@Hb@F^Lt@Lz@H\\lA`F\\fAr@tAf@^NJRLPJRFtBr@PF`Bl@THn@XRH\\JdA^PFTHHBDWBM?G?UAUAWG[GYK[IUIWKSMWMSOQi@w@KQGQESCUCS?S@U@WFaCtDaY~BgQ^gC`@kCd@iCrB{Kl@qD^aC\\eCZ}BrBmOtJot@n@}Ev@_GxCyUTcB`@uCvCcT^mC`BeMbJ{q@`DaVLu@fDeWdAaH|C{PnGe]pAyG`BwHzCcO^mB~@wElAoGn@gDbAoFxA_IlC}NdBuJ^s@fBoGd@qAl@qAhBqD|CeGbAkBXYXKVAV@XBt@DZEVDd@Dj@Bp@@x@AB?`@?Lc@Aa@?IAiA?o@As@?g@AaA?A?u@AyDCa@G`@?jF?B?@?hA?b@?V?h@?nB?@@b@[AcAAg@A}@Yc@Mq@S}@c@aBaA[UOQMQKUGUGYCW?_@@]n@}Er@gF^eCDiAdDcQl@}CN_ApFkYrF{YtCkOjB{JfA{GpBqOpBmPhCcT|B_TLmAzAuMjCaUh@eEX_C\\cC^uBf@uDb@wCTu@ZcA~@cEh@eBZq@Zi@~@kAj@k@j@_@VMVK^M\\IzCw@pA_@p@U`Aa@ZOp@c@d@_@Z[f@g@`@i@j@y@NYf@{@jAyBpAcCz@cAbBiCl@cAh@_A`AmBh@_An@eAj@w@l@q@l@o@pBgBLIHAH@JFHJHNn@dBLZDNDZAJAHAHIPCBw@p@KHiAz@w@p@k@n@]f@QZQ^m@rAYx@]bA]dAg@vAUl@ITKTGJABABEl@?J?L?JBHFLFHDDNDH@H?HCHELGXYnAwBV]t@{@z@}@NQBCrCaDlAsAdAmAhAoAbAiAlAsAx@}@VYR_@v@q@z@u@xBmBFGf@w@DKBGBQ?OCOCMGKEGKGKCO?QFUJqDxBo@PCBeAn@SLA@SJeAn@eCxA{A~@wA`AuArASR]`@W^S^[j@Yp@[rAYx@]bA]dAg@vAUl@ITKTGJABAB]r@WJGBI@GAEAIEGGaAoAy@eAkBaCY[wCuDiBwBeAkAY_@MQOQQUUWiAuAWYmA{Aw@}@SScCeCaBmBQQIOEEMMKMoA{Ag@o@a@c@[c@eAgAiC}Cs@y@MOs@{@u@}@k@{@Ua@g@_A]m@CEMW[m@a@q@IMMQGIYe@oAsBEIo@kAq@mAQ_@]o@k@cAKQEI[k@QYOY]o@GKm@gAWg@IMKSg@aAgBaDo@iAeBcDYg@i@eAWk@a@y@Ia@Ia@Eg@Cu@@i@Bk@Fk@Lm@T}@Pm@Jm@NgAB]?]?e@K}AKy@Qs@_@eAUo@KYIWa@kAa@{AM{@A?Iy@C_@AMCm@Am@@aADgCFaB?GHqC@[@g@@]BcA?Y@e@Ao@Ek@IgAAOGc@Ki@[sAKYQc@Sa@GKEGm@mAIQKQmCgFcAoBMSIQyF_LaDgGm@gAYk@IOM[IOIMWaAS}AAQEw@EcA?{A?YEq@Cc@G{@Mu@?EI]ULWJeAf@WJA?o@RODs@PCKAEIe@VGEc@ACIi@Ik@Im@jBe@DAVKREZb@PXJRJTR`@Pn@F^H`@Hx@BdA@TA|A?d@@`ADb@Dj@DXNdATv@Nb@FNLVZULKl@e@XU~BoBrFuElEyElC}CZ]jAuApByBtFgGdAmAX[zA_BLKPQJK|DgDFEJa@p@k@FEDERQ`@]NMNMNODC~DiD|@w@z@s@lC_ChCyB^]j@[l@g@BCDCb@_@ZWJIXULIHEPMJG\\Q`@OVCTCR?T?D@T@^Hd@FL?H@V?ZATEVGTMf@]VOJQHOd@[n@_@ZSRMRI^ULIPK|AcA`AY`B_AhAq@hBeAr@c@`@YvAu@LGTQJE\\Wd@[DEp@m@NMv@eAfAyAJKN_@FGjAmAHIJKh@i@x@y@t@q@t@s@bAaA|@}@\\[b@c@VWNOPUNODEj@o@jBgBtCsClIaIp@o@HGj@k@DEZY`@c@JINVZh@T\\h@z@B?J@PX\\h@Xf@f@|@^l@@TXb@NFl@bANT`@p@JPr@fAJPLRBZZf@@Br@jAf@p@h@t@XZVVz@x@^^b@b@|@bAb@j@^n@RFLV\\t@HPHX@XNf@L^PP\\lAVx@Pf@LZDF`@t@n@hANTj@`AZh@HJRZFJNVT\\FJJTDNJb@F\\H`@j@hDFVDRh@`BDPHRHPHRBFbAjClAhDFLHRhA|CDFDLv@tBL\\BFFPHRfAzCDHDJz@~BN\\DNHPN`@x@|BDHDLz@~BLZFNFRjAzCBHDLjA|CFNFRrAlDBNHTTj@N`@BHRh@Rj@HPHNrAnDFLFRh@vAf@vAFNHRxA~DFPHRj@|ALZN`@HRJVpAnDHPFR^`Ar@jB@DDJFNv@xBXr@FNJIt@i@|@m@BCJGv@i@RMv@g@LILIb@[b@[|@k@t@i@RMLITOJGPKLI`BmAtAaALI^W^WRORMpA}@h@_@h@]x@k@TOrA}@DCLKHP@Fd@jATn@Tn@BDFNDNTn@DNLX?BBDl@bBXx@JXDENINCNENCPAL?D?H@F?J?HANAPGTMhAu@LKNZv@fBnArCx@jB@BZv@JRPf@HPRh@h@xA|@`CRj@Rh@BHn@~AFPRd@Ph@fAfCNZXNFJBFJVHNvAbDz@zBJNPTBFz@nA@@|AbCT^L\\Tf@LZL^F\\D^@R@b@V@N@j@?`@@v@@H?H?ZA\\Af@Kh@QZSHGPMJG`@[ZW@Ah@e@HG^]BCb@a@f@e@POHG^[ZEN@N@NDF@hCxBdD~C\\Z`BpA\\V^TtCbBx@t@x@x@t@v@j@r@n@~@r@hAn@nAl@pAf@rAd@lAn@dBzAzDf@tAlBlFX|@V|@Rx@P~@L~@L~@H`AF`ADbAB~@?`AA`AC`AE|@Iz@MdAM~@Q~@Qz@Uz@gD~KWz@Sz@S|@Q|@OdAM~@K`AI`AE`AE`ACdAA`ABhLB|KDnK@fE?hB?`BCbBE`BSvDGlAYdEM`BK`BIdBG~AEdBUrGOlDIbCC`@E`@IZI\\MXITGHMNQTUXSTWT_@Rg@Tc@Rm@Nc@D_@Bm@Dc@Bq@F{@LqBXiARW@U?SAQEKEKGKIMKu@cAOOQMQEYEq@@UFYD@\\DbA?^@h@?NAtEAXCbAC|@G~@GrAErA?TAR?T?jD?P?H?pB?X@zB?P?|C?X?d@AZ?nB?V?R?tA?j@?h@?J@pB?J@f@@z@?L@^\\AN?^@`@Ax@@L?X@J?hABjABJ?f@?Z?T?Z?j@?b@@xAAd@A\\?nAAT?dA?V?zDCVAjA@T?xCAH?PRBDDJJf@E~B?j@@dA@hAJ^BpH?bD?fE?rC?r@@tC?~@?lC?`A?f@@`D?NBpG?r@@lBI^@vDBrC@r@@xABnADfDF\\@pJFzJ?zA?N?nDAhD@XB~A@pA?|A?R?nA?t@?V?X?DArA?l@?ZAJ?`A?Z?h@dBx@d@RPH?T?N?fDG?[?[?I?s@AS?S??g@?sABc@?U?kABa@?i@}@q@c@[e@[YSc@_@yBeBcBqAgA}@M`@ET_@vCCT?T?TBRDRHRr@jBJZFZHh@@HBX@X@X?ZKdBAd@?d@CrEC`BCbB?`BAbBFtd@?bBCbBG~AM~AQ~AS~AWzA[zA]xA_@tAg@vAm@`Bi@nA}EjL_BvDkHzP_BpDmN~\\sSnf@qGlOaO|]y@vBu@~Bm@|Bi@fCc@fC[jCSdCOnCG`CAF?fCAnINf`AHjV@jGA|M@tBBvBFvBJlB@VFv@rFzc@nAdKZlCPhCHvB?|BCdCM~BW`C]`Cg@xBwBpIQv@o@~B_@bB[~AW`BQhBOnBGdBEfB?hB@z@@t@FvAHtANxApBzRNdBHbBB~AAhBC~AKfBM`BSdBW`B_@zA_@vAc@pAi@tAm@nAs@nAw@jAmHfKy@pAq@nAo@lAi@hAmLdWi@nAi@rAu@rBWp@oAbDm@xAm@nAk@hAm@`Au@fA_InJu@bAu@fAo@jAk@jAk@nAe@rAeLf^g@pAi@lAm@fAq@fAw@dAe@j@g@h@e@d@m@d@m@`@eEjC_ChB_At@_@Z]Z{@z@o@v@q@~@[b@Yb@{@vAm@lAi@nAe@pAc@tA_@tA[xA[~AUzAeAtGUvAYxA_@xA_@rAc@tAg@pAi@lAm@lAq@fAs@fAmAjA[VYVsAbAg@^e@Ze@Zk@\\o@^kCvAQCM@O?QASEcDs@QESCSCS?m@B]JYPq@j@mBcCMOOQACGIY_@EGe@c@uE_Fy@u@_CoBe@a@OMIICAg@g@uBwByDoDsC}B{AcBKKMOAASSMQi@o@y@y@yBuBOOu@q@CCKKUUOVIN_BrBkGjJqAhBw@hAUZq@~@w@`Aw@|@o@t@o@p@}@~@{@x@_Az@_Av@aAt@cAt@_BjAy@j@QBK@MAA?KCGAIEGCGOCKCCGQGQCCsAkDEKEKyAwDEIKHCBs@f@IFIFEKCIQYUUSOo@YICWBG@",
+            "shiftStartTime": "07:00",
+            "startPosition": {
+                "latitude": 37.38009,
+                "longitude": -122.11547
+            },
+            "endPosition": {
+                "latitude": 37.38009,
+                "longitude": -122.11547
+            },
+            "warehouse": {
+                "listWarehouseId": "fb364c4a-abe5-40d0-a846-63ae4364f0cd",
+                "address": "100 State St, Los Altos, CA 94022, United States",
+                "position": {
+                    "latitude": 37.38009,
+                    "longitude": -122.11547
+                }
+            },
+            "startMode": "WAREHOUSE",
+            "endMode": "WAREHOUSE"
+        }
+    ],
+    "droResponseId": "c452e2bd-d5a0-4255-80fb-669d74d82925",
+    "timeQuantumInSeconds": 1
+}
