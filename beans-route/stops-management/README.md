@@ -312,6 +312,7 @@ is currently modeled as a List Item, we are terming it Item Documentation.
 
 For example, when a package is dropped of, the driver could ask the recipient of 
 the package for signatures AND encode status of the package as part of the documentation.
+
 **Request Example**
 ```
 GET {{baseURL}}/enterprise/v1/lists/itemsdocumentation/{{list-item-id}}
