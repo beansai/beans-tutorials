@@ -14,6 +14,8 @@ For details of a stop (Item)  please see https://www.beansroute.ai/route-api-v1.
 - [Update Stop](#update-stop)
 - [Get Stop List](#get-stop-list)
 - [Get Stop](#get-stop)
+- [Get all item IDs from a Route that have documentations](#get-all-item-ids-from-a-route-that-have-documentations)
+- [Get Item Documentation](#get-item-documentation)
 
 ### Create Stops
 
@@ -284,4 +286,73 @@ GET https://isp.beans.ai/enterprise/v1/lists/items/{{list-item-id}}
     }
 }
 ```
+
+### Get all item IDs from a Route that have documentations
+An item is deemed to have documentation when there is a non-trivial (so, non empty) note, and a non-trivial image url.
+
+**Request Example**
+```
+{{baseURL}}/enterprise/v1/lists/itemidswithdocumentation_byroute/{{route-id}}
+```
+
+**Response Example**
+```json
+{
+    "listItemIds": [
+        "ca8d-fae5d3b6b9c9f2f1a14c43b0a1"
+    ]
+}
+```
+
+### Get Item Documentation
+
+Item document introduces the basic idea of contextual documentation that often 
+accompany a pice of work or task. Since a piece of work/task in our ecosystem 
+is currently modeled as a List Item, we are terming it Item Documentation.
+
+For example, when a package is dropped of, the driver could ask the recipient of 
+the package for signatures AND encode status of the package as part of the documentation.
+**Request Example**
+```
+GET {{baseURL}}/enterprise/v1/lists/itemsdocumentation/{{list-item-id}}
+```
+
+**Response Example**
+- image type
+  - proof
+  - signature
+  - exception
+
+```json
+{
+    "listItemId": "ca8d-fae5d3b6b9c9f2f1a14c43b0a1",
+    "listRouteId": "ca8daa7f-0625-4ebe-9b57-6314e6746fef",
+    "accountBuid": "4022a1aada0e4c4684e61e3f73290a68",
+    "timestampEpochSecond": 1646264551,
+    "notes": [
+        "014-DroppedOfAtCustomer"
+    ],
+    "images": [
+        {
+            "url": "https://storage.googleapis.com/beans-images/testing/original/2022-03-02/2022-03-02_b695d615-4d32-4222-ba34-f34a68f1cee4.png",
+            "type": "proof",
+            "position": {
+                "latitude": 20.2,
+                "longitude": -30.2
+            }
+        }
+    ],
+    "eventCode": {
+        "code": "014",
+        "name": "DroppedOfAtCustomer"
+    },
+    "tags": [
+        {
+            "key": "/FEDEX/package_size",
+            "value": "large"
+        }
+    ]
+}
+```
+
 
