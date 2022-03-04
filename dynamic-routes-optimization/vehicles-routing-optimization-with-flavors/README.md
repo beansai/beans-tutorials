@@ -165,10 +165,7 @@ curl -k -H 'Authorization: <token>' https://isp.beans.ai/enterprise/v1/lists/ass
 **Note**: Your list_assignee_id should be different.
 
 ### Configure AssigneeVehicles
-
-To configure vehicles with flavors
-- One to deliver HOT packages
-- One to deliver COLD packages
+Let's configure two vehicles for delivery.
 
 ```json
 {
@@ -259,6 +256,10 @@ curl -k -H 'Authorization: <token>' https://isp.beans.ai/enterprise/v1/dro/run-s
 
 **Result**
 Here's a visualization of result.
+- Stops with flavors HOT and DRY have been assigned to ListVehicle which has flavors "HOT,DRY"
+- Stops with flavors COLD have been assigned to ListVehicle which has flavors "COLD"
+- And the Stop with empty flavors has also been assigned to the vehicle according to the algorithm
+
 ![stateful-dro-result](assets/images/stateful-dro-result.png)
 
 so, if we are satisfied with the result, we can do apply with the response like we did above.
