@@ -1,6 +1,15 @@
 {
+    "route_name": "Via Sacra",
+    "warehouse": {
+        "listWarehouseId": "fb364c4a-abe5-40d0-a846-63ae4364f0cd",
+        "address": "100 State St, Los Altos, CA 94022, United States",
+        "position": {
+            "latitude": 37.38009,
+            "longitude": -122.11547
+        }
+    },
     "segment": [
-        {
+                {
             "listAssigneeId": "ca8d-0a3889d0-a756",
             "item": [
                 {
@@ -503,6 +512,6 @@
             "endMode": "WAREHOUSE"
         }
     ],
-    "droResponseId": "0176ed49-f87f-4029-b6b1-4d4e475e6cc9",
-    "timeQuantumInSeconds": 1
+    "shift_start_time": "07:00",
+    "shift_length": 8
 }

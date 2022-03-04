@@ -1,0 +1,104 @@
+{
+    "state": {
+        "route_id": [
+            "955b1b8c-a01b-49ae-81a4-18d37b518304",
+            "c44becb4-a4c4-4fe1-a4e7-722190f5d604"
+        ],
+        "assignee": [
+            {
+                "list_assignee_id": "ca8d-0a3889d0-a756",
+                "keep_current_items": true
+            },
+            {
+                "list_assignee_id": "ca8d-f6908a1b",
+                "keep_current_items": true
+            }
+        ]
+    },
+    "request": {
+        "warehouse": {
+            "list_warehouse_id": "fb364c4a-abe5-40d0-a846-63ae4364f0cd",
+            "address": "100 State St, Los Altos, CA 94022, United States",
+            "position": {
+                "lat": 37.38009,
+                "lng": -122.11547
+            }
+        },
+        "item": [
+            {
+                "list_item_id": "565ee81c-4c3f-47d4-be67-34967e0c0b85",
+                "address": "1000 El Camino Real, Atherton, CA 94027, United States",
+                "route": {
+                    "list_route_id": "4a8009b1-d9f7-4e02-b656-24108cc8ac7f"
+                },
+                "position": {
+                    "latitude": 37.4562,
+                    "longitude": -122.192
+                },
+                "type": "DROPOFF",
+                "flavors": "DRY"
+            },
+            {
+                "list_item_id": "b9070b66-3f39-48ff-9bed-2983b77bb4e2",
+                "address": "1895 Oak Knoll Ln, Menlo Park, CA 94025, United States",
+                "route": {
+                    "list_route_id": "4a8009b1-d9f7-4e02-b656-24108cc8ac7f"
+                },
+                "position": {
+                    "latitude": 37.4311,
+                    "longitude": -122.1917
+                },
+                "type": "DROPOFF",
+                "flavors": "DRY"
+            },
+            {
+                "list_item_id": "dd6394a8-a49c-410e-b5b0-936c29d20f06",
+                "address": "1600 Arastradero Rd, Palo Alto, CA 94304, United States",
+                "route": {
+                    "list_route_id": "4a8009b1-d9f7-4e02-b656-24108cc8ac7f"
+                },
+                "position": {
+                    "latitude": 37.3872,
+                    "longitude": -122.1822
+                },
+                "type": "DROPOFF",
+                "flavors": "DRY"
+            },
+            {
+                "list_item_id": "d01ff43e-8572-47d4-accf-debd80363eb7",
+                "address": "190 Showers Dr, Mountain View, CA 94040, United States",
+                "route": {
+                    "list_route_id": "4a8009b1-d9f7-4e02-b656-24108cc8ac7f"
+                },
+                "position": {
+                    "latitude": 37.4078,
+                    "longitude": -122.1079
+                },
+                "type": "DROPOFF",
+                "flavors": "DRY"
+            }
+        ],
+        "assignee_with_vehicle": [
+            {
+                "list_assignee_id": "ca8d-0a3889d0-a756",
+                "capacity": 50,
+                "flavors": "HOT,DRY"
+            },
+            {
+                "list_assignee_id": "ca8d-f6908a1b",
+                "capacity": 50,
+                "flavors": "COLD"
+            }
+        ],
+        "default_shift_start_time": "07:00",
+        "default_shift_length": 8,
+        "default_capacity": 0,
+        "default_stop_time_seconds": 60,
+        "default_pickup_time_seconds": 60,
+        "optimize_for": "DISTANCE",
+        "disallow_pickup_dropoff_mode": true,
+        "debug_print_log": true,
+        "start_anywhere": false,
+        "end_anywhere": false
+    }
+}

@@ -1,0 +1,315 @@
+{
+    "segment": [
+        {
+            "listAssigneeId": "ca8d-0a3889d0-a756",
+            "item": [
+                {
+                    "listItemId": "565ee81c-4c3f-47d4-be67-34967e0c0b85",
+                    "address": "1000 El Camino Real, Atherton, CA 94027, United States",
+                    "route": {
+                        "listRouteId": "4a8009b1-d9f7-4e02-b656-24108cc8ac7f"
+                    },
+                    "trackingId": "gen:94076c46-108a-4240-ab8a-ed8b86fe7f2d",
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.4562,
+                        "longitude": -122.192
+                    },
+                    "estimatedByStr": "07:17",
+                    "flavors": "DRY"
+                },
+                {
+                    "listItemId": "b9070b66-3f39-48ff-9bed-2983b77bb4e2",
+                    "address": "1895 Oak Knoll Ln, Menlo Park, CA 94025, United States",
+                    "route": {
+                        "listRouteId": "4a8009b1-d9f7-4e02-b656-24108cc8ac7f"
+                    },
+                    "trackingId": "gen:72613dcd-de3e-424e-b751-e5056c8e6d94",
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.4311,
+                        "longitude": -122.1917
+                    },
+                    "estimatedByStr": "07:26",
+                    "estimatedCapacity": 1,
+                    "flavors": "DRY"
+                },
+                {
+                    "listItemId": "dd6394a8-a49c-410e-b5b0-936c29d20f06",
+                    "address": "1600 Arastradero Rd, Palo Alto, CA 94304, United States",
+                    "route": {
+                        "listRouteId": "4a8009b1-d9f7-4e02-b656-24108cc8ac7f"
+                    },
+                    "trackingId": "gen:867d818b-6712-47d3-b7b6-5cc249a109b4",
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.3872,
+                        "longitude": -122.1822
+                    },
+                    "estimatedByStr": "07:39",
+                    "estimatedCapacity": 2,
+                    "flavors": "DRY"
+                },
+                {
+                    "listItemId": "c44b2fd6f3f3ab12cebdddb97ca0f7",
+                    "address": "13100 Montebello Rd, Cupertino, CA 95014, United States",
+                    "formattedAddress": "13100 Montebello Rd, Cupertino, CA",
+                    "status": "NEW",
+                    "updatedAt": 1646363530000,
+                    "statusUpdatedAt": 1646363181000,
+                    "route": {
+                        "listRouteId": "955b1b8c-a01b-49ae-81a4-18d37b518304"
+                    },
+                    "routePriority": 1,
+                    "trackingId": "gen:9d8e1252-eac1-49d3-9c12-88a06e417e90",
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.29494,
+                        "longitude": -122.09039
+                    },
+                    "addressComponents": {
+                        "city": "Cupertino",
+                        "state": "CA",
+                        "zipcode": "95014",
+                        "country": "USA",
+                        "street": "13100 Montebello Rd"
+                    },
+                    "isExternal": true,
+                    "estimatedByStr": "08:02",
+                    "estimatedCapacity": 3,
+                    "flavors": "HOT"
+                },
+                {
+                    "listItemId": "c44b6f4c36d69394ba11f52b63a76",
+                    "address": "20764 4th St, Saratoga, CA 95070, United States",
+                    "formattedAddress": "20764 4th St, Saratoga, CA",
+                    "status": "NEW",
+                    "updatedAt": 1646363530000,
+                    "statusUpdatedAt": 1646363181000,
+                    "route": {
+                        "listRouteId": "955b1b8c-a01b-49ae-81a4-18d37b518304"
+                    },
+                    "routePriority": 2,
+                    "trackingId": "gen:86362f8d-ebc8-484f-9b25-3c779575a64d",
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.25883,
+                        "longitude": -122.03532
+                    },
+                    "addressComponents": {
+                        "city": "Saratoga",
+                        "state": "CA",
+                        "zipcode": "95070",
+                        "country": "USA",
+                        "street": "20764 4th St"
+                    },
+                    "isExternal": true,
+                    "estimatedByStr": "08:23",
+                    "estimatedCapacity": 4,
+                    "flavors": "HOT"
+                },
+                {
+                    "listItemId": "c44b6a1633a539ac12ace7513403e5",
+                    "address": "330 Belgatos Rd, Los Gatos, CA 95032, United States",
+                    "formattedAddress": "330 Belgatos Rd, Los Gatos, CA",
+                    "status": "NEW",
+                    "updatedAt": 1646363530000,
+                    "statusUpdatedAt": 1646363181000,
+                    "route": {
+                        "listRouteId": "955b1b8c-a01b-49ae-81a4-18d37b518304"
+                    },
+                    "routePriority": 3,
+                    "trackingId": "gen:72bbf212-42e2-4bab-be0c-0ea6a9b1e073",
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.23079,
+                        "longitude": -121.92102
+                    },
+                    "addressComponents": {
+                        "city": "Los Gatos",
+                        "state": "CA",
+                        "zipcode": "95032",
+                        "country": "USA",
+                        "street": "330 Belgatos Rd"
+                    },
+                    "isExternal": true,
+                    "estimatedByStr": "08:41",
+                    "estimatedCapacity": 5,
+                    "flavors": "HOT"
+                },
+                {
+                    "listItemId": "c44bb4d913523baaee8f2ba5e1a254",
+                    "address": "6898 Raleigh Rd, San Jose, CA 95123, United States",
+                    "formattedAddress": "6898 Raleigh Rd, San Jose, CA",
+                    "status": "NEW",
+                    "updatedAt": 1646363530000,
+                    "statusUpdatedAt": 1646363181000,
+                    "route": {
+                        "listRouteId": "955b1b8c-a01b-49ae-81a4-18d37b518304"
+                    },
+                    "routePriority": 4,
+                    "trackingId": "gen:b544101e-aea8-4b72-a26d-7abafc3657b8",
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.24494,
+                        "longitude": -121.78734
+                    },
+                    "addressComponents": {
+                        "city": "San Jose",
+                        "state": "CA",
+                        "zipcode": "95123",
+                        "country": "USA",
+                        "street": "6898 Raleigh Rd"
+                    },
+                    "isExternal": true,
+                    "estimatedByStr": "08:59",
+                    "estimatedCapacity": 6,
+                    "flavors": "HOT"
+                },
+                {
+                    "listItemId": "c44bfaf623593a6ddc608a0f1a9c43",
+                    "address": "1091 McCreery Ave, San Jose, CA 95116, United States",
+                    "formattedAddress": "1091 McCreery Ave, San Jose, CA",
+                    "status": "NEW",
+                    "updatedAt": 1646363530000,
+                    "statusUpdatedAt": 1646363181000,
+                    "route": {
+                        "listRouteId": "955b1b8c-a01b-49ae-81a4-18d37b518304"
+                    },
+                    "routePriority": 5,
+                    "trackingId": "gen:d545470b-27cd-4c05-a81b-de55ed7367f6",
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.34226,
+                        "longitude": -121.8412
+                    },
+                    "addressComponents": {
+                        "city": "San Jose",
+                        "state": "CA",
+                        "zipcode": "95116",
+                        "country": "USA",
+                        "street": "1091 McCreery Ave"
+                    },
+                    "isExternal": true,
+                    "estimatedByStr": "09:16",
+                    "estimatedCapacity": 7,
+                    "flavors": "HOT"
+                },
+                {
+                    "listItemId": "c44b8eca53fefb635f19958ab0cbf2",
+                    "address": "Milpitas Square, 338 Barber Ln, Milpitas, CA 95035, United States",
+                    "formattedAddress": "Milpitas Square, 338 Barber Ln, Milpitas, CA",
+                    "status": "NEW",
+                    "updatedAt": 1646363530000,
+                    "statusUpdatedAt": 1646363181000,
+                    "route": {
+                        "listRouteId": "955b1b8c-a01b-49ae-81a4-18d37b518304"
+                    },
+                    "routePriority": 6,
+                    "trackingId": "gen:4ccfe681-5c67-49aa-91db-f0fba12492ec",
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.42309,
+                        "longitude": -121.91692
+                    },
+                    "addressComponents": {
+                        "city": "338 Barber Ln",
+                        "state": "Milpitas",
+                        "country": "USA",
+                        "street": "Milpitas Square"
+                    },
+                    "isExternal": true,
+                    "estimatedByStr": "09:32",
+                    "estimatedCapacity": 8,
+                    "flavors": "HOT"
+                },
+                {
+                    "listItemId": "c44b801b3605afbd726df743cc661",
+                    "address": "999 E Caribbean Dr, Sunnyvale, CA 94089, United States",
+                    "formattedAddress": "999 E Caribbean Dr, Sunnyvale, CA",
+                    "status": "NEW",
+                    "updatedAt": 1646363530000,
+                    "statusUpdatedAt": 1646363181000,
+                    "route": {
+                        "listRouteId": "955b1b8c-a01b-49ae-81a4-18d37b518304"
+                    },
+                    "routePriority": 7,
+                    "trackingId": "gen:45140f1b-9c15-4dd8-a92d-ae036e519372",
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.41261,
+                        "longitude": -121.99802
+                    },
+                    "addressComponents": {
+                        "city": "Sunnyvale",
+                        "state": "CA",
+                        "zipcode": "94089",
+                        "country": "USA",
+                        "street": "999 E Caribbean Dr"
+                    },
+                    "isExternal": true,
+                    "estimatedByStr": "09:43",
+                    "estimatedCapacity": 9,
+                    "flavors": "HOT"
+                },
+                {
+                    "listItemId": "d01ff43e-8572-47d4-accf-debd80363eb7",
+                    "address": "190 Showers Dr, Mountain View, CA 94040, United States",
+                    "route": {
+                        "listRouteId": "4a8009b1-d9f7-4e02-b656-24108cc8ac7f"
+                    },
+                    "trackingId": "gen:f093efe7-6564-4b06-85a9-92b7fa31f2b4",
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.4078,
+                        "longitude": -122.1079
+                    },
+                    "estimatedByStr": "09:56",
+                    "estimatedCapacity": 10,
+                    "flavors": "DRY"
+                }
+            ],
+            "timeS": 10992.0,
+            "distanceM": 143728.0,
+            "pathEncoded": "qxccFxtihVC?IUEKCISe@O_@?EASa@G]Iq@UCC]]GGAAEGKOMa@U?iC?aBAS?c@?_@?i@AS@kGFG?U?U?O?i@?iF?{@AsC@{@?Q?K?_@@C?sDDaD@_DE[?[CM?sAC_@?[?_@?o@AI?G?eBBm@?{A?iBDwBJ[Bi@Bw@@yB@sBAcAAC?O?i@Ay@Ae@@eC@I?c@?g@?wA@iA?sC@WE]Oc@UYQ_@Wa@[CCSQ]SOZKVw@jB_@x@O^q@pAQ\\GJSZyBpCUXKNGDEHa@d@ORMNSTqA~As@|@c@f@EHA@STMLy@~@gBtBY\\EF[`@OLe@d@i@d@MHs@j@OJGDKHUPYTWPSNg@^[Va@XmBzAo@f@eD|BgAv@}AjAGDIFC@MLOLSN]Vi@b@UPWRC@yAlA[TMJCBYTWPq@f@QN{BbBSNQNe@ZUPy@n@MJID_@\\g@`@IHA@CBa@b@CB_BfBs@|@u@hAA@QVIP_@p@GJQ^INWj@g@fAO^ADk@pA?BABKRSf@O\\Uj@Q^a@~@CDO^Sf@GLGLSd@_@x@O^CHCB?BEHMZUf@O\\Sd@Uh@[r@O\\GPKVABOZWl@ABIRO\\KVk@tAQ^IPCHWj@{@tBCFe@jASh@Sb@]z@Sf@Wl@KR?BIPQb@O^EJMXUh@IRm@tAUf@Wl@INEL_@v@_@x@{@nBa@~@u@bBABIPM\\KTQ`@IPs@dBu@hBm@zAi@nAs@`B[t@IT]t@Yn@ABEJCFGJCHWj@KR]t@Q\\A@INGHoAzAe@f@QRaAhAcAjAo@v@YZm@p@ONA@QROPGFORKLEDOPKLIJa@d@ST_BjBg@l@STQRk@t@k@p@KLA@MPMNEDi@p@CBg@j@{CpDUXY\\oCfDg@j@A@OP_@f@Y\\wFpGiArA_@b@wDnEuDpEgBtBo@v@A@QTUVo@v@IJyAdBu@|@SVw@|@c@h@e@h@gApAA@GJKLWXOPCD}@bAQRo@t@ST]d@eCxC_DvD}ArBaAtA[f@_ArAUZORMPK?gBhCcAvAOTU\\Y`@qAhBABs@`AaApAw@jAA@GLKLY`@CDs@~@m@bAiAnBaAhBILS`@{ApCEFKNIPCB{GnLaBpCMRIPs@rAg@bAKTS^}@jB[n@_ApBA@ABEJw@nB]z@EL}AxDKTGPIPi@tAa@bAWp@A@IRKXa@dAKXUh@c@`AMZABGPITEJWl@IRIRKXwCrHQd@e@lAYp@[x@Uj@[t@w@pBwBtFM\\s@dBk@|Ag@nAe@lAYr@BLCJYr@AJ@FjBhA^ZFOBGBCCI@CFALYBEN[@?Vm@DMFQFS@EDD`@ZJHB?BABCDI?E@C??AA?Ao@g@EACBCDABELADGRGPELWl@A?OZCDMXG@ABC@CDEBC?E?SAkBiAbAeCdAgCXq@To@LYnFmN`@eA\\}@\\y@^aAPc@zA{Dh@uARg@HULYVo@JYFM@CHSHQTm@@Al@yAVo@\\y@@CHWHQL]Pa@l@_BRk@@ABKHOL[`BaEj@qAHOXq@HQFMTg@\\q@l@yAh@kAlA_CRc@f@{@?AJQJJ@@PLHFd@\\^\\dBtAl@f@lBvAt@j@p@h@LH\\XtAdA`BvAFDtAfA@BJFJH@@~C~Bx@n@bBrAt@l@dAx@VRJH~@t@LJbBrAVPzAlAzAnANHDDtCzB`F|Dv@j@jCtBJFrC|B`CjBRPNLN]DKx@iBPa@b@eA@CFSNNBBlBzArAdAt@l@`@XPNhAx@Z^tB|BfCfBRLRNz@~@LJPJRLPFNHPJ~@`BHL`@LLBr@Jj@DH?rACZEXGh@MrBk@lCw@ZIJCJEJMFQ@C?AFQVPNLdFrCj@X`@Vb@\\Z\\d@l@t@jA@BT`@\\GPSd@k@TWb@[JGZIZEV?PBVDt@VHDLFLFF@VDT@T?XElDs@h@OdCs@bE_ALCZC^Cb@AL?N?ZBXFz@NtAXJ@PD`@D`@D`@?b@Ab@G`@If@Ol@YfC}AnBmAFE^Qf@Gd@?b@Db@J^P\\VX\\Vd@Rd@Jj@Fj@VxDFj@Ll@Tn@FPLRXf@^`@`@Z\\P^N`@J^DRBpANbALn@L\\JlAZd@Hl@JnC\\pCV`BPvAd@HBFFHPFVBXCZITMPOLSDS@SGQMMSGUCU@UDc@Hc@dAkFt@qD|@oEb@sAf@sAj@oAn@oAr@mAx@oAx@eA`AgAbAcAzIcIhAcAlAmAx@u@|LaMnd@ce@bAkAx@gAz@oAn@kAv@_Bl@}An@qBb@cB\\iBRsAPuAJqAHkADsAR{IDeAP}AL_AP}@XiAXgA\\kAVw@To@Tg@Xg@dBkCTYXUVOZK^Ez@CN?\\GZMVSNOPQfAeAd@UZK^EJAXMXD|@PLDZLZRVPt@n@hAdA|@p@\\Zh@RjBp@?NIfIC`CMz@AJg@jDQx@Uz@c@tAaAbDgApFGZc@pBi@rCEXEXEl@KnBATOrCGhACtAHfBJlA`@bEFf@FTHTMPyBvCSh@Kn@Ez@FjAVzASx@@X?n@J`Ab@`ANL~@[i@mAUg@_A??o@AYRy@W{AGkAD{@Jo@Ri@xBwCLQIUGUGg@a@cEKmAIgBBuAFiANsC@UJoBDm@DYDYh@sCb@qBF[fAqF`AcDb@uAT{@Py@f@kD@KL{@BaCHgI?OkBq@i@S][}@q@iAeAu@o@WQ[S[MME}@QYEe@Ug@GSE]G]EUEYYIIEOCMAQBe@XsIDqBRaFD{BA_@B]D{@F}@VyCd@qCl@cCz@_Cd@aAb@y@j@_Af@q@j@s@^_@^_@l@e@n@e@n@a@n@]r@[p@Wt@Up@Or@Mx@KfMcBt@Kv@Kt@Ml@Kp@On@Sn@Sr@Wr@[n@]r@_@p@e@p@g@n@i@h@i@p@s@l@q@tO_R`AiAhAmA~@aAdAcAhAaAxHyGd@c@tGyFbA}@jAoAbAoA~@qAz@uAx@}Ar@}An@aBh@eBf@iB`@gBz@iEXqAnEwTXaBXkBNcBJiBr@gTH_BNeBTcBX{A\\}Ad@{Af@wAf@iAf@gAn@iAp@aAt@_Al@o@p@m@j@e@~@q@f@Yt@g@bB}@|IsEdAk@~ByAxA}AdByBn@cAr@mAn@oAh@qAd@sAd@}A^yAXaBVyA`AiGb@sDVyAZwA^sA`@sAd@mAh@mAj@mAp@gAVa@Xa@NAbB_ClBmBfA_Av@i@bG}Dl@a@l@e@j@k@h@m@b@k@v@eAt@iAl@iAn@uAh@wAdLc^b@oAf@mAh@gAn@iAr@gAv@eAzHkJx@kAl@aAXi@Tc@l@oAn@}ApAkDXq@n@eBh@oAl@sAzDiIvCoGr@sAp@uAx@uAv@sAlLgRp@mAl@qAj@sAb@qAb@_B^cBZeBRaBNgBHoBBcB@mBEcBIeBIqBUgDU{DCm@Bo@Fi@Py@d@}BVsAPe@JONI`@C^F`BPpCXRBn@@tBHh@BP@zADrDDhAGj@A|@EdKe@xCUb@ChES^CvBMZCL?L?XAxAAt@?LGXQX@^@T?f@?pH@nB?z@?fA?bCATAhC@H@H?r@?x@A|@AZ@b@?z@A|@AjA?`A?V?f@?l@?PBRDpATRDHBzFlA|B`@|A\\\\JLJPVdAfBLLNHj@Jp@Fj@LHB`@T`@TVRb@l@b@d@RT^\\h@\\j@`@Td@FX?ZGnA@l@VlAPp@`@zAPZRTfBz@HFTRrAzAZZZVpAh@b@Lp@PbAHpAD`@?d@FXLTN^`@\\Z`@Rf@D`@G\\Ml@]h@Y|@YZCFAP?XDHBTHPJPR^r@HT^dAp@xBZfAN`@\\`@LJNHLDZFrAP`An@p@b@bB|AvAxA^`@\\R\\@P@LAREPI\\IPGTCPBJDJHJPJVBNBPBLBVDb@XdDBb@LzAC~@g@zCC`@B`@Pn@X^LNPHTBRA^OBDBZUj@wArCoA~DAL@@?BDFJ@LGR[JYLSLIJE^Mf@M^EFAF@FH@HENKJw@h@MPGPE^QbD[|BEv@Cx@Kl@K`@APBVNJTBr@IRAL@n@VXPPh@AnAAtB\\XFTFRMj@UQTPLk@GSGU]Y?{@@y@@oAQi@YQo@WMAS@s@HUCOKCW@QJa@Jm@By@Dw@Z}BPcDD_@FQLQv@i@JKDOAIGIGAG@_@Dg@L_@LKDMHMRKXSZMFKAEG?CAA@MnA_EvAsCTk@C[CE_@NS@UCQIMOY_@Qo@Ca@Ba@f@{CB_AM{ACc@YeDEc@CWCMCQCOKWKQKIKEQCUBQF]HQHSDM@QA]A]S_@a@wAyAcB}Aq@c@aAo@sAQ[GMEOIMK]a@Oa@[gAq@yB_@eAIU_@s@QSQKUIICYEQ?G@[B}@Xi@Xm@\\]La@Fg@Ea@S][_@a@UOYMe@Ga@?qAEcAIq@Qc@MqAi@[W[[sA{AUSIGgB{@SUQ[a@{AQq@WmAAm@FoA?[GYUe@k@a@i@]_@]SUc@e@c@m@WSa@Ua@UICk@Mq@Gk@KOIMMeAgBQWMK]K}A]}Ba@{FmAICSEqAUSEQCm@?g@?W?aA?kA?}@@{@@c@?[A}@@y@@s@?I?IAiCAU@cC@gA?{@?oB?qHAg@?U?_@AYA?]?K?eA?c@As@?gD?_BA}AM_DCYGy@W}AUyAs@}DKe@[wAEYCWEYM_BAcAAe@AOAy@AY?w@?aAEoJ?s@?wA@iB@U@U@S@c@@YD{@?SDm@?G?SBs@?G?E?}@@_A?W?kB?G?QFOBsA?E@{@?c@@u@?{@@u@DsC?UZEb@MdAa@rF}BpAk@|Aw@~C}AdFmCdE_BlVkJfAe@dAe@jAq@dAo@`Au@bA{@~@aA|@cAle@cl@`CyCxBwBpDiDf@c@lDmDV]\\]b@[RQPWJUdDG\\?TArBAD?bA?`@?R?D?h@?L?d@?V?fAA|@?P?n@?j@?hAAbA?L?pB@D?^?p@?^AH?Z@N?B?JAJ?L?L?v@@P?\\@pA@tBBrA?dA@N?nDFZ?F?x@Ax@@n@?V@|@?D@R?x@BdAFP@r@@b@?h@@P?tCG`BGl@CfBCz@?`C@P?zD@Z?V@d@?rE@N@Z?N?VApBEX?^AVAjDIx@AB?L?RAL?lAEV?vEGdBCrAChHCbAAlA?n@A\\?fLG~@AjAAdDC|@?xCCVAr@?jCGdB?x@?Z?z@?v@AzEEnB?^?N?B?T?|ACj@AhC@~@?p@@h@?p@?pC@tAApAAx@??ZHjBBf@f@zAXlANXHb@jCtBTAJ?JB\\LNR??OS]MKCK?U@kCuBIc@OYYmAg@{ACg@IkB?[|@@p@@^?|@?J?XCEYCUK_ACYEc@AKIw@?GGu@Ee@Ea@G_@IWMa@Qa@]o@e@y@OWq@eA}EyHq@gAcAkBS[y@yAS[k@eAyBuDw@yA_AqAqCuCUUq@o@CCSSGGuEqE[YaBsAe@a@{@s@qAeAWS[Us@eASY[e@e@eAWe@e@w@IOS_@sAaCSa@EGEUCOIQ[{@CGa@y@iAcCi@gAACUg@KSUg@KSwAwB}@qAq@{@sAgBSWOSMSwBaDmB{Bq@w@e@]WO[Qi@g@IGKMgAcAGGo@gAeAmBg@kAEKUe@`@u@\\o@p@uAf@mAf@sAb@yAjAoE^qA~DuMv@aCv@qCl@eCl@oCdCaNd@}Bh@}Bj@sBr@yBz@aCvGiP^}@`BaElAaD`D}IhOmb@hBqFtAiErAoEdA_DjAiDhOqb@bAaDx@}Ct@kDl@aDfAkHh@}Cj@{CpBiI@[p@mCf@mBfEwP^wAjAsElCkLlAyGzA}LdAqKpBqRj@uFv@mHpBuSjA}Kh@qCf@{D\\qB^aDR{AFQLQLGTGTCPACkH?s@??Bu@Hw@De@Di@`AAJAD?zACV?nAAhB?`AAN?d@?P?R?rFA^?V?lA?V?|@AdDAz@?\\?b@DX?lA?P??W?iA?IA}C?iB?wDA{EAaD?_A?q@AcA?mAAqG?}@?kB?C?i@?C?]V?B?`@?L?t@@d@?N?`BA|C@zCAv@FX@^@V?^?`@?j@APAfAKbJ@fAAl@?r@?AqH?E?Q?m@?CAw@?U?{@?W?{@?QdDEdD?pD?dBAdGAp@B^VFj@Fn@HRXTTDZBz@AdABx@C\\HRLPXJXD^A\\Kt@Q\\EDEBE@EBMFEDEBGFGFEDCDCBCBE@E@E@E@C@IBGBC?C?CAEAAACIBH@@D@B@B?B?FCHCBADADADADABCBCBEDEFGFGDCDELGDCDADCDEP]Ju@@]E_@KYQYSM]Iy@BeAC{@@[C??UEYUISGo@Gk@_@Wq@CeG@eB@qD?eD?eDD?E?{@?U?g@?w@CsD?iB?[?SAs@?Q?aD?GAeC?a@?_A?[?oB?C?[AoAAG?G?s@[?wF@O?M?aFBO?O?sD@Q?GWAAAcD?Q?U?wC?_@?_@?iICaAKo@IQCIIKw@}@g@m@mA_Ao@e@YMMGQGiC{@OOS}@GUCKEOSy@GSE_@QJqBnAyClBcAn@]TwAz@m@`@yA|@oFlDGFq@^q@b@_@VuAv@g@Ve@Lk@LIYOc@Yq@OWmAcAaAy@e@k@Ua@Qs@Km@I_EEiGQiFA}GAuHCuLCgM@eIEuDq@iK_AyGsAoIcBsJgB}KmB_L_A{Ei@mCYmAc@}AkBiHuAmFa@sBa@mBIs@i@cE_@{EQeFFiID{BNuH\\gL@GB_BFoEBo@J}CDoEBgC@}C?_EC}I?cDCwKJqLHcKJuMHeHDsADm@FwA\\wDh@{Cp@}Ct@cCh@wAhB{EdAgClCcFLW\\q@hAqB^]RETGTAzA?B?P?ZMAeD?aAAsBEyAE_AEs@Ek@Gy@Iq@Y_CCQCYGc@Gm@AOG}@Ee@A_@Co@CeCAa@?wA?wAAeB?w@?W?gAA_@?kA?a@@a@Cy@Ay@CgAEuBCaC?qA?e@AiHAgC?q@CaJ?kBAsA?w@A_H?}DAcE?u@?kB?[?UA}@AkJAkCAgG?qAAW?oA?kAH}A`@oDBmADsAEcACs@Gi@QgAOk@ACg@yAe@y@j@q@R]Ny@Fo@@gECaD?I?OAs@?iA?c@?a@@aE?G?gACkAQ}@Q[UWs@u@yAqAMMgA}@Sc@Ic@ACCSE_@Bi@Ly@fDwGjEwINc@n@eBDQ~@qBj@iANk@d@cAlAgCdBuBZU`@k@fBmDLUDK`DmG`AkBZm@jBwDxBmEP_@dAwBd@`@^\\i@fAf@f@h@h@Xg@T_@WU]Ya@a@_@]e@a@rEcJrAkCP[QQQ\\sAlCyG|MO\\_DfGeBfDaApB_DhGEJMRgBnD[n@O`@eBtBmAfCe@bA_@`@_AjBg@bA_ApCKPiEtIiDzGQz@Cr@?B@PBXDLJb@Zp@rApAnAdAt@t@RZNZJ|@BrB?X@~EcC?i@Eo@Iu@Ug@Sm@[s@i@EEOMKNENMp@EJGJIHKHIDMBM@KAKCKCKGWQy@q@}@oAcCsD{A{B}@iBa@eAYgAMoASyAEcBCyFBiDB{G@m@Z}EJuAVg@ZW\\A^FXXN`@Bd@AXSp@kAnCgAjCy@xA{BpC_ChC}BvBaChB_Bz@eAv@oDhBsEjBcFxAcgAlVaDx@oCz@gAf@uE|BaBbAkC|A{Az@uBhA}EjCyAr@eA`@uA`@wA^cB`@uANwALgBFwj@pAiELqBBaADy@Dm@FwARmD|@u@TiA`@o@Zo@\\iAr@w@f@eAt@o@h@oBjB{TdToChCwMfMgFfF{FtF}e@nd@iZjYmJxIoCjCcF|EyAvAwUdU{AvAyArAiJfIyEfEOPkAhAmMlM]B{BlBq@j@m@h@yBtBSJMJMHOFMFOBOBO?QAQAw@OOAMAO?M@MBODc@NOBM@O?QEMGOIU@wCiCa@a@]c@o@eAKOs@oAWc@_BqCIMEGiB}CIOQYKO[i@_BmCgAgBIMIOkAmB]m@a@q@WTQPUTg@f@FJf@z@Q]U]GKf@g@TUPQh@|@FJV`@^l@@@`@r@HLpBhDT`@@@Zh@d@v@JPNTJNVd@zE`IHNf@z@NVp@fA^b@b@b@VRF\\JNLVJXHXDXh@|E@`@?ZAXEVGXGRIPKPMPIPi@h@sEdEkAfAOLeAbAkBjB[^[\\uA`Bu@v@uArB}IpIaC|ByGlGcJjIQPyJrIaBvAkGpFeA`AqAtAmBrBgBrB_MpNwBfCeCvCoAzAQRW\\_C~CaB~BuA|BiAnBmAbC_ApBaA~Bq@fB[z@_@hAaAdDo@jCm@rCa@nB_@zBYtBY~BQ~AOdBYfEmCje@g@bKc@|JkAhXo@vQg@~CKdAERITKPIPg@d@yE~CWJUFQDS@]@cBD_AE}@AmA?qBH_AHy@JuMhBuEl@w@LgQlC_MfBgK~AwMhBcCV_Er@yTbDcf@fHiTzCk`@~F}QlCkDf@aDf@eOjCmHbBiC\\aIfAa@@c@G[O]Yi@i@qAuA]U_@O_@C_@@eBNUBYHID[LBx@@v@Fx@Fx@Hv@J|@^bCHh@F^`@|BPz@Pv@Rp@Nl@Vx@NZl@jAVb@Zf@^b@LNTZNSHONST[fAaBLW@e@FUD[?_@A[E[EWw@oCi@mB?]YgAIDKFwGdDk@XgCpAeEvBOFq@\\MFMFq@ZeAj@a@RyAt@s@\\kAl@A@YNaBx@_Bx@{BfA{DpBQJQHMH{BdAWNkAj@GDg@Tq@k@Eg@@iBHcAD]j@kBjBsA??kBrAk@jBE\\IbAAhBDf@p@j@f@UFEjAk@VOzBeALIFRx@xCPNl@|BZfACT\\pAPZJ\\X~@HZPp@HVUJqBz@uAn@kC|@E@UFWHuAb@o@N{@T]HNj@DNHX^lAdBxETp@P|@N|@J~@J~@Dp@nAbLb@nHPtBPvBTtBt@xF~Fpa@f@fEzBbPTzALzADpA?lA@jU@vYCfT@bD@zBDvBZrOFnCDpCBjCHhHHhJRjNDtAFtALvAPzAV~AXzAd@fBd@~Az@lC~BnH`FxO`AzCtCdJ~@|C~F|QbBhFr@zBj@pB`@bBd@tBj@`C^vBb@`C`@dCf@rDvAdL\\~DZdEHx@RbBPtBVrCB`@Ab@Cb@Gb@K`@cDfJS`@W\\y@|@OFcAh@QJK]@ScAmDQSzAw@^S\\Q`@Sh@dB@LCLWNq@}B]P_@Rw@`@c@TA`@dAhDNHJ\\Ph@bB}@jAa@ZGZCZ?VBXFZJ|CnBXVV^Rb@Nd@Jd@Nd@nAvHh@`CfBlMJt@`BlLzEt]bBhLz@vF\\dC`AbH|BdPd@fD\\zCVjCXvCPzBLtANrATxBZ|BZxBxAbJh@bDPrBd@xCf@nFDd@?`@A`@C^a@zCE^C\\?^@^Bb@Fd@Jp@N`@`A|BHVFVBXBT@ZAZCZUrBQfDqIvo@CPcAnHg@|Dc@zCa@tC]|Be@jCwBnLa@`Ca@bC_@jCaGvc@aBjMO`Ai@zDAHEPUjBMdAEZKr@G^ERKl@Q|@U~@Sz@YdAmAdEcCbIgDzKCFcAfDc@xAoAhEm@rBm@rBOf@uD`Mk@~@a@`AITu@lBy@xBQ\\s@nAs@nAMTGRITGTETCXCVCX?V?Z@ZBXBVDRFVz@dDFZD\\D^@^?^@h@?v@Ab@Aj@ANAv@ARA`@CdA?NCt@A`@CjACx@?FAH?PAX?FAj@ANAX?PAh@AT?VC~@A\\Ct@?LA`@A`@Ap@AN?XAT?NC`AA\\A`@ClAA^Cn@?FA\\Af@Cp@A^Ap@A^?FCl@Aj@Ah@Ab@ADAn@?DA\\A^ATAh@AP?XARA^AXAV?VC~@AT?JAf@AHA`@?LGvB?PCt@?LANCp@Ax@ARGr@CVCTCJAPSt@I\\CJGNKVQb@ITEJKVABGPYr@KTABk@|ASf@ABGLQ^TFTHXHFBt@Pv@ThDfA`Bt@zBpApCpBpCfCXTVTTRLLNLZTTLBBPHFD\\L\\Lf@L|Bh@n@Pj@RbA`@j@Z^VJLlBfBPRDHV\\l@hAxAlCR\\NRLVDL@L@JCHCJEDEDG@E@GAEAGEEECICKKy@ESIS][MKi@YSGCAG?G?C?QFC?SHCKAKKk@AO?QBQ@I@EHQP]t@uAJQDIR[\\g@f@u@NWHORMBG`@q@HOHYLLbBvAFFADAFAD?F@FBFBFDDF@B@D?D?BCDABC@EDDn@j@\\N|@d@LHDHZTB@JHGP]nAADu@rC[jACDCJc@|AAHCD?BGTG`@RJTLd@TTLPJZNTJnAn@RLlAn@`Af@nAn@D@JFPJJDb@Rj@VZP~@d@HDrCtAFBLH\\TTLnAt@VNr@`@PHVB`@?f@?R?zC?XAz@@LAjC?D?b@?`A?f@?H?R?P?tD@x@AdACnAALATC\\Ab@Cz@EjAAV@rA?~@?dB@F?Z?tB@vABJ?hK?nBCD?l@?p@AP?x@?tC?lDAbBAn@?H?@?P?jG?t@?P?nA?h@Ax@An@@P?@?pBBB?T?FXBHDDh@RNDp@T\\H`@F@R?DN^Rd@BHHEBCH?l@JG\\ICWBG@",
+            "capacity": 50,
+            "shiftStartTime": "07:00",
+            "startPosition": {
+                "latitude": 37.38009,
+                "longitude": -122.11547
+            },
+            "endPosition": {
+                "latitude": 37.38009,
+                "longitude": -122.11547
+            },
+            "warehouse": {
+                "listWarehouseId": "fb364c4a-abe5-40d0-a846-63ae4364f0cd",
+                "address": "100 State St, Los Altos, CA 94022, United States",
+                "position": {
+                    "latitude": 37.38009,
+                    "longitude": -122.11547
+                }
+            },
+            "startMode": "WAREHOUSE",
+            "endMode": "WAREHOUSE"
+        },
+        {
+            "listAssigneeId": "ca8d-f6908a1b",
+            "capacity": 50,
+            "shiftStartTime": "07:00"
+        }
+    ],
+    "droResponseId": "f9822a1b-36e3-4385-a581-c611c95a9b43",
+    "timeQuantumInSeconds": 1
+}

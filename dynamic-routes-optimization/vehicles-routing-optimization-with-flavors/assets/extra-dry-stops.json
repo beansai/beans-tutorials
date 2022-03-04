@@ -1,0 +1,44 @@
+{
+    "item": [
+        {
+            "list_item_id": "565ee81c-4c3f-47d4-be67-34967e0c0b85",
+            "address": "1000 El Camino Real, Atherton, CA 94027, United States",
+            "route":
+            {
+                "list_route_id": "4a8009b1-d9f7-4e02-b656-24108cc8ac7f"
+            },
+            "type": "DROPOFF",
+            "flavors":"DRY"
+        },
+        {
+            "list_item_id": "b9070b66-3f39-48ff-9bed-2983b77bb4e2",
+            "address": "1895 Oak Knoll Ln, Menlo Park, CA 94025, United States",
+            "route":
+            {
+                "list_route_id": "4a8009b1-d9f7-4e02-b656-24108cc8ac7f"
+            },
+            "type": "DROPOFF",
+            "flavors":"DRY"
+        },
+        {
+            "list_item_id": "dd6394a8-a49c-410e-b5b0-936c29d20f06",
+            "address": "1600 Arastradero Rd, Palo Alto, CA 94304, United States",
+            "route":
+            {
+                "list_route_id": "4a8009b1-d9f7-4e02-b656-24108cc8ac7f"
+            },
+            "type": "DROPOFF",
+            "flavors":"DRY"
+        },
+        {
+            "list_item_id": "d01ff43e-8572-47d4-accf-debd80363eb7",
+            "address": "190 Showers Dr, Mountain View, CA 94040, United States",
+            "route":
+            {
+                "list_route_id": "4a8009b1-d9f7-4e02-b656-24108cc8ac7f"
+            },
+            "type": "DROPOFF",
+            "flavors":"DRY"
+        }
+    ]
+}
