@@ -28,7 +28,7 @@ Beans has provided an API that would assist in this computation.
 ## Create the data
 ### Create a warehouse
 
-**Request example**
+**Request Example**
 
 ```
 curl -k -H 'Authorization: <token>' https://isp.beans.ai/enterprise/v1/lists/warehouses -XPOST -d '{"warehouse":[{"name":"Thermopylae","listWarehouseId":"5905 Wilshire Blvd, Los Angeles, CA 90036, United States","address":"2550 S Tracy Blvd, Tracy, CA 95376, United States"}]}'
@@ -55,7 +55,7 @@ curl -k -H 'Authorization: <token>' https://isp.beans.ai/enterprise/v1/lists/war
 A grouping Route, although isn't required for optimization, is a convenient bucket to gather
 stops to be optimized.
 
-**Request example**
+**Request Example**
 
 ```
 curl -k -H 'Authorization: <token>' -X POST 'https://isp.beans.ai/enterprise/v1/lists/routes' -d '{"route":[{"name":"Via Emilia","list_route_id":"e9770d42-3b2c-4fcf-b8a7-fd81a40b3b91","status":"OPEN","date_str":"2023-02-21","warehouse":{"list_warehouse_id":"d56bb78a-cdcb-4cfb-975a-597bb2b468f0"}},{"name":"Via Cassia","list_route_id":"f85af646-422f-41b6-b919-1ad7620ed30f","status":"OPEN","date_str":"2023-02-21","warehouse":{"list_warehouse_id":"d56bb78a-cdcb-4cfb-975a-597bb2b468f0"}}]}'
@@ -94,7 +94,7 @@ curl -k -H 'Authorization: <token>' -X POST 'https://isp.beans.ai/enterprise/v1/
 **Note**: Your list_warehouse_id, list_route_id would be different.
 
 ### Add stops to the routes
-**Request example**
+**Request Example**
 
 ```
 curl -k -H 'Authorization: <token>' https://isp.beans.ai/enterprise/v1/lists/items -XPOST --data '@assets/stops.json'
@@ -108,11 +108,11 @@ Here's a visualization of the result, as we can see there are red stops and a bl
 ![stops](assets/images/stops.png)
 
 ### Run What If
-We have two routes and each of them has 8 stops, now we want to see how the distance/time cost will change if there's another 8 stops append to one of the route.
+We have two routes and each of them has 8 stops, let's try to determine the delta cost with another 8 stops.
 
 ![pending-stops](assets/images/pending-stops.png)
 
-**Request example**
+**Request Example**
 ```
 curl -k -H 'Authorization: <token>' https://isp.beans.ai/enterprise/v1/lists/route_whatif -XPOST --data '@assets/what-if-request.json'
 ```
@@ -124,7 +124,7 @@ You can see the full payload here [what-if-request.json](assets/what-if-request.
 - request_id - the ID to identify this request, can be used to query the status later (required for /enterprise/v1/lists/route_whatif_async, and strongly recommended otherwise)
 - use_warehouse_as_terminal -> default to false would render the route to be computed to "end anywhere". If it is set the true, then, the warehouse specified on the route would be used as the terminal of the route.
 
-**Response example**
+**Response Example**
 
 You can see the full payload here [what-if-response.json](assets/what-if-response.json) while the partial is
 ```json
@@ -215,6 +215,7 @@ The request itself would be returned as a response with additional system config
 Since this is an asynchronous request, let's pull its status with the request ID that we specified
 
 **Request Example**
+
 ```
 curl -H 'authorization: <token>' \
 https://isp.beans.ai/enterprise/v1/lists/route_whatif_async/35b4284e-1d07-483a-ac4a-c2bd6d9969aa
@@ -268,6 +269,7 @@ With only a few routes, the response is fairly fast, and thus, we did not get an
 ### Single Stop among all open routes
 
 **Request Example**
+
 ```json
 {
   "item": [
