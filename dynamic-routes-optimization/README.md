@@ -37,5 +37,6 @@ The following tutorials explain how we solve these problems with DRO ( Dynamic r
 - [Vehicles routing optimization with pickups dropoffs](vehicles-routing-optimization-with-pickups-dropoffs)
 - [Vehicles routing optimization with dimensions](vehicles-routing-optimization-with-dimensions) when vehicles have constraints like weight or  volume.
 - [Vehicles routing optimization with flavors](vehicles-routing-optimization-with-flavors) when packages have constraints like COLD, HOT, FRAGILE...
-- [Vehicles routing optimization with assignee start/end anywhere](vehicles-routing-optimization-with-assignee-start-end-anywhere) - when assignee will not start or end a daily work at warehouse.
+- [Vehicles routing optimization with assignee start/end anywhere](vehicles-routing-optimization-with-assignee-start-end-anywhere) when assignee will not start or end a daily work at warehouse.
 - [Vehicles routing optimization with stops time](vehicles-routing-optimization-with-stop-time)
+- [What if routes computations] when we want to determin the cost differenct ( time and distance )
