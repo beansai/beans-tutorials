@@ -116,14 +116,45 @@ We have two routes and each of them has 8 stops, let's try to determine the delt
 ```
 curl -k -H 'Authorization: <token>' https://isp.beans.ai/enterprise/v1/lists/route_whatif -XPOST --data '@assets/what-if-request.json'
 ```
-You can see the full payload here [what-if-request.json](assets/what-if-request.json)
-- item - an array of stops (required)
-- list_route_ids - an array of existing route IDs in the system. If a route ID does not exist in the system, it would be ignored (optional)
-- - if this is NOT specified, then, ALL open routes are considered, which could be very expansive depending on the number of open routes
-- route_size_limit - the upper limit of the number of items in a route for that route to be considered. So, for example, if 3a26ff50fb3830b8be7f3d50e0b5e0fa has 60 stops, that route would NOT be considered (optional, though strongly recommended)
-- request_id - the ID to identify this request, can be used to query the status later (required for /enterprise/v1/lists/route_whatif_async, and strongly recommended otherwise)
-- use_warehouse_as_terminal -> default to false would render the route to be computed to "end anywhere". If it is set the true, then, the warehouse specified on the route would be used as the terminal of the route.
+You can see the full payload here [what-if-request.json](assets/what-if-request.json) while the partial is
+```json
+{
+    "item": [
+          {
+              "list_item_id": "dc8aab06-3549-4e70-a9d4-de3989361fa9-01",
+              "address": "620 E 111th Pl, Los Angeles, CA 90059, United States"
+          },
+          {
+              "list_item_id": "dc8aab06-3549-4e70-a9d4-de3989361fa9-02",
+              "address": "4407 Normandie Ave, Los Angeles, CA 90037, United States"
+          },
+          
+          ...
+    ],
+    "listRouteIds":[
+        "e9770d42-3b2c-4fcf-b8a7-fd81a40b3b91",
+        "f85af646-422f-41b6-b919-1ad7620ed30f"
+    ],
+    "route_size_limit": 50,
+    "request_id": "cdca9d95-6ee7-454a-804a-fb3d38fb93de",
+    "include_multi_day_window_stops":false
+  }
+```
 
+- item (required)
+  - An array of stops
+- list_route_ids (optional)
+  - An array of existing route IDs in the system. If a route ID does not exist in the system, it would be ignored
+- - If this is NOT specified, then, ALL open routes are considered, which could be very expansive depending on the number of open routes
+- route_size_limit (optional, though strongly recommended) 
+  - The upper limit of the number of items in a route for that route to be considered. So, for example, if e9770d42-3b2c-4fcf-b8a7-fd81a40b3b91 has 50 stops, that route would NOT be considered 
+- request_id (optional, though strongly recommended)
+  - The ID to identify this request, can be used to query the status later.
+- use_warehouse_as_terminal (optional)
+  - Default to false would render the route to be computed to "end anywhere". If it is set the true, then, the warehouse specified on the route would be used as the terminal of the route.
+- include_multi_day_window_stops (optional)
+  - Default to false would remove the stops from request (and not from route) where the gap between deliver_from and deliver_by is more than 24 hours. This is to guard against the situation where a stop may be fulfilled anytime within the next 5 days, for instance.
+  - If this is set to true, such stops would be included in the route computation, and the system would currently attempt to honor that stop within the single day
 **Response Example**
 
 You can see the full payload here [what-if-response.json](assets/what-if-response.json) while the partial is
@@ -174,15 +205,25 @@ curl -k -H 'Authorization: <token>' https://isp.beans.ai/enterprise/v1/lists/rou
   ],
   "route_size_limit": 60,
   "request_id": "35b4284e-1d07-483a-ac4a-c2bd6d9969aa",
-  "use_warehouse_as_terminal": false
+  "use_warehouse_as_terminal": false,
+  "include_multi_day_window_stops":false
 }
 ```
-- item - an array of stops (required)
-- list_route_ids - an array of existing route IDs in the system. If a route ID does not exist in the system, it would be ignored (optional)
-if this is NOT specified, then, ALL open routes are considered, which could be very expansive depending on the number of open routes
-- route_size_limit - the upper limit of the number of items in a route for that route to be considered. So, for example, if 3a26ff50fb3830b8be7f3d50e0b5e0fa has 60 stops, that route would NOT be considered (optional, though strongly recommended)
-- request_id - the ID to identify this request, can be used to query the status later (required for /enterprise/v1/lists/route_whatif_async, and strongly recommended otherwise)
-- use_warehouse_as_terminal - default to false would render the route to be computed to "end anywhere". If it is set the true, then, the warehouse specified on the route would be used as the terminal of the route.
+
+- item (required)
+  - An array of stops
+- list_route_ids (optional)
+  - An array of existing route IDs in the system. If a route ID does not exist in the system, it would be ignored
+- - If this is NOT specified, then, ALL open routes are considered, which could be very expansive depending on the number of open routes
+- route_size_limit (optional, though strongly recommended) 
+  - The upper limit of the number of items in a route for that route to be considered. So, for example, if 3a26ff50fb3830b8be7f3d50e0b5e0fa has 60 stops, that route would NOT be considered 
+- request_id (required)
+  - The ID to identify this request, can be used to query the status later.
+- use_warehouse_as_terminal (optional)
+  - Default to false would render the route to be computed to "end anywhere". If it is set the true, then, the warehouse specified on the route would be used as the terminal of the route.
+- include_multi_day_window_stops (optional)
+  - Default to false would remove the stops from request (and not from route) where the gap between deliver_from and deliver_by is more than 24 hours. This is to guard against the situation where a stop may be fulfilled anytime within the next 5 days, for instance.
+  - If this is set to true, such stops would be included in the route computation, and the system would currently attempt to honor that stop within the single day
 
 **Response Example**
 ```json

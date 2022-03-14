@@ -38,5 +38,6 @@
         "f85af646-422f-41b6-b919-1ad7620ed30f"
     ],
     "route_size_limit": 50,
-    "request_id": "cdca9d95-6ee7-454a-804a-fb3d38fb93de"
+    "request_id": "cdca9d95-6ee7-454a-804a-fb3d38fb93de",
+    "include_multi_day_window_stops": false
   }
