@@ -4,8 +4,7 @@
 
 # Callback Configs
 
-In order to receive callbacks, we need to set the globalUrl for callbacks and enable the feature through [Update Callback Configs](#update-callback-configs)
-
+If we want to receive callbacks when data was changed, we can set the globalUrl for callbacks and enable the feature through [Update Callback Configs](#update-callback-configs)
 
 
 ## Table of contents
@@ -59,8 +58,18 @@ GET https://isp.beans.ai/enterprise/v1/lists/callback_configs
     "assignee": true,
     "warehouse": true,
     "assigneeVehicle": true,
-    "globalUrl": "https://9e10-36-237-95-112.ngrok.io",
-    "routeWhatifAsync": true
+    "globalUrl": "https://6f0c-36-237-93-205.ngrok.io",
+    "routeWhatifAsync": true,
+    "headers": [
+        {
+            "key": "X-Special-Header-1",
+            "value": "special-value1"
+        },
+        {
+            "key": "X-Special-Header-2",
+            "value": "special-value2"
+        }
+    ]
 }
 ```
 
@@ -71,6 +80,23 @@ GET https://isp.beans.ai/enterprise/v1/lists/callback_configs
 ```
 POST https://isp.beans.ai/enterprise/v1/lists/callback_configs
 ```
+
+```json
+{
+  "accountBuid": "4022a1aada0e4c4684e61e3f73290a68",
+  "account": true,
+  "route": true,
+  "item": true,
+  "assignee": true,
+  "warehouse": true,
+  "assigneeVehicle": true,
+  "routeWhatifAsync": true,
+  "globalUrl": "https://6f0c-36-237-93-205.ngrok.io",
+  "headers": [{"key":"X-Special-Header-1","value":"special-value1"},{"key":"X-Special-Header-2","value":"special-value2"}]
+}
+```
+- globalUrl is for where you want to receive the callback POST.
+- Headers are a list of key/value objects that the callback POST call would include in every single call.
 
 **Response Example**
 
@@ -83,11 +109,20 @@ POST https://isp.beans.ai/enterprise/v1/lists/callback_configs
     "assignee": true,
     "warehouse": true,
     "assigneeVehicle": true,
-    "globalUrl": "https://9e10-36-237-95-112.ngrok.io",
-    "routeWhatifAsync": true
+    "globalUrl": "https://6f0c-36-237-93-205.ngrok.io",
+    "routeWhatifAsync": true,
+    "headers": [
+        {
+            "key": "X-Special-Header-1",
+            "value": "special-value1"
+        },
+        {
+            "key": "X-Special-Header-2",
+            "value": "special-value2"
+        }
+    ]
 }
 ```
-
 
 
 ## Callback
