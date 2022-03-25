@@ -1,0 +1,322 @@
+{
+    "item": [
+        {
+            "listItemId": "9ec8c902-cba0-483a-8c13-02ebc28f791d10",
+            "address": "3845 E 3RD ST LOS ANGELES",
+            "formattedAddress": "3845 E 3rd St Los Angeles",
+            "status": "NEW",
+            "updatedAt": 1648195367387,
+            "statusUpdatedAt": 1648193171000,
+            "route": {
+                "listRouteId": "la-route-1"
+            },
+            "routePriority": 8,
+            "type": "DROPOFF",
+            "position": {
+                "latitude": 34.03351,
+                "longitude": -118.18494
+            },
+            "displayPosition": {
+                "latitude": 34.03351,
+                "longitude": -118.18494
+            },
+            "isExternal": true,
+            "sourceSeq": 1
+        },
+        {
+            "listItemId": "9ec8c902-cba0-483a-8c13-02ebc28f791d9",
+            "address": "5839  MONTEBELLO PARK WY. LOS ANGELES",
+            "formattedAddress": "5839  Montebello Park Wy. Los Angeles",
+            "status": "NEW",
+            "updatedAt": 1648195367387,
+            "statusUpdatedAt": 1648193171000,
+            "route": {
+                "listRouteId": "la-route-1"
+            },
+            "routePriority": 9,
+            "type": "DROPOFF",
+            "position": {
+                "latitude": 34.01689,
+                "longitude": -118.14491
+            },
+            "displayPosition": {
+                "latitude": 34.01689,
+                "longitude": -118.14491
+            },
+            "isExternal": true,
+            "sourceSeq": 2
+        },
+        {
+            "listItemId": "cd302a5099fa3684b859887f9150ab91",
+            "address": "18645  ARROW HWY CHARTER OAKS",
+            "formattedAddress": "18645  Arrow Hwy Charter Oaks",
+            "status": "NEW",
+            "updatedAt": 1648195367387,
+            "statusUpdatedAt": 1648192892000,
+            "route": {
+                "listRouteId": "la-route-1"
+            },
+            "routePriority": 10,
+            "type": "DROPOFF",
+            "position": {
+                "latitude": 34.1067477,
+                "longitude": -117.8866309
+            },
+            "displayPosition": {
+                "latitude": 34.1067477,
+                "longitude": -117.8866309
+            },
+            "isExternal": true,
+            "sourceSeq": 3,
+            "transfer": "/from=9ec8c902-cba0-483a-8c13-02ebc28f791d1",
+            "countryIso3": "USA",
+            "transferredIn": true,
+            "stopTimeSeconds": 60,
+            "dimensions": {
+                "dims": [
+                    {
+                        "t": "WEIGHT",
+                        "v": "70"
+                    }
+                ]
+            }
+        },
+        {
+            "listItemId": "8d156298-e779-4176-ad9a-5ea6fca79f1c-7",
+            "address": "9404 Central Ave, Montclair, CA 91763, United States",
+            "formattedAddress": "9404 Central Ave, Montclair, CA",
+            "status": "NEW",
+            "updatedAt": 1648195367387,
+            "statusUpdatedAt": 1648193534000,
+            "route": {
+                "listRouteId": "la-route-1"
+            },
+            "routePriority": 11,
+            "type": "DROPOFF",
+            "position": {
+                "latitude": 34.08418,
+                "longitude": -117.68966
+            },
+            "displayPosition": {
+                "latitude": 34.08303,
+                "longitude": -117.69066
+            },
+            "addressComponents": {
+                "city": "Montclair",
+                "state": "CA",
+                "zipcode": "91763",
+                "street": "9404 Central Ave",
+                "countryIso3": "USA"
+            },
+            "sourceSeq": 4,
+            "countryIso3": "USA"
+        },
+        {
+            "listItemId": "8d156298-e779-4176-ad9a-5ea6fca79f1c-6",
+            "address": "14998 Cal Aero Drive, Chino, CA 91710, United States",
+            "formattedAddress": "14998 Cal Aero Dr, Chino, CA",
+            "status": "NEW",
+            "updatedAt": 1648195367387,
+            "statusUpdatedAt": 1648193535000,
+            "route": {
+                "listRouteId": "la-route-1"
+            },
+            "routePriority": 12,
+            "type": "DROPOFF",
+            "position": {
+                "latitude": 34.0122346,
+                "longitude": -117.688944
+            },
+            "displayPosition": {
+                "latitude": 34.0122346,
+                "longitude": -117.688944
+            },
+            "addressComponents": {
+                "city": "Chino",
+                "state": "CA",
+                "zipcode": "91710",
+                "street": "14998 Cal Aero Dr",
+                "countryIso3": "USA"
+            },
+            "sourceSeq": 5,
+            "countryIso3": "USA"
+        },
+        {
+            "listItemId": "8d156298-e779-4176-ad9a-5ea6fca79f1c-5",
+            "address": "20 City Blvd W, Orange, CA 92868, United States",
+            "formattedAddress": "20 City W Blvd, Orange, CA",
+            "status": "NEW",
+            "updatedAt": 1648195367387,
+            "statusUpdatedAt": 1648193450000,
+            "route": {
+                "listRouteId": "la-route-1"
+            },
+            "routePriority": 13,
+            "type": "DROPOFF",
+            "position": {
+                "latitude": 33.78335,
+                "longitude": -117.89058
+            },
+            "displayPosition": {
+                "latitude": 33.78324,
+                "longitude": -117.89294
+            },
+            "addressComponents": {
+                "city": "Orange",
+                "state": "CA",
+                "zipcode": "92868",
+                "street": "20 City W Blvd",
+                "countryIso3": "USA"
+            },
+            "sourceSeq": 6,
+            "countryIso3": "USA"
+        },
+        {
+            "listItemId": "8d156298-e779-4176-ad9a-5ea6fca79f1c-4",
+            "address": "13071 Springdale St, Westminster, CA 92683, United States",
+            "formattedAddress": "13071 Springdale St, Westminster, CA",
+            "status": "NEW",
+            "updatedAt": 1648195367387,
+            "statusUpdatedAt": 1648193450000,
+            "route": {
+                "listRouteId": "la-route-1"
+            },
+            "routePriority": 14,
+            "type": "DROPOFF",
+            "position": {
+                "latitude": 33.77264,
+                "longitude": -118.02253
+            },
+            "displayPosition": {
+                "latitude": 33.77337,
+                "longitude": -118.02307
+            },
+            "addressComponents": {
+                "city": "Westminster",
+                "state": "CA",
+                "zipcode": "92683",
+                "street": "13071 Springdale St",
+                "countryIso3": "USA"
+            },
+            "sourceSeq": 7,
+            "countryIso3": "USA"
+        },
+        {
+            "listItemId": "8d156298-e779-4176-ad9a-5ea6fca79f1c-2",
+            "address": "11871 E Carson St, Hawaiian Gardens, CA 90716, United States",
+            "formattedAddress": "11871 Carson St, Hawaiian Gardens, CA",
+            "status": "NEW",
+            "updatedAt": 1648195367387,
+            "statusUpdatedAt": 1648193405000,
+            "route": {
+                "listRouteId": "la-route-1"
+            },
+            "routePriority": 15,
+            "type": "DROPOFF",
+            "position": {
+                "latitude": 33.8324,
+                "longitude": -118.07915
+            },
+            "displayPosition": {
+                "latitude": 33.8324,
+                "longitude": -118.0792
+            },
+            "addressComponents": {
+                "city": "Hawaiian Gardens",
+                "state": "CA",
+                "zipcode": "90716",
+                "street": "11871 Carson St",
+                "countryIso3": "USA"
+            },
+            "sourceSeq": 8,
+            "countryIso3": "USA"
+        },
+        {
+            "listItemId": "8d156298-e779-4176-ad9a-5ea6fca79f1c-3",
+            "address": "3881 N Lakewood Blvd Ste A, Long Beach, CA 90808, United States",
+            "formattedAddress": "3881 N Lakewood Blvd, Long Beach, CA",
+            "status": "NEW",
+            "updatedAt": 1648195367387,
+            "statusUpdatedAt": 1648193406000,
+            "route": {
+                "listRouteId": "la-route-1"
+            },
+            "routePriority": 16,
+            "type": "DROPOFF",
+            "position": {
+                "latitude": 33.83004,
+                "longitude": -118.14468
+            },
+            "displayPosition": {
+                "latitude": 33.83004,
+                "longitude": -118.14432
+            },
+            "addressComponents": {
+                "city": "Long Beach",
+                "state": "CA",
+                "zipcode": "90808",
+                "street": "3881 N Lakewood Blvd A",
+                "countryIso3": "USA"
+            },
+            "sourceSeq": 9,
+            "countryIso3": "USA"
+        },
+        {
+            "listItemId": "8d156298-e779-4176-ad9a-5ea6fca79f1c-1",
+            "address": "1335 E 103rd St, Los Angeles, CA 90002, United States",
+            "formattedAddress": "1335 E 103rd St, Los Angeles, CA",
+            "status": "NEW",
+            "updatedAt": 1648195367387,
+            "statusUpdatedAt": 1648193405000,
+            "route": {
+                "listRouteId": "la-route-1"
+            },
+            "routePriority": 17,
+            "type": "DROPOFF",
+            "position": {
+                "latitude": 33.94328,
+                "longitude": -118.25053
+            },
+            "displayPosition": {
+                "latitude": 33.94343,
+                "longitude": -118.25053
+            },
+            "addressComponents": {
+                "city": "Los Angeles",
+                "state": "CA",
+                "zipcode": "90002",
+                "street": "1335 E 103rd St",
+                "countryIso3": "USA"
+            },
+            "sourceSeq": 10,
+            "countryIso3": "USA"
+        }
+    ],
+    "route": [
+        {
+            "listRouteId": "la-route-1",
+            "accountBuid": "4022a1aada0e4c4684e61e3f73290a68",
+            "name": "LA Route 1",
+            "status": "OPEN",
+            "createdAt": 1648192867000,
+            "updatedAt": 1648195368000,
+            "warehouse": {
+                "listWarehouseId": "la-union-station",
+                "accountBuid": "4022a1aada0e4c4684e61e3f73290a68",
+                "address": "800 N Alameda St, Los Angeles, CA 90012, United States",
+                "formattedAddress": "800 N Alameda St, Los Angeles, CA",
+                "createdAt": 1648192761000,
+                "updatedAt": 1648192761000,
+                "position": {
+                    "latitude": 34.05669,
+                    "longitude": -118.23621
+                },
+                "name": "CA - Union Station"
+            },
+            "routePathMd5": "_zip_dbf4d42dc5f96d74215f471db55cee6f",
+            "dateStr": "2031-03-10",
+            "startMode": "WAREHOUSE",
+            "endMode": "WAREHOUSE"
+        }
+    ]
+}
