@@ -13,9 +13,11 @@ For other route optimization conditions like pickup-dropoff pair, time window, a
 - [Optimize Route](#optimize-route)
 
 ## Optimize Route
-Let's say we have a route with 10 stops in LA, and we want to optimize the route for assignee who will start/end work at  warehouse.
 ![stops](assets/images/stops.png)
+Let's say we have a route with 10 stops in LA, and we want to optimize the route for assignee who will start/end work at warehouse.
+
 **Request example**
+
 ```
 POST {{baseURL}}/enterprise/v1/lists/items/do/optimize/?startMode=WAREHOUSE&endMode=WAREHOUSE
 ```
@@ -27,6 +29,7 @@ Here is a list of startMode, endMode which we are supporting for optimization co
 - NONE
 
 **Body**
+
 You can find the full payload here [stops](assets/stops.json) which contains 10 stops in an array, while the partial is below.
 ```json
 {
@@ -66,6 +69,7 @@ You can find the full payload here [stops](assets/stops.json) which contains 10 
 ```
 
 **Response example**
+
 You can find the full response content from here [response](assets/optimize-route-response.json) while the partial is below
 
 
@@ -95,6 +99,7 @@ You can find the full response content from here [response](assets/optimize-rout
             "isExternal": true,
             "sourceSeq": 1
         }
+        ...
     ],
     "route": [
         {
