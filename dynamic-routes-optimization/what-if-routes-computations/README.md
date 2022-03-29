@@ -137,7 +137,8 @@ You can see the full payload here [what-if-request.json](assets/what-if-request.
     ],
     "route_size_limit": 50,
     "request_id": "cdca9d95-6ee7-454a-804a-fb3d38fb93de",
-    "include_multi_day_window_stops":false
+    "include_multi_day_window_stops":false,
+    "include_open_stops_outside_current_date":false
   }
 ```
 
@@ -155,6 +156,11 @@ You can see the full payload here [what-if-request.json](assets/what-if-request.
 - include_multi_day_window_stops (optional)
   - Default to false would remove the stops from request (and not from route) where the gap between deliver_from and deliver_by is more than 24 hours. This is to guard against the situation where a stop may be fulfilled anytime within the next 5 days, for instance.
   - If this is set to true, such stops would be included in the route computation, and the system would currently attempt to honor that stop within the single day
+- include_open_stops_outside_current_date (optional)
+  - Default is false.
+  - If it is true, all the stops that are still "open" would be included in the what-if computations.
+  - If it is false, then, a stop where deliver_from_str and deliver_by_str that does not intersect with the current local date time will NOT be included.
+
 **Response Example**
 
 You can see the full payload here [what-if-response.json](assets/what-if-response.json) while the partial is
@@ -206,7 +212,8 @@ curl -k -H 'Authorization: <token>' https://isp.beans.ai/enterprise/v1/lists/rou
   "route_size_limit": 60,
   "request_id": "35b4284e-1d07-483a-ac4a-c2bd6d9969aa",
   "use_warehouse_as_terminal": false,
-  "include_multi_day_window_stops":false
+  "include_multi_day_window_stops":false,
+  "include_open_stops_outside_current_date":false
 }
 ```
 
@@ -224,6 +231,10 @@ curl -k -H 'Authorization: <token>' https://isp.beans.ai/enterprise/v1/lists/rou
 - include_multi_day_window_stops (optional)
   - Default to false would remove the stops from request (and not from route) where the gap between deliver_from and deliver_by is more than 24 hours. This is to guard against the situation where a stop may be fulfilled anytime within the next 5 days, for instance.
   - If this is set to true, such stops would be included in the route computation, and the system would currently attempt to honor that stop within the single day
+- include_open_stops_outside_current_date (optional)
+  - default is false.
+  - if it is true, all the stops that are still "open" would be included in the what-if computations.
+  - If it is false, then, a stop where deliver_from_str and deliver_by_str that does not intersect with the current local date time will NOT be included.
 
 **Response Example**
 ```json
