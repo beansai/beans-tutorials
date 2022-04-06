@@ -11,7 +11,7 @@ For example, we have 6 stops A,B,X,Y,Z and the order we want is
 ```
 A -> B -> X -> Y -> Z
 ```
-then, we can set source_seq for them
+then, we can set source_seq for each of them
 - A (source_seq = 5)
 - B (source_seq = 10)
 - X (source_seq = 20)
