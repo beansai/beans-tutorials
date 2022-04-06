@@ -43,6 +43,7 @@ and they all need an efficient way to schedule/manage the daily works.
   - Assign an assignee (driver) to a route
 - [Assignees (driver) management](assignees-management)
 - [Stops management](stops-management)
+  - [Stops management with source sequence](source-sequence) - When we want to predetermine the ordering of stops.
 - [Delegated Accounts](delegated-accounts)
 - [Callback Configs](callback-configs)
 - [Route Optimization](route-optimization)
