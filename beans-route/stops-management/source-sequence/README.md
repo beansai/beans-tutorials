@@ -21,8 +21,9 @@ The effect of the system is the following:
 - Stops that has source_seq attribute > 0 would then be put under the relative ordering constraint for the whatif analysis if ignore_source_sequence = false
 
 ## Table of contents
-- [Create Stops with Source Sequence](#create-stops-with-source-sequence)
-- [Update Stop with Source Sequence](#update-stop-with-source-sequence)
+- [Source Sequence](#source-sequence)
+  - [Create Stops with Source Sequence](#create-stops-with-source-sequence)
+  - [Update Stop with Source Sequence](#update-stop-with-source-sequence)
 
 ### Create Stops With Source Sequence
 
