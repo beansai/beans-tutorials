@@ -3,7 +3,9 @@
 <img src="../../../assets/images/beans-128x128.png" align="right" />
 
 # Source Sequence
-When we want to predetermine the stops' order in relative of each other, we can simply set the source_seq for each stop.
+When we want to predetermine the stops' order in relative of each other,
+
+we can simply set the source_seq for each stop.
 
 For example, we have 6 stops A,B,X,Y,Z and the order we want is
 ```
@@ -38,7 +40,7 @@ POST https://isp.beans.ai/enterprise/v1/lists/items
 ```
 
 **Body**
-- source_seq - where we can predetermin the order of the stop
+- source_seq - where we can predetermine the order of the stop
   - To remove it - set it to 0 or remove it from request.
 
 ```json
@@ -324,7 +326,7 @@ POST https://isp.beans.ai/enterprise/v1/lists/items/{{list-item-id}}
 ```
 
 **Body**
-- source_seq - where we can predetermin the order of the stop
+- source_seq - where we can predetermine the order of the stop
   - To remove it - set it to 0 or remove it from request.
 
 ```json
