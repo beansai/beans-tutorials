@@ -71,9 +71,9 @@ POST https://isp.beans.ai/enterprise/v1/lists/routes
     "route":[
         {
             "name": "Via Emilia",
-            "list_route_id": "5793c99b-b284-4601-a992-bd40eb8c501d",
+            "list_route_id": "f5ef7959-1414-4b7f-ba9c-d0f8f351a07c",
             "status": "OPEN",
-            "date_str": "2023-02-21",
+            "date_str": "2031-02-21",
             "warehouse":
             {
                 "list_warehouse_id": "6f4f7bf9-b878-4eda-b01d-17dfcfcdadc3"
@@ -81,9 +81,9 @@ POST https://isp.beans.ai/enterprise/v1/lists/routes
         },
         {
             "name": "Via Cassia",
-            "list_route_id": "405bf4db-a8c2-49ae-b1aa-8d783f0d7235",
+            "list_route_id": "7d4b65f1-985c-40d9-a49a-fd92be45d035",
             "status": "OPEN",
-            "date_str": "2023-02-21",
+            "date_str": "2031-02-21",
             "warehouse":
             {
                 "list_warehouse_id": "6f4f7bf9-b878-4eda-b01d-17dfcfcdadc3"
@@ -98,7 +98,7 @@ POST https://isp.beans.ai/enterprise/v1/lists/routes
 ### Add stops to the routes
 ![stops](assets/images/stops.png)
 
-Let's add 6 stops for route "Via Emilia" and 2 stops for route "Via Cassia"
+Let's add stops to the two routes, one with 6 stops and 2 stops for the other.
 
 And we will predetermine the order of stops with source_seq.
 
@@ -111,82 +111,102 @@ POST https://isp.beans.ai/enterprise/v1/lists/items
 
 ```json
 {
-    "item":
-    [
-        // Route Via Emilia
+    "item": [
         {
-            "list_item_id": "b115c136-2e41-4d98-82fc-280379b8fb00-01",
-            "address": "250 S Rossmore Ave, Los Angeles, CA 90004, United States",
+            "list_item_id": "f5ef7959-1414-4b7f-ba9c-d0f8f351a07c-01",
+            "address": "4989 Sepulveda Blvd, Sherman Oaks, CA 91403, United States",
             "route":
             {
-                "list_route_id": "5793c99b-b284-4601-a992-bd40eb8c501d"
+                "list_route_id": "f5ef7959-1414-4b7f-ba9c-d0f8f351a07c"
             },
+            "tracking_id": "f5ef7959-01",
             "source_seq": 1
         },
         {
-            "list_item_id": "b115c136-2e41-4d98-82fc-280379b8fb00-02",
-            "address": "743 S Lucerne Blvd, Los Angeles, CA 90005, United States",
+            "list_item_id": "f5ef7959-1414-4b7f-ba9c-d0f8f351a07c-02",
+            "address": "6000 Sepulveda Blvd, Culver City, CA 90230, United States",
             "route":
             {
-                "list_route_id": "5793c99b-b284-4601-a992-bd40eb8c501d"
+                "list_route_id": "f5ef7959-1414-4b7f-ba9c-d0f8f351a07c"
             },
+            "tracking_id": "f5ef7959-02",
             "source_seq": 3
         },
         {
-            "list_item_id": "b115c136-2e41-4d98-82fc-280379b8fb00-03",
-            "address": "4120 W Olympic Blvd, Los Angeles, CA 90019, United States",
+            "list_item_id": "f5ef7959-1414-4b7f-ba9c-d0f8f351a07c-03",
+            "address": "1300 S Dodson Ave, San Pedro, CA 90732, United States",
             "route":
             {
-                "list_route_id": "5793c99b-b284-4601-a992-bd40eb8c501d"
+                "list_route_id": "f5ef7959-1414-4b7f-ba9c-d0f8f351a07c"
             },
+            "tracking_id": "f5ef7959-03",
             "source_seq": 5
         },
         {
-            "list_item_id": "b115c136-2e41-4d98-82fc-280379b8fb00-04",
-            "address": "3555 W Temple St, Los Angeles, CA 90004, United States",
+            "list_item_id": "f5ef7959-1414-4b7f-ba9c-d0f8f351a07c-04",
+            "address": "6949 Genesee Ave, San Diego, CA 92122, United States",
             "route":
             {
-                "list_route_id": "5793c99b-b284-4601-a992-bd40eb8c501d"
+                "list_route_id": "f5ef7959-1414-4b7f-ba9c-d0f8f351a07c"
             },
+            "tracking_id": "f5ef7959-04",
             "source_seq": 2
         },
         {
-            "list_item_id": "b115c136-2e41-4d98-82fc-280379b8fb00-05",
-            "address": "610 S Rampart Blvd, Los Angeles, CA 90057, United States",
+            "list_item_id": "f5ef7959-1414-4b7f-ba9c-d0f8f351a07c-05",
+            "address": "3465 Senn St, San Diego, CA 92136, United States",
             "route":
             {
-                "list_route_id": "5793c99b-b284-4601-a992-bd40eb8c501d"
+                "list_route_id": "f5ef7959-1414-4b7f-ba9c-d0f8f351a07c"
             },
+            "tracking_id": "f5ef7959-05",
             "source_seq": 4
         },
         {
-            "list_item_id": "b115c136-2e41-4d98-82fc-280379b8fb00-06",
-            "address": "1800 W Olympic Blvd, Los Angeles, CA 90006, United States",
+            "list_item_id": "f5ef7959-1414-4b7f-ba9c-d0f8f351a07c-06",
+            "address": "4211 Camino De La Plaza, San Diego, CA 92173, United States",
             "route":
             {
-                "list_route_id": "5793c99b-b284-4601-a992-bd40eb8c501d"
+                "list_route_id": "f5ef7959-1414-4b7f-ba9c-d0f8f351a07c"
             },
+            "tracking_id": "f5ef7959-06",
             "source_seq": 6
         },
-
-        // Route Via Cassia
         {
-            "list_item_id": "4b5c15a2-f281-4a6d-ae79-81ab0a208587-01",
-            "address": "7353 Melrose Ave, Los Angeles, CA 90046, United States",
-            "route":
-            {
-                "list_route_id": "405bf4db-a8c2-49ae-b1aa-8d783f0d7235"
+            "list_item_id": "7d4b65f1-985c-40d9-a49a-fd92be45d035-01",
+            "address": "1750 Vine St, Los Angeles, CA 90028, United States",
+            "route": {
+                "list_route_id": "7d4b65f1-985c-40d9-a49a-fd92be45d035"
             },
-            "source_seq": 1
+            "tracking_id": "7d4b65f1-01",
+            "source_seq":1
         },
         {
-            "list_item_id": "4b5c15a2-f281-4a6d-ae79-81ab0a208587-02",
-            "address": "2200 Sunset Blvd, Los Angeles, CA 90026, United States",
-            "route":
-            {
-                "list_route_id": "405bf4db-a8c2-49ae-b1aa-8d783f0d7235"
+            "list_item_id": "7d4b65f1-985c-40d9-a49a-fd92be45d035-02",
+            "address": "3508 W Washington Blvd, Los Angeles, CA 90018, United States",
+            "route": {
+                "list_route_id": "7d4b65f1-985c-40d9-a49a-fd92be45d035"
             },
-            "source_seq": 2
+            "tracking_id": "7d4b65f1-02",
+            "source_seq":2
+        },
+        {
+            "list_item_id": "7d4b65f1-985c-40d9-a49a-fd92be45d035-03",
+            "address": "5500 Campanile Dr, San Diego, CA 92182, United States",
+            "route": {
+                "list_route_id": "7d4b65f1-985c-40d9-a49a-fd92be45d035"
+            },
+            "tracking_id": "7d4b65f1-03",
+            "source_seq":3
+        },
+        {
+            "list_item_id": "7d4b65f1-985c-40d9-a49a-fd92be45d035-04",
+            "address": "851 Showroom Pl #100, Chula Vista, CA 91914, United States",
+            "route": {
+                "list_route_id": "7d4b65f1-985c-40d9-a49a-fd92be45d035"
+            },
+            "tracking_id": "7d4b65f1-04",
+            "source_seq":4
         }
     ]
 }
@@ -208,27 +228,35 @@ POST https://isp.beans.ai/enterprise/v1/lists/route_whatif
 {
     "item": [
         {
-            "list_item_id": "4b5c15a2-f281-4a6d-ae79-81ab0a208587-01",
-            "address": "7353 Melrose Ave, Los Angeles, CA 90046, United States",
-            "route": {
-                "list_route_id": "405bf4db-a8c2-49ae-b1aa-8d783f0d7235"
-            },
-            "source_seq":1
+            "list_item_id": "7d4b65f1-985c-40d9-a49a-fd92be45d035-01",
+            "address": "1750 Vine St, Los Angeles, CA 90028, United States",
+            "tracking_id": "7d4b65f1-01",
+            "source_seq": 10
         },
         {
-            "list_item_id": "4b5c15a2-f281-4a6d-ae79-81ab0a208587-02",
-            "address": "2200 Sunset Blvd, Los Angeles, CA 90026, United States",
-            "route": {
-                "list_route_id": "405bf4db-a8c2-49ae-b1aa-8d783f0d7235"
-            },
-            "source_seq":2
+            "list_item_id": "7d4b65f1-985c-40d9-a49a-fd92be45d035-02",
+            "address": "3508 W Washington Blvd, Los Angeles, CA 90018, United States",
+            "tracking_id": "7d4b65f1-02",
+            "source_seq": 20
+        },
+        {
+            "list_item_id": "7d4b65f1-985c-40d9-a49a-fd92be45d035-03",
+            "address": "5500 Campanile Dr, San Diego, CA 92182, United States",
+            "tracking_id": "7d4b65f1-03",
+            "source_seq": 30
+        },
+        {
+            "list_item_id": "7d4b65f1-985c-40d9-a49a-fd92be45d035-04",
+            "address": "851 Showroom Pl #100, Chula Vista, CA 91914, United States",
+            "tracking_id": "7d4b65f1-04",
+            "source_seq": 40
         }
     ],
     "listRouteIds": [
-        "5793c99b-b284-4601-a992-bd40eb8c501d"
+        "f5ef7959-1414-4b7f-ba9c-d0f8f351a07c"
     ],
     "route_size_limit": 50,
-    "ignore_source_sequence": true
+    "ignore_source_sequence": false
 }
 ```
 - item (required)
@@ -249,7 +277,7 @@ POST https://isp.beans.ai/enterprise/v1/lists/route_whatif
   - default is false.
   - if it is true, all the stops that are still "open" would be included in the what-if computations.
   - If it is false, then, a stop where deliver_from_str and deliver_by_str that does not intersect with the current local date time will NOT be included.
-- `ignore_source_sequence`
+- `ignore_source_sequence` (optional)
   - default is false.
   - if it is false, it means source_seq attribute would be observed.
 
@@ -259,27 +287,35 @@ POST https://isp.beans.ai/enterprise/v1/lists/route_whatif
 {
     "item": [
         {
-            "listItemId": "4b5c15a2-f281-4a6d-ae79-81ab0a208587-01",
-            "address": "7353 Melrose Ave, Los Angeles, CA 90046, United States",
-            "route": {
-                "listRouteId": "405bf4db-a8c2-49ae-b1aa-8d783f0d7235"
-            },
-            "sourceSeq": 1
+            "listItemId": "7d4b65f1-985c-40d9-a49a-fd92be45d035-01",
+            "address": "1750 Vine St, Los Angeles, CA 90028, United States",
+            "trackingId": "7d4b65f1-01",
+            "sourceSeq": 10
         },
         {
-            "listItemId": "4b5c15a2-f281-4a6d-ae79-81ab0a208587-02",
-            "address": "2200 Sunset Blvd, Los Angeles, CA 90026, United States",
-            "route": {
-                "listRouteId": "405bf4db-a8c2-49ae-b1aa-8d783f0d7235"
-            },
-            "sourceSeq": 2
+            "listItemId": "7d4b65f1-985c-40d9-a49a-fd92be45d035-02",
+            "address": "3508 W Washington Blvd, Los Angeles, CA 90018, United States",
+            "trackingId": "7d4b65f1-02",
+            "sourceSeq": 20
+        },
+        {
+            "listItemId": "7d4b65f1-985c-40d9-a49a-fd92be45d035-03",
+            "address": "5500 Campanile Dr, San Diego, CA 92182, United States",
+            "trackingId": "7d4b65f1-03",
+            "sourceSeq": 30
+        },
+        {
+            "listItemId": "7d4b65f1-985c-40d9-a49a-fd92be45d035-04",
+            "address": "851 Showroom Pl #100, Chula Vista, CA 91914, United States",
+            "trackingId": "7d4b65f1-04",
+            "sourceSeq": 40
         }
     ],
     "listRouteIds": [
-        "5793c99b-b284-4601-a992-bd40eb8c501d"
+        "f5ef7959-1414-4b7f-ba9c-d0f8f351a07c"
     ],
     "routeSizeLimit": 50,
-    "requestId": "d0dedf00714a4d76ae143d7c9a3e346a",
+    "requestId": "3b2dbab208474f1bb301f9f414e0d061",
     "logs": [
         "Starting to compute what-ifs for 1 routes",
         "There are 1 routes where 0 are not suitable and 1 are possibilities"
@@ -288,9 +324,9 @@ POST https://isp.beans.ai/enterprise/v1/lists/route_whatif
     "result": {
         "routes": [
             {
-                "listRouteId": "5793c99b-b284-4601-a992-bd40eb8c501d",
-                "deltaDistanceM": 10479.0,
-                "deltaTimeS": 1544.0
+                "listRouteId": "f5ef7959-1414-4b7f-ba9c-d0f8f351a07c",
+                "deltaDistanceM": 42911.899999999965,
+                "deltaTimeS": 3170.7000000000007
             }
         ]
     },
