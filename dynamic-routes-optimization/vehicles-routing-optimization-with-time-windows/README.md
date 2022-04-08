@@ -89,7 +89,10 @@ curl -k -H 'Authorization: <token>' https://isp.beans.ai/enterprise/v1/lists/ite
 
 - You will find file [assets/stops.json](assets/stops.json) containing 9 stops in couples of cities in Califonia
 
-- An important thing to note is that each stop contains the route reference to the route that was created above with route id `ea2928e6-2548-412b-8b19-7f1043324ec3`
+**Notes**
+- deliver_from_str - in "yyyy-MM-dd H24:MM" format with localtime and it is interpreted to the local time as configured on the account or the route.
+- deliver_to_str - in "yyyy-MM-dd H24:MM" format with localtime and it is interpreted to the local time as configured on the account or the route.
+- Each stop contains the route reference to the route that was created above with route id `ea2928e6-2548-412b-8b19-7f1043324ec3`
 
 Here's a visualization of the stops with a warehouse ( the big black dot in the middle ) we just created.
 

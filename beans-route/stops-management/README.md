@@ -26,6 +26,11 @@ POST https://isp.beans.ai/enterprise/v1/lists/items
 ```
 
 **Body**
+- list_item_id - ID of listItem, it is unique within the account.
+- address - The address of the item.
+- type - Either of DROPOFF of PICKUP
+- deliver_from_str - in "yyyy-MM-dd H24:MM" format with localtime and it is interpreted to the local time as configured on the account or the route.
+- deliver_to_str - in "yyyy-MM-dd H24:MM" format with localtime and it is interpreted to the local time as configured on the account or the route.
 
 ```json
 {
@@ -127,6 +132,11 @@ POST https://isp.beans.ai/enterprise/v1/lists/items/{{list-item-id}}
 ```
 
 **Body**
+- list_item_id - ID of listItem, it is unique within the account.
+- address - The address of the item.
+- type - Either of DROPOFF of PICKUP
+- deliver_from_str - in "yyyy-MM-dd H24:MM" format with localtime.
+- deliver_to_str - in "yyyy-MM-dd H24:MM" format with localtime.
 
 ```json
 {
