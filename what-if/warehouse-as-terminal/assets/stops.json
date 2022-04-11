@@ -1,0 +1,116 @@
+{
+    "item": [
+        {
+            "listItemId": "adc61bbe-5d49-4d39-b298-74612296d9a9",
+            "address": "31505  CASTAIC RD,CASTAIC",
+            "formattedAddress": "31505 Castaic Rd, Castaic, CA",
+            "status": "NEW",
+            "updatedAt": 1649720141000,
+            "statusUpdatedAt": 1649720141000,
+            "route": {
+                "listRouteId": "fa3ca41f-80fa-4b68-8315-967f0a24485f"
+            },
+            "type": "DROPOFF",
+            "position": {
+                "latitude": 34.4906611,
+                "longitude": -118.6185251
+            },
+            "displayPosition": {
+                "latitude": 34.4906611,
+                "longitude": -118.6185251
+            },
+            "addressComponents": {
+                "city": "Castaic",
+                "state": "CA",
+                "zipcode": "91384-3922",
+                "street": "31505 Castaic Rd",
+                "countryIso3": "USA"
+            },
+            "countryIso3": "USA"
+        },
+        {
+            "listItemId": "4e679ca6-29ae-498f-a85b-ece4a8c08851",
+            "address": "25201  THE OLD RD,STEVENSON RANCH",
+            "formattedAddress": "25201 The Old Rd, Stevenson Ranch, CA",
+            "status": "NEW",
+            "updatedAt": 1649720142000,
+            "statusUpdatedAt": 1649720142000,
+            "route": {
+                "listRouteId": "fa3ca41f-80fa-4b68-8315-967f0a24485f"
+            },
+            "type": "DROPOFF",
+            "position": {
+                "latitude": 34.37567,
+                "longitude": -118.565
+            },
+            "displayPosition": {
+                "latitude": 34.37566,
+                "longitude": -118.56503
+            },
+            "addressComponents": {
+                "city": "Stevenson Ranch",
+                "state": "CA",
+                "zipcode": "91381",
+                "street": "25201 The Old Rd",
+                "countryIso3": "USA"
+            },
+            "countryIso3": "USA"
+        },
+        {
+            "listItemId": "bcc72e86-50ce-4868-87dc-ca40bc42d415",
+            "address": "27911  SECO CYN RD#1A-1C,SANTA CLARITA",
+            "formattedAddress": "27911 Seco Canyon Rd, Santa Clarita, CA",
+            "status": "NEW",
+            "updatedAt": 1649720141000,
+            "statusUpdatedAt": 1649720141000,
+            "route": {
+                "listRouteId": "fa3ca41f-80fa-4b68-8315-967f0a24485f"
+            },
+            "type": "DROPOFF",
+            "position": {
+                "latitude": 34.45775,
+                "longitude": -118.53453
+            },
+            "displayPosition": {
+                "latitude": 34.45858,
+                "longitude": -118.53483
+            },
+            "addressComponents": {
+                "city": "Santa Clarita",
+                "state": "CA",
+                "zipcode": "91350-3872",
+                "street": "27911 Seco Canyon Rd",
+                "countryIso3": "USA"
+            },
+            "countryIso3": "USA"
+        },
+        {
+            "listItemId": "d01dcdf7-4f4e-4c27-a07c-8d140ad88226",
+            "address": "19301  SOLEDAD CANYON,CANYON COUNTRY",
+            "formattedAddress": "19301 Soledad Canyon Rd, Canyon Country, CA",
+            "status": "NEW",
+            "updatedAt": 1649720140000,
+            "statusUpdatedAt": 1649720141000,
+            "route": {
+                "listRouteId": "fa3ca41f-80fa-4b68-8315-967f0a24485f"
+            },
+            "type": "DROPOFF",
+            "position": {
+                "latitude": 34.41598,
+                "longitude": -118.47247
+            },
+            "displayPosition": {
+                "latitude": 34.41608,
+                "longitude": -118.47257
+            },
+            "addressComponents": {
+                "city": "Canyon Country",
+                "state": "CA",
+                "zipcode": "91351-2630",
+                "street": "19301 Soledad Canyon Rd",
+                "countryIso3": "USA"
+            },
+            "countryIso3": "USA"
+        }
+    ]
+}
