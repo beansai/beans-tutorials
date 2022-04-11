@@ -1,0 +1,74 @@
+{
+    "item": [
+        {
+            "list_item_id": "7f3e5c32-7c5b-482b-9490-f6f04c306cb7-01",
+            "address": "3710 S La Brea Ave Ste A, Los Angeles, CA 90016, United States",
+            "route": {
+                "list_route_id": "7f3e5c32-7c5b-482b-9490-f6f04c306cb7"
+            }
+        },
+        {
+            "list_item_id": "7f3e5c32-7c5b-482b-9490-f6f04c306cb7-02",
+            "address": "4233 S Crenshaw Blvd, Los Angeles, CA 90008, United States",
+            "route": {
+                "list_route_id": "7f3e5c32-7c5b-482b-9490-f6f04c306cb7"
+            }
+        },
+        {
+            "list_item_id": "da41cfbb-812c-48f5-b678-f59f2e9255cf-01",
+            "address": "3775 S Vermont Ave, Los Angeles, CA 90007, United States",
+            "route": {
+                "list_route_id": "da41cfbb-812c-48f5-b678-f59f2e9255cf"
+            }
+        },
+        {
+            "list_item_id": "da41cfbb-812c-48f5-b678-f59f2e9255cf-02",
+            "address": "4373 Vermont Ave, Los Angeles, CA 90037, United States",
+            "route": {
+                "list_route_id": "da41cfbb-812c-48f5-b678-f59f2e9255cf"
+            }
+        },
+        {
+            "list_item_id": "da41cfbb-812c-48f5-b678-f59f2e9255cf-03",
+            "address": "5930 S Main St #102, Los Angeles, CA 90003, United States",
+            "route": {
+                "list_route_id": "da41cfbb-812c-48f5-b678-f59f2e9255cf"
+            }
+        },
+        {
+            "list_item_id": "da41cfbb-812c-48f5-b678-f59f2e9255cf-04",
+            "address": "9600 S Avalon Blvd, Los Angeles, CA 90003, United States",
+            "route": {
+                "list_route_id": "da41cfbb-812c-48f5-b678-f59f2e9255cf"
+            }
+        },
+        {
+            "list_item_id": "da41cfbb-812c-48f5-b678-f59f2e9255cf-05",
+            "address": "1867 E 97th St, Los Angeles, CA 90002, United States",
+            "route": {
+                "list_route_id": "da41cfbb-812c-48f5-b678-f59f2e9255cf"
+            }
+        },
+        {
+            "list_item_id": "da41cfbb-812c-48f5-b678-f59f2e9255cf-06",
+            "address": "7148 Pacific Blvd, Huntington Park, CA 90255, United States",
+            "route": {
+                "list_route_id": "da41cfbb-812c-48f5-b678-f59f2e9255cf"
+            }
+        },
+        {
+            "list_item_id": "da41cfbb-812c-48f5-b678-f59f2e9255cf-07",
+            "address": "4501 S Alameda St, Los Angeles, CA 90058, United States",
+            "route": {
+                "list_route_id": "da41cfbb-812c-48f5-b678-f59f2e9255cf"
+            }
+        },
+        {
+            "list_item_id": "da41cfbb-812c-48f5-b678-f59f2e9255cf-08",
+            "address": "620 E 111th Pl, Los Angeles, CA 90059, United States",
+            "route": {
+                "list_route_id": "da41cfbb-812c-48f5-b678-f59f2e9255cf"
+            }
+        }
+    ]
+}

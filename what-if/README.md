@@ -32,4 +32,5 @@ Authorization: Basic OE9Bd2hiSzA6Qzc3NTJFMjQwNTkxNDk0NUU3RDA4
 - [General Tutorial](https://github.com/beansai/beans-tutorials/tree/main/dynamic-routes-optimization/what-if-routes-computations)
   - Run What-if
   - Run What-if async
-- [Predetermined Ordering of Stops](source-sequence) - When we want to see how ordering of the Stops affects the result.
+- [Source Sequence](source-sequence) - When we want to see how Stops' ordering will impact the result.
+- [Route Size Limit](route-size-limit) - When a route has a upper limit of stops size.
