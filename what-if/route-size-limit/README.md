@@ -88,9 +88,10 @@ POST {{baseURL}}/enterprise/v1/lists/items
 ```
 
 **body**
-You can see the payload detail here [assets/stops.json](assets/stops.json) while the partial is here.
+You can see the payload detail here [assets/stops.json](assets/stops.json) while the partial below.
 - 2 stops for route Via Emilia (7f3e5c32-7c5b-482b-9490-f6f04c306cb7).
 - 8 stops for route Via Cassia (da41cfbb-812c-48f5-b678-f59f2e9255cf).
+- Each stop contains the route reference to the route that was created above with route id.
 ```json
 {
     "item": [
@@ -122,20 +123,20 @@ You can see the payload detail here [assets/stops.json](assets/stops.json) while
 }
 ```
 
-- An important thing to note is that each stop contains the route reference to the route that was created above with route id.
-
-Here's a visualization of the result, as we can see there are red stops and a black warehouse on the map.
+Here's a visualization of result.
 
 ![stops](assets/images/stops.png)
 
 ### Run What If
-Now, we want to know what-if we put another 4 stops, also we don't want each route exceed 5 stops.
+Now, we want to see what-if on routes which won't exceed 5 stops.
 
 **Request Example**
 
 ```
 POST {{baseURL}}/enterprise/v1/lists/route_whatif
 ```
+
+- We will use `route_size_limit` (optional,integer) as a constraint in the request.
 
 ```json
 {
@@ -162,10 +163,9 @@ POST {{baseURL}}/enterprise/v1/lists/route_whatif
         "7f3e5c32-7c5b-482b-9490-f6f04c306cb7",
         "da41cfbb-812c-48f5-b678-f59f2e9255cf"
     ],
-    "route_size_limit":5
+    "route_size_limit": 5
 }
 ```
-
 
 **Response Example**
 From the response we can see, only one route has result.
