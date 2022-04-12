@@ -2,10 +2,11 @@
 
 <img src="../assets/images/beans-128x128.png" align="right" />
 
-# What-if with Route Size Limit
+# What-if with warehouse as terminal
 ![floating-stops](assets/images/floating-stops.png)
 
 Sometimes we want to observe what-if we use warehouse as a route's terminal.
+
 And for this, we introduce attribute `use_warehouse_as_terminal`.
 
 ## Table of contents
