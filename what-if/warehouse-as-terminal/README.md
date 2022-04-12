@@ -3,7 +3,10 @@
 <img src="../assets/images/beans-128x128.png" align="right" />
 
 # What-if with Route Size Limit
+![floating-stops](assets/images/floating-stops.png)
 
+Sometimes we want to observe what-if we use warehouse as a route's terminal.
+And for this, we introduce attribute `use_warehouse_as_terminal`.
 
 ## Table of contents
 - [Create the data](#create-the-data)
@@ -200,6 +203,7 @@ Let's see what-if we use warehouse as terminal.
 ```
 
 **When use_warehouse_as_terminal = flse**
+
 Let's see what-if we don't use warehouse as terminal and see the result.
 
 **Response**
