@@ -35,4 +35,4 @@ Authorization: Basic OE9Bd2hiSzA6Qzc3NTJFMjQwNTkxNDk0NUU3RDA4
 - [Source Sequence](source-sequence) - When we want to see how Stops' ordering will impact the result.
 - [Route Size Limit](route-size-limit) - When a route has a upper limit of stops size.
 - [Warehouse as terminal](warehouse-as-terminal) - When we want to observe the difference between use warehouse as terminal or not.
-- [Stops outside current date](stops-outside-current-date) - When stops deliver from/by may not within 24 hours.
+- [Stops outside current date](stops-outside-current-date) - When we want to deceide whether or not to use stops which has no intersect with current date.
