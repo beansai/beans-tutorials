@@ -72,7 +72,7 @@ POST {{baseURL}}/enterprise/v1/lists/routes
         },
         {
             "name": "Route April",
-            "list_route_id": "april-fc34ffdb-caa1-4cdb-ae15-14d3a1ac1808",
+            "list_route_id": "April-fc34ffdb-caa1-4cdb-ae15-14d3a1ac1808",
             "status": "OPEN",
             "date_str": "2031-06-13",
             "warehouse":
@@ -134,31 +134,31 @@ POST {{baseURL}}/enterprise/v1/lists/items
             "deliver_by_str": "2022-06-13 11:00"
         },
         {
-            "listItemId": "april-fc34ffdb-caa1-4cdb-ae15-14d3a1ac1808-01",
+            "listItemId": "April-fc34ffdb-caa1-4cdb-ae15-14d3a1ac1808-01",
             "address": "112 N GAGE AVE.,LOS ANGELES",
             "route":
             {
-                "listRouteId": "april-fc34ffdb-caa1-4cdb-ae15-14d3a1ac1808"
+                "listRouteId": "April-fc34ffdb-caa1-4cdb-ae15-14d3a1ac1808"
             },
             "deliver_from_str": "2022-04-12 08:00",
             "deliver_by_str": "2022-04-12 09:00"
         },
         {
-            "listItemId": "april-fc34ffdb-caa1-4cdb-ae15-14d3a1ac1808-02",
+            "listItemId": "April-fc34ffdb-caa1-4cdb-ae15-14d3a1ac1808-02",
             "address": "17422  COLIMA RD,ROWLAND HEIGHTS",
             "route":
             {
-                "listRouteId": "april-fc34ffdb-caa1-4cdb-ae15-14d3a1ac1808"
+                "listRouteId": "April-fc34ffdb-caa1-4cdb-ae15-14d3a1ac1808"
             },
             "deliver_from_str": "2022-04-12 09:30",
             "deliver_by_str": "2022-04-12 10:30"
         },
         {
-            "listItemId": "april-fc34ffdb-caa1-4cdb-ae15-14d3a1ac1808-03",
+            "listItemId": "April-fc34ffdb-caa1-4cdb-ae15-14d3a1ac1808-03",
             "address": "8115  PEARBLOSSOM HWY,LITTLEROCK",
             "route":
             {
-                "listRouteId": "april-fc34ffdb-caa1-4cdb-ae15-14d3a1ac1808"
+                "listRouteId": "April-fc34ffdb-caa1-4cdb-ae15-14d3a1ac1808"
             },
             "deliver_from_str": "2022-04-12 11:00",
             "deliver_by_str": "2022-04-12 11:30"
@@ -215,7 +215,7 @@ From the result, we can see only stops within today has been included with calcu
     "result": {
         "routes": [
             {
-                "listRouteId": "april-fc34ffdb-caa1-4cdb-ae15-14d3a1ac1808",
+                "listRouteId": "April-fc34ffdb-caa1-4cdb-ae15-14d3a1ac1808",
                 "deltaDistanceM": 12717.899999999994,
                 "deltaTimeS": 623.2000000000007
             }
@@ -265,7 +265,7 @@ This time, we can see both stops in different date's route has been included in 
                 "deltaTimeS": 397.40000000000055
             },
             {
-                "listRouteId": "april-fc34ffdb-caa1-4cdb-ae15-14d3a1ac1808",
+                "listRouteId": "April-fc34ffdb-caa1-4cdb-ae15-14d3a1ac1808",
                 "deltaDistanceM": 12717.899999999994,
                 "deltaTimeS": 623.2000000000007
             }
