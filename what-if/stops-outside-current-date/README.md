@@ -4,13 +4,13 @@
 
 # What-if with stops outside current date
 
-We can use `include_open_stops_outside_current_date` to deceide whether or not to use the stops from the requests which may not has intersect with current local date.
+We can use `include_open_stops_outside_current_date` to deceide whether or not to use the stops from the requests which has no intersect with current local date.
 
 For example, if local date time of the request is 2022-03-29 and the stop has
 - 2022-03-28 10:30:00 (deliver_from_str)
 - 2022-03-28 13:30:00 (deliver_by_str)
 
-then, this stop will NOT be included.
+then, this stop will NOT be included when `include_open_stops_outside_current_date` is `false`.
 
 ## Table of contents
 - [Run What If](#run-what-if)
