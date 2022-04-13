@@ -19,7 +19,8 @@ then, this stop will NOT be included.
 
 ### Run What If
 
-**Request Example - Include Stop**
+**Request Example**
+Let's see what-if we have a stop which is far away from now.
 
 ```
 POST {{baseURL}}/enterprise/v1/lists/route_whatif
@@ -47,7 +48,7 @@ POST {{baseURL}}/enterprise/v1/lists/route_whatif
   - If it is true, all the stops that are still "open" would be included in the what-if computations.
   - If it is false, then, a stop where deliver_from_str and deliver_by_str that does not intersect with the current local date time will NOT be included.
 
-**Response Example - Include Stop**
+**Response Example**
 
 ```json
 {
@@ -56,13 +57,13 @@ POST {{baseURL}}/enterprise/v1/lists/route_whatif
             "listItemId": "7d4b65f1-985c-40d9-a49a-fd92be45d035-013",
             "address": "1750 Vine St, Los Angeles, CA 90028, United States",
             "deliverFromStr": "2030-01-16 15:00",
-            "deliverByStr": "2030-01-17 20:00"
+            "deliverByStr": "2030-01-16 20:00"
         }
     ],
     "listRouteIds": [
         "40694ba8-3404-402f-a9da-d90bc22da01b"
     ],
-    "requestId": "e7c13d9efcc744f58ca8cb7272bcfd37",
+    "requestId": "fee358f52c074436a6ff7724aa8c988f",
     "includeOpenStopsOutsideCurrentDate": true,
     "logs": [
         "Starting to compute what-ifs for 1 routes",
@@ -72,67 +73,15 @@ POST {{baseURL}}/enterprise/v1/lists/route_whatif
     "result": {
         "routes": [
             {
-                "listRouteId": "40694ba8-3404-402f-a9da-d90bc22da01b"
+                "listRouteId": "40694ba8-3404-402f-a9da-d90bc22da01b",
+                "deltaDistanceM": 34496.100000000006,
+                "deltaTimeS": 1829.0
             }
         ]
     },
     "message": "Completed"
 }
 ```
-
-**Request Example - Exclude Stop**
-
-And, when we give include_open_stops_outside_current_date to false
-```json
-{
-    "item": [
-        {
-            "list_item_id": "7d4b65f1-985c-40d9-a49a-fd92be45d035-013",
-            "address": "1750 Vine St, Los Angeles, CA 90028, United States",
-            "deliver_from_str": "2030-01-16 15:00",
-            "deliver_by_str": "2030-01-17 20:00"
-        }
-    ],
-    "listRouteIds": [
-        "40694ba8-3404-402f-a9da-d90bc22da01b"
-    ],
-    "include_open_stops_outside_current_date":false
-}
-```
-
-**Response Example - Exclude Stop**
-
-As we can see, the only item is exclusive to the what-if calculation, so thre's no `result` for this.
-```json
-{
-    "item": [
-        {
-            "listItemId": "7d4b65f1-985c-40d9-a49a-fd92be45d035-013",
-            "address": "1750 Vine St, Los Angeles, CA 90028, United States",
-            "deliverFromStr": "2030-01-16 15:00",
-            "deliverByStr": "2030-01-17 20:00"
-        }
-    ],
-    "listRouteIds": [
-        "40694ba8-3404-402f-a9da-d90bc22da01b"
-    ],
-    "requestId": "ab8be08de4c34bfb9441beee0336f1ea",
-    "logs": [
-        "Starting to compute what-ifs for 1 routes",
-        "There are 1 routes where 0 are not suitable and 1 are possibilities"
-    ],
-    "status": "completed",
-    "result": {
-        "routes": [
-            {
-                "listRouteId": "40694ba8-3404-402f-a9da-d90bc22da01b"
-            }
-        ]
-    },
-    "message": "Completed"
-}
-```
-
 
 ## Some Important Notes
 - if a route does not have "deltaDistanceM" and "deltaTimeS", then, it is 0 (default value). This often happens when the stops to be added already exist on that route
