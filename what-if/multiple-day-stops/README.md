@@ -7,8 +7,8 @@
 We can use `include_multi_day_window_stops` to deceide whether or not to use the stops from the requests which deliver from/by is not within 24 hours
 
 For example, if we have a stop
-- 2022-04-12 10:30:00 (deliver_from_str)
-- 2022-04-13 13:30:00 (deliver_by_str)
+- 2022-04-12 10:30 (deliver_from_str)
+- 2022-04-13 13:30 (deliver_by_str)
 
 then, this stop will NOT be included when `include_multi_day_window_stops` is `false`.
 
@@ -17,9 +17,9 @@ then, this stop will NOT be included when `include_multi_day_window_stops` is `f
 - [Some Important Notes](#some-important-notes)
 
 ### Run What If
-**Request Example - Included Stop**
+**Request Example - Include Stop**
 
-Let's see what-if we have a stop which is far away from now.
+Let's see how to include a stop which has a gap more than 24 hours with deliver from/by.
 
 ```
 POST {{baseURL}}/enterprise/v1/lists/route_whatif
@@ -47,7 +47,7 @@ POST {{baseURL}}/enterprise/v1/lists/route_whatif
   - If false, it would remove the stops from request (and not from route) where the gap between deliver_from and deliver_by is more than 24 hours.
   - If true, stops from the request would be included in the route computation, and the system would currently attempt to honor that stop within the single day.
 
-**Response Example - Included Stop**
+**Response Example - Include Stop**
 
 ```json
 {
@@ -82,7 +82,8 @@ POST {{baseURL}}/enterprise/v1/lists/route_whatif
 }
 ```
 
-**Request Example - Excluded Stop**
+**Request Example - Exclude Stop**
+And here's how not to include it from the request.
 
 ```json
 {
@@ -101,7 +102,7 @@ POST {{baseURL}}/enterprise/v1/lists/route_whatif
 }
 ```
 
-**Response Example - Excludes Stop**
+**Response Example - Exclude Stop**
 
 Since all stops from the request have been removed according to the constraint of `include_multi_day_window_stops`, there's no `deltaDistanceM` and `deltaTimeS` for the retuls.
 
