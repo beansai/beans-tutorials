@@ -1,0 +1,67 @@
+{
+    "item": [
+        {
+            "list_item_id": "5424-6a1633a539ac12ace7513403e",
+            "address": "4350 Sellers Ave, Brentwood, CA 94513",
+            "route": {
+                "list_route_id": "542489ae-8413-43fb-8206-2da499b49020"
+            }
+        },
+        {
+            "list_item_id": "5424-8eca53fefb635f19958ab0cbf",
+            "address": "3201 Main St, Oakley, CA 94561",
+            "route": {
+                "list_route_id": "542489ae-8413-43fb-8206-2da499b49020"
+            }
+        },
+        {
+            "list_item_id": "5424-a801b3605afbd726df743cc66",
+            "address": "3365 Deer Valley Rd, Antioch, CA 94531",
+            "route": {
+                "list_route_id": "542489ae-8413-43fb-8206-2da499b49020"
+            }
+        },
+        {
+            "list_item_id": "5424-fae5d3b6b9c9f2f1a14c43b0a",
+            "address": "7901 Deer Valley Rd, Antioch, CA 94531",
+            "route": {
+                "list_route_id": "542489ae-8413-43fb-8206-2da499b49020"
+            }
+        },
+        {
+            "list_item_id": "5424-8bda03a6fb767178ba25105c5",
+            "address": "1700 Trilogy Pkwy, Brentwood, CA 94513",
+            "route": {
+                "list_route_id": "542489ae-8413-43fb-8206-2da499b49020"
+            }
+        },
+        {
+            "list_item_id": "5424-2fd6f3f3ab12cebdddb97ca0f",
+            "address": "6700 Balfour Rd, Brentwood, CA 94513",
+            "route": {
+                "list_route_id": "542489ae-8413-43fb-8206-2da499b49020"
+            }
+        },
+        {
+            "list_item_id": "5424-b4d913523baaee8f2ba5e1a25",
+            "address": "3110 Balfour Rd, Brentwood, CA 94513",
+            "route": {
+                "list_route_id": "542489ae-8413-43fb-8206-2da499b49020"
+            }
+        },
+        {
+            "list_item_id": "5424-faf623593a6ddc608a0f1a9c4",
+            "address": "4701 Lone Tree Way, Antioch, CA 94531",
+            "route": {
+                "list_route_id": "542489ae-8413-43fb-8206-2da499b49020"
+            }
+        },
+        {
+            "list_item_id": "5424-a6f4c36d69394ba11f52b63a7",
+            "address": "6400 Bridgehead Rd, Antioch, CA 94509",
+            "route": {
+                "list_route_id": "542489ae-8413-43fb-8206-2da499b49020"
+            }
+        }
+    ]
+}
