@@ -95,7 +95,7 @@ curl -k -H 'Authorization: <token>' -X POST 'https://isp.beans.ai/enterprise/v1/
 curl -k -H 'Authorization: <token>' https://isp.beans.ai/enterprise/v1/lists/items -XPOST --data '@assets/stops.json'
 ```
 
-- The file[assets/stops.json](assets/stops.json) contains 6 stops in a few cities in California
+- The file [assets/stops.json](assets/stops.json) contains 6 stops in a few cities in California
 
 - An important thing to note is that each stop contains the route reference to the route that was created above with route id `e6d3785d-ffb0-40f6-b1c4-00793bb276f1`
 

@@ -7,7 +7,7 @@
 
 Sometimes we want to observe what-if we use warehouse as a route's terminal.
 
-And for this, we introduce attribute `use_warehouse_as_terminal`.
+And for this, let's see `use_warehouse_as_terminal`.
 
 ## Table of contents
 - [Create the data](#create-the-data)

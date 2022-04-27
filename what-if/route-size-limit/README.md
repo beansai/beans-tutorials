@@ -3,6 +3,7 @@
 <img src="../assets/images/beans-128x128.png" align="right" />
 
 # What-if with Route Size Limit
+When we want to see what-if we give an upper limit of stops to each route, `route_size_limit` would be helpful with what-if request.
 
 
 ## Table of contents

@@ -3,7 +3,7 @@
 <img src="../../assets/images/beans-128x128.png" align="right" />
 
 # What-if with Source Sequence
-Sometimes we want to keep the ordering of the stops visiting for observing.
+Sometimes we want to keep the ordering of the stops visiting for observation.
 
 In this case, we can use ListItem's attribute source_seq.
 
@@ -16,7 +16,7 @@ then, we can set source_seq for each of them.
 - Y (source_seq = 300)
 - Z (source_seq = 800)
 
-And if we want to remove the `source_seq` as a factor for observing, we can set the ListItem's source_seq to 0 or use attribute `ignore_source_sequence` for what-if request, when it is set to true, the `source_seq` would be ignored.
+And if we want to remove the `source_seq` as a factor for observation, we can set the ListItem's source_seq to 0 or use attribute `ignore_source_sequence` with what-if request, when it is set to true, the `source_seq` would be ignored.
 
 ## Table of contents
 - [Create the data](#create-the-data)
