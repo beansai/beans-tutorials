@@ -2,7 +2,7 @@
 
 <img src="../../assets/images/beans-128x128.png" align="right" />
 
-# Stops Managements
+# Stops Management
 
 
 
@@ -31,6 +31,7 @@ POST https://isp.beans.ai/enterprise/v1/lists/items
 - type - Either of DROPOFF of PICKUP
 - deliver_from_str - in "yyyy-MM-dd H24:MM" format with localtime and it is interpreted to the local time as configured on the account or the route.
 - deliver_to_str - in "yyyy-MM-dd H24:MM" format with localtime and it is interpreted to the local time as configured on the account or the route.
+- placement - we can use this to denote the stop which size is varchar(64)
 
 ```json
 {
@@ -43,7 +44,8 @@ POST https://isp.beans.ai/enterprise/v1/lists/items
       },
       "type":"PICKUP",
       "deliver_from_str":"2033-01-01 13:00",
-      "deliver_by_str":"2033-01-01 18:00"
+      "deliver_by_str":"2033-01-01 18:00",
+      "placement":"T:R"
     },
     {
       "list_item_id": "d3f6-8eca53fefb635f19958ab0cbf",
@@ -53,7 +55,8 @@ POST https://isp.beans.ai/enterprise/v1/lists/items
       },
       "type":"DROPOFF",
       "deliver_from_str":"2033-01-01 07:00",
-      "deliver_by_str":"2033-01-01 11:00"
+      "deliver_by_str":"2033-01-01 11:00",
+      "placement":"T:R"
     }
   ]
 }
@@ -90,7 +93,8 @@ POST https://isp.beans.ai/enterprise/v1/lists/items
             "addressComponents": {
                 "zipcode": "94531",
                 "countryIso3": "USA"
-            }
+            },
+            "placement":"T:R"
         }
     ],
     "route": [
@@ -137,6 +141,7 @@ POST https://isp.beans.ai/enterprise/v1/lists/items/{{list-item-id}}
 - type - Either of DROPOFF of PICKUP
 - deliver_from_str - in "yyyy-MM-dd H24:MM" format with localtime and it is interpreted to the local time as configured on the account or the route.
 - deliver_to_str - in "yyyy-MM-dd H24:MM" format with localtime and it is interpreted to the local time as configured on the account or the route.
+- placement - we can use this to denote the stop which size is varchar(64)
 
 ```json
 {
@@ -146,7 +151,8 @@ POST https://isp.beans.ai/enterprise/v1/lists/items/{{list-item-id}}
     },
     "type":"DROPOFF",
     "deliver_from_str":"2033-01-01 13:00",
-    "deliver_by_str":"2033-01-01 18:00"
+    "deliver_by_str":"2033-01-01 18:00",
+    "placement":"T:R"
 }
 ```
 
@@ -180,34 +186,8 @@ POST https://isp.beans.ai/enterprise/v1/lists/items/{{list-item-id}}
             "addressComponents": {
                 "zipcode": "94531",
                 "countryIso3": "USA"
-            }
-        }
-    ],
-    "route": [
-        {
-            "listRouteId": "d3f68d55-00e7-4b7b-959d-9866c651c0eb",
-            "accountBuid": "4022a1aada0e4c4684e61e3f73290a68",
-            "name": "Tu Route 9d0b",
-            "status": "OPEN",
-            "createdAt": 1643267000000,
-            "updatedAt": 1644400352000,
-            "warehouse": {
-                "listWarehouseId": "7bc71186-9d6f-4541-a1b3-ffcfe0b6234f",
-                "accountBuid": "4022a1aada0e4c4684e61e3f73290a68",
-                "address": "14840 CA-4, Discovery Bay, CA 94505",
-                "formattedAddress": "14840 CA-4, Discovery Bay, CA",
-                "createdAt": 1643183316000,
-                "updatedAt": 1644388049000,
-                "position": {
-                    "latitude": 37.88946,
-                    "longitude": -121.6215
-                },
-                "name": "Tutorial Warehouse 2"
             },
-            "routePathMd5": "ea1cee82a254c506a74b6c5ec889168c",
-            "dateStr": "2023-01-10",
-            "startMode": "WAREHOUSE",
-            "endMode": "WAREHOUSE"
+            "placement":"T:R"
         }
     ]
 }
