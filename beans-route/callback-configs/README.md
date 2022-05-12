@@ -21,6 +21,7 @@ If we want to receive callbacks when data was changed, we can set the globalUrl 
       - [Warehouse Callback Example](#warehouse-callback-example)
       - [Route Callback Example](#route-callback-example)
       - [Item Callback Example](#item-callback-example)
+      - [Item Documentation Callback Example](#item-documentation-callback-example)
       - [Assignee Callback Example](#assignee-callback-example)
       - [Assignee Vehicle Callback Example](#assignee-vehicle-callback-example)
       - [Route What-If Async Callback Example](#route-what-if-async-callback-example)
@@ -32,6 +33,7 @@ Callbacks would trigger an HTTP POST on the following object types when modified
 - Account
 - Route
 - Item (Stop)
+- ItemDocumentation
 - Assignee (Driver)
 - Warehouse
 - AssigneeVehicle
@@ -278,6 +280,49 @@ The system ensures that the value of the watermark is strictly increasing. In ot
         }
     },
     "watermark": "1644548585670"
+}
+```
+
+#### Item Documentation Callback Example
+```json
+{
+    "type": "ITEM_DOCUMENTATION",
+    "action": "UPDATE",
+    "account_buid": "4022a1aada0e4c4684e61e3f73290a68",
+    "object": {
+        "list_item_id": "ca8d-fae5d3b6b9c9f2f1a14c43b0a1",
+        "list_route_id": "ca8daa7f-0625-4ebe-9b57-6314e6746fef",
+        "account_buid": "4022a1aada0e4c4684e61e3f73290a68",
+        "timestamp_epochSecond": "1652340862",
+        "notes": [
+            "014-DroppedOfAtCustomer"
+        ],
+        "images": [
+            {
+                "url": "https://storage.googleapis.com/beans-images/testing/original/2022-03-03/2022-03-03_fc181e29-8bcd-4c50-b388-cd13994fe0e0.jpeg",
+                "type": "proof"
+            },
+            {
+                "url": "https://storage.googleapis.com/beans-images/testing/original/2022-03-02/2022-03-02_b695d615-4d32-4222-ba34-f34a68f1cee4.png",
+                "type": "proof",
+                "position": {
+                    "lat": 20.2,
+                    "lng": -30.2
+                }
+            }
+        ],
+        "event_code": {
+            "code": "014",
+            "name": "DroppedOfAtCustomer"
+        },
+        "tags": [
+            {
+                "key": "/FEDEX/package_size",
+                "value": "large"
+            }
+        ]
+    },
+    "watermark": "1652340862"
 }
 ```
 
