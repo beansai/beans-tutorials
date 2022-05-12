@@ -139,6 +139,7 @@ We can dynamically resolve the object type by parsing the "type" field to determ
 - WAREHOUSE
 - ROUTE
 - ITEM
+- ITEM_DOCUMENTATION
 - ASSIGNEE
 - ASSIGNEE_VEHICLE
 - ROUTE_WHATIF_ASYNC
