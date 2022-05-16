@@ -29,7 +29,7 @@ Authorization: Basic OE9Bd2hiSzA6Qzc3NTJFMjQwNTkxNDk0NUU3RDA4
 
 ## Tutorials
 
-- [General Tutorial](https://github.com/beansai/beans-tutorials/tree/main/dynamic-routes-optimization/what-if-routes-computations)
+- [General Tutorial](general)
   - Run What-if
   - Run What-if async
 - [Source Sequence](source-sequence) - When we want to see how Stops' ordering will impact the result.
