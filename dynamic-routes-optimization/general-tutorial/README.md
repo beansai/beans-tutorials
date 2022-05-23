@@ -26,6 +26,7 @@ For detailed API shapes, please refer to [Beans Route API](https://www.beansrout
     - [Simple Stateful Route Planning](#simple-stateful-route-planning)
       - [Perform stateful Optimization](#perform-stateful-optimization)
       - [Applying the stateful response](#applying-the-stateful-response)
+    - [All Parameters](#all-parameters)
 
 ## Introduction
 
@@ -273,3 +274,6 @@ which includes:
 The visualization of Stateful DRO Routes applied
 
 ![Stateful DRO Routes applied](assets/images/stateful-routes-applied.png)
+
+## All Parameters
+- Please see [Route Optimization](https://www.beansroute.ai/route-api-v1.php#optimization-stateful)

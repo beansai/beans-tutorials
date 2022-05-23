@@ -28,6 +28,8 @@ Many businesses offer services that require traveling to multiple stops every da
 
 The following tutorials explain how we solve these problems with DRO ( Dynamic route optimization )
 
+- [General Tutorial](general-tutorial)
+  - [All Parameters](https://www.beansroute.ai/route-api-v1.php#optimization-stateful)
 - [Basic routing optimization](basic-routing-optimization) in which there's only one vehicle.
 - [Vehicles routing optimization](vehicles-routing-optimization).
 - [Vehicles routing optimization with capacity constraints](vehicles-routing-optimization-with-capacity-constraints) when vehicles have limited capcities for items they can carry.
