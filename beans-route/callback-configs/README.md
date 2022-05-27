@@ -93,6 +93,7 @@ POST https://isp.beans.ai/enterprise/v1/lists/callback_configs
   "warehouse": true,
   "assigneeVehicle": true,
   "routeWhatifAsync": true,
+  "itemDocumentation": true,
   "globalUrl": "https://6f0c-36-237-93-205.ngrok.io",
   "headers": [{"key":"X-Special-Header-1","value":"special-value1"},{"key":"X-Special-Header-2","value":"special-value2"}]
 }
@@ -113,6 +114,7 @@ POST https://isp.beans.ai/enterprise/v1/lists/callback_configs
     "assigneeVehicle": true,
     "globalUrl": "https://6f0c-36-237-93-205.ngrok.io",
     "routeWhatifAsync": true,
+    "itemDocumentation": true,
     "headers": [
         {
             "key": "X-Special-Header-1",
