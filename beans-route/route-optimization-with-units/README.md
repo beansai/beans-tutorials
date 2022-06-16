@@ -25,9 +25,9 @@ Address: `9404` Central Ave, Montclair, CA 91763, United States
 Address: `9000` Central Ave, Montclair, CA 91763, United States
 - a3cc1ed-2
 
-**Request**
-
 To see current stops for route `a3cc1ed1-8586-426e-b154-e46bc7bf0c66`
+
+**Request**
 ```
 GET {{baseURL}}/enterprise/v1/lists/routes/a3cc1ed1-8586-426e-b154-e46bc7bf0c66/items
 ```
@@ -89,10 +89,10 @@ GET {{baseURL}}/enterprise/v1/lists/routes/a3cc1ed1-8586-426e-b154-e46bc7bf0c66/
     ]
 }
 ```
+Let's group the stops that have same address by using mode `INPUT_ADDRESS`.
 
 **Request**
 
-Let's group the stops that have same address by using mode `INPUT_ADDRESS`.
 ```
 POST {{baseURL}}/enterprise/v1/lists/items/do/optimizewithunits?mode=INPUT_ADDRESS
 ```
