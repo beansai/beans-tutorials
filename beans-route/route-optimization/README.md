@@ -1,11 +1,6 @@
 <img src="../../assets/images/beans-128x128.png" align="right" />
 
-# Route Optimization
-![stops](assets/images/optimize-route-result.png)
-
-Route Optimization is offering stops visiting suggestion for most of common use cases.
-
-For other route optimization conditions like pickup-dropoff pair, time window, assignee shift time, capacity... please see [Dynamic Route Optimization](https://github.com/beansai/beans-tutorials/tree/main/dynamic-routes-optimization)
+# Route Optimization with units
 
 ## Table of contents
 
