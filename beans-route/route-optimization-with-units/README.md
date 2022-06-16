@@ -25,12 +25,13 @@ and there are 4 stops with the same address.
 - a3cc1ed-2
 
 And here is the result when we get itesm from route "a3cc1ed1-8586-426e-b154-e46bc7bf0c66"
-## Request
+*Request*
 ```
 GET {{baseURL}}/enterprise/v1/lists/routes/a3cc1ed1-8586-426e-b154-e46bc7bf0c66/items
 ```
 
-## Response
+*Response*
+Stops for route `a3cc1ed1-8586-426e-b154-e46bc7bf0c66`
 ```json
 {
     "item": [
@@ -89,7 +90,7 @@ GET {{baseURL}}/enterprise/v1/lists/routes/a3cc1ed1-8586-426e-b154-e46bc7bf0c66/
 ```
 
 Let's group the stops.
-## Request Example
+*Request Example*
 ```
 POST {{baseURL}}/enterprise/v1/lists/items/do/optimizewithunits?mode=INPUT_ADDRESS
 ```
@@ -132,8 +133,8 @@ POST {{baseURL}}/enterprise/v1/lists/items/do/optimizewithunits?mode=INPUT_ADDRE
 }
 ```
 
-## Response Example
-You can see the full response example at [optimize-with-units-response.json](/assets/optimize-with-units-response.json)
+*Response Example*
+You can see the full response example at [optimize-with-units-response.json](assets/optimize-with-units-response.json)
 
 As we can see the stops with same address have been groupped together
 under the field `children` with a new listItemId `e20c85d1b155327a973e5fa41f0bd08d`
