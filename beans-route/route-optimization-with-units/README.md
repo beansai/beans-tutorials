@@ -1,8 +1,8 @@
 <img src="../../assets/images/beans-128x128.png" align="right" />
 
-# Route Optimization with Units
+# Route Optimization With Units
 
-Route Optimization with Units is a grouping mechanism to condense the stops.
+Route Optimization With Units is a grouping mechanism to condense the stops.
 
 For other route optimization conditions like pickup-dropoff pair, time window, assignee shift time, capacity... please see [Dynamic Route Optimization](https://github.com/beansai/beans-tutorials/tree/main/dynamic-routes-optimization)
 
@@ -11,8 +11,8 @@ For other route optimization conditions like pickup-dropoff pair, time window, a
     - [To Group stops that have same address](#to-group-stops-that-have-same-address)
     - [Supported Mode](#supported-mode)
 
-## To Group stops that have same address
-Let's say we have 5 stops with route "a3cc1ed1-8586-426e-b154-e46bc7bf0c66",
+## To group stops that have same address
+Let's say we have 5 stops for route "a3cc1ed1-8586-426e-b154-e46bc7bf0c66",
 
 and 4 of them are with the same address.
 
