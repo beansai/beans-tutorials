@@ -1,37 +1,38 @@
 <img src="../../assets/images/beans-128x128.png" align="right" />
 
-# Route Optimization with units
+# Route Optimization with Units
 
-Route Optimization with units is a grouping mechanism to condense.
+Route Optimization with Units is a grouping mechanism to condense the stops.
 
 For other route optimization conditions like pickup-dropoff pair, time window, assignee shift time, capacity... please see [Dynamic Route Optimization](https://github.com/beansai/beans-tutorials/tree/main/dynamic-routes-optimization)
 
 ## Table of contents
 - [Route Optimization with units](#route-optimization-with-units)
-    - [Group Stops with same address](#group-stops-with-same-address)
+    - [To Group stops that have same address](#to-group-stops-that-have-same-address)
     - [Supported Mode](#supported-mode)
 
-## Group stops with same address
-Let's say we have 5 stops with route "a3cc1ed1-8586-426e-b154-e46bc7bf0c66".
-and there are 4 stops with the same address.
+## To Group stops that have same address
+Let's say we have 5 stops with route "a3cc1ed1-8586-426e-b154-e46bc7bf0c66",
 
-`9404` Central Ave, Montclair, CA 91763, United States
+and 4 of them are with the same address.
+
+Address: `9404` Central Ave, Montclair, CA 91763, United States
 - a3cc1ed-1
 - a3cc1ed-3
 - a3cc1ed-4
 - a3cc1ed-5
 
-`9000` Central Ave, Montclair, CA 91763, United States
+Address: `9000` Central Ave, Montclair, CA 91763, United States
 - a3cc1ed-2
 
-And here is the result when we get itesm from route "a3cc1ed1-8586-426e-b154-e46bc7bf0c66"
-*Request*
+**Request**
+
+To see current stops for route `a3cc1ed1-8586-426e-b154-e46bc7bf0c66`
 ```
 GET {{baseURL}}/enterprise/v1/lists/routes/a3cc1ed1-8586-426e-b154-e46bc7bf0c66/items
 ```
 
-*Response*
-Stops for route `a3cc1ed1-8586-426e-b154-e46bc7bf0c66`
+**Response**
 ```json
 {
     "item": [
@@ -89,8 +90,9 @@ Stops for route `a3cc1ed1-8586-426e-b154-e46bc7bf0c66`
 }
 ```
 
-Let's group the stops.
-*Request Example*
+**Request**
+
+Let's group the stops that have same address by using mode `INPUT_ADDRESS`.
 ```
 POST {{baseURL}}/enterprise/v1/lists/items/do/optimizewithunits?mode=INPUT_ADDRESS
 ```
@@ -133,11 +135,13 @@ POST {{baseURL}}/enterprise/v1/lists/items/do/optimizewithunits?mode=INPUT_ADDRE
 }
 ```
 
-*Response Example*
-You can see the full response example at [optimize-with-units-response.json](assets/optimize-with-units-response.json)
+**Response**
 
-As we can see the stops with same address have been groupped together
-under the field `children` with a new listItemId `e20c85d1b155327a973e5fa41f0bd08d`
+As we can see the stops with the same address have been groupped together
+
+with a new listItemId `e20c85d1b155327a973e5fa41f0bd08d` under the field `children`.
+
+You can see the full response at [optimize-with-units-response.json](assets/optimize-with-units-response.json) and there's the partial response.
 ```json
 {
     "item": [
