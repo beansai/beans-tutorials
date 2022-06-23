@@ -16,6 +16,7 @@ For details of a stop (Item)  please see https://www.beansroute.ai/route-api-v1.
 - [Get Stop](#get-stop)
 - [Get all item IDs from a Route that have documentations](#get-all-item-ids-from-a-route-that-have-documentations)
 - [Get Item Documentation](#get-item-documentation)
+- [Search Archived Items](#search-archived-items)
 
 ### Create Stops
 
@@ -347,3 +348,78 @@ GET {{baseURL}}/enterprise/v1/lists/itemsdocumentation/{{list-item-id}}
 ```
 
 
+### Search Archived Items
+**Request Example**
+```
+GET {{baseURL}}/enterprise/v1/lists/items/do/search?date_from=2021-01-01&date_to=2022-07-01
+```
+Available filters for query
+- date_from - in yyyy-MM-dd format(required)
+- date_to - in yyyy-MM-dd format(required)
+- route_name - optional
+- address - optional
+- package_number - optional
+- assignee_name - optional
+
+**Response Example**
+```json
+{
+    "item": [
+        {
+            "listItemId": "april-fc34ffdb-caa1-4cdb-ae15-14d3a1ac1808-01",
+            "address": "112 N GAGE AVE.,LOS ANGELES",
+            "formattedAddress": "112 N Gage Ave, Los Angeles, CA",
+            "status": "NEW",
+            "updatedAt": 1652077858000,
+            "statusUpdatedAt": 1649832929000,
+            "route": {
+                "listRouteId": "april-fc34ffdb-caa1-4cdb-ae15-14d3a1ac1808",
+                "accountBuid": "4022a1aada0e4c4684e61e3f73290a68",
+                "name": "Route April",
+                "status": "CLOSED",
+                "createdAt": 1649832900000,
+                "updatedAt": 1652077858000,
+                "warehouse": {
+                    "listWarehouseId": "6f4f7bf9-b878-4eda-b01d-17dfcfcdadc3",
+                    "accountBuid": "4022a1aada0e4c4684e61e3f73290a68",
+                    "address": "3790 Wilshire Blvd, Los Angeles, CA 90010, United States",
+                    "formattedAddress": "3790 Wilshire Blvd, Los Angeles, CA",
+                    "createdAt": 1649284672000,
+                    "updatedAt": 1649284672000,
+                    "position": {
+                        "latitude": 34.06169,
+                        "longitude": -118.30861
+                    },
+                    "name": "Thermopylae"
+                },
+                "routePathMd5": "1981e263541a90c2e7244d73ccc740ee",
+                "dateStr": "2022-06-13",
+                "startMode": "WAREHOUSE",
+                "endMode": "WAREHOUSE"
+            },
+            "routePriority": 1,
+            "type": "DROPOFF",
+            "position": {
+                "latitude": 34.03642,
+                "longitude": -118.18464
+            },
+            "displayPosition": {
+                "latitude": 34.03643,
+                "longitude": -118.18443
+            },
+            "deliverFromStr": "2022-04-13 08:00",
+            "deliverByStr": "2022-04-13 09:00",
+            "addressComponents": {
+                "city": "Los Angeles",
+                "state": "CA",
+                "zipcode": "90063-2306",
+                "street": "112 N Gage Ave",
+                "countryIso3": "USA"
+            },
+            "sourceSeq": 1,
+            "countryIso3": "USA"
+        }
+    ]
+}
+
+```
