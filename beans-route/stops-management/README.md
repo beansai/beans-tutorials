@@ -14,6 +14,7 @@ For details of a stop (Item)  please see https://www.beansroute.ai/route-api-v1.
 - [Update Stop](#update-stop)
 - [Get Stop List](#get-stop-list)
 - [Get Stop](#get-stop)
+- [Delete Stop](#delete-stop)
 - [Get all item IDs from a Route that have documentations](#get-all-item-ids-from-a-route-that-have-documentations)
 - [Get Item Documentation](#get-item-documentation)
 - [Search Archived Items](#search-archived-items)
@@ -277,6 +278,47 @@ GET https://isp.beans.ai/enterprise/v1/lists/items/{{list-item-id}}
     }
 }
 ```
+
+### Delete Stop
+This will perform a soft-delete action, and the stop will still be return in the get item by listItemId response 
+with status "DELETED".
+**Request Example**
+```
+DELETE {{baseURL}}/enterprise/v1/lists/items/{{list-item-id}}
+```
+**Response Example**
+```
+{
+    "listItemId": "a3cc1ed-3",
+    "address": "9404 Central Ave, Montclair, CA 91763, United States",
+    "formattedAddress": "9404 Central Ave, Montclair, CA",
+    "status": "DELETED",
+    "updatedAt": 1655347418000,
+    "statusUpdatedAt": 1655346404000,
+    "route": {
+        "listRouteId": "a3cc1ed1-8586-426e-b154-e46bc7bf0c66"
+    },
+    "type": "DROPOFF",
+    "parentListItemId": "e20c85d1b155327a973e5fa41f0bd08d",
+    "position": {
+        "latitude": 34.082443,
+        "longitude": -117.690918
+    },
+    "displayPosition": {
+        "latitude": 34.082443,
+        "longitude": -117.690918
+    },
+    "addressComponents": {
+        "city": "Montclair",
+        "state": "CA",
+        "zipcode": "91763",
+        "street": "9404 Central Ave",
+        "countryIso3": "USA"
+    },
+    "countryIso3": "USA"
+}
+```
+
 
 ### Get all item IDs from a Route that have documentations
 An item is deemed to have documentation when there is a non-trivial (so, non empty) note, and a non-trivial image url.

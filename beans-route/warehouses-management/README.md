@@ -14,6 +14,7 @@ For details of a warehouse's shape please see https://www.beansroute.ai/route-ap
 - [Update Warehouse](#update-warehouse)
 - [Get Warehouse list](#get-warehouse-list)
 - [Get Warehouse](#get-warehouse)
+- [Delete Warehouse](#delete-warehouse)
 
 ### Create warehouses
 
@@ -157,3 +158,28 @@ GET https://isp.beans.ai/enterprise/v1/lists/warehouses/{{list-warehouse-id}}
 }
 ```
 
+
+### Delete Warehouse
+This will perform a soft-delete action, and still will still be return in get warehouse by id response.
+
+**Request**
+```
+DELETE {{baseURL}}/enterprise/v1/lists/warehouse/{{list-warehouse-id}}
+```
+
+**Response**
+```json
+{
+    "listWarehouseId": "6f4f7bf9-b878-4eda-b01d-17dfcfcdadc3e",
+    "accountBuid": "4022a1aada0e4c4684e61e3f73290a68",
+    "address": "3790 Wilshire Blvd, Los Angeles, CA 90010, United States",
+    "formattedAddress": "3790 Wilshire Blvd, Los Angeles, CA",
+    "createdAt": 1656546041000,
+    "updatedAt": 1656546065377,
+    "position": {
+        "latitude": 34.061512,
+        "longitude": -118.308624
+    },
+    "name": "Thermopylaee"
+}
+```

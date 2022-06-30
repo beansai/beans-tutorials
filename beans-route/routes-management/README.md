@@ -12,6 +12,7 @@ For details of a route's shape please see https://www.beansroute.ai/route-api-v1
 - [Update Route](#update-route)
 - [Get Route List](#get-route-list)
 - [Get Route](#get-route)
+- [Delete Route](#delete-route)
 - [Get Items By Route ID](#get-items-by-route-id)
 
 ### Create Routes
@@ -249,6 +250,28 @@ GET https://isp.beans.ai/enterprise/v1/lists/routes/{{list-route-id}}
             "value": "America/Los_Angeles"
         }
     ]
+}
+```
+
+### Delete Route
+This will perform a soft-delete action, and the deleted object will still be return in the get route by listRouteId response 
+with status "CLOSED".
+**Request Example**
+```
+DELETE {{baseURL}}/enterprise/v1/lists/items/{{list-item-id}}
+```
+**Response Example**
+```
+{
+    "listRouteId": "a3cc1ed1-8586-426e-b154-e46bc7bf0c66123",
+    "accountBuid": "4022a1aada0e4c4684e61e3f73290a68",
+    "name": "Via Emilia a3c123",
+    "status": "CLOSED",
+    "createdAt": 1656546871000,
+    "updatedAt": 1656546884013,
+    "dateStr": "2031-02-21",
+    "startMode": "WAREHOUSE",
+    "endMode": "WAREHOUSE"
 }
 ```
 

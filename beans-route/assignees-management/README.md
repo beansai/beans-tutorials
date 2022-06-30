@@ -14,6 +14,7 @@ For details of an assignee's shape please see https://www.beansroute.ai/route-ap
 - [Update Assignee](#update-assignee)
 - [Get Assignee List](#get-assignee-list)
 - [Get Assignee](#get-assignee)
+- [Delete Assignee](#delete-assignee)
 
 ### Create Assignees
 
@@ -144,13 +145,13 @@ GET https://isp.beans.ai/enterprise/v1/lists/assignees
 
 ### Get Assignee
 
-**Request Example**
+**Request**
 
 ```
 GET https://isp.beans.ai/enterprise/v1/lists/assignees/{{list-assingee-id}}
 ```
 
-**Response Example**
+**Response**
 
 ```json
 {
@@ -169,3 +170,30 @@ GET https://isp.beans.ai/enterprise/v1/lists/assignees/{{list-assingee-id}}
 }
 ```
 
+### Delete Assignee
+This will perform a soft-delete action, and the deleted object will appear in get assignees and get assignee by assigneeId response with state "DISABLED"
+
+**Request**
+```
+DELETE {{baseURL}}/enterprise/v1/lists/assignees/{{list-assignee-id}}
+```
+
+**Response**
+```json
+{
+    "listAssigneeId": "1qaqac9nrq1hxk0tdfga1gs",
+    "accountBuid": "4022a1aada0e4c4684e61e3f73290a68",
+    "name": "Tourist 001",
+    "email": "donchen+t101@beans.ai",
+    "phone": "+886963111111",
+    "code": "087599df-943",
+    "createdAt": 1645164735000,
+    "updatedAt": 1646121729000,
+    "state": "DISABLED",
+    "hasUsedConsumerApp": true,
+    "role": "DRIVER",
+    "safetyStatus": "UNKNOWN",
+    "safetyIntegrationStatus": "PENDING",
+    "isAssigningEnabled": true
+}
+```
