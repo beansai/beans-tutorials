@@ -256,6 +256,7 @@ GET https://isp.beans.ai/enterprise/v1/lists/routes/{{list-route-id}}
 ### Delete Route
 This will perform a soft-delete action, and the deleted object will still be return in the get route by listRouteId response 
 with status "CLOSED".
+
 **Request Example**
 ```
 DELETE {{baseURL}}/enterprise/v1/lists/items/{{list-item-id}}

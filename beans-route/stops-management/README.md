@@ -282,6 +282,7 @@ GET https://isp.beans.ai/enterprise/v1/lists/items/{{list-item-id}}
 ### Delete Stop
 This will perform a soft-delete action, and the stop will still be return in the get item by listItemId response 
 with status "DELETED".
+
 **Request Example**
 ```
 DELETE {{baseURL}}/enterprise/v1/lists/items/{{list-item-id}}

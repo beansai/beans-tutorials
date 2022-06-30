@@ -160,7 +160,7 @@ GET https://isp.beans.ai/enterprise/v1/lists/warehouses/{{list-warehouse-id}}
 
 
 ### Delete Warehouse
-This will perform a soft-delete action, and still will still be return in get warehouse by id response.
+This will perform a soft-delete action, and the deleted warehouse will still be return in get warehouse by id response.
 
 **Request**
 ```
