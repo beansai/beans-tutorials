@@ -42,3 +42,4 @@ The following tutorials explain how we solve these problems with DRO ( Dynamic r
 - [Vehicles routing optimization with assignee start/end anywhere](vehicles-routing-optimization-with-assignee-start-end-anywhere) when assignee will not start or end a daily work at warehouse.
 - [Vehicles routing optimization with stops time](vehicles-routing-optimization-with-stop-time)
 - [What if routes computations](what-if-routes-computations) when we want to determine the cost differences ( time and distance )
+- [Vehicles routing optimization with customized assignee location](vehicles-routing-optimization-with-customized-assignee-location) when we want to customize the assignee start or end location.
