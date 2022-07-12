@@ -1,0 +1,278 @@
+{
+    "item": [
+        {
+            "listItemId": "74d63-b4d913523baaee8f2ba5e1a25",
+            "address": "3110 Balfour Rd, Brentwood, CA 94513",
+            "formattedAddress": "3110 Balfour Rd, Brentwood, CA",
+            "status": "NEW",
+            "updatedAt": 1657602889000,
+            "statusUpdatedAt": 1657602890000,
+            "route": {
+                "listRouteId": "74d63f25-664e-4846-bb8d-a6c725fb5311"
+            },
+            "type": "DROPOFF",
+            "position": {
+                "latitude": 37.923992,
+                "longitude": -121.721985
+            },
+            "displayPosition": {
+                "latitude": 37.923992,
+                "longitude": -121.721985
+            },
+            "addressComponents": {
+                "city": "Brentwood",
+                "state": "CA",
+                "zipcode": "94513",
+                "street": "3110 Balfour Rd",
+                "countryIso3": "USA"
+            },
+            "countryIso3": "USA"
+        },
+        {
+            "listItemId": "74d63-6a1633a539ac12ace7513403e",
+            "address": "4350 Sellers Ave, Brentwood, CA 94513",
+            "formattedAddress": "4350 Sellers Ave, Brentwood, CA",
+            "status": "NEW",
+            "updatedAt": 1657602890000,
+            "statusUpdatedAt": 1657602890000,
+            "route": {
+                "listRouteId": "74d63f25-664e-4846-bb8d-a6c725fb5311"
+            },
+            "type": "DROPOFF",
+            "position": {
+                "latitude": 37.959492,
+                "longitude": -121.675156
+            },
+            "displayPosition": {
+                "latitude": 37.959492,
+                "longitude": -121.675156
+            },
+            "addressComponents": {
+                "city": "Brentwood",
+                "state": "CA",
+                "zipcode": "94513",
+                "street": "4350 Sellers Ave",
+                "countryIso3": "USA"
+            },
+            "countryIso3": "USA"
+        },
+        {
+            "listItemId": "74d63-faf623593a6ddc608a0f1a9c4",
+            "address": "4701 Lone Tree Way, Antioch, CA 94531",
+            "formattedAddress": "4701 Lone Tree Way, Antioch, CA",
+            "status": "NEW",
+            "updatedAt": 1657602889000,
+            "statusUpdatedAt": 1657602890000,
+            "route": {
+                "listRouteId": "74d63f25-664e-4846-bb8d-a6c725fb5311"
+            },
+            "type": "DROPOFF",
+            "position": {
+                "latitude": 37.966267,
+                "longitude": -121.774193
+            },
+            "displayPosition": {
+                "latitude": 37.966267,
+                "longitude": -121.774193
+            },
+            "addressComponents": {
+                "city": "Antioch",
+                "state": "CA",
+                "zipcode": "94531",
+                "street": "4701 Lone Tree Way",
+                "countryIso3": "USA"
+            },
+            "countryIso3": "USA"
+        },
+        {
+            "listItemId": "74d63-a6f4c36d69394ba11f52b63a7",
+            "address": "6400 Bridgehead Rd, Oakley, CA 94561",
+            "formattedAddress": "6400 Bridgehead Rd, Oakley, CA",
+            "status": "NEW",
+            "updatedAt": 1657602890000,
+            "statusUpdatedAt": 1657602890000,
+            "route": {
+                "listRouteId": "74d63f25-664e-4846-bb8d-a6c725fb5311"
+            },
+            "type": "DROPOFF",
+            "position": {
+                "latitude": 38.01683999999999,
+                "longitude": -121.7543064
+            },
+            "displayPosition": {
+                "latitude": 38.01683999999999,
+                "longitude": -121.7543064
+            },
+            "addressComponents": {
+                "city": "Oakley",
+                "state": "CA",
+                "zipcode": "94561",
+                "street": "6400 Bridgehead Rd",
+                "countryIso3": "USA"
+            },
+            "countryIso3": "USA"
+        },
+        {
+            "listItemId": "74d63-2fd6f3f3ab12cebdddb97ca0f",
+            "address": "6700 Balfour Rd, Brentwood, CA 94513",
+            "formattedAddress": "6700 Balfour Rd, Brentwood, CA",
+            "status": "NEW",
+            "updatedAt": 1657602890000,
+            "statusUpdatedAt": 1657602890000,
+            "route": {
+                "listRouteId": "74d63f25-664e-4846-bb8d-a6c725fb5311"
+            },
+            "type": "DROPOFF",
+            "position": {
+                "latitude": 37.922615,
+                "longitude": -121.657555
+            },
+            "displayPosition": {
+                "latitude": 37.922615,
+                "longitude": -121.657555
+            },
+            "addressComponents": {
+                "city": "Brentwood",
+                "state": "CA",
+                "zipcode": "94513",
+                "street": "6700 Balfour Rd",
+                "countryIso3": "USA"
+            },
+            "countryIso3": "USA"
+        },
+        {
+            "listItemId": "74d63-fae5d3b6b9c9f2f1a14c43b0a",
+            "address": "7901 Deer Valley Rd, Antioch, CA 94531",
+            "formattedAddress": "7901 Deer Valley Rd, Antioch, CA",
+            "status": "NEW",
+            "updatedAt": 1657602890000,
+            "statusUpdatedAt": 1657602890000,
+            "route": {
+                "listRouteId": "74d63f25-664e-4846-bb8d-a6c725fb5311"
+            },
+            "type": "DROPOFF",
+            "position": {
+                "latitude": 37.926044,
+                "longitude": -121.780701
+            },
+            "displayPosition": {
+                "latitude": 37.926044,
+                "longitude": -121.780701
+            },
+            "addressComponents": {
+                "city": "Antioch",
+                "state": "CA",
+                "zipcode": "94531",
+                "street": "7901 Deer Valley Rd",
+                "countryIso3": "USA"
+            },
+            "countryIso3": "USA"
+        },
+        {
+            "listItemId": "74d63-a801b3605afbd726df743cc66",
+            "address": "3365 Deer Valley Rd, Antioch, CA 94531",
+            "formattedAddress": "3365 Deer Valley Rd, Antioch, CA",
+            "status": "NEW",
+            "updatedAt": 1657602886000,
+            "statusUpdatedAt": 1657602889000,
+            "route": {
+                "listRouteId": "74d63f25-664e-4846-bb8d-a6c725fb5311"
+            },
+            "type": "DROPOFF",
+            "position": {
+                "latitude": 37.987831,
+                "longitude": -121.784004
+            },
+            "displayPosition": {
+                "latitude": 37.987831,
+                "longitude": -121.784004
+            },
+            "addressComponents": {
+                "city": "Antioch",
+                "state": "CA",
+                "zipcode": "94531",
+                "street": "3365 Deer Valley Rd",
+                "countryIso3": "USA"
+            },
+            "countryIso3": "USA"
+        },
+        {
+            "listItemId": "74d63-8bda03a6fb767178ba25105c5",
+            "address": "1700 Trilogy Pkwy, Brentwood, CA 94513",
+            "formattedAddress": "1700 Trilogy Pkwy, Brentwood, CA",
+            "status": "NEW",
+            "updatedAt": 1657602890000,
+            "statusUpdatedAt": 1657602890000,
+            "route": {
+                "listRouteId": "74d63f25-664e-4846-bb8d-a6c725fb5311"
+            },
+            "type": "DROPOFF",
+            "position": {
+                "latitude": 37.899094,
+                "longitude": -121.729553
+            },
+            "displayPosition": {
+                "latitude": 37.899094,
+                "longitude": -121.729553
+            },
+            "addressComponents": {
+                "city": "Brentwood",
+                "state": "CA",
+                "zipcode": "94513",
+                "street": "1700 Trilogy Pkwy",
+                "countryIso3": "USA"
+            },
+            "countryIso3": "USA"
+        },
+        {
+            "listItemId": "74d63-8eca53fefb635f19958ab0cbf",
+            "address": "3201 Main St, Oakley, CA 94561",
+            "formattedAddress": "3201 Main St, Oakley, CA",
+            "status": "NEW",
+            "updatedAt": 1657602886000,
+            "statusUpdatedAt": 1657602889000,
+            "route": {
+                "listRouteId": "74d63f25-664e-4846-bb8d-a6c725fb5311"
+            },
+            "type": "DROPOFF",
+            "position": {
+                "latitude": 37.997337,
+                "longitude": -121.718994
+            },
+            "displayPosition": {
+                "latitude": 37.997337,
+                "longitude": -121.718994
+            },
+            "addressComponents": {
+                "city": "Oakley",
+                "state": "CA",
+                "zipcode": "94561",
+                "street": "3201 Main St",
+                "countryIso3": "USA"
+            },
+            "countryIso3": "USA"
+        }
+    ],
+    "assignee_with_vehicle": [
+        {
+            "list_assignee_id": "6b3f-be278c75",
+            "capacity": 20,
+            "saddress": "1309 San Juan Ave, Stockton, CA 95203, United States",
+            "sposition": {
+                "lat": 37.961097341946974,
+                "lng": -121.32272899127663
+            },
+            "eaddress": "1500 Solano Ave, Albany, CA 94707, United States",
+            "eposition": {
+                "lat": 37.89145810477322,
+                "lng": -122.28657757517325
+            }
+        }
+    ],
+    "default_shift_start_time": "07:00",
+    "default_shift_length": 8,
+    "default_capacity": 0,
+    "default_stop_time_seconds": 60,
+    "use_assignees_start_address": true,
+    "use_assignees_end_address": true
+}

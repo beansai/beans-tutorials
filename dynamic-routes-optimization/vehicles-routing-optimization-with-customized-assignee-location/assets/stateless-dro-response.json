@@ -1,0 +1,314 @@
+{
+    "segment": [
+        {
+            "listAssigneeId": "6b3f-be278c75",
+            "item": [
+                {
+                    "listItemId": "74d63-2fd6f3f3ab12cebdddb97ca0f",
+                    "address": "6700 Balfour Rd, Brentwood, CA 94513",
+                    "formattedAddress": "6700 Balfour Rd, Brentwood, CA",
+                    "status": "NEW",
+                    "updatedAt": 1657602890000,
+                    "statusUpdatedAt": 1657602890000,
+                    "route": {
+                        "listRouteId": "74d63f25-664e-4846-bb8d-a6c725fb5311"
+                    },
+                    "trackingId": "gen:8e6b6018-c6b7-4cc7-b3bc-755bfdd31bd9",
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.922615,
+                        "longitude": -121.657555
+                    },
+                    "displayPosition": {
+                        "latitude": 37.922615,
+                        "longitude": -121.657555
+                    },
+                    "addressComponents": {
+                        "city": "Brentwood",
+                        "state": "CA",
+                        "zipcode": "94513",
+                        "street": "6700 Balfour Rd",
+                        "countryIso3": "USA"
+                    },
+                    "countryIso3": "USA",
+                    "estimatedByStr": "07:42",
+                    "estimatedCapacity": 9
+                },
+                {
+                    "listItemId": "74d63-6a1633a539ac12ace7513403e",
+                    "address": "4350 Sellers Ave, Brentwood, CA 94513",
+                    "formattedAddress": "4350 Sellers Ave, Brentwood, CA",
+                    "status": "NEW",
+                    "updatedAt": 1657602890000,
+                    "statusUpdatedAt": 1657602890000,
+                    "route": {
+                        "listRouteId": "74d63f25-664e-4846-bb8d-a6c725fb5311"
+                    },
+                    "trackingId": "gen:b8d2af62-b4df-40ba-9e93-29c5fc49ff2f",
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.959492,
+                        "longitude": -121.675156
+                    },
+                    "displayPosition": {
+                        "latitude": 37.959492,
+                        "longitude": -121.675156
+                    },
+                    "addressComponents": {
+                        "city": "Brentwood",
+                        "state": "CA",
+                        "zipcode": "94513",
+                        "street": "4350 Sellers Ave",
+                        "countryIso3": "USA"
+                    },
+                    "countryIso3": "USA",
+                    "estimatedByStr": "07:54",
+                    "estimatedCapacity": 8
+                },
+                {
+                    "listItemId": "74d63-8eca53fefb635f19958ab0cbf",
+                    "address": "3201 Main St, Oakley, CA 94561",
+                    "formattedAddress": "3201 Main St, Oakley, CA",
+                    "status": "NEW",
+                    "updatedAt": 1657602886000,
+                    "statusUpdatedAt": 1657602889000,
+                    "route": {
+                        "listRouteId": "74d63f25-664e-4846-bb8d-a6c725fb5311"
+                    },
+                    "trackingId": "gen:c7081c27-5fff-4f18-8783-d4d358fb5465",
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.997337,
+                        "longitude": -121.718994
+                    },
+                    "displayPosition": {
+                        "latitude": 37.997337,
+                        "longitude": -121.718994
+                    },
+                    "addressComponents": {
+                        "city": "Oakley",
+                        "state": "CA",
+                        "zipcode": "94561",
+                        "street": "3201 Main St",
+                        "countryIso3": "USA"
+                    },
+                    "countryIso3": "USA",
+                    "estimatedByStr": "08:05",
+                    "estimatedCapacity": 7
+                },
+                {
+                    "listItemId": "74d63-a6f4c36d69394ba11f52b63a7",
+                    "address": "6400 Bridgehead Rd, Oakley, CA 94561",
+                    "formattedAddress": "6400 Bridgehead Rd, Oakley, CA",
+                    "status": "NEW",
+                    "updatedAt": 1657602890000,
+                    "statusUpdatedAt": 1657602890000,
+                    "route": {
+                        "listRouteId": "74d63f25-664e-4846-bb8d-a6c725fb5311"
+                    },
+                    "trackingId": "gen:cde556e5-297b-4375-b333-cd08838db9cb",
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 38.01683999999999,
+                        "longitude": -121.7543064
+                    },
+                    "displayPosition": {
+                        "latitude": 38.01683999999999,
+                        "longitude": -121.7543064
+                    },
+                    "addressComponents": {
+                        "city": "Oakley",
+                        "state": "CA",
+                        "zipcode": "94561",
+                        "street": "6400 Bridgehead Rd",
+                        "countryIso3": "USA"
+                    },
+                    "countryIso3": "USA",
+                    "estimatedByStr": "08:13",
+                    "estimatedCapacity": 6
+                },
+                {
+                    "listItemId": "74d63-8bda03a6fb767178ba25105c5",
+                    "address": "1700 Trilogy Pkwy, Brentwood, CA 94513",
+                    "formattedAddress": "1700 Trilogy Pkwy, Brentwood, CA",
+                    "status": "NEW",
+                    "updatedAt": 1657602890000,
+                    "statusUpdatedAt": 1657602890000,
+                    "route": {
+                        "listRouteId": "74d63f25-664e-4846-bb8d-a6c725fb5311"
+                    },
+                    "trackingId": "gen:ffbaa82d-e394-4c8e-9dd7-be22d1f803f5",
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.899094,
+                        "longitude": -121.729553
+                    },
+                    "displayPosition": {
+                        "latitude": 37.899094,
+                        "longitude": -121.729553
+                    },
+                    "addressComponents": {
+                        "city": "Brentwood",
+                        "state": "CA",
+                        "zipcode": "94513",
+                        "street": "1700 Trilogy Pkwy",
+                        "countryIso3": "USA"
+                    },
+                    "countryIso3": "USA",
+                    "estimatedByStr": "08:32",
+                    "estimatedCapacity": 5
+                },
+                {
+                    "listItemId": "74d63-b4d913523baaee8f2ba5e1a25",
+                    "address": "3110 Balfour Rd, Brentwood, CA 94513",
+                    "formattedAddress": "3110 Balfour Rd, Brentwood, CA",
+                    "status": "NEW",
+                    "updatedAt": 1657602889000,
+                    "statusUpdatedAt": 1657602890000,
+                    "route": {
+                        "listRouteId": "74d63f25-664e-4846-bb8d-a6c725fb5311"
+                    },
+                    "trackingId": "gen:4a82f6a8-f18f-423a-9656-c14f137bf338",
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.923992,
+                        "longitude": -121.721985
+                    },
+                    "displayPosition": {
+                        "latitude": 37.923992,
+                        "longitude": -121.721985
+                    },
+                    "addressComponents": {
+                        "city": "Brentwood",
+                        "state": "CA",
+                        "zipcode": "94513",
+                        "street": "3110 Balfour Rd",
+                        "countryIso3": "USA"
+                    },
+                    "countryIso3": "USA",
+                    "estimatedByStr": "08:39",
+                    "estimatedCapacity": 4
+                },
+                {
+                    "listItemId": "74d63-fae5d3b6b9c9f2f1a14c43b0a",
+                    "address": "7901 Deer Valley Rd, Antioch, CA 94531",
+                    "formattedAddress": "7901 Deer Valley Rd, Antioch, CA",
+                    "status": "NEW",
+                    "updatedAt": 1657602890000,
+                    "statusUpdatedAt": 1657602890000,
+                    "route": {
+                        "listRouteId": "74d63f25-664e-4846-bb8d-a6c725fb5311"
+                    },
+                    "trackingId": "gen:6fe8a3ac-cf5f-4e9b-a188-70f368794779",
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.926044,
+                        "longitude": -121.780701
+                    },
+                    "displayPosition": {
+                        "latitude": 37.926044,
+                        "longitude": -121.780701
+                    },
+                    "addressComponents": {
+                        "city": "Antioch",
+                        "state": "CA",
+                        "zipcode": "94531",
+                        "street": "7901 Deer Valley Rd",
+                        "countryIso3": "USA"
+                    },
+                    "countryIso3": "USA",
+                    "estimatedByStr": "08:46",
+                    "estimatedCapacity": 3
+                },
+                {
+                    "listItemId": "74d63-faf623593a6ddc608a0f1a9c4",
+                    "address": "4701 Lone Tree Way, Antioch, CA 94531",
+                    "formattedAddress": "4701 Lone Tree Way, Antioch, CA",
+                    "status": "NEW",
+                    "updatedAt": 1657602889000,
+                    "statusUpdatedAt": 1657602890000,
+                    "route": {
+                        "listRouteId": "74d63f25-664e-4846-bb8d-a6c725fb5311"
+                    },
+                    "trackingId": "gen:54d05c94-9637-4993-ae93-50ac270eb6a2",
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.966267,
+                        "longitude": -121.774193
+                    },
+                    "displayPosition": {
+                        "latitude": 37.966267,
+                        "longitude": -121.774193
+                    },
+                    "addressComponents": {
+                        "city": "Antioch",
+                        "state": "CA",
+                        "zipcode": "94531",
+                        "street": "4701 Lone Tree Way",
+                        "countryIso3": "USA"
+                    },
+                    "countryIso3": "USA",
+                    "estimatedByStr": "08:56",
+                    "estimatedCapacity": 2
+                },
+                {
+                    "listItemId": "74d63-a801b3605afbd726df743cc66",
+                    "address": "3365 Deer Valley Rd, Antioch, CA 94531",
+                    "formattedAddress": "3365 Deer Valley Rd, Antioch, CA",
+                    "status": "NEW",
+                    "updatedAt": 1657602886000,
+                    "statusUpdatedAt": 1657602889000,
+                    "route": {
+                        "listRouteId": "74d63f25-664e-4846-bb8d-a6c725fb5311"
+                    },
+                    "trackingId": "gen:23201bfb-9f93-4c58-b2ff-d4f66ac7d436",
+                    "numPackages": 1,
+                    "type": "DROPOFF",
+                    "position": {
+                        "latitude": 37.987831,
+                        "longitude": -121.784004
+                    },
+                    "displayPosition": {
+                        "latitude": 37.987831,
+                        "longitude": -121.784004
+                    },
+                    "addressComponents": {
+                        "city": "Antioch",
+                        "state": "CA",
+                        "zipcode": "94531",
+                        "street": "3365 Deer Valley Rd",
+                        "countryIso3": "USA"
+                    },
+                    "countryIso3": "USA",
+                    "estimatedByStr": "09:02",
+                    "estimatedCapacity": 1
+                }
+            ],
+            "timeS": 10603.0,
+            "distanceM": 161585.59999999998,
+            "pathEncoded": "ahufF~xncVbB[xEy@\\GzDq@]wDU_CSiB_@aEdCa@hB[nF_AzE{@Bm@@]LeAHg@?EPk@DMHQZs@LY^}@Ts@Lo@@OKCq@UYOKSGKCKCOAM@SX_CNaA`@wBlAkFlIiTxD}JdDgIxCyHXm@~@cB^o@f@u@b@m@X_@r@w@n@q@|AyAx@o@dAq@rBiApAk@x@YtAa@dB_@|AU~AQjFc@jAGnAG~Fi@bAIxEe@hDGR?dA?p@@Z@jAHr@FNLb@DZF\\FLJRVRbAd@pCXb@b@fCNz@VxAF\\VxAHb@TvATpAFZXbBBLP`AJl@F\\Hf@Jd@DXF\\Jj@BPHb@XvA@LTfAf@nCDX^rBPfAt@rENv@Fb@Ln@Hf@PfAVtAHd@Hf@h@~Cb@fCP~@h@bDxB`Md@lCZjBDVNt@N`AF\\fCzNtB|Lp@zDv@pErBrLBLt@hEHb@~@dF|AbJ\\lBV~AVbBRxARtBZrEJvD@b`@@ljA?hQ@nIBvMCdU?|Q?v@D~q@?rq@?nlA?fF@pGDfD?R?nD?nA?t@?d@?n@?bA?h@K~@@jJAxN?rO@xGApN?jQ?vO?`k@@jD@ZFlCNrBr@pE@BTlAHXf@~Al@xA`@z@`@v@Zf@t@bA|AfBzChDvB~B^`@f@r@dAlBbAvBv@dBjBvDvAlCzBvDpF~IrF|IbCnDl@`Av@|AlCpF^r@f@~@`@p@xEhH`@r@Zn@\\p@v@jB\\x@Tb@^f@l@l@pBpA~@r@~@r@b@b@l@t@tCpEf@v@`@n@Rf@Vl@h@rAvAzDvB~EnA`CfB~C`@n@j@dAr@pA|@vA|@~ArA|BtAtBx@xA^j@|@bBn@jAn@|@zApCn@jAl@pAl@|AJXLXd@|Af@tA^rAX`AVfARz@`@bAJ`@pChKn@hBTj@Xh@z@zAjBdDhCnEj@dA`AhBx@rBl@zBT|APx@Fl@VzBFx@P`APn@jAhDNf@Hb@Jv@FjALxCDhAHl@RpAZxB`@dCPd@Rf@\\f@tA`BpAfB|E~Gj@v@f@|@^|@tDtJJTPRXNd@HzDv@h@LZFV@VEL?J@JDDFDL?NAPCP{BrIEPWdAS`AMx@Ed@?`@?lAVfURfUl@~r@DxBFzBH|BDvAJjBRhCj@bG@DbAjIJ|@Fv@Bn@@`A?vA?l~C?dTBl`ABdMF|g@Dfb@CRANERIPMLMDsGpBw@VSLOPMd@?`@D\\N`@Z\\lAdAp@n@TXN^Rf@T~@fCrLJf@Bh@Bj@?dKCtu@?X?|@Eth@Ftj@AdJ?b@N|IBnBGlS?dDHpC`AvJJjA??^pDL|B?Z@j@?V?^?jF?p@?fEAjA?hA?pF?z@AfAMpD?`G?nA?hC?P@vC?pCAtDAlI?lBAzDDnHL`EN~G?rA?jY@j@@nJChAKfAQz@YdAq@tAo@x@_A`AaAj@_AXu@LeADoG?yFEuAA_C?gBAsB?{KGiTA}AAeG?iA?aHAyNCoDJ}A`@gBx@E@w@_AaAa@i@Ei@EcF?{A?qR?oRAO?_CA{MEY?aUK?b]A`b@?fN?fB?pI?|D?bKhARhA?\\F`@j@VJlHBxC?PCPSF[EyIKCq@?GGC}CCKMImA@OFEP?dD?jKmHCWKa@k@]GiA?iAS?jA@~c@AzR?Z?F?|A@lE?vC?~@?R?x@?bG@x]a]EoB?mJ@{DGcB?kE?{\\@oHEcA?uBCeA?qDCoEAwLAqXCiIGoJIkJ?gE@cA?cA?[?I?wICBw]@cDdIJGX[h@_@VMPO\\OJuE?A|MAxNM?o@?uDAkB?M?sHAgJCmVE?lW@pC?f@A~@?dF?`G?~A@zA?dB?\\A~B?vA?fBAvB@bB?\\?bB?lB?rA?vA?hA?p@?J?F?`F?`@?nC?v@?bB?dBAvAY?kHEiB?_A@aAAcKCcB?q@AoA@u@?G?eC?oB@a@@]?mDCmICeBAyUOwEEsJI{@BoADU@A?yADYDs@Lc@H{@Le@HeAVYJ_Bf@iAp@k@ZiBfAKDa@Xe@Zu@d@uCvCa@l@sB`DaCfEsAlD{BjJGVCFCJ{AlGI\\k@dCk@dCk@jCuAlFQv@w@pDgAbFg@zBe@fBsAfFEXCRA^@dC?L?f@BhC?~@?dE?zA?h@ApC?N?FAjFTHZCBQ@m@?k@vA??l@?f@I@g@?g@@g@@MHM^?dC?z@?bF?P?`CChZBbKAlGGhAIz@AJQv@a@jACFu@pAQPSVi@d@u@d@k@Ti@Ne@D}@Ba@?}D@{@?kB?mB@Y?gADs@Lo@Rs@Z{@l@SPCZ[`@e@p@Yn@MVYhAOhACLEn@EfAC|JAlEAlC?jBAxD?fB?fC@`D?N?xDBtM?h@?t@?fA?h@Ij@?fI?r@BbE@JBrDY@eAAm@?A?iE@gAA_@?eAAyG?{B?_BAwC?iCAaB@G?qNAiC?sB?q@?W?SBKBYLOLMNKRGTEVAX?V@b@@P?HEv@_@xFZbAHxAR?dCA`A?jUC?Y?s@?u@@c@?OHq@BYFWHOHGJELCzBRlAJhAHt@Dt@B~@FjDRvHjAzJrAlBXtYfEhQfCbDd@|Cb@lC`@fFdAxA`@dARtBHf@?`D_@hAW\\KdC}AtAsAnBoCp@_BrAkFpAsE~BmFjAkAvAqAfBsAfLiH`CyAhC}Az@g@~@i@rQcL|CiBlCeBhFiDlFmDd@StBuAlIwFxBqArBy@zAe@hBg@fBYxAKt@Er@Ct@An@?p@?p@Dv@Dt@FtBX|A^xBp@tB`AdDrBnAdAdC|BbCxBrAlAhAz@t@b@xClBbBt@vBt@jAb@rDt@lBVnANfCRnB@jC?zCAtC?J?nG?xF?bD?pCUvC_@rBe@zDsA`CaAfBo@xAi@vAi@fG_C|Bw@pBs@TGt@YpEeBnBu@zCiA`Bo@vAi@rOgGtHsChGaC|PeGhEyAvAg@~Ae@rA]vA]h@K^E^Ad@@j@@v@?~@DfCCdD@Z??e@@sICiJ?e@AmCAiJDy[lCAr@CVCx@GlBIxABpCAtACz@G`B_@lBy@~@_@`AW~@O~@E`AAzBBT@fCDnCAfDG|CMxH_@vBOdBg@tAg@p@MZEt@IJAx@AT@`AF~@L~EdAhAZhAf@r@f@r@r@~AdBnB|BxCrDJJNNp@z@jBdCNTNT\\f@~@dBt@fBlA`EL`@Lb@Vz@Zx@h@jAp@dAX^@@NNHORYFEBADC@CBG@G@GBKJOTe@Ja@B_@Bc@F_@HODG@C@E@E?GBGDGJOVSRO`@YZUHCHAHAH@LDFBHHDFHLd@hAZr@HRDJ@JDP@NBJDF@@BDBBD@R?R?\\?PA\\?D?J?F???BBBBD?DADC@G?I??CECEGAC@E@AD??O?I?]?o@?Y?E?CAGEAEAGCSEOEQg@oASe@Uk@KQIGMIMEQAO?K@MDmBvAGHIJKLCDCDA@AFAD?FAD?DGXCTC`@AJAJK`@CHMPMRIHGBEDCFAHAJCBKRIIQWq@eAg@gAYu@Y_AK_@Ma@e@mBe@wAw@gB]u@k@y@W_@OUKSmBiCo@w@W[eDyDiByB}AgBw@w@w@i@oAm@gHaBeBUy@Ay@AqAPmAZoAf@i@Pm@Ly@J{@DwH^}CLaDFgC?yCGU?}DEaCXaATeA`@u@\\u@ZmAXs@Hm@B}@?sC?uA?cAFcBF[@CsB?m@Ak@?i@?m@A[?QAk@gBAE?oABW??F@vJ?b@@tJ@fP?vJ?`C?`@?jFCrM@b@B~EAhC?H?J?dD@fEBrU?`@?vW@nV?hB?~I?\\@tDJrA@bIFxkA?tF?bOAjGCfU?fI}C?yG?s@Ma@G[I[OuCgBMISKSIWG_@Ic@EcGG_@@[B]D]HYHUHmDpB[PYJWFS@W@WAUCWGSIWKUOOKOMoKiJcDeCkFcEy@g@c@Ua@O]K_@I[E[ESCG?e@AuG?sB?s@?kPBmABm@He@Jg@Pc@N_@Rc@Xa@Z_@\\Y\\_@h@]n@c@fAeBhDYh@e@n@YZ{@t@aAt@{@f@mAl@cAZqATqALy@?}IFuCC{AGgAYaCm@qBe@aAGw@B_IhAKoCSaBYeA_@}Ae@{A]mAk@cCUgBAkABeAJw@}@_@IC_AKgAT}EbBMFqBVe@?IAs@KMEwA]{Bm@iCo@]IEV}AvK}@Uy@UmA[a@Mk@MOGETEXPDj@N`@JlAVx@T~@T{CbTeC|JUMA?{BkAm@Sm@KSAq@AsCV{ALkAXyCrBgApA_AlAuCjDqBtCWX[VeF`DcNbJe@Va@Pg@L_G|@{@Hq@?m@Em@Oi@Qs@_@k@e@i@o@uF}FYYgAo@uAc@sAGuADs@LiA^}Af@g@Vy@v@o@r@k@j@y@h@QLQFIDa@PgAVaAHe@?iA?OAgACS?BoB?w@AeAGi@MsAQcAYJS@wAGyCMk@E_@Ce@EMCW[vAqBjBiCMSoDbFwAlB[v@_@hAY|@kAc@}@Ww@IoCe@iBYKAMAo@CcADSDy@T{Aj@w@ZcC~@eA^aA`@y@^kC`Ai@Rg@RYNc@Vq@VSHIB@\\XM|Ai@b@QBd@F|@GfCE~BKpDItAUfFQvAmD~]OrBW~DIjCExAAhI?zD?pHHpS@hCAlUAfBAdKAhBBRD|A?p@ApAAfB?|@E|BIfEUjD_@rDcAfGyAnH]hByG|^Y|AWj@eB`JmAnH{ClPqAdH_BlJg@tCqGp\\gPp}@cCbNOz@iCxM}CxPcCpPoA~IyCfS}DbZShB]lCa@vC_@zCoAdJa@lCqC|QeGda@_Fl\\}@vFy@|Ey@xEuC|O[fB]`C[zBW~BSpBQzBOfCMfCI~BG`CCfCAxCIbVAzEAxFGzs@@`BB~ADdBFdBHfBJ|AL`BNzATnCJ|@r@xHL~AJ~ALrBJdCDzBBvB@vBBtg@@d_@@bC@jMAvJAvBEvBKpBQnBUlBWbB]dB{C|Ne@~Ba@bCa@dC]bCYbCiChUsE`b@YdCeAtJg@jEUjCQxBMhCGbCAbC?fCDjCLdCNzBTbCZ~BZrB^tBf@tBh@nBj@jB|V|u@t@vBv@nBt@dB|@bB|@fBtFhKl@hAj@hAl@pAj@rAj@xAj@bBd@zAZfA\\lAb@hB`@jBNt@Lt@VbBTfBTdBN|ANfBrApP|@hKPzBtCr]p@hIR|BjB`Vt@rJ|AfQf@lERpCx@hJzA`SPfBRdBVfBXhBX|A\\`B`@~A`@~Ad@|Af@|Ah@zAj@xA~AzDdDdInC~G\\v@Z|@Vz@X`AR~@\\`BX`Bf@fDVpB~@xF`A|Fr@|Eb@|Cl@vD^vBdDhSz@lFHn@ZjCDTDXZ`BrB~LNr@d@xBVbAX`AvAnElAdD|IzRzAzDzAfFb@hBXnAVlAtB|I^zAfAzEn@hCjBxH~BtJJd@Np@Nf@lCnLz@~Dp@pE\\~FRxFh@lQb@~NTdIVzJRzG`@hODrB?|BCrAE~AUzDg@~D}@dEgBbGm@rBiGjT}AfFcK~]o@`Cg@~BYjBGj@Ip@QjBI`CCbC@jBHjBHzAPzAN~ATzAl@nCh@fBl@`Br@`BlB~DtE~JdA~BtApCl@pAx@hBtAtCh@nAd@jAZdARp@h@pCbAzI^xC~@bI|@tIT|A\\|BXxDHrBAbF]zEk@hDgAvDmAfCuBdDsAvA{B`BeCnAsIrDyCnAwClAcFjBoGvCeCxAyCvCsBtD}LxXuHzM{B|Fe@tCk@lEIxBGfC[`OSrGQbCc@zC{@`DmAbDuBlDiJ~MyVl_@mF`Ii@v@i@~@]r@Yp@Wp@Od@Oj@Wz@UfAQ~@OhAMhAKtAGxAI|A_A`UQnDK`CAhA?bBB`BLfBZ|CVtAd@rBv@lD~AhGhBdGtAhFtDbLp@nBrBfFhA|CnA|DhBbGbElN`DjK^~A`@hBd@jC^zCTpBLjBHdABb@H|BDjA?n@@hA?fF?vT?hKGbCM~BOlBMvA}@pH_A|Hm@rEuBrP[lBKr@Kl@k@pD_A~Dw@bDc@bBk@bBm@tBw@tBaAfCy@rBwAhDw@pBs@nBa@zAc@|Ae@|BSfAMp@UzAIj@Ih@[tBMdAAHWbCEXU`DMpBc@nGIdBGfBC|BBzBHjCNxBPzBx@nJ`@vEBTVpCFj@tAdQZzEb@`HPjCPrC@zBDzBCxCCXArAExAIbBM|AMnAi@vDu@jE{@xE[dBMn@c@fBOj@GXE^E~@AZBp@Lz@Nf@P`@Rb@Zd@^b@bDvCR\\vBjBn@l@~ChClB`BfBnA|DlDnGrEpFvEtQlPpOdNlAlArMfLrAlArAnAlAnAx@~@^d@p@~@n@`Ax@vAv@bBz@xB`AvCb@pBd@`CV~AZdCNjBfAvOt@pLdCb[VrDRxCXdDf@tEZhC|@pEd@lBdAjDr@|BnA`DfA|BbB~CrAzBrA|Bf@x@jBpBz@|@pAlA`BpAjA|@t@j@|Ax@hAr@xAv@~An@`Bf@~Bf@vBX|Er@lEdApDv@r@Nv@Rn@Lr@Np@Lp@Lr@Np@NdUlFpLpCrNhDtE~@pEhA|@XbAd@t@b@l@`@r@h@l@j@^b@`@d@f@v@^t@l@fA~ClHrErKd@fAl@hAh@`An@~@v@fA~@dAz@v@x@n@rCjB^NdA\\rAVtARN@~BDtBGhAIrAOvA]lA_@`Bu@rLyFlEwBnBu@vBw@vm@eUZIfAStAMhAClA@vAJ|Bd@r@ThDtAfBt@nFxBzD~ApAh@~Ap@t@Z|@Xv@Rh@Hf@Fp@FjABbAE~@IrAWlAa@zAs@tCgBlSgM|FaDDCbHuErA}@pCkBpGeEpGkEjCaBpBs@nCw@zBe@fBMdBCnHJzOEtGAtG?vAKdBWZE|@UbA[~As@fLeHjVaOxDsAlEqBhCwA\\YKs@QcBIiAEm@Iu@C]E[QkB[eDAKGo@AOAMC[SsBEa@[oDCOGu@KeAIeAVSpAw@t@c@~AaAj@SjBq@zBy@\\OPMJO@WJe@@M?U?KAQAGKi@EOPIn@UTIDCb@MTGVGb@KBAj@Md@W`ASJCNEPEj@MJCTG@?v@Q\\GHCd@KDA^INEVGJCt@OHCNEPE~@Sl@MLC@AREHCPCb@KnAYLCRE^IbAUd@Kv@QHAXIZI`@ILCp@Q|@SVGREj@MJAdAWREA_@Aa@C}@Ai@AW?[Co@CiA?WA[Cw@?CCaA?WAW?MA]AKCcA?YA]EuBA[AWE}BA]ASAIAU?MASAa@?QAQAo@?ME{A?SAOCgBAu@AQ?GAWEcBAUCmACgAAU?[As@AI?UC]IuDA_@AU?YA]Cu@Ac@?SO?C?mAC",
+            "capacity": 20,
+            "shiftStartTime": "07:00",
+            "startPosition": {
+                "latitude": 37.961097341946974,
+                "longitude": -121.32272899127663
+            },
+            "endPosition": {
+                "latitude": 37.89145810477322,
+                "longitude": -122.28657757517325
+            },
+            "startMode": "ASSIGNEE_ADDRESS",
+            "endMode": "ASSIGNEE_ADDRESS"
+        }
+    ],
+    "droResponseId": "1fbcaff4-f8ac-4307-929c-d87cc47a899e",
+    "timeQuantumInSeconds": 1
+}
