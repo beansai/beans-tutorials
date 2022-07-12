@@ -158,7 +158,7 @@ POST https://isp.beans.ai/enterprise/v1/dro/run
 ```
 **Request Body**
 
-Please see the full file at [assets/stateless-dro-response.json](assets/stateless-dro-response.json)
+Please see the full payload at [assets/stateless-dro-request](assets/stateless-dro-request.json)
 
 **Response**
 
