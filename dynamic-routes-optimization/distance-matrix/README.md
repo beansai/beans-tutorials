@@ -10,12 +10,12 @@ Distance Matrix would be helpful to you.
 
 ## Table of contents
 - [Distance Matrix](#distance-matrix)
+  - [Example of Part Stops](#example-of-part-stops)
   - [Example of All Stops](#example-of-all-stops)
-  - [Example o Group Stops](#example-of-group-stops)
   - [Request Payloads](#request-payloads)
   - [Importance](#importance)
 
-### Example of All Stops
+### Example of Part Stops
 Let's say we have 6 stops which 3 are sources and 3 are destinations,
 we will make a calculation request then get the result.
 
@@ -183,18 +183,18 @@ Then, we got a 3x3 distance matrix from the rows in the response.
 ![Distance-matrix-3-3](assets/images/calculation-result-3-3.png)
 
 
-# Example of Group Stops
+## Example of All Stops
 ![Stops](assets/images/stops.png)
 
-Let's say we have 6 stops and we want to know the distance between each other.
+This time, we want to calculate all distances between 6 stops.
 
-## Send Calculation Request
+**Send Calculation Request**
 
 ```
 POST {{baseURL}}/enterprise/v1/dro/distance_matrix
 ```
 
-`Payload`
+**Body**
 ```json
 {
     "requestId": "matrix-101",
@@ -381,9 +381,9 @@ Then, we got a 6x6 distance matrix from the rows in the response.
 # Request Payloads
 - points - [required] The stops we want to calculate for distances.
 - requestId - [optional] If not specified we will generate one, it is determinsitacally based on the points, sourcesIdx, destinationsIdx.
-- sources_idx - [optional] all points would be sources if it is not specified.
-- destinations_idx - [optional] all points would be destinations if it is not specified.
-- country_iso3 - [optional] a random Point would be used to determine its most likely country of origin if it is not specified.
+- sources_idx - [optional] All points would be sources if it is not specified.
+- destinations_idx - [optional] All points would be destinations if it is not specified.
+- country_iso3 - [optional] A random Point would be used to determine its most likely country of origin if it is not specified.
 
 # Importance
 The calculation result will be available for 7 days (the result may be archived after 7 days).
