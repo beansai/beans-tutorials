@@ -10,12 +10,13 @@ Distance Matrix would be helpful to you.
 
 ## Table of contents
 - [Distance Matrix](#distance-matrix)
-  - [Example of Part Stops](#example-of-part-stops)
+  - [Example of Group Stops](#example-of-group-stops)
   - [Example of All Stops](#example-of-all-stops)
   - [Request Payloads](#request-payloads)
   - [Importance](#importance)
 
-### Example of Part Stops
+## Example of Group Stops
+![Stops](assets/images/stops-part.png)
 Let's say we have 6 stops which 3 are sources and 3 are destinations,
 we will make a calculation request then get the result.
 
