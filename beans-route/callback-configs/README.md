@@ -25,6 +25,7 @@ If we want to receive callbacks when data was changed, we can set the globalUrl 
       - [Assignee Callback Example](#assignee-callback-example)
       - [Assignee Vehicle Callback Example](#assignee-vehicle-callback-example)
       - [Route What-If Async Callback Example](#route-what-if-async-callback-example)
+      - [Distance Matrix Async Callback Example](#distance-matric-async-callback-example)
 
 ## Supported Callbacks
 
@@ -38,6 +39,7 @@ Callbacks would trigger an HTTP POST on the following object types when modified
 - Warehouse
 - AssigneeVehicle
 - RouteWhatifAsync
+- DistanceMatrix
 
 ## Callback Config API
 
@@ -62,6 +64,8 @@ GET https://isp.beans.ai/enterprise/v1/lists/callback_configs
     "assigneeVehicle": true,
     "globalUrl": "https://6f0c-36-237-93-205.ngrok.io",
     "routeWhatifAsync": true,
+    "itemDocumentation": true,
+    "distanceMatrix": true,
     "headers": [
         {
             "key": "X-Special-Header-1",
@@ -115,6 +119,7 @@ POST https://isp.beans.ai/enterprise/v1/lists/callback_configs
     "globalUrl": "https://6f0c-36-237-93-205.ngrok.io",
     "routeWhatifAsync": true,
     "itemDocumentation": true,
+    "distanceMatrix": true,
     "headers": [
         {
             "key": "X-Special-Header-1",
@@ -145,6 +150,7 @@ We can dynamically resolve the object type by parsing the "type" field to determ
 - ASSIGNEE
 - ASSIGNEE_VEHICLE
 - ROUTE_WHATIF_ASYNC
+- DISTANCE_MATRIX
 
 **Actions**
 
@@ -400,3 +406,89 @@ The system ensures that the value of the watermark is strictly increasing. In ot
 }
 ```
 
+#### Distance Matric Async Callback Example
+
+```json
+{
+  "type": "DISTANCE_MATRIX",
+  "action": "CREATE",
+  "account_buid": "aCUYkl5jtq8-BrBTr3pTdzmnVQyb8Im5ODarcMg-ucyDFHSJ3D9bvdxlnbFyeoikFo2BKlATE0PPgah7IXvKqFe7TdcD_uCZdUgiMLVGqbyy6JGxPta73ZdaPjBARsfIuq65qQ",
+  "object": {
+    "rows": [
+      {
+        "value": [
+          0.8,
+          84.6
+        ]
+      },
+      {
+        "value": [
+          2478.5,
+          2481.6
+        ]
+      },
+      {
+        "value": [
+          12.7,
+          98.1
+        ]
+      }
+    ],
+    "stat": {
+      "unique_source": 3,
+      "unique_destination": 2,
+      "total_cells": 6
+    },
+    "request_id": "matrix-005",
+    "start_time_epoch": "1663001528",
+    "account_buid": "aCUYkl5jtq8-BrBTr3pTdzmnVQyb8Im5ODarcMg-ucyDFHSJ3D9bvdxlnbFyeoikFo2BKlATE0PPgah7IXvKqFe7TdcD_uCZdUgiMLVGqbyy6JGxPta73ZdaPjBARsfIuq65qQ",
+    "request": {
+      "request_id": "matrix-005",
+      "points": [
+        {
+          "position": {
+            "lat": 34.546310804961294,
+            "lng": -82.68218827032248
+          }
+        },
+        {
+          "position": {
+            "lat": 34.546310804961294,
+            "lng": -82.6832
+          }
+        },
+        {
+          "position": {
+            "lat": 34.546310804961294,
+            "lng": -82.6822
+          }
+        },
+        {
+          "position": {
+            "lat": 34.5462,
+            "lng": -82.6822
+          }
+        },
+        {
+          "position": {
+            "lat": 34.5469,
+            "lng": -82.6822
+          }
+        }
+      ],
+      "sources_idx": [
+        0,
+        1,
+        3
+      ],
+      "destinations_idx": [
+        2,
+        4
+      ],
+      "asynchronous": true,
+      "country_iso3": "USA"
+    }
+  },
+  "watermark": "1663001528712"
+}
+```
