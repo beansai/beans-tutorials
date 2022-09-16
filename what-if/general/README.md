@@ -156,6 +156,15 @@ You can see the full payload here [what-if-request.json](assets/what-if-request.
   - The upper limit of the number of items in a route for that route to be considered. So, for example, if e9770d42-3b2c-4fcf-b8a7-fd81a40b3b91 has 50 stops, that route would NOT be considered 
 - must_have_assignee (optional, boolean)
   - When list_route_ids is empty, we can deceide whether or not to find open routes with assignee assigned.
+- assignee_position_freshness_minutes(optional, integer) & allow_unknown_assignee_location(optional, boolean)
+  - When selecting a route
+    - If a route has an assignee associated with it
+      - By default, only assignee's location within 60 minutes of the request for that route will be considered as candidate.
+    - If a route does not have an assignee or the assignee's location is 0,0 it will NOT be considered by default.
+    - To consider routes without assignees or assignees with 0,0 location
+      - set allow_unknown_assignee_location to true
+    - To consider routes with assignees with stale location
+      - set assignee_position_freshness_minutes to something large
 - request_id (optional, though strongly recommended, string)
   - The ID to identify this request, can be used to query the status later.
 - use_warehouse_as_terminal (optional)
