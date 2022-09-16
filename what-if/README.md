@@ -38,3 +38,4 @@ Authorization: Basic OE9Bd2hiSzA6Qzc3NTJFMjQwNTkxNDk0NUU3RDA4
 - [Warehouse as terminal](warehouse-as-terminal) - When we want to observe the difference between use warehouse as terminal or not.
 - [Stops outside current date](stops-outside-current-date) - When we want to decide whether or not to use stops which has no intersect with current date.
 - [Multiple Day Stops](multiple-day-stops) - When we want to decide whether or not to use stops which deliver from/by is within 24 hours.
+- [Assignee location and staleness](assignee-location-and-staleness) - When assignee's location status is also considered.

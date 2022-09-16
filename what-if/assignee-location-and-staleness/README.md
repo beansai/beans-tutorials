@@ -1,3 +1,4 @@
+<img src="../assets/images/beans-128x128.png" align="right" />
 # Assignee Location and Staleness
 
 ![stops](assets/images/stops.png)
@@ -23,6 +24,7 @@ Via Zamboni 7e95ff31 (Left of the map, Yellow)
 - [Default Setting Example](#default-setting-example)
 - [Include Unknown Position Assignee Example](#include-unknown-position-assignee-example)
 - [Include Unknown and Staleness Position Assignees Example](#include-unknown-and-staleness-position-assignees-example)
+- [Parameters](#parameters)
 
 
 ## Default Setting Example
@@ -31,6 +33,7 @@ By selecting a route the system will check defaultly
 - Whether or not the assignee's location is updated and is it fresh (within 60 minutes of the request of the route)
 
 Let's see an example of all routes are not available
+
 **Request**
 ```
 POST {{baseURL}}/enterprise/v1/lists/route_whatif
@@ -105,6 +108,7 @@ We can see the details in logs
 
 ## Include Unknown Position Assignee Example
 We can set `allow_unknown_assignee_location` to true,
+
 to include route "Via Spina e4630dbb" and "Via Zamboni 7e95ff31" for what-if observation.
 
 **Request**
@@ -268,3 +272,7 @@ but also give `assignee_position_freshness_minutes` a very large number to inclu
     "message": "Completed"
 }
 ```
+
+## Parameters
+- assignee_position_freshness_minutes - (optional) default is 60
+- allow_unknown_assignee_location - (optional) default is false
