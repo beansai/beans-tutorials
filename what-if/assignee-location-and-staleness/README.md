@@ -1,23 +1,14 @@
 <img src="../assets/images/beans-128x128.png" align="right" />
+
 # Assignee Location and Staleness
 
 ![stops](assets/images/stops.png)
 
 Let's say we have 2 stops and 3 routes for what-if observation.
-
-Two Stops to consider (Right of the map, black)
-- We have stop stops with black color on the right of the map.
-
-Via della 47e56245 (Top of the map, blue)
-- It is not associated with an assignee.
-
-Via Spina e4630dbb (Right of the map, Red)
-- It is associated with an assignee 
-- The assignee's location was updated within 60 minutes of the request.
-
-Via Zamboni 7e95ff31 (Left of the map, Yellow)
-- It is associated with an assignee
-- The assignee's location has been not updated for more than 60 minutes.
+- Two stops (Right of the map, Black)
+- Via della 47e56245 (Top of the map, blue) - It is not associated with an assignee.
+- Via Spina e4630dbb (Right of the map, Red) - Associated with assignee but location was updated long time ago.
+- Via Zamboni 7e95ff31 (Left of the map, Yellow) - Associated with assignee but location is never updated.
 
 ## Table of contents
 - [Assignee Location and Staleness](#assignee-location-and-staleness)
@@ -26,13 +17,12 @@ Via Zamboni 7e95ff31 (Left of the map, Yellow)
 - [Include Unknown and Staleness Position Assignees Example](#include-unknown-and-staleness-position-assignees-example)
 - [Parameters](#parameters)
 
-
 ## Default Setting Example
-By selecting a route the system will check defaultly
+By selecting a route, the system will check defaultly
 - Whether or not the route is associated with an assignee
 - Whether or not the assignee's location is updated and is it fresh (within 60 minutes of the request of the route)
 
-Let's see an example of all routes are not available
+Let's see an example of all selected routes are not selected as candidate.
 
 **Request**
 ```
@@ -64,12 +54,11 @@ POST {{baseURL}}/enterprise/v1/lists/route_whatif
 
 **Response**
 
-We can see the details in logs
+We can see the details from logs in the response
 - Freshness configuration is 60 minutes
 - Via della 47e56245 - is not associated with an  assignee
 - Via Spina e4630dbb - is associated with an assignee, updated location before but not fresh now (within 60 minutes)
 - Via Zamboni 7e95ff31 - is associated with an assignee but the location is not updated (0/0 position)
-- Summary of what-if
 
 ```json
 {
@@ -107,9 +96,8 @@ We can see the details in logs
 ```
 
 ## Include Unknown Position Assignee Example
-We can set `allow_unknown_assignee_location` to true,
-
-to include route "Via Spina e4630dbb" and "Via Zamboni 7e95ff31" for what-if observation.
+To include route "Via Spina e4630dbb" and "Via Zamboni 7e95ff31" for what-if observation
+- Set `allow_unknown_assignee_location` to true.
 
 **Request**
 ```json
@@ -190,7 +178,7 @@ to include route "Via Spina e4630dbb" and "Via Zamboni 7e95ff31" for what-if obs
 ## Include Unknown and Staleness Position Assignees Example
 This time, we are not only setting `allow_unknown_assignee_location` to true 
 
-but also give `assignee_position_freshness_minutes` a very large number to include the "staleness" assignee.
+but also giving `assignee_position_freshness_minutes` a very large number to include the route associated with assignee which's location is staleness.
 
 **Request**
 ```json
