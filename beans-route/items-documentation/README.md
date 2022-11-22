@@ -56,7 +56,7 @@ GET {{baseURL}}/enterprise/v1/lists/itemsdocumentation/{list-item-id}
     ]
 }
 ```
-**notes**
+**Notes**
 
 A documentation is always in context of a list item
 - There could be multiple images
