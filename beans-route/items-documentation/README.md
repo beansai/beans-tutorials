@@ -4,7 +4,7 @@
 
 # Items Documentation
 
-Item Document introduces the basic idea of contextual documentation that often accompany a piece of work or task. Since a piece of work/task in our ecosystem is currently modeled as a List Item, we are terming this set of API's Item Documentation.
+Item Documentation introduces the basic idea of contextual documentation that often accompany a piece of work or task. Since a piece of work/task in our ecosystem is currently modeled as a List Item, we are terming this set of API's Item Documentation.
 
 For example, when a package is dropped of, the driver could ask the recipient of the package for signatures AND encode status of the package as part of the documentation.
 
@@ -13,6 +13,7 @@ For example, when a package is dropped of, the driver could ask the recipient of
 - [Items Documentation](#items-documentation)
   - [Get Item Documentation](#get-item-documentation)
   - [Post Item Documentation](#post-item-documentation)
+  - [Notes](#notes)
 
 ## Get Item Documentation
 
@@ -56,16 +57,6 @@ GET {{baseURL}}/enterprise/v1/lists/itemsdocumentation/{list-item-id}
     ]
 }
 ```
-**Notes**
-
-A documentation is always in context of a list item
-- There could be multiple images
-- There could be multiple notes
-- Tags are used for domain specific considerations (e.g package size, dimension) that is not sufficiently general
-- Image type can really be anything, though the common ones are:
-  - proof
-  - signature
-  - exception
 
 ## Post Item Documentation
 
@@ -146,4 +137,13 @@ POST {{baseURL}}/enterprise/v1/lists/itemsdocumentation
 }
 ```
 
+## Notes
 
+A documentation is always in context of a list item
+- There could be multiple images
+- There could be multiple notes
+- Tags are used for domain specific considerations (e.g package size, dimension) that is not sufficiently general
+- Image type can really be anything, though the common ones are:
+  - proof
+  - signature
+  - exception
