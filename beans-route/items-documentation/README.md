@@ -57,11 +57,12 @@ GET {{baseURL}}/enterprise/v1/lists/itemsdocumentation/{list-item-id}
 }
 ```
 **notes**
-a documentation is always in context of a list item
-- there could be multiple images
-- there could be multiple notes
-- tags are used for domain specific considerations (e.g package size, dimension) that is not sufficiently general
-- image type can really be anything, though the common ones are:
+
+A documentation is always in context of a list item
+- There could be multiple images
+- There could be multiple notes
+- Tags are used for domain specific considerations (e.g package size, dimension) that is not sufficiently general
+- Image type can really be anything, though the common ones are:
   - proof
   - signature
   - exception
