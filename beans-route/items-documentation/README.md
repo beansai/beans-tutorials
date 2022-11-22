@@ -4,8 +4,9 @@
 
 # Items Documentation
 
-Describe any documentation on list item
-e.g. proof of delivery, signature, or any other documentation
+Item Document introduces the basic idea of contextual documentation that often accompany a piece of work or task. Since a piece of work/task in our ecosystem is currently modeled as a List Item, we are terming this set of API's Item Documentation.
+
+For example, when a package is dropped of, the driver could ask the recipient of the package for signatures AND encode status of the package as part of the documentation.
 
 ## Table of contents
 
@@ -55,7 +56,15 @@ GET {{baseURL}}/enterprise/v1/lists/itemsdocumentation/{list-item-id}
     ]
 }
 ```
-
+**notes**
+a documentation is always in context of a list item
+- there could be multiple images
+- there could be multiple notes
+- tags are used for domain specific considerations (e.g package size, dimension) that is not sufficiently general
+- image type can really be anything, though the common ones are:
+  - proof
+  - signature
+  - exception
 
 ## Post Item Documentation
 
