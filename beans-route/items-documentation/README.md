@@ -10,10 +10,10 @@ e.g. proof of delivery, signature, or any other documentation
 ## Table of contents
 
 - [Items Documentation](#items-documentation)
-  - [Get Documentation](#get-documentation)
-  - [Post Documentation](#post-documentation)
+  - [Get Item Documentation](#get-item-documentation)
+  - [Post Item Documentation](#post-item-documentation)
 
-## Get Documentation
+## Get Item Documentation
 
 **Request Example**
 
