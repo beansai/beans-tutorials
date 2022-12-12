@@ -26,10 +26,11 @@ If we want to receive callbacks when data was changed, we can set the globalUrl 
       - [Assignee Vehicle Callback Example](#assignee-vehicle-callback-example)
       - [Route What-If Async Callback Example](#route-what-if-async-callback-example)
       - [Distance Matrix Async Callback Example](#distance-matric-async-callback-example)
+      - [Driver Start Callback Example](#driver-start-callback-example)
 
 ## Supported Callbacks
 
-Callbacks would trigger an HTTP POST on the following object types when modified.
+Callbacks would trigger an HTTP POST on the following object changes or event issues.
 
 - Account
 - Route
@@ -40,6 +41,7 @@ Callbacks would trigger an HTTP POST on the following object types when modified
 - AssigneeVehicle
 - RouteWhatifAsync
 - DistanceMatrix
+- DriverStart
 
 ## Callback Config API
 
@@ -62,10 +64,8 @@ GET https://isp.beans.ai/enterprise/v1/lists/callback_configs
     "assignee": true,
     "warehouse": true,
     "assigneeVehicle": true,
-    "globalUrl": "https://6f0c-36-237-93-205.ngrok.io",
+    "globalUrl": "https://96d2-36-237-115-38.ngrok.io",
     "routeWhatifAsync": true,
-    "itemDocumentation": true,
-    "distanceMatrix": true,
     "headers": [
         {
             "key": "X-Special-Header-1",
@@ -75,13 +75,17 @@ GET https://isp.beans.ai/enterprise/v1/lists/callback_configs
             "key": "X-Special-Header-2",
             "value": "special-value2"
         }
-    ]
+    ],
+    "itemDocumentation": true,
+    "distanceMatrix": true,
+    "driverStart": true
 }
 ```
 
 ### Update Callback Configs
 
 **Request Example**
+
 
 ```
 POST https://isp.beans.ai/enterprise/v1/lists/callback_configs
@@ -98,7 +102,9 @@ POST https://isp.beans.ai/enterprise/v1/lists/callback_configs
   "assigneeVehicle": true,
   "routeWhatifAsync": true,
   "itemDocumentation": true,
-  "globalUrl": "https://6f0c-36-237-93-205.ngrok.io",
+  "distanceMatrix":true,
+  "driverStart":true,
+  "globalUrl": "https://96d2-36-237-115-38.ngrok.io",
   "headers": [{"key":"X-Special-Header-1","value":"special-value1"},{"key":"X-Special-Header-2","value":"special-value2"}]
 }
 ```
@@ -116,10 +122,8 @@ POST https://isp.beans.ai/enterprise/v1/lists/callback_configs
     "assignee": true,
     "warehouse": true,
     "assigneeVehicle": true,
-    "globalUrl": "https://6f0c-36-237-93-205.ngrok.io",
+    "globalUrl": "https://96d2-36-237-115-38.ngrok.io",
     "routeWhatifAsync": true,
-    "itemDocumentation": true,
-    "distanceMatrix": true,
     "headers": [
         {
             "key": "X-Special-Header-1",
@@ -129,7 +133,10 @@ POST https://isp.beans.ai/enterprise/v1/lists/callback_configs
             "key": "X-Special-Header-2",
             "value": "special-value2"
         }
-    ]
+    ],
+    "itemDocumentation": true,
+    "distanceMatrix": true,
+    "driverStart": true
 }
 ```
 
@@ -151,6 +158,7 @@ We can dynamically resolve the object type by parsing the "type" field to determ
 - ASSIGNEE_VEHICLE
 - ROUTE_WHATIF_ASYNC
 - DISTANCE_MATRIX
+- DRIVER_START
 
 **Actions**
 
@@ -492,3 +500,21 @@ The system ensures that the value of the watermark is strictly increasing. In ot
   "watermark": "1663001528712"
 }
 ```
+
+##### Driver Start Callback Example
+```json
+{
+    "type": "DRIVER_START",
+    "action": "CREATE",
+    "account_buid": "4022a1aada0e4c4684e61e3f73290a68",
+    "object": {
+        "list_assignee_id": "ca8d-0a3889d0-a756",
+        "list_route_id": "e4630dbb-44f9-447c-8c5d-ba0aee0a6b82",
+        "start_epoch_millis": "1670813033227"
+    },
+    "watermark": "1670813035543"
+}
+
+```
+
+
