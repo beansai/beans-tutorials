@@ -92,6 +92,7 @@ GET {{baseURL}}/enterprise/v1/dro/time_matrix/{{requestId}}
 ```
 
 **Response**
+
 ```json
 {
     "rows": [
@@ -181,6 +182,7 @@ GET {{baseURL}}/enterprise/v1/dro/time_matrix/{{requestId}}
 }
 ```
 
+
 Then, we got a 3x3 time(seconds) matrix from the rows in the response.
 ![Time-matrix-3-3](assets/images/matrix-time-3x3.png)
 
@@ -260,6 +262,7 @@ GET {{baseURL}}/enterprise/v1/dro/time_matrix/{{requestId}}
 ```
 
 **Response**
+
 ```json
 {
     "rows": [
@@ -377,6 +380,7 @@ GET {{baseURL}}/enterprise/v1/dro/time_matrix/{{requestId}}
     }
 }
 ```
+
 Then, we got a 6x6 time(seconds) matrix from the rows in the response.
 ![Time-matrix-6-6](assets/images/matrix-time-6x6.png)
 

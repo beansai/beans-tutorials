@@ -92,6 +92,9 @@ GET {{baseURL}}/enterprise/v1/dro/timedistance_matrix/{{requestId}}
 ```
 
 **Response**
+
+- Each value under rows would be time1, distance1, time2, distance2...
+
 ```json
 {
     "rows": [
@@ -269,6 +272,9 @@ GET {{baseURL}}/enterprise/v1/dro/timedistance_matrix/{{requestId}}
 ```
 
 **Response**
+
+- Each value under rows would be time1, distance1, time2, distance2...
+
 ```json
 {
     "rows": [
