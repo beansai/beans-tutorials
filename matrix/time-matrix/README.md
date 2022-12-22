@@ -5,7 +5,8 @@
 
 ![Stops](assets/images/stops.png)
 
-When you have many stops and want to determine the travel time at once,
+When you have many stops and want to determine the travel time among them at once,
+
 Time Matrix would be helpful to you.
 
 ## Table of contents

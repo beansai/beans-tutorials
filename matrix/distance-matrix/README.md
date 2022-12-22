@@ -5,7 +5,8 @@
 
 ![Stops](assets/images/stops.png)
 
-When you have many stops and want to determine many distances at once,
+When you have many stops and want to determine the distances among them at once,
+
 Distance Matrix would be helpful to you.
 
 ## Table of contents

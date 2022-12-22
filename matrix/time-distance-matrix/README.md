@@ -5,7 +5,8 @@
 
 ![Stops](assets/images/stops.png)
 
-When you have many stops and want to determine many distances and travel time at once,
+When you have many stops and want to determine time and distances among them at once,
+
 Time-Distance Matrix would be helpful to you.
 
 ## Table of contents
