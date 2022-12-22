@@ -6,6 +6,6 @@ Welcome to [One Hundred Feet](https://www.beans.ai) Developer Tutorials!
 
 ## Matrix Tutorials
 
-- [Distance Matrix](/distance-matrix/)
-- [Time Matrix](/time-matrix/)
-- [Time-Distance Matrix](/time-distance-matrix/)
+- [Distance Matrix](distance-matrix)
+- [Time Matrix](time-matrix)
+- [Time-Distance Matrix](time-distance-matrix)
