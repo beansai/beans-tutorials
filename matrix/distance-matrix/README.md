@@ -11,7 +11,7 @@ Distance Matrix would be helpful to you.
 ## Table of contents
 - [Distance Matrix](#distance-matrix)
   - [Example of Group Stops](#example-of-group-stops)
-  - [Example of All Stops](#example-of-all-stops)
+  - [Example of All Possibilities](#example-of-all-possibilities)
   - [Request Payloads](#request-payloads)
   - [Importance](#importance)
 
@@ -184,7 +184,7 @@ Then, we got a 3x3 distance matrix from the rows in the response.
 ![Distance-matrix-3-3](assets/images/calculation-result-3-3.png)
 
 
-## Example of All Stops
+## Example of All Possibilities
 ![Stops](assets/images/stops.png)
 
 This time, we want to calculate all distances between 6 stops.
