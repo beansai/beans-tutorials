@@ -10,12 +10,12 @@ Time Matrix would be helpful to you.
 
 ## Table of contents
 - [Time Matrix](#time-matrix)
-  - [Example of Group Stops](#example-of-group-stops)
+  - [Example of Specified sources and destinations](#example-of-specified-sources-and-destinations)
   - [Example of All Possibilities](#example-of-all-possibilities)
   - [Request Payloads](#request-payloads)
   - [Importance](#importance)
 
-## Example of Group Stops
+## Example of Specified sources and destinations
 ![Stops](assets/images/stops-part.png)
 Let's say we have 6 stops which 3 are sources and 3 are destinations,
 we will make a calculation request then get the result.

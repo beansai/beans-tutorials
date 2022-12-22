@@ -10,12 +10,12 @@ Distance Matrix would be helpful to you.
 
 ## Table of contents
 - [Distance Matrix](#distance-matrix)
-  - [Example of Group Stops](#example-of-group-stops)
+  - [Example of Specified sources and destinations](#example-of-specified-sources-and-destinations)
   - [Example of All Possibilities](#example-of-all-possibilities)
   - [Request Payloads](#request-payloads)
   - [Importance](#importance)
 
-## Example of Group Stops
+## Example of Specified sources and destinations
 ![Stops](assets/images/stops-part.png)
 Let's say we have 6 stops which 3 are sources and 3 are destinations,
 we will make a calculation request then get the result.
@@ -180,7 +180,7 @@ GET {{baseURL}}/enterprise/v1/dro/distance_matrix/{{requestId}}
 }
 ```
 
-Then, we got a 3x3 distance matrix from the rows in the response.
+Then, we got a 3x3 distance(meters) matrix from the rows in the response.
 ![Distance-matrix-3-3](assets/images/calculation-result-3-3.png)
 
 
@@ -376,7 +376,7 @@ GET {{baseURL}}/enterprise/v1/dro/distance_matrix/{{requestId}}
     }
 }
 ```
-Then, we got a 6x6 distance matrix from the rows in the response.
+Then, we got a 6x6 distance(meters) matrix from the rows in the response.
 ![Distance-matrix-6-6](assets/images/calculation-result-6-6.png)
 
 # Request Payloads

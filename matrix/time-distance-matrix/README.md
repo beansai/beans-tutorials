@@ -10,12 +10,12 @@ Time-Distance Matrix would be helpful to you.
 
 ## Table of contents
 - [Time Distance Matrix](#time-distance-matrix)
-  - [Example of Group Stops](#example-of-group-stops)
+  - [Example of Specified sources and destinations](#example-of-specified-sources-and-destinations)
   - [Example of All Possibilities](#example-of-all-possibilities)
   - [Request Payloads](#request-payloads)
   - [Importance](#importance)
 
-## Example of Group Stops
+## Example of Specified sources and destinations
 ![Stops](assets/images/stops-part.png)
 Let's say we have 6 stops which 3 are sources and 3 are destinations,
 we will make a calculation request then get the result.
@@ -386,7 +386,7 @@ GET {{baseURL}}/enterprise/v1/dro/timedistance_matrix/{{requestId}}
 }
 ```
 Then, we got a 6x6 distance matrix from the rows in the response.
-![Distance-matrix-6-6](assets/images/matrix-time-distance-6-6.png)
+![Time-Distance-matrix-6-6](assets/images/matrix-time-distance-6x6.png)
 
 # Request Payloads
 - points - [required] The stops we want to calculate for time-distances.
