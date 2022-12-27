@@ -193,7 +193,7 @@ GET {{baseURL}}/enterprise/v1/dro/timedistance_matrix/{{requestId}}
 }
 ```
 
-Then, we got a 3x3 time-distance(seconds,meters) matrix from the rows in the response.
+Then, we got a 3x3 <b>time-distance(seconds,meters)</b> matrix from the rows in the response.
 ![Time-Distance-matrix-3-3](assets/images/matrix-time-distance-3x3.png)
 
 
@@ -273,7 +273,7 @@ GET {{baseURL}}/enterprise/v1/dro/timedistance_matrix/{{requestId}}
 
 **Response**
 
-- Each value under rows would be time1, distance1, time2, distance2...
+- Each value under rows would be <b>time1,distance1,time2,distance2...</b>
 
 ```json
 {
