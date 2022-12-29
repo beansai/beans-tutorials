@@ -13,6 +13,7 @@ Distance Matrix would be helpful to you.
 - [Distance Matrix](#distance-matrix)
   - [Example of Specified sources and destinations](#example-of-specified-sources-and-destinations)
   - [Example of All Possibilities](#example-of-all-possibilities)
+  - [Example of Additional stops](#example-of-additional-stops)
   - [Request Payloads](#request-payloads)
   - [Importance](#importance)
 
@@ -199,7 +200,7 @@ POST {{baseURL}}/enterprise/v1/dro/distance_matrix
 **Body**
 ```json
 {
-    "requestId": "matrix-101",
+    "requestId": "distance-matrix-101",
     "points": [
         {
             "position":
@@ -377,12 +378,244 @@ GET {{baseURL}}/enterprise/v1/dro/distance_matrix/{{requestId}}
     }
 }
 ```
+
 Then, we got a 6x6 distance(meters) matrix from the rows in the response.
 ![Distance-matrix-6-6](assets/images/calculation-result-6-6.png)
+
+
+## Example of Additional Stops
+![Stops](assets/images/stops.png)
+
+To calculate with additional stops, we will use <b>referenceRequestId</b> which is the requestId of matrix we just created.
+
+In this example, we added the 7th stop and a referenceRequestId to the request.
+
+**Send Calculation Request**
+
+```
+POST {{baseURL}}/enterprise/v1/dro/distance_matrix
+```
+
+**Body**
+```json
+{
+    "requestId": "distance-matrix-3001",
+    "referenceRequestId":"distance-matrix-1001",
+    "points": [
+        {
+            "position":
+            {
+                "latitude": 37.996333094327554,
+                "longitude": -121.70646459893086
+            }
+        },
+        {
+            "position":
+            {
+                "latitude": 37.96858164318102,
+                "longitude": -121.6959508962403
+            }
+        },
+        {
+            "position":
+            {
+                "latitude": 37.8966488871678,
+                "longitude": -121.69619540095405
+            }
+        },
+        {
+            "position":
+            {
+                "latitude": 37.925198993623624,
+                "longitude": -121.77883799480549
+            }
+        },
+        {
+            "position":
+            {
+                "latitude": 37.966075787314864,
+                "longitude": -121.78128304194283
+            }
+        },
+        {
+            "position":
+            {
+                "latitude": 38.011938673071406,
+                "longitude": -121.80597801802993
+            }
+        },
+        {
+            "position":
+            {
+                "latitude": 37.98845685660203,
+                "longitude": -121.75702823086449
+            }
+        }
+    ],
+    "sourcesIdx": [],
+    "destinationsIdx": [],
+    "asynchronous": true,
+    "countryIso3": "USA"
+}
+```
+
+**Get Calculation Result**
+
+Then we can get the 7x7 matrix with the requestId "distance-matrix-3001"
+
+```
+GET {{baseURL}}/enterprise/v1/dro/distance_matrix/{{requestId}}
+```
+
+**Response**
+```json
+{
+    "rows": [
+        {
+            "value": [
+                0.0,
+                3504.5,
+                11752.2,
+                15634.5,
+                11453.8,
+                10171.6,
+                7835.3
+            ]
+        },
+        {
+            "value": [
+                3504.5,
+                0.0,
+                8247.7,
+                11789.2,
+                8791.8,
+                13635.7,
+                10887.1
+            ]
+        },
+        {
+            "value": [
+                11767.8,
+                8263.2,
+                0.0,
+                9607.4,
+                13785.9,
+                19478.6,
+                15881.2
+            ]
+        },
+        {
+            "value": [
+                15936.0,
+                11808.5,
+                9548.4,
+                0.0,
+                5445.9,
+                11319.4,
+                10623.0
+            ]
+        },
+        {
+            "value": [
+                10665.6,
+                8343.9,
+                12954.5,
+                4974.5,
+                0.0,
+                6521.4,
+                5801.9
+            ]
+        },
+        {
+            "value": [
+                10179.2,
+                14186.8,
+                19699.8,
+                11453.0,
+                6478.4,
+                0.0,
+                7917.5
+            ]
+        },
+        {
+            "value": [
+                7856.3,
+                10939.2,
+                15549.9,
+                10652.6,
+                6005.3,
+                7937.9,
+                0.0
+            ]
+        }
+    ],
+    "stat": {
+        "uniqueSource": 7,
+        "uniqueDestination": 7,
+        "totalCells": 49
+    },
+    "requestId": "reference-distance-matrix-3002",
+    "startTimeEpoch": 1672274062,
+    "accountBuid": "4022a1aada0e4c4684e61e3f73290a68",
+    "request": {
+        "requestId": "reference-distance-matrix-3002",
+        "points": [
+            {
+                "position": {
+                    "latitude": 37.996333094327554,
+                    "longitude": -121.70646459893086
+                }
+            },
+            {
+                "position": {
+                    "latitude": 37.96858164318102,
+                    "longitude": -121.6959508962403
+                }
+            },
+            {
+                "position": {
+                    "latitude": 37.8966488871678,
+                    "longitude": -121.69619540095405
+                }
+            },
+            {
+                "position": {
+                    "latitude": 37.925198993623624,
+                    "longitude": -121.77883799480549
+                }
+            },
+            {
+                "position": {
+                    "latitude": 37.966075787314864,
+                    "longitude": -121.78128304194283
+                }
+            },
+            {
+                "position": {
+                    "latitude": 38.011938673071406,
+                    "longitude": -121.80597801802993
+                }
+            },
+            {
+                "position": {
+                    "latitude": 37.98845685660203,
+                    "longitude": -121.75702823086449
+                }
+            }
+        ],
+        "asynchronous": true,
+        "countryIso3": "USA",
+        "referenceRequestId": "distance-matrix-1001"
+    }
+}
+```
+
+
 
 # Request Payloads
 - points - [required] The stops we want to calculate for distances.
 - requestId - [optional] If not specified we will generate one, it is determinsitacally based on the points, sourcesIdx, destinationsIdx.
+- referenceRequestId - [optional] The requestId of created matrix.
 - sources_idx - [optional] All points would be sources if it is not specified.
 - destinations_idx - [optional] All points would be destinations if it is not specified.
 - country_iso3 - [optional] A random Point would be used to determine its most likely country of origin if it is not specified.
