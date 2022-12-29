@@ -31,48 +31,48 @@ POST {{baseURL}}/enterprise/v1/dro/distance_matrix
 **Body**
 ```json
 {
-    "requestId": "matrix-100",
+    "requestId": "distance-matrix-2001A",
     "points": [
         {
             "position":
             {
-                "latitude": 37.996333094327554,
-                "longitude": -121.70646459893086
+                "latitude": 37.996333094327555,
+                "longitude": -121.70646459893087
             }
         },
         {
             "position":
             {
-                "latitude": 37.96858164318102,
-                "longitude": -121.6959508962403
+                "latitude": 37.96858164318103,
+                "longitude": -121.6959508962404
             }
         },
         {
             "position":
             {
-                "latitude": 37.8966488871678,
-                "longitude": -121.69619540095405
+                "latitude": 37.8966488871679,
+                "longitude": -121.69619540095406
             }
         },
         {
             "position":
             {
-                "latitude": 37.925198993623624,
-                "longitude": -121.77883799480549
+                "latitude": 37.925198993623625,
+                "longitude": -121.77883799480548
             }
         },
         {
             "position":
             {
-                "latitude": 37.966075787314864,
-                "longitude": -121.78128304194283
+                "latitude": 37.966075787314863,
+                "longitude": -121.78128304194284
             }
         },
         {
             "position":
             {
-                "latitude": 38.011938673071406,
-                "longitude": -121.80597801802993
+                "latitude": 38.011938673071405,
+                "longitude": -121.80597801802994
             }
         }
     ],
@@ -123,11 +123,11 @@ GET {{baseURL}}/enterprise/v1/dro/distance_matrix/{{requestId}}
         "uniqueDestination": 3,
         "totalCells": 9
     },
-    "requestId": "matrix-100",
-    "startTimeEpoch": 1663051980,
+    "requestId": "distance-matrix-100A",
+    "startTimeEpoch": 1672296284,
     "accountBuid": "4022a1aada0e4c4684e61e3f73290a68",
     "request": {
-        "requestId": "matrix-100",
+        "requestId": "distance-matrix-100A",
         "points": [
             {
                 "position": {
@@ -200,48 +200,48 @@ POST {{baseURL}}/enterprise/v1/dro/distance_matrix
 **Body**
 ```json
 {
-    "requestId": "distance-matrix-101",
+    "requestId": "distance-matrix-2001B",
     "points": [
         {
             "position":
             {
-                "latitude": 37.996333094327554,
-                "longitude": -121.70646459893086
+                "latitude": 37.996333094327555,
+                "longitude": -121.70646459893087
             }
         },
         {
             "position":
             {
-                "latitude": 37.96858164318102,
-                "longitude": -121.6959508962403
+                "latitude": 37.96858164318103,
+                "longitude": -121.6959508962404
             }
         },
         {
             "position":
             {
-                "latitude": 37.8966488871678,
-                "longitude": -121.69619540095405
+                "latitude": 37.8966488871679,
+                "longitude": -121.69619540095406
             }
         },
         {
             "position":
             {
-                "latitude": 37.925198993623624,
-                "longitude": -121.77883799480549
+                "latitude": 37.925198993623625,
+                "longitude": -121.77883799480548
             }
         },
         {
             "position":
             {
-                "latitude": 37.966075787314864,
-                "longitude": -121.78128304194283
+                "latitude": 37.966075787314863,
+                "longitude": -121.78128304194284
             }
         },
         {
             "position":
             {
-                "latitude": 38.011938673071406,
-                "longitude": -121.80597801802993
+                "latitude": 38.011938673071405,
+                "longitude": -121.80597801802994
             }
         }
     ],
@@ -330,11 +330,11 @@ GET {{baseURL}}/enterprise/v1/dro/distance_matrix/{{requestId}}
         "uniqueDestination": 6,
         "totalCells": 36
     },
-    "requestId": "matrix-101",
-    "startTimeEpoch": 1663052092,
+    "requestId": "distance-matrix-2001B",
+    "startTimeEpoch": 1672296453,
     "accountBuid": "4022a1aada0e4c4684e61e3f73290a68",
     "request": {
-        "requestId": "matrix-101",
+        "requestId": "distance-matrix-2001B",
         "points": [
             {
                 "position": {
@@ -344,13 +344,13 @@ GET {{baseURL}}/enterprise/v1/dro/distance_matrix/{{requestId}}
             },
             {
                 "position": {
-                    "latitude": 37.96858164318102,
-                    "longitude": -121.6959508962403
+                    "latitude": 37.96858164318103,
+                    "longitude": -121.6959508962404
                 }
             },
             {
                 "position": {
-                    "latitude": 37.8966488871678,
+                    "latitude": 37.8966488871679,
                     "longitude": -121.69619540095405
                 }
             },
@@ -363,13 +363,13 @@ GET {{baseURL}}/enterprise/v1/dro/distance_matrix/{{requestId}}
             {
                 "position": {
                     "latitude": 37.966075787314864,
-                    "longitude": -121.78128304194283
+                    "longitude": -121.78128304194284
                 }
             },
             {
                 "position": {
                     "latitude": 38.011938673071406,
-                    "longitude": -121.80597801802993
+                    "longitude": -121.80597801802995
                 }
             }
         ],
@@ -387,7 +387,7 @@ Then, we got a 6x6 distance(meters) matrix from the rows in the response.
 
 To calculate with additional stops, we will use <b>referenceRequestId</b> which is the requestId of matrix we just created.
 
-In this example, we added the 7th stop and a referenceRequestId to the request.
+In this example, we added another 3 stops with a referenceRequestId to the request.
 
 **Send Calculation Request**
 
@@ -398,61 +398,77 @@ POST {{baseURL}}/enterprise/v1/dro/distance_matrix
 **Body**
 ```json
 {
-    "requestId": "distance-matrix-3001",
-    "referenceRequestId":"distance-matrix-101",
+    "requestId": "distance-matrix-A2001",
+    "referenceRequestId":"distance-matrix-2001B",
     "points": [
         {
             "position":
             {
-                "latitude": 37.996333094327554,
-                "longitude": -121.70646459893086
+                "latitude": 37.996333094327555,
+                "longitude": -121.70646459893087
             }
         },
         {
             "position":
             {
-                "latitude": 37.96858164318102,
-                "longitude": -121.6959508962403
+                "latitude": 37.96858164318103,
+                "longitude": -121.6959508962404
             }
         },
         {
             "position":
             {
-                "latitude": 37.8966488871678,
-                "longitude": -121.69619540095405
+                "latitude": 37.8966488871679,
+                "longitude": -121.69619540095406
             }
         },
         {
             "position":
             {
-                "latitude": 37.925198993623624,
-                "longitude": -121.77883799480549
+                "latitude": 37.925198993623625,
+                "longitude": -121.77883799480548
             }
         },
         {
             "position":
             {
-                "latitude": 37.966075787314864,
-                "longitude": -121.78128304194283
+                "latitude": 37.966075787314863,
+                "longitude": -121.78128304194284
             }
         },
         {
             "position":
             {
-                "latitude": 38.011938673071406,
-                "longitude": -121.80597801802993
+                "latitude": 38.011938673071405,
+                "longitude": -121.80597801802994
             }
         },
         {
             "position":
             {
-                "latitude": 37.98845685660203,
-                "longitude": -121.75702823086449
+                "latitude": 37.988837389014364,
+                "longitude": -121.76569457567187
+            }
+        },
+        {
+            "position":
+            {
+                "latitude": 37.983100261654,
+                "longitude": -121.75899537913271
+            }
+        },
+        {
+            "position":
+            {
+                "latitude": 37.98395140229323,
+                "longitude": -121.75187623295975
             }
         }
     ],
-    "sourcesIdx": [],
-    "destinationsIdx": [],
+    "sourcesIdx": [
+    ],
+    "destinationsIdx": [
+    ],
     "asynchronous": true,
     "countryIso3": "USA"
 }
@@ -460,7 +476,7 @@ POST {{baseURL}}/enterprise/v1/dro/distance_matrix
 
 **Get Calculation Result**
 
-Then we can get the 7x7 matrix with the requestId "distance-matrix-3001"
+Then, we will get a 9x9 matrix with the requestId "distance-matrix-A2001" with a <b>referencedCells</b> in "stat" field.
 
 ```
 GET {{baseURL}}/enterprise/v1/dro/distance_matrix/{{requestId}}
@@ -478,7 +494,9 @@ GET {{baseURL}}/enterprise/v1/dro/distance_matrix/{{requestId}}
                 15634.5,
                 11453.8,
                 10171.6,
-                7835.3
+                7713.8,
+                6536.6,
+                7213.3
             ]
         },
         {
@@ -489,7 +507,9 @@ GET {{baseURL}}/enterprise/v1/dro/distance_matrix/{{requestId}}
                 11789.2,
                 8791.8,
                 13635.7,
-                10887.1
+                9789.6,
+                9692.8,
+                10265.0
             ]
         },
         {
@@ -500,7 +520,9 @@ GET {{baseURL}}/enterprise/v1/dro/distance_matrix/{{requestId}}
                 9607.4,
                 13785.9,
                 19478.6,
-                15881.2
+                14783.7,
+                14686.9,
+                15259.1
             ]
         },
         {
@@ -511,7 +533,9 @@ GET {{baseURL}}/enterprise/v1/dro/distance_matrix/{{requestId}}
                 0.0,
                 5445.9,
                 11319.4,
-                10623.0
+                9525.5,
+                9428.7,
+                10000.9
             ]
         },
         {
@@ -522,7 +546,9 @@ GET {{baseURL}}/enterprise/v1/dro/distance_matrix/{{requestId}}
                 4974.5,
                 0.0,
                 6521.4,
-                5801.9
+                4704.4,
+                4607.6,
+                5179.9
             ]
         },
         {
@@ -533,31 +559,62 @@ GET {{baseURL}}/enterprise/v1/dro/distance_matrix/{{requestId}}
                 11453.0,
                 6478.4,
                 0.0,
-                7917.5
+                6820.0,
+                6723.2,
+                7295.5
             ]
         },
         {
             "value": [
-                7856.3,
-                10939.2,
-                15549.9,
-                10652.6,
-                6005.3,
-                7937.9,
+                12219.5,
+                9825.0,
+                14435.6,
+                9538.3,
+                4891.1,
+                6823.6,
+                0.0,
+                1199.9,
+                1772.1
+            ]
+        },
+        {
+            "value": [
+                6557.6,
+                9745.0,
+                14355.6,
+                9458.3,
+                4811.0,
+                6743.6,
+                1190.5,
+                0.0,
+                690.1
+            ]
+        },
+        {
+            "value": [
+                7234.3,
+                10317.2,
+                14927.8,
+                10030.5,
+                5383.2,
+                7315.8,
+                1762.8,
+                690.1,
                 0.0
             ]
         }
     ],
     "stat": {
-        "uniqueSource": 7,
-        "uniqueDestination": 7,
-        "totalCells": 49
+        "uniqueSource": 9,
+        "uniqueDestination": 9,
+        "totalCells": 81,
+        "referencedCells": 36
     },
-    "requestId": "distance-matrix-3001",
-    "startTimeEpoch": 1672274062,
+    "requestId": "distance-matrix-A2001",
+    "startTimeEpoch": 1672296699,
     "accountBuid": "4022a1aada0e4c4684e61e3f73290a68",
     "request": {
-        "requestId": "distance-matrix-3001",
+        "requestId": "distance-matrix-A2001",
         "points": [
             {
                 "position": {
@@ -567,13 +624,13 @@ GET {{baseURL}}/enterprise/v1/dro/distance_matrix/{{requestId}}
             },
             {
                 "position": {
-                    "latitude": 37.96858164318102,
-                    "longitude": -121.6959508962403
+                    "latitude": 37.96858164318103,
+                    "longitude": -121.6959508962404
                 }
             },
             {
                 "position": {
-                    "latitude": 37.8966488871678,
+                    "latitude": 37.8966488871679,
                     "longitude": -121.69619540095405
                 }
             },
@@ -586,25 +643,37 @@ GET {{baseURL}}/enterprise/v1/dro/distance_matrix/{{requestId}}
             {
                 "position": {
                     "latitude": 37.966075787314864,
-                    "longitude": -121.78128304194283
+                    "longitude": -121.78128304194284
                 }
             },
             {
                 "position": {
                     "latitude": 38.011938673071406,
-                    "longitude": -121.80597801802993
+                    "longitude": -121.80597801802995
                 }
             },
             {
                 "position": {
-                    "latitude": 37.98845685660203,
-                    "longitude": -121.75702823086449
+                    "latitude": 37.988837389014364,
+                    "longitude": -121.76569457567187
+                }
+            },
+            {
+                "position": {
+                    "latitude": 37.983100261654,
+                    "longitude": -121.75899537913271
+                }
+            },
+            {
+                "position": {
+                    "latitude": 37.98395140229323,
+                    "longitude": -121.75187623295975
                 }
             }
         ],
         "asynchronous": true,
         "countryIso3": "USA",
-        "referenceRequestId": "distance-matrix-101"
+        "referenceRequestId": "distance-matrix-2001B"
     }
 }
 ```

@@ -31,7 +31,7 @@ POST {{baseURL}}/enterprise/v1/dro/time_matrix
 **Body**
 ```json
 {
-    "requestId": "matrix-time-1",
+    "requestId": "time-matrix-2001A",
     "points": [
         {
             "position":
@@ -99,23 +99,23 @@ GET {{baseURL}}/enterprise/v1/dro/time_matrix/{{requestId}}
     "rows": [
         {
             "value": [
-                933.1,
-                804.9,
-                567.9
-            ]
-        },
-        {
-            "value": [
-                822.7,
-                646.4,
-                807.8
-            ]
-        },
-        {
-            "value": [
-                692.8,
+                924.2,
                 783.2,
-                924.2
+                692.8
+            ]
+        },
+        {
+            "value": [
+                807.8,
+                646.4,
+                822.7
+            ]
+        },
+        {
+            "value": [
+                567.9,
+                804.9,
+                933.1
             ]
         }
     ],
@@ -124,11 +124,11 @@ GET {{baseURL}}/enterprise/v1/dro/time_matrix/{{requestId}}
         "uniqueDestination": 3,
         "totalCells": 9
     },
-    "requestId": "matrix-time-1",
-    "startTimeEpoch": 1671675366,
+    "requestId": "time-matrix-2001A",
+    "startTimeEpoch": 1672296810,
     "accountBuid": "4022a1aada0e4c4684e61e3f73290a68",
     "request": {
-        "requestId": "matrix-time-1",
+        "requestId": "time-matrix-2001A",
         "points": [
             {
                 "position": {
@@ -168,14 +168,14 @@ GET {{baseURL}}/enterprise/v1/dro/time_matrix/{{requestId}}
             }
         ],
         "sourcesIdx": [
-            2,
+            0,
             1,
-            0
+            2
         ],
         "destinationsIdx": [
-            5,
+            3,
             4,
-            3
+            5
         ],
         "asynchronous": true,
         "countryIso3": "USA"
@@ -202,7 +202,7 @@ POST {{baseURL}}/enterprise/v1/dro/time_matrix
 **Body**
 ```json
 {
-    "requestId": "matrix-time-2",
+    "requestId": "time-matrix-2001B",
     "points": [
         {
             "position":
@@ -333,11 +333,11 @@ GET {{baseURL}}/enterprise/v1/dro/time_matrix/{{requestId}}
         "uniqueDestination": 6,
         "totalCells": 36
     },
-    "requestId": "matrix-time-2",
-    "startTimeEpoch": 1671675857,
+    "requestId": "time-matrix-2001B",
+    "startTimeEpoch": 1672296872,
     "accountBuid": "4022a1aada0e4c4684e61e3f73290a68",
     "request": {
-        "requestId": "matrix-time-2",
+        "requestId": "time-matrix-2001B",
         "points": [
             {
                 "position": {
@@ -389,7 +389,7 @@ Then, we got a 6x6 time(seconds) matrix from the rows in the response.
 
 To calculate with additional stops, we will use <b>referenceRequestId</b> which is the requestId of matrix we just created.
 
-In this example, we added the 7th stop and a referenceRequestId to the request.
+In this example, we added another 3 stops with a referenceRequestId to the request.
 
 ```
 POST {{baseURL}}/enterprise/v1/dro/time_matrix
@@ -398,57 +398,69 @@ POST {{baseURL}}/enterprise/v1/dro/time_matrix
 **Body**
 ```json
 {
-        "requestId": "matrix-time-101",
-        "referenceRequestId":"matrix-time-2",
-        "points": [
-            {
-                "position": {
-                    "latitude": 37.996333094327554,
-                    "longitude": -121.70646459893086
-                }
-            },
-            {
-                "position": {
-                    "latitude": 37.96858164318102,
-                    "longitude": -121.6959508962403
-                }
-            },
-            {
-                "position": {
-                    "latitude": 37.8966488871678,
-                    "longitude": -121.69619540095405
-                }
-            },
-            {
-                "position": {
-                    "latitude": 37.925198993623624,
-                    "longitude": -121.77883799480549
-                }
-            },
-            {
-                "position": {
-                    "latitude": 37.966075787314864,
-                    "longitude": -121.78128304194283
-                }
-            },
-            {
-                "position": {
-                    "latitude": 38.011938673071406,
-                    "longitude": -121.80597801802993
-                }
-            },
-            {
-                "position": {
-                    "latitude": 37.98937699198773,
-                    "longitude": -121.75662231471074
-                }
+    "requestId": "time-matrix-A2001",
+    "referenceRequestId": "time-matrix-2001B",
+    "points": [
+        {
+            "position": {
+                "latitude": 37.996333094327554,
+                "longitude": -121.70646459893086
             }
-        ],
-        "asynchronous": true,
-        "sourcesIdx": [],
-        "destinationsIdx": [],
-        "countryIso3": "USA"
-    }
+        },
+        {
+            "position": {
+                "latitude": 37.96858164318102,
+                "longitude": -121.6959508962403
+            }
+        },
+        {
+            "position": {
+                "latitude": 37.8966488871678,
+                "longitude": -121.69619540095405
+            }
+        },
+        {
+            "position": {
+                "latitude": 37.925198993623624,
+                "longitude": -121.77883799480549
+            }
+        },
+        {
+            "position": {
+                "latitude": 37.966075787314864,
+                "longitude": -121.78128304194283
+            }
+        },
+        {
+            "position": {
+                "latitude": 38.011938673071406,
+                "longitude": -121.80597801802993
+            }
+        },
+        {
+            "position": {
+                "latitude": 37.988837389014364,
+                "longitude": -121.76569457567187
+            }
+        },
+        {
+            "position": {
+                "latitude": 37.983100261654,
+                "longitude": -121.75899537913271
+            }
+        },
+        {
+            "position": {
+                "latitude": 37.98395140229323,
+                "longitude": -121.75187623295975
+            }
+        }
+    ],
+    "sourcesIdx": [],
+    "destinationsIdx": [],
+    "asynchronous": true,
+    "countryIso3": "USA"
+}
 ```
 
 **Get Calculation Result**
@@ -457,7 +469,7 @@ POST {{baseURL}}/enterprise/v1/dro/time_matrix
 GET {{baseURL}}/enterprise/v1/dro/time_matrix/{{requestId}}
 ```
 
-Then we can get the 7x7 matrix with the requestId "matrix-time-101"
+Then, we will get a 9x9 matrix with the requestId "time-matrix-A2001" with a <b>referencedCells</b> in "stat" field.
 
 **Response**
 
@@ -472,7 +484,9 @@ Then we can get the 7x7 matrix with the requestId "matrix-time-101"
                 924.2,
                 783.2,
                 692.8,
-                874.3
+                860.1,
+                714.1,
+                780.1
             ]
         },
         {
@@ -483,7 +497,9 @@ Then we can get the 7x7 matrix with the requestId "matrix-time-101"
                 807.8,
                 646.4,
                 822.7,
-                851.6
+                748.2,
+                706.8,
+                757.4
             ]
         },
         {
@@ -494,7 +510,9 @@ Then we can get the 7x7 matrix with the requestId "matrix-time-101"
                 567.9,
                 804.9,
                 933.1,
-                1010.1
+                906.7,
+                865.3,
+                915.9
             ]
         },
         {
@@ -505,7 +523,9 @@ Then we can get the 7x7 matrix with the requestId "matrix-time-101"
                 0.0,
                 507.0,
                 917.4,
-                943.9
+                840.5,
+                799.1,
+                849.7
             ]
         },
         {
@@ -516,7 +536,9 @@ Then we can get the 7x7 matrix with the requestId "matrix-time-101"
                 450.3,
                 0.0,
                 489.6,
-                543.4
+                440.0,
+                398.6,
+                449.2
             ]
         },
         {
@@ -527,31 +549,62 @@ Then we can get the 7x7 matrix with the requestId "matrix-time-101"
                 936.9,
                 486.6,
                 0.0,
-                662.8
+                559.4,
+                518.0,
+                568.6
             ]
         },
         {
             "value": [
-                876.5,
-                868.5,
-                973.9,
-                941.6,
-                561.6,
-                632.6,
+                799.7,
+                767.0,
+                872.4,
+                840.1,
+                460.1,
+                531.1,
+                0.0,
+                155.1,
+                205.7
+            ]
+        },
+        {
+            "value": [
+                716.5,
+                736.0,
+                841.4,
+                809.1,
+                429.1,
+                500.1,
+                156.2,
+                0.0,
+                76.2
+            ]
+        },
+        {
+            "value": [
+                785.6,
+                777.6,
+                883.0,
+                850.7,
+                470.7,
+                541.7,
+                197.8,
+                73.7,
                 0.0
             ]
         }
     ],
     "stat": {
-        "uniqueSource": 7,
-        "uniqueDestination": 7,
-        "totalCells": 49
+        "uniqueSource": 9,
+        "uniqueDestination": 9,
+        "totalCells": 81,
+        "referencedCells": 36
     },
-    "requestId": "matrix-time-101",
-    "startTimeEpoch": 1672273068,
+    "requestId": "time-matrix-A2001",
+    "startTimeEpoch": 1672297031,
     "accountBuid": "4022a1aada0e4c4684e61e3f73290a68",
     "request": {
-        "requestId": "matrix-time-101",
+        "requestId": "time-matrix-A2001",
         "points": [
             {
                 "position": {
@@ -591,14 +644,26 @@ Then we can get the 7x7 matrix with the requestId "matrix-time-101"
             },
             {
                 "position": {
-                    "latitude": 37.98937699198773,
-                    "longitude": -121.75662231471074
+                    "latitude": 37.988837389014364,
+                    "longitude": -121.76569457567187
+                }
+            },
+            {
+                "position": {
+                    "latitude": 37.983100261654,
+                    "longitude": -121.75899537913271
+                }
+            },
+            {
+                "position": {
+                    "latitude": 37.98395140229323,
+                    "longitude": -121.75187623295975
                 }
             }
         ],
         "asynchronous": true,
         "countryIso3": "USA",
-        "referenceRequestId": "matrix-time-2"
+        "referenceRequestId": "time-matrix-2001B"
     }
 }
 ```

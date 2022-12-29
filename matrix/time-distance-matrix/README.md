@@ -31,7 +31,7 @@ POST {{baseURL}}/enterprise/v1/dro/timedistance_matrix
 **Body**
 ```json
 {
-    "requestId": "matrix-time-distance-1",
+    "requestId": "time-distance-matrix-20001A",
     "points": [
         {
             "position":
@@ -94,39 +94,39 @@ GET {{baseURL}}/enterprise/v1/dro/timedistance_matrix/{{requestId}}
 
 **Response**
 
-- Each value under rows would be time1, distance1, time2, distance2...
+- Each value under rows would be <b>time1, distance1, time2, distance2...</b>
 
 ```json
 {
     "rows": [
         {
             "value": [
-                933.1,
-                19478.6,
-                804.9,
-                13785.9,
-                567.9,
-                9607.4
-            ]
-        },
-        {
-            "value": [
-                822.7,
-                13635.7,
-                646.4,
-                8791.8,
-                807.8,
-                11789.2
-            ]
-        },
-        {
-            "value": [
-                692.8,
-                10171.6,
+                924.2,
+                15634.5,
                 783.2,
                 11453.8,
-                924.2,
-                15634.5
+                692.8,
+                10171.6
+            ]
+        },
+        {
+            "value": [
+                807.8,
+                11789.2,
+                646.4,
+                8791.8,
+                822.7,
+                13635.7
+            ]
+        },
+        {
+            "value": [
+                567.9,
+                9607.4,
+                804.9,
+                13785.9,
+                933.1,
+                19478.6
             ]
         }
     ],
@@ -135,11 +135,11 @@ GET {{baseURL}}/enterprise/v1/dro/timedistance_matrix/{{requestId}}
         "uniqueDestination": 3,
         "totalCells": 9
     },
-    "requestId": "matrix-time-distance-1",
-    "startTimeEpoch": 1671675455,
+    "requestId": "time-distance-matrix-20001A",
+    "startTimeEpoch": 1672297159,
     "accountBuid": "4022a1aada0e4c4684e61e3f73290a68",
     "request": {
-        "requestId": "matrix-time-distance-1",
+        "requestId": "time-distance-matrix-20001A",
         "points": [
             {
                 "position": {
@@ -179,14 +179,14 @@ GET {{baseURL}}/enterprise/v1/dro/timedistance_matrix/{{requestId}}
             }
         ],
         "sourcesIdx": [
-            2,
+            0,
             1,
-            0
+            2
         ],
         "destinationsIdx": [
-            5,
+            3,
             4,
-            3
+            5
         ],
         "asynchronous": true,
         "countryIso3": "USA"
@@ -212,7 +212,7 @@ POST {{baseURL}}/enterprise/v1/dro/timedistance_matrix
 **Body**
 ```json
 {
-    "requestId": "matrix-time-distance-2",
+    "requestId": "time-distance-matrix-20001B",
     "points": [
         {
             "position":
@@ -381,11 +381,11 @@ GET {{baseURL}}/enterprise/v1/dro/timedistance_matrix/{{requestId}}
         "uniqueDestination": 6,
         "totalCells": 36
     },
-    "requestId": "matrix-time-distance-2",
-    "startTimeEpoch": 1671677734,
+    "requestId": "time-distance-matrix-20001B",
+    "startTimeEpoch": 1672297197,
     "accountBuid": "4022a1aada0e4c4684e61e3f73290a68",
     "request": {
-        "requestId": "matrix-time-distance-2",
+        "requestId": "time-distance-matrix-20001B",
         "points": [
             {
                 "position": {
@@ -429,14 +429,14 @@ GET {{baseURL}}/enterprise/v1/dro/timedistance_matrix/{{requestId}}
     }
 }
 ```
-Then, we got a 6x6 time-distance matrix from the rows in the response.
+Then, we got a 6x6 <b>time-distance matrix</b> from the rows in the response.
 ![Time-Distance-matrix-6-6](assets/images/matrix-time-distance-6x6.png)
 
 ## Example of Additional Stops
 
 To calculate with additional stops, we will use <b>referenceRequestId</b> which is the requestId of matrix we just created.
 
-In this example, we added the 7th stop and a referenceRequestId to the request.
+In this example, we added another 3 stops with a referenceRequestId to the request.
 
 **Send Calculation Request**
 
@@ -447,8 +447,8 @@ POST {{baseURL}}/enterprise/v1/dro/distance_matrix
 **Body**
 ```json
 {
-    "requestId":"matrix-time-distance-301",
-    "referenceRequestId": "matrix-time-distance-210",
+    "requestId": "time-distance-matrix-A20001",
+    "referenceRequestId":"time-distance-matrix-20001B",
     "points": [
         {
             "position":
@@ -493,10 +493,21 @@ POST {{baseURL}}/enterprise/v1/dro/distance_matrix
             }
         },
         {
-            "position":
-            {
-                "latitude": 37.98842943517174,
-                "longitude": -121.75703209673263
+            "position": {
+                "latitude": 37.988837389014364,
+                "longitude": -121.76569457567187
+            }
+        },
+        {
+            "position": {
+                "latitude": 37.983100261654,
+                "longitude": -121.75899537913271
+            }
+        },
+        {
+            "position": {
+                "latitude": 37.98395140229323,
+                "longitude": -121.75187623295975
             }
         }
     ],
@@ -511,13 +522,16 @@ POST {{baseURL}}/enterprise/v1/dro/distance_matrix
 
 **Get Calculation Result**
 
-Then we can get the 7x7 matrix with the requestId "matrix-time-distance-301"
+Then, we will get a 9x9 matrix with the requestId "time-distance-matrix-A20001" with a <b>referencedCells</b> in "stat" field.
 
 ```
 GET {{baseURL}}/enterprise/v1/dro/distance_matrix/{{requestId}}
 ```
 
 **Response**
+
+- Each value under rows would be <b>time1,distance1,time2,distance2...</b>
+
 ```json
 {
     "rows": [
@@ -535,8 +549,12 @@ GET {{baseURL}}/enterprise/v1/dro/distance_matrix/{{requestId}}
                 11453.8,
                 692.8,
                 10171.6,
-                893.6,
-                7834.2
+                860.1,
+                7713.8,
+                714.1,
+                6536.6,
+                780.1,
+                7213.3
             ]
         },
         {
@@ -553,8 +571,12 @@ GET {{baseURL}}/enterprise/v1/dro/distance_matrix/{{requestId}}
                 8791.8,
                 822.7,
                 13635.7,
-                870.9,
-                10885.9
+                748.2,
+                9789.6,
+                706.8,
+                9692.8,
+                757.4,
+                10265.0
             ]
         },
         {
@@ -571,8 +593,12 @@ GET {{baseURL}}/enterprise/v1/dro/distance_matrix/{{requestId}}
                 13785.9,
                 933.1,
                 19478.6,
-                1029.4,
-                15880.0
+                906.7,
+                14783.7,
+                865.3,
+                14686.9,
+                915.9,
+                15259.1
             ]
         },
         {
@@ -589,8 +615,12 @@ GET {{baseURL}}/enterprise/v1/dro/distance_matrix/{{requestId}}
                 5445.9,
                 917.4,
                 11319.4,
-                963.2,
-                10621.8
+                840.5,
+                9525.5,
+                799.1,
+                9428.7,
+                849.7,
+                10000.9
             ]
         },
         {
@@ -607,8 +637,12 @@ GET {{baseURL}}/enterprise/v1/dro/distance_matrix/{{requestId}}
                 0.0,
                 489.6,
                 6521.4,
-                562.7,
-                5800.8
+                440.0,
+                4704.4,
+                398.6,
+                4607.6,
+                449.2,
+                5179.9
             ]
         },
         {
@@ -625,39 +659,92 @@ GET {{baseURL}}/enterprise/v1/dro/distance_matrix/{{requestId}}
                 6478.4,
                 0.0,
                 0.0,
-                682.1,
-                7916.4
+                559.4,
+                6820.0,
+                518.0,
+                6723.2,
+                568.6,
+                7295.5
             ]
         },
         {
             "value": [
-                895.8,
-                7855.2,
-                887.8,
-                10938.1,
-                993.2,
-                15548.7,
-                960.9,
-                10651.4,
-                580.9,
-                6004.1,
-                651.9,
-                7936.7,
+                799.7,
+                12219.5,
+                767.0,
+                9825.0,
+                872.4,
+                14435.6,
+                840.1,
+                9538.3,
+                460.1,
+                4891.1,
+                531.1,
+                6823.6,
+                0.0,
+                0.0,
+                155.1,
+                1199.9,
+                205.7,
+                1772.1
+            ]
+        },
+        {
+            "value": [
+                716.5,
+                6557.6,
+                736.0,
+                9745.0,
+                841.4,
+                14355.6,
+                809.1,
+                9458.3,
+                429.1,
+                4811.0,
+                500.1,
+                6743.6,
+                156.2,
+                1190.5,
+                0.0,
+                0.0,
+                76.2,
+                690.1
+            ]
+        },
+        {
+            "value": [
+                785.6,
+                7234.3,
+                777.6,
+                10317.2,
+                883.0,
+                14927.8,
+                850.7,
+                10030.5,
+                470.7,
+                5383.2,
+                541.7,
+                7315.8,
+                197.8,
+                1762.8,
+                73.7,
+                690.1,
                 0.0,
                 0.0
             ]
         }
     ],
     "stat": {
-        "uniqueSource": 7,
-        "uniqueDestination": 7,
-        "totalCells": 49
+        "uniqueSource": 9,
+        "uniqueDestination": 9,
+        "totalCells": 81,
+        "referencedCells": 36
     },
-    "requestId": "matrix-time-distance-301",
-    "startTimeEpoch": 1672275383,
+    "requestId": "time-distance-matrix-A20001",
+    "startTimeEpoch": 1672297371,
     "accountBuid": "4022a1aada0e4c4684e61e3f73290a68",
     "request": {
-        "requestId": "matrix-time-distance-301",
+        "requestId": "time-distance-matrix-A20001",
         "points": [
             {
                 "position": {
@@ -697,13 +784,26 @@ GET {{baseURL}}/enterprise/v1/dro/distance_matrix/{{requestId}}
             },
             {
                 "position": {
-                    "latitude": 37.98842943517174,
-                    "longitude": -121.75703209673263
+                    "latitude": 37.988837389014364,
+                    "longitude": -121.76569457567187
+                }
+            },
+            {
+                "position": {
+                    "latitude": 37.983100261654,
+                    "longitude": -121.75899537913271
+                }
+            },
+            {
+                "position": {
+                    "latitude": 37.98395140229323,
+                    "longitude": -121.75187623295975
                 }
             }
         ],
+        "asynchronous": true,
         "countryIso3": "USA",
-        "referenceRequestId": "matrix-time-distance-210"
+        "referenceRequestId": "time-distance-matrix-20001B"
     }
 }
 ```
