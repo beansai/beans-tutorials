@@ -445,6 +445,8 @@ POST {{baseURL}}/enterprise/v1/dro/time_matrix
             }
         ],
         "asynchronous": true,
+        "sourcesIdx": [],
+        "destinationsIdx": [],
         "countryIso3": "USA"
     }
 ```
