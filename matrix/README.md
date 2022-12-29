@@ -1,10 +1,6 @@
-# beans-tutorials
-<img src="https://www.beans.ai/img/img-logo-black.png" alt="OHF Logo" style="height: 100px; width:100px;"/>
+<img src="../assets/images/beans-128x128.png" align="right" />
 
-Welcome to [One Hundred Feet](https://www.beans.ai) Developer Tutorials!
-
-
-## Matrix Tutorials
+# Matrix Tutorials
 
 Here we have some tools for you to determine time and/or distance among many stops at once.
 
