@@ -386,13 +386,14 @@ Then, we got a 6x6 time(seconds) matrix from the rows in the response.
 ![Time-matrix-6-6](assets/images/matrix-time-6x6.png)
 
 ## Example of Additional Stops
-```
-POST {{baseURL}}/enterprise/v1/dro/time_matrix
-```
 
 To calculate with additional stops, we will use <b>referenceRequestId</b> which is the requestId of matrix we just created.
 
 In this example, we added the 7th stop and a referenceRequestId to the request.
+
+```
+POST {{baseURL}}/enterprise/v1/dro/time_matrix
+```
 
 **Body**
 ```json
@@ -544,11 +545,11 @@ Then we can get the 7x7 matrix with the requestId "matrix-time-101"
         "uniqueDestination": 7,
         "totalCells": 49
     },
-    "requestId": "reference-matrix-time-101",
+    "requestId": "matrix-time-101",
     "startTimeEpoch": 1672273068,
     "accountBuid": "4022a1aada0e4c4684e61e3f73290a68",
     "request": {
-        "requestId": "reference-matrix-time-101",
+        "requestId": "matrix-time-101",
         "points": [
             {
                 "position": {

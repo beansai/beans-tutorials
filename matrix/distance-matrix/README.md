@@ -384,7 +384,6 @@ Then, we got a 6x6 distance(meters) matrix from the rows in the response.
 
 
 ## Example of Additional Stops
-![Stops](assets/images/stops.png)
 
 To calculate with additional stops, we will use <b>referenceRequestId</b> which is the requestId of matrix we just created.
 
@@ -400,7 +399,7 @@ POST {{baseURL}}/enterprise/v1/dro/distance_matrix
 ```json
 {
     "requestId": "distance-matrix-3001",
-    "referenceRequestId":"distance-matrix-1001",
+    "referenceRequestId":"distance-matrix-101",
     "points": [
         {
             "position":
@@ -554,11 +553,11 @@ GET {{baseURL}}/enterprise/v1/dro/distance_matrix/{{requestId}}
         "uniqueDestination": 7,
         "totalCells": 49
     },
-    "requestId": "reference-distance-matrix-3002",
+    "requestId": "distance-matrix-3001",
     "startTimeEpoch": 1672274062,
     "accountBuid": "4022a1aada0e4c4684e61e3f73290a68",
     "request": {
-        "requestId": "reference-distance-matrix-3002",
+        "requestId": "distance-matrix-3001",
         "points": [
             {
                 "position": {
@@ -605,11 +604,10 @@ GET {{baseURL}}/enterprise/v1/dro/distance_matrix/{{requestId}}
         ],
         "asynchronous": true,
         "countryIso3": "USA",
-        "referenceRequestId": "distance-matrix-1001"
+        "referenceRequestId": "distance-matrix-101"
     }
 }
 ```
-
 
 
 # Request Payloads

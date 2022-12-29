@@ -433,7 +433,6 @@ Then, we got a 6x6 time-distance matrix from the rows in the response.
 ![Time-Distance-matrix-6-6](assets/images/matrix-time-distance-6x6.png)
 
 ## Example of Additional Stops
-![Stops](assets/images/stops.png)
 
 To calculate with additional stops, we will use <b>referenceRequestId</b> which is the requestId of matrix we just created.
 
