@@ -478,7 +478,7 @@ POST {{baseURL}}/enterprise/v1/dro/distance_matrix
 
 **Get Calculation Result**
 
-Then, we will get a 9x9 matrix with the requestId "distance-matrix-A2001" with a <b>referencedCells</b> in "stat" field.
+Then, we will get a 9x9 matrix and field <b>referencedCells</b> in "stat" with the requestId "distance-matrix-A2001"
 
 ```
 GET {{baseURL}}/enterprise/v1/dro/distance_matrix/{{requestId}}

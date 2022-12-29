@@ -471,7 +471,7 @@ POST {{baseURL}}/enterprise/v1/dro/time_matrix
 GET {{baseURL}}/enterprise/v1/dro/time_matrix/{{requestId}}
 ```
 
-Then, we will get a 9x9 matrix with the requestId "time-matrix-A2001" with a <b>referencedCells</b> in "stat" field.
+Then, we will get a 9x9 matrix and field <b>referencedCells</b> in "stat" with the requestId "time-matrix-A2001"
 
 **Response**
 
