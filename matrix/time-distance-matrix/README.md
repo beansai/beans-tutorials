@@ -11,13 +11,13 @@ Time-Distance Matrix would be helpful to you.
 
 ## Table of contents
 - [Time Distance Matrix](#time-distance-matrix)
-  - [Example of Specified sources and destinations](#example-of-specified-sources-and-destinations)
+  - [Example of Specified Sources and Destinations](#example-of-specified-sources-and-destinations)
   - [Example of All Possibilities](#example-of-all-possibilities)
   - [Example of Additional stops](#example-of-additional-stops)
   - [Request Payloads](#request-payloads)
   - [Importance](#importance)
 
-## Example of Specified sources and destinations
+## Example of Specified Sources and Destinations
 ![Stops](assets/images/stops-part.png)
 Let's say we have 6 stops which 3 are sources and 3 are destinations,
 we will make a calculation request then get the result.
@@ -195,6 +195,7 @@ GET {{baseURL}}/enterprise/v1/dro/timedistance_matrix/{{requestId}}
 ```
 
 Then, we got a 3x3 <b>time-distance(seconds,meters)</b> matrix from the rows in the response.
+
 ![Time-Distance-matrix-3-3](assets/images/matrix-time-distance-3x3.png)
 
 
@@ -430,6 +431,7 @@ GET {{baseURL}}/enterprise/v1/dro/timedistance_matrix/{{requestId}}
 }
 ```
 Then, we got a 6x6 <b>time-distance matrix</b> from the rows in the response.
+
 ![Time-Distance-matrix-6-6](assets/images/matrix-time-distance-6x6.png)
 
 ## Example of Additional Stops
