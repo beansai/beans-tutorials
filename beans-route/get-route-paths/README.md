@@ -4,7 +4,7 @@
 
 ![Stops](images/stops.png)
 
-Here's an example of how to get a path of route.
+Here's an example of how to get a route's paths.
 
 ## Table of contents
 
