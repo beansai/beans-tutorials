@@ -9,6 +9,7 @@ Here's an example of how to get a path of route.
 ## Table of contents
 
 - [Get Route Paths](#get-route-paths)
+  - [Example](#example)
   - [Different Sequence of Stops](#different-sequence-of-stops)
   - [Notes](#notes)
 
@@ -18,7 +19,7 @@ Here's an example of how to get a path of route.
 
 Let's say we have 9 stops for route `ecdd0458-7e63-44ad-b26d-b89fded637a2-k1`
 
-and we want to get the path for it.
+and we want to get the paths for it.
 
 **Request**
 ```
@@ -86,11 +87,11 @@ And from stop 2 (ecdd0458-7e63-44ad-b26d-b89fded637a2-k1-02) to stop 3 (ecdd0458
 }
 ```
 
-## Change the Sequence of the Stops
+## Different Sequence of Stops
 
 ![sequence-2](images/sequence-2.png)
 
-Now, let's switch the first and the last stop and see the difference.
+Now, let's switch the sequence of first and last stop and see the difference.
 
 **Request**
 
@@ -154,13 +155,14 @@ So we can see the result changes, from 1st stop to 2ed stop
 ## Notes
 
 **Parameters**
-- enc - whether or not to encode the path
+- enc (boolean/optional) - whether or not to encode the path
 
 **Payload**
-- encoded - It is the encoded path of route for reducing the network bandwidth and it it in the first segment of "line".
+- encoded - It is the encoded paths of route for reducing the network bandwidth and it it in the first segment of "line".
 
 When encoded feature is disabled (enc=false), 
-the response would be ( the `encoded` key becomes `point` )
+
+the "paths" key will become `point`  (from key `encoded`).
 
 ```json
 {
