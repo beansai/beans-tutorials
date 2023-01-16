@@ -41,6 +41,7 @@ and they all need an efficient way to schedule/manage the daily works.
 - [Routes management](routes-management)
   - Assign a route to a warehouse
   - Assign an assignee (driver) to a route
+- [Get Route Paths](get-route-paths)
 - [Assignees (driver) management](assignees-management)
 - [Stops management](stops-management)
   - [Stops management with source sequence](stops-management/source-sequence) - When we want to predetermine the ordering of stops.
