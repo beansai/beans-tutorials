@@ -12,6 +12,7 @@ Here's an example of how to get a route's paths.
   - [Example](#example)
   - [Different Sequence of Stops](#different-sequence-of-stops)
   - [Notes](#notes)
+  - [References](#references)
 
 ## Example
 
@@ -236,4 +237,7 @@ the "paths" key will become `point`  (from key `encoded`).
 }
 ```
 
+## References
+- [Source Sequence](https://github.com/beansai/beans-tutorials/tree/main/beans-route/stops-management/source-sequence) - How to predetermine the ordering of stops.
+- [Route Optimization](https://github.com/beansai/beans-tutorials/tree/main/beans-route/route-optimization) - How to optimize routes. 
 
