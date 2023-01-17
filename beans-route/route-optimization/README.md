@@ -1,6 +1,6 @@
 <img src="../../assets/images/beans-128x128.png" align="right" />
 
-# Route Optimization with units
+# Route Optimization
 
 ## Table of contents
 
