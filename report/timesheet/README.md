@@ -23,8 +23,8 @@ GET {{baseURL}}/enterprise/v1/timesheets/report/{{list-assignee-Ids}}?date_from=
 - to_date [Date String, required] - in yyyy-MM-dd format (e.g. 2023-02-01)
 - auto_adjust [boolean, optional] 
   - Auto adjust time based on default route length when start time or end time is empty
-  - When it is false and start time or end time is empty, it will display "ERR"
-  - Default is false
+  - The time will display "ERR" if start_time/end_time is empty and auto_adjust is set to false.
+  - default is set to false
 
 
 **Response Example**
