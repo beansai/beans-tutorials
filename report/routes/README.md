@@ -58,3 +58,18 @@ We support reports in csv, pdf, xls file types.
     ]
 }
 ```
+
+### Reports Object
+
+| Field | Type | Default | Description |
+| --- | --- | --- | --- |
+| **reports** | Array of report object | "" | A list of reports |
+
+### Report object
+| Field | Type | Default | Description |
+| --- | --- | --- | --- |
+| **csvUrl** | String | "" | Url of the report in csv style |
+| **pdfUrl** | String | "" | Url of the report in pdf style |
+| **xlsUrl** | String | "" | Url of the report in xls style |
+
+
