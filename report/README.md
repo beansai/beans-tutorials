@@ -19,6 +19,6 @@ Authorization: Basic OE9Bd2hiSzA6Qzc3NTJFMjQwNTkxNDk0NUU3RDA4
 
 ## Tutorials
 
-- [Route Report](route) - Single route report
-- [Routes Report](routes) - multiple routes report including archived ones, also could be used with search functions.
-- [Timesheet Report](timesheet) - Assignee timesheet report.
+- [Route Report](https://github.com/beansai/beans-tutorials/tree/main/report/route) - Single route report
+- [Routes Report](https://github.com/beansai/beans-tutorials/tree/main/report/routes) - multiple routes report including archived ones, also could be used with search functions.
+- [Timesheet Report](https://github.com/beansai/beans-tutorials/tree/main/report/timesheet) - Assignee timesheet report.
