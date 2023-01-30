@@ -10,3 +10,4 @@ Welcome to [One Hundred Feet](https://www.beans.ai) Developer Tutorials!
 - [Dynamic Routes Optimization](https://github.com/beansai/beans-tutorials/tree/main/dynamic-routes-optimization)
 - [What-if](https://github.com/beansai/beans-tutorials/tree/main/what-if)
 - [Matrix](/matrix) - Time and Distance Matrix
+- [Report](/report) - Reports for routes, vehicles, timesheets...

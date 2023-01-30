@@ -1,0 +1,46 @@
+
+
+<img src="../assets/images/beans-128x128.png" align="right" />
+
+# Timesheet Report
+
+
+## Table of contents
+- [Timesheet Report](#timesheet-report)
+ - [Get Timesheet Report](#get-timesheet-report)
+
+## Get Timesheet Report
+
+**Request Example**
+
+```
+GET {{baseURL}}/enterprise/v1/timesheets/report/{{list-assignee-Ids}}?date_from={{date-from}}}&date_to={{date-to}}&auto_adjust=false
+```
+- list-assignee-Ids [array, required] 
+  - You may get reports for several assignees at once by given a set of list-assignee-id separated by comma ","
+  - e.g. "assignee-id-1,assignee-id-2,assignee-id-3"
+- from_date [Date String, required] - in yyyy-MM-dd format (e.g. 2023-01-01)
+- to_date [Date String, required] - in yyyy-MM-dd format (e.g. 2023-02-01)
+- auto_adjust [boolean, optional] 
+  - Auto adjust time based on default route length when start time or end time is empty
+  - When it is false and start time or end time is empty, it will display "ERR"
+  - Default is false
+
+
+**Response Example**
+
+We support reports in csv, pdf, xls types.
+
+```json
+{
+    "csvUrl": "https://storage.googleapis.com/beans-lists-reports/testing/Timecard 2022-06-01 to 2022-12-31 - 90a68.csv",
+    "pdfUrl": "https://storage.googleapis.com/beans-lists-reports/testing/Timecard 2022-06-01 to 2022-12-31 - 90a68.pdf",
+    "xlsUrl": "https://storage.googleapis.com/beans-lists-reports/testing/Timecard 2022-06-01 to 2022-12-31 - 90a68.xls",
+    "url": [
+        {
+            "type": "STD",
+            "url": "https://storage.googleapis.com/beans-lists-reports/testing/Timecard 2022-06-01 to 2022-12-31 - 90a68-stdformat.csv"
+        }
+    ]
+}
+```
