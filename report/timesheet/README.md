@@ -44,3 +44,21 @@ We support reports in csv, pdf, xls types.
     ]
 }
 ```
+
+### Reports Object
+
+| Field | Type | Default | Description |
+| --- | --- | --- | --- |
+| **csvUrl** | String | "" | Url of the report in csv style |
+| **pdfUrl** | String | "" | Url of the report in pdf style |
+| **xlsUrl** | String | "" | Url of the report in xls style |
+| **url** | Array of url object | empty array | Additional report types |
+
+### Url object
+| Field | Type | Default | Description |
+| --- | --- | --- | --- |
+| **type** | String | "" | Type of Report |
+| **url** | String | "" | URL of the report |
+
+
+
