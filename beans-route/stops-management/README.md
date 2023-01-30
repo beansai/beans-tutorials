@@ -18,6 +18,9 @@ For details of a stop (Item)  please see https://www.beansroute.ai/route-api-v1.
 - [Get all item IDs from a Route that have documentations](#get-all-item-ids-from-a-route-that-have-documentations)
 - [Get Item Documentation](#get-item-documentation)
 - [Search Archived Items](#search-archived-items)
+- [Objects](#objects)
+  - [Array of List Item Object](array-of-list-item-object)
+  - [List Item Object](list-item-object)
 
 ### Create Stops
 
@@ -466,3 +469,64 @@ Available filters for query
 }
 
 ```
+
+## Objects
+
+### List Item Object
+
+| Field | Type | Default | Description |
+| ----------- | ----------- | ----------- | ----------- |
+| **list_item_id** | string | The item ID | The unique id of the item |
+| **account_buid** | string | The account ID | The account ID that this item is in |
+| **address** | string | "" | The original address for this item |
+| **unit** | string | "" | The original unit for this item, or secondary address line |
+| **notes** | string | "" | The notes associated with this item, this is free form text |
+| **formatted_address** | string | "" | Formatted address for this item, often is generated and cleaned during geocoding process if geocoder is enabled |
+| **deliver_from_str** | string | "" | The start of the time window that this item could be done by |
+| **deliver_by_str** | string | "" | The end of the time window that this item should be done by |
+| **tracking_id** | string | "" | The tracking ID of the stop |
+| **num_packages** | int32 | 0 | The number of packages associated with this stop |
+| **type** | string | Enum | One of PICKUP, DROPOFF |
+| **customer_name** | string | "" | The name of the customer associated with this item |
+| **customer_phone** | string | "" | The phone number of the customer associated with this item |
+| **status** | string | Enum | One of NEW, IN_PROCESS, FINISHED, FAILED< MISLOAD, NOLOCATION, DELETED |
+| **status_updated_at** | int64 | 0 | The epoch-millis when the status of the stop was updated |
+| **route** | **Dimmunitive Route object** | {} | The Route that this stop is in. This is **dimmunitive** because only the list_route_id would be populated to non-default value if there is any association with other route values set to default. Otherwise, an empty object would be returned. |
+| **route_priority** | int32 | 0 | The ordering of ths stop in the route |
+| **master_address** | string | "" | The leasing office address or community address, if associative |
+| **parent_list_item_id** | string | "" | The ID of the parent item if this list is in a group |
+| **created_at** | int64 | 0L | The timestamp, in epoch-millis, when this item is created |
+| **updated_at** | int64 | 0L | The timestamp, in epoch-millis, when this item is last updated |
+| **position** | LatLng | {} | Usually the navigate location of the address |
+| **display_position** | LatLng | {} | Usually the rooftop location of the address |
+| **is_external** | boolean | false | Whether or not the geocoders are external to Beans |
+| **origination** | string | "" | The origin of the item, set when the item is created |
+| **provider** | string | "" | The provider of the item, set when the item is created |
+| **signature_required** | boolean | false | True when signature is required to close out the item |
+| **url** | string | "" | Associated URL of the item |
+| **source_seq** | int32 | 0 | The sequence of the item, may not be correlated in a route |
+| **transfer** | string | "" | Note on whether or not this item is transferred out or tranferred in |
+| **placement** | string | "" | Free form string, usually denote the placement of the item in a truck |
+| **country_iso3** | string | "" | The ISO3 country code of the address |
+| **customer_email** | string | "" | The email of the customer associated with this item |
+| **flavors** | string | "" | Comma separated associated constrains, this is used for route planning, and is used to match, exactly, to trucks that contain all the flavors. For example, if a item has flavors "a,b", then, only trucks that has both "a", and "b" flavors can be used for this item |
+| **stop_time_seconds** | int32 | 0 | The stop time, in seconds, that this item should carry |
+| **transferred_in** | boolean | false | True when this item was transferred in from another stop or route |
+| **transferred_out** | boolean | false | True when this item was transferred out into another route |
+| **dimensions** | Dimensions object | {} | This to denote constrains on various dimensions for Route planning |
+| **third_party_reference_id** | string | "" | Third party reference ID for this stop |
+| **third_party_status** | string | "" | Third party reference status for this stop |
+
+### Dimensions Object
+
+| Field | Type | Default | Description |
+| ----------- | ----------- | ----------- | ----------- |
+| **dims** | Array of Dimension object | [] | An Array of dimension |
+
+### Dimension Object
+
+| Field | Type | Default | Description |
+| ----------- | ----------- | ----------- | ----------- |
+| **t** | string | Enum | Type of the dimension. One of WEIGHT, VOLUME, COUNT |
+| **v** | string | "" | respective value of the dimension. As long as the unit is aligned with the vehicle's, a numeric is sufficient |
+
