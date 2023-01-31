@@ -594,7 +594,7 @@ Available filters for query
 | Field | Type | Default | Description |
 | ----------- | ----------- | ----------- | ----------- |
 | **listItemId** | string | The item ID | The unique id of the item |
-| **account_buid** | string | The account ID | The account ID that this item is in |
+| **accountBuid** | string | The account ID | The account ID that this item is in |
 | **address** | string | "" | The original address for this item |
 | **unit** | string | "" | The original unit for this item, or secondary address line |
 | **notes** | string | "" | The notes associated with this item, this is free form text |
@@ -619,7 +619,7 @@ Available filters for query
 | **isExternal** | boolean | false | Whether or not the geocoders are external to Beans |
 | **origination** | string | "" | The origin of the item, set when the item is created |
 | **provider** | string | "" | The provider of the item, set when the item is created |
-| **signature_required** | boolean | false | True when signature is required to close out the item |
+| **signatureRequired** | boolean | false | True when signature is required to close out the item |
 | **url** | string | "" | Associated URL of the item |
 | **sourceSeq** | int32 | 0 | The sequence of the item, may not be correlated in a route |
 | **transfer** | string | "" | Note on whether or not this item is transferred out or tranferred in |
