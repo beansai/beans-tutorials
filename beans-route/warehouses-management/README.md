@@ -197,13 +197,13 @@ DELETE {{baseURL}}/enterprise/v1/lists/warehouse/{{list-warehouse-id}}
 ### Warehouse object
 | Field | Type | Default | Description |
 | ----------- | ----------- | ----------- | ----------- |
-| **list_warehouse_id** | string | The warehouse ID | The unique id of the warehouse |
-| **account_buid** | string | The account ID | The account ID that this warehouse is in |
+| **listWarehouseId** | string | The warehouse ID | The unique id of the warehouse |
+| **accountBuid** | string | The account ID | The account ID that this warehouse is in |
 | **address** | string | "" | The address of the warehouse |
-| **formatted_address** | string | "" | The formatted address |
+| **formattedAddress** | string | "" | The formatted address |
 | **name** | string | "" | The name of the warehouse |
-| **created_at** | int64 | 0L | The timestamp, in epoch-millis, when this warehouse is created |
-| **updated_at** | int64 | 0L | The timestamp, in epoch-millis, when this warehouse is last updated |
+| **createdAt** | int64 | 0L | The timestamp, in epoch-millis, when this warehouse is created |
+| **updatedAt** | int64 | 0L | The timestamp, in epoch-millis, when this warehouse is last updated |
 | **position** | LatLng | {} | The Lat/Lng of the warehouse |
 
 #### LatLng Object

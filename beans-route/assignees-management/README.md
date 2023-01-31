@@ -210,8 +210,8 @@ DELETE {{baseURL}}/enterprise/v1/lists/assignees/{{list-assignee-id}}
 ### Assignee Object
 | Field | Type | Default | Description |
 | ----------- | ----------- | ----------- | ----------- |
-| **list_assignee_id** | string | The assignee ID | The unique id of the assignee |
-| **account_buid** | string | The account ID | The account ID that this assignee is in |
+| **listAssigneeId** | string | The assignee ID | The unique id of the assignee |
+| **accountBuid** | string | The account ID | The account ID that this assignee is in |
 | **name** | string | "" | The name of this assignee |
 | **email** | string | "" | The email of this assignee |
 | **phone** | string | "" | The phone number of this assignee |
@@ -219,16 +219,16 @@ DELETE {{baseURL}}/enterprise/v1/lists/assignees/{{list-assignee-id}}
 | **lat** | double | 0.0 | The last known latitude of this assignee |
 | **lng** | double | 0.0 | The last known longitude of this assignee |
 | **state** | string | One of ACTIVE, DISABLED | The state that this assignee is in |
-| **has_used_consumer_app** | boolean | false | True when the assignee has used the consumer app |
+| **hasUsedConsumerApp** | boolean | false | True when the assignee has used the consumer app |
 | **role** | string | One of ADMIN, DRIVER, MANAGER, DISPTCHER | The Role of this assignee  |
-| **employee_id** | string | "" | The employee ID of this assignee |
-| **manager_assignee_id** | string | "" | The assignee's manager ID |
-| **list_warehouse_id** | string | "" | The assignee's default warehouse ID |
-| **is_safety_enabled** | boolean | false | True when safety compliance is enabled for this assignee |
-| **safety_status** | string | "" | The safety compliance status |
-| **safety_integration_status** | string | "" | The safety provider integration status for this assignee |
-| **is_assigning_enabled** | boolean | false | True when the assignee can be put on a route |
-| **created_at** | int64 | 0L | The timestamp, in epoch-millis, when this assignee is created |
-| **updated_at** | int64 | 0L | The timestamp, in epoch-millis, when this assignee is last updated |
+| **employeeId** | string | "" | The employee ID of this assignee |
+| **managerAssigneeId** | string | "" | The assignee's manager ID |
+| **listWarehouseId** | string | "" | The assignee's default warehouse ID |
+| **isSafetyEnabled** | boolean | false | True when safety compliance is enabled for this assignee |
+| **safetyStatus** | string | "" | The safety compliance status |
+| **safetyIntegrationStatus** | string | "" | The safety provider integration status for this assignee |
+| **isAssigningEnabled** | boolean | false | True when the assignee can be put on a route |
+| **createdAt** | int64 | 0L | The timestamp, in epoch-millis, when this assignee is created |
+| **updatedAt** | int64 | 0L | The timestamp, in epoch-millis, when this assignee is last updated |
 
 

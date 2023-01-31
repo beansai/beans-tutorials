@@ -147,13 +147,13 @@ POST {{baseURL}}/enterprise/v1/lists/itemsdocumentation
 
 | Field | Type | Default | Description |
 | ----------- | ----------- | ----------- | ----------- |
-| **list_item_id** | string | The id of the list item | The ID of the list item (stop) that this documentation is for |
-| **list_route_id** | string | "" | The ID of the route that the item is currently on |
-| **account_buid** | string | "" | The ID of the account that the item is in |
-| **timestamp_epochSecond** | int64 | 0 | The timestamp in epoch when this documentation were entered into the system |
+| **listItemId** | string | The id of the list item | The ID of the list item (stop) that this documentation is for |
+| **listRouteId** | string | "" | The ID of the route that the item is currently on |
+| **accountBuid** | string | "" | The ID of the account that the item is in |
+| **timestampEpochSecond** | int64 | 0 | The timestamp in epoch when this documentation were entered into the system |
 | **notes** | Array of string | [] | Notes that were put down either by agents or by system |
 | **images** | Array of Image Info Object | [] | An array of images that are associated with this documentation |
-| **event_code** | Event code object | {} | The chosen event code by an agent to be associated with this documentation  |
+| **eventCode** | Event code object | {} | The chosen event code by an agent to be associated with this documentation  |
 | **tags** | Array of Tag | Empty Array | A list of route tags. These are route preferences |
 
 ### Event Code Object

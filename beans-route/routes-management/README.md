@@ -288,21 +288,21 @@ DELETE {{baseURL}}/enterprise/v1/lists/items/{{list-item-id}}
 ### Route Object
 | Field | Type | Default | Description |
 | ----------- | ----------- | ----------- | ----------- |
-| **list_route_id** | string | The Route ID | The unique id of the route |
-| **account_buid** | string | The account ID | The account ID that this route is in |
+| **listRouteId** | string | The Route ID | The unique id of the route |
+| **accountBuid** | string | The account ID | The account ID that this route is in |
 | **name** | string | "" | The name of the route |
-| **date_str** | string | "" | The date str (yyyy-mm-dd) |
+| **dateStr** | string | "" | The date str (yyyy-mm-dd) |
 | **status** | string | "" | One of OPEN, CLOSED  |
-| **manifest_name** | string | "" | The name of the manifest that was loaded to create this route |
+| **manifestName** | string | "" | The name of the manifest that was loaded to create this route |
 | **assignee** | Assignee Object | {} | The Assignee object associated with this route |
 | **warehouse** | Warehouse Object | {} | The warehouse object associated with this route |
-| **route_path_md5** | string | "" | The md5 hash of the path last computed for this route |
-| **created_at** | int64 | 0L | The timestamp, in epoch-millis, when this route is created |
-| **updated_at** | int64 | 0L | The timestamp, in epoch-millis, when this route is last updated |
+| **routePathMd5** | string | "" | The md5 hash of the path last computed for this route |
+| **createdAt** | int64 | 0L | The timestamp, in epoch-millis, when this route is created |
+| **updatedAt** | int64 | 0L | The timestamp, in epoch-millis, when this route is last updated |
 | **providers** | Array of string | Empty array | 0 or more providers that are associated with this route |
-| **assignee_secondarys** | Array of string | Empty array | A list of assignee IDs acting as secondary assignees to this route |
-| **route_type** | string | "" | One of DEFAULT, STORAGE, OMBUDSMAN or empty string to indicate the type of the route |
+| **assigneeSecondarys** | Array of string | Empty array | A list of assignee IDs acting as secondary assignees to this route |
+| **routeType** | string | "" | One of DEFAULT, STORAGE, OMBUDSMAN or empty string to indicate the type of the route |
 | **tags** | Array of Tag | Empty Array | A list of route tags. These are route preferences |
-| **start_mode** | string | "" | One of WAREHOUSE, ASSIGNEE_ADDRESS, STOP, or empty string to indicate the start location of the route |
-| **end_mode** | string | "" | One of WAREHOUSE, ASSIGNEE_ADDRESS, STOP, or empty string to indicate the end location of the route |
+| **startMode** | string | "" | One of WAREHOUSE, ASSIGNEE_ADDRESS, STOP, or empty string to indicate the start location of the route |
+| **endMode** | string | "" | One of WAREHOUSE, ASSIGNEE_ADDRESS, STOP, or empty string to indicate the end location of the route |
 
