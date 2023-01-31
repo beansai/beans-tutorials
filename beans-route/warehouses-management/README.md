@@ -192,7 +192,7 @@ DELETE {{baseURL}}/enterprise/v1/lists/warehouse/{{list-warehouse-id}}
 
 | Field | Type | Default | Description |
 | --- | --- | --- | --- |
-| **warehouse** | Array of warehouse object | "" | A list of warehouses |
+| **warehouse** | Array of warehouse object | [] | A list of warehouses |
 
 ### Warehouse object
 | Field | Type | Default | Description |

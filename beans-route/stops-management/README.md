@@ -19,8 +19,10 @@ For details of a stop (Item)  please see https://www.beansroute.ai/route-api-v1.
 - [Get Item Documentation](#get-item-documentation)
 - [Search Archived Items](#search-archived-items)
 - [Objects](#objects)
-  - [Array of List Item Object](array-of-list-item-object)
-  - [List Item Object](list-item-object)
+  - [Array of List Item Object](#array-of-list-item-object)
+  - [List Item Object](#list-item-object)
+  - [Dimensions Object](#dimensions-object)
+  - [Dimension Object](#dimension-object)
 
 ### Create Stops
 
@@ -471,6 +473,11 @@ Available filters for query
 ```
 
 ## Objects
+
+### Array of List Item Object
+| Field | Type | Default | Description |
+| --- | --- | --- | --- |
+| **item** | Array of List Item object | [] | A list of List Item Object |
 
 ### List Item Object
 
