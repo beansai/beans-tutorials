@@ -15,8 +15,11 @@ For details of a warehouse's shape please see https://www.beansroute.ai/route-ap
 - [Get Warehouse list](#get-warehouse-list)
 - [Get Warehouse](#get-warehouse)
 - [Delete Warehouse](#delete-warehouse)
+- [Objects](#objects)
+  - [Array of Warehouse Object](#array-of-warehouse-object)
+  - [Warehouse Object](#warehouse-object)
 
-### Create warehouses
+## Create warehouses
 
 **Request example**
 
@@ -62,6 +65,7 @@ POST https://isp.beans.ai/enterprise/v1/lists/warehouses
 }
 ```
 
+
 ### Update warehouse
 
 **Request example**
@@ -102,7 +106,7 @@ POST https://isp.beans.ai/enterprise/v1/lists/warehouses/{{list-warehouse-id}}
 }
 ```
 
-### Get Warehouse List
+## Get Warehouse List
 
 **Request Example**
 
@@ -132,7 +136,7 @@ GET https://isp.beans.ai/enterprise/v1/lists/warehouses
 }
 ```
 
-### Get Warehouse
+## Get Warehouse
 
 **Request Example**
 
@@ -158,8 +162,7 @@ GET https://isp.beans.ai/enterprise/v1/lists/warehouses/{{list-warehouse-id}}
 }
 ```
 
-
-### Delete Warehouse
+## Delete Warehouse
 This will perform a soft-delete action, and the deleted warehouse will still be return in get warehouse by id response.
 
 **Request**
@@ -183,3 +186,29 @@ DELETE {{baseURL}}/enterprise/v1/lists/warehouse/{{list-warehouse-id}}
     "name": "Thermopylaee"
 }
 ```
+
+## Objects
+### Array of warehouse object
+
+| Field | Type | Default | Description |
+| --- | --- | --- | --- |
+| **warehouse** | Array of warehouse object | [] | A list of warehouses |
+
+### Warehouse object
+| Field | Type | Default | Description |
+| ----------- | ----------- | ----------- | ----------- |
+| **list_warehouse_id** | string | The warehouse ID | The unique id of the warehouse |
+| **account_buid** | string | The account ID | The account ID that this warehouse is in |
+| **address** | string | "" | The address of the warehouse |
+| **formatted_address** | string | "" | The formatted address |
+| **name** | string | "" | The name of the warehouse |
+| **created_at** | int64 | 0L | The timestamp, in epoch-millis, when this warehouse is created |
+| **updated_at** | int64 | 0L | The timestamp, in epoch-millis, when this warehouse is last updated |
+| **position** | LatLng | {} | The Lat/Lng of the warehouse |
+
+#### LatLng Object
+
+| Field | Type | Default | Description |
+| ----------- | ----------- | ----------- | ----------- |
+| **lat** | double | 0.0 | The latitude |
+| **lng** | double | 0.0 | The longitude |

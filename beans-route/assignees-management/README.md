@@ -15,6 +15,9 @@ For details of an assignee's shape please see https://www.beansroute.ai/route-ap
 - [Get Assignee List](#get-assignee-list)
 - [Get Assignee](#get-assignee)
 - [Delete Assignee](#delete-assignee)
+- [Objects](#objects)
+  - [Array of Assignee Object](#array-of-assignee-object)
+  - [Assignee Object](#assignee-object)
 
 ### Create Assignees
 
@@ -197,3 +200,35 @@ DELETE {{baseURL}}/enterprise/v1/lists/assignees/{{list-assignee-id}}
     "isAssigningEnabled": true
 }
 ```
+
+## Objects
+### Array of Assignee Object
+| Field | Type | Default | Description |
+| --- | --- | --- | --- |
+| **assignee** | Array of Assignee Object | [] | A list of Assignee Object |
+
+### Assignee Object
+| Field | Type | Default | Description |
+| ----------- | ----------- | ----------- | ----------- |
+| **list_assignee_id** | string | The assignee ID | The unique id of the assignee |
+| **account_buid** | string | The account ID | The account ID that this assignee is in |
+| **name** | string | "" | The name of this assignee |
+| **email** | string | "" | The email of this assignee |
+| **phone** | string | "" | The phone number of this assignee |
+| **code** | string | "" | The assignee code, if configured |
+| **lat** | double | 0.0 | The last known latitude of this assignee |
+| **lng** | double | 0.0 | The last known longitude of this assignee |
+| **state** | string | One of ACTIVE, DISABLED | The state that this assignee is in |
+| **has_used_consumer_app** | boolean | false | True when the assignee has used the consumer app |
+| **role** | string | One of ADMIN, DRIVER, MANAGER, DISPTCHER | The Role of this assignee  |
+| **employee_id** | string | "" | The employee ID of this assignee |
+| **manager_assignee_id** | string | "" | The assignee's manager ID |
+| **list_warehouse_id** | string | "" | The assignee's default warehouse ID |
+| **is_safety_enabled** | boolean | false | True when safety compliance is enabled for this assignee |
+| **safety_status** | string | "" | The safety compliance status |
+| **safety_integration_status** | string | "" | The safety provider integration status for this assignee |
+| **is_assigning_enabled** | boolean | false | True when the assignee can be put on a route |
+| **created_at** | int64 | 0L | The timestamp, in epoch-millis, when this assignee is created |
+| **updated_at** | int64 | 0L | The timestamp, in epoch-millis, when this assignee is last updated |
+
+
