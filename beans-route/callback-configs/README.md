@@ -27,7 +27,7 @@ If we want to receive callbacks when data was changed, we can set the globalUrl 
       - [Route What-If Async Callback Example](#route-what-if-async-callback-example)
       - [Distance Matrix Async Callback Example](#distance-matric-async-callback-example)
       - [Driver Start Callback Example](#driver-start-callback-example)
-      - [Missing Info on Packages Add Example](#missing-info-on-packages-add)
+      - [Missing Info on Packages Add Example](#missing-info-on-packages-add-example)
 
 ## Supported Callbacks
 
