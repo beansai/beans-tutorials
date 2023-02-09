@@ -27,6 +27,7 @@ If we want to receive callbacks when data was changed, we can set the globalUrl 
       - [Route What-If Async Callback Example](#route-what-if-async-callback-example)
       - [Distance Matrix Async Callback Example](#distance-matric-async-callback-example)
       - [Driver Start Callback Example](#driver-start-callback-example)
+      - [Missing Info on Packages Add Example](#missing-info-on-packages-add)
 
 ## Supported Callbacks
 
@@ -42,6 +43,7 @@ Callbacks would trigger an HTTP POST on the following object changes or event is
 - RouteWhatifAsync
 - DistanceMatrix
 - DriverStart
+- Missing info on Packages Add
 
 ## Callback Config API
 
@@ -78,7 +80,8 @@ GET https://isp.beans.ai/enterprise/v1/lists/callback_configs
     ],
     "itemDocumentation": true,
     "distanceMatrix": true,
-    "driverStart": true
+    "driverStart": true,
+    "barcodeMissingInfo": true
 }
 ```
 
@@ -97,6 +100,7 @@ GET https://isp.beans.ai/enterprise/v1/lists/callback_configs
 | **itemDocumentation** | boolean | false | Whether to receive Item Documentation, PoD, object callbacks  |
 | **distanceMatrix** | boolean | false | Whether to receive Distance Matrix object callbacks  |
 | **driverStart** | boolean | false | Whether to receive Driver Start object callbacks  |
+| **barcodeMissingInfo** | boolean | false | Whether to receive Barcode missing info callbacks. This is only triggered when a scanned barcode does not have sufficient amount of information to be resolved by the system. |
 | **globalUrl** | string | "" | The global endpoint to POST the callback object to  |
 | **headers** | Array of Header | Empty List| Headers to include while performing the POST |
 | **includeDefaultValues** | boolean | false | Whether or not default values of callback object should be included in the payload |
@@ -130,6 +134,7 @@ POST https://isp.beans.ai/enterprise/v1/lists/callback_configs
   "itemDocumentation": true,
   "distanceMatrix":true,
   "driverStart":true,
+  "barcodeMissingInfo": true,
   "globalUrl": "https://96d2-36-237-115-38.ngrok.io",
   "headers": [{"key":"X-Special-Header-1","value":"special-value1"},{"key":"X-Special-Header-2","value":"special-value2"}]
 }
@@ -162,7 +167,8 @@ POST https://isp.beans.ai/enterprise/v1/lists/callback_configs
     ],
     "itemDocumentation": true,
     "distanceMatrix": true,
-    "driverStart": true
+    "driverStart": true,
+    "barcodeMissingInfo": true
 }
 ```
 
@@ -185,6 +191,7 @@ We can dynamically resolve the object type by parsing the "type" field to determ
 - ROUTE_WHATIF_ASYNC
 - DISTANCE_MATRIX
 - DRIVER_START
+- BARCODE_MISSING_INFO
 
 **Actions**
 
@@ -476,6 +483,9 @@ The callback is structured as an envelop that wraps around the object of concern
 | **v** | string | "" | respective value of the dimension. As long as the unit is aligned with the vehicle's, a numeric is sufficient |
 
 #### Item Documentation Callback Example
+
+As part of the driver/dispatcher workflows, Item Documentation (PoD) may be generated, updated, or removed. For most of the use cases, UPDATE/CREATE callbacks would be generated. It is important to note that DELETE callback can also be generated when the PoD is being reset.
+
 ```json
 {
     "type": "ITEM_DOCUMENTATION",
@@ -823,3 +833,46 @@ The callback is structured as an envelop that wraps around the object of concern
 | **list_assignee_id** | string | "" | The unique id of the assignee that starts the route |
 | **list_route_id** | string | "" | The route ID that was started|
 | **start_epoch_millis** | int64 | 0 | The epoch millis indicating the starting of the route |
+
+#### Missing Info on Packages Add Example
+
+This callback is triggered when a scanned barcode does not have sufficient amount of information for the system to resolve it to a list item.
+
+   - a driver scans a barcode or a label
+   - the system, given the barcode or a label, could not find any matching list item
+   - the system would create this callback **and wait for the response**
+   - the system would attempt to process the content received from the callback response
+      - "list" of items
+      - or a single item
+   - if the item(s) received are valid, they would be created or updated
+      - which itself would generate a Item callback if enabled, **asynchronously**
+      - if the system could not safely handled the response, then, the callback response would be logged, and the system would return with failed label error
+   - return the response to the driver scan
+   
+In other words, this callback would be blocking on the driver scans to await the information from the receiver of the callback.
+
+```json
+{
+  "type": "BARCODE_MISSING_INFO",
+  "action": "CREATE",
+  "account_buid": "aCUYkl5jtq8-BrBTr3pTdzmnVQyb8Im5ODarcMg-ucyDFHSJ3D9bvdxlnbFyeoikFo2BKlATE0PPgah7IXvKqFe7TdcD_uCZdUgiMLVGqbyy6JGxPta73ZdaPjBARsfIuq65qQ",
+  "object": {
+    "list_assignee_id": "4heosxdisgn6dmybh2k8hm",
+    "list_route_id": "19f86a7ab09036e682f2bdeeb8bde70c",
+    "timestamp_millis": 1675959159679,
+    "barcode": "C123456",
+    "response": ""
+  },
+  "watermark": 1675959159679
+}
+```
+
+##### Missing Info on Packages Add Object
+
+| Field | Type | Default | Description |
+| ----------- | ----------- | ----------- | ----------- |
+| **list_assignee_id** | string | "" | The unique id of the assignee that starts the route |
+| **list_route_id** | string | "" | The route ID that was started|
+| **timestamp_millis** | int64 | 0 | The epoch millis when the system receives the scan request |
+| **barcode** | string | "" | The barcode that the system could not find information on |
+| **response** | string | "" | **System** use only |
