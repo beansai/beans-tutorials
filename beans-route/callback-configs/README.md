@@ -82,10 +82,36 @@ GET https://isp.beans.ai/enterprise/v1/lists/callback_configs
 }
 ```
 
+### Config Object
+
+| Field | Type | Default | Description |
+| ----------- | ----------- | ----------- | ----------- |
+| **accountBuid** | string | account ID of authenticated call | The account ID of the config |
+| **account** | boolean | false | Whether to receive Account object callbacks  |
+| **route** | boolean | false | Whether to receive Route object callbacks  |
+| **item** | boolean | false | Whether to receive Item object callbacks  |
+| **assignee** | boolean | false | Whether to receive Assignee object callbacks  |
+| **warehouse** | boolean | false | Whether to receive Warehouse object callbacks  |
+| **assigneeVehicle** | boolean | false | Whether to receive Assignee Vehicle object callbacks  |
+| **routeWhatifAsync** | boolean | false | Whether to receive Route What if Async object callbacks  |
+| **itemDocumentation** | boolean | false | Whether to receive Item Documentation, PoD, object callbacks  |
+| **distanceMatrix** | boolean | false | Whether to receive Distance Matrix object callbacks  |
+| **driverStart** | boolean | false | Whether to receive Driver Start object callbacks  |
+| **globalUrl** | string | "" | The global endpoint to POST the callback object to  |
+| **headers** | Array of Header | Empty List| Headers to include while performing the POST |
+| **includeDefaultValues** | boolean | false | Whether or not default values of callback object should be included in the payload |
+
+#### Header Object
+
+| Field | Type | Default | Description |
+| ----------- | ----------- | ----------- | ----------- |
+| **key** | string | "" | The header key in HTTP request |
+| **value** | string | "" | The header value in HTTP request |
+
+
 ### Update Callback Configs
 
 **Request Example**
-
 
 ```
 POST https://isp.beans.ai/enterprise/v1/lists/callback_configs
@@ -166,10 +192,27 @@ We can dynamically resolve the object type by parsing the "type" field to determ
 - UPDATE
 - DELETE
 
-**Watermark**
+### Envelop
 
-The system ensures that the value of the watermark is strictly increasing. In other words, if the receiver of the callback receives a message on the same object with earlier watermark, the receiver can safely assume that payload represented an earlier version of the object.
+The callback is structured as an envelop that wraps around the object of concern. Unless otherwise noted, the envelops for all callbacks are shaped the same.
 
+| Field | Type | Default | Description |
+| ----------- | ----------- | ----------- | ----------- |
+| **type** | string | Types enum | The object type of the callback |
+| **action** | string | Actions enum | The object lifecycle of the callback |
+| **account_buid** | string | The account ID of the object | The account ID of which the object is in |
+| **object** | dynamic | Object type | The respective object given the type |
+| **watermark** | long | 0 | The watermark of the callback. The system ensures that the value of the watermark is **strictly increasing**. In other words, if the receiver of the callback receives a message on the same object with earlier watermark, the receiver can safely assume that payload represented an earlier version of the object. |
+
+### Notes on object processing
+
+   - With default configurations, fields with default value (e.g. empty string, 0 numeric, false booleans) would be omitted from the object payloads
+      - includeDefaultValues = true would return those fields with their default values
+   - New fields may be introduced as we have dynamic bindings of callbacks to the actual object's life cycles. Thus, those new fields may be ignored till they are ready to be incorporated into your workflows
+   - The object in the callback is **always** the **full** shape of the object, no partials.
+   - On an existing object, callback is triggered when there is **any** update to the object. It is up to the receiver to determine the differences and whether or not they are relevant
+      - Since new fields may be introduced, it is very possible that none of the fields that you incorporated are modified
+   
 ### Callback Examples
 
 #### Account Callback Example
@@ -209,6 +252,33 @@ The system ensures that the value of the watermark is strictly increasing. In ot
 }
 ```
 
+##### Account Object
+
+| Field | Type | Default | Description |
+| ----------- | ----------- | ----------- | ----------- |
+| **account_buid** | string | The account ID | Unique identifier of an account |
+| **account_name** | string | "" | The name of the account |
+| **email** | string | "" | The email of the account |
+| **subscription_plan** | string | "" | The plan(s) that this account has subscribed |
+| **subscription_seat_count** | int32 | 0 | The number of seats that this account has subscribed |
+| **third_party_account_type** | string | "" | The type of the account |
+| **third_party_account_id** | string | "" | Third party reference ID for this account |
+| **current_imports** | string | "" | The status of manifest imports, if appropriate |
+| **created_at** | int64 | 0L | The timestamp, in epoch-millis, when this account is created |
+| **updated_at** | int64 | 0L | The timestamp, in epoch-millis, when this account is last updated |
+| **seats_safety_module** | int32 | 0 | The number of safety seats that this account has subscribed |
+| **is_safety_enabled** | boolean | false | Whether safety training is enabled for this account |
+| **safety_provider** | string | "" | The provider name of the safety training |
+| **safety_account_id** | string | "" | The safety provider reference ID, where appropriate |
+| **safety_integration_status** | string | "" | The integration status between Beans and the Safety Provider for this account |
+| **tags** | Array of Tag | Empty Array | A list of account tags. These are account preferences |
+
+##### Tag object
+| Field | Type | Default | Description |
+| ----------- | ----------- | ----------- | ----------- |
+| **key** | string | "" | The key of the tag |
+| **value** | string | "" | TThe value of the tag |
+
 #### Warehouse Callback Example
 
 ```json
@@ -232,6 +302,31 @@ The system ensures that the value of the watermark is strictly increasing. In ot
     "watermark": "1644543893077"
 }
 ```
+
+##### Warehouse Object
+
+| Field | Type | Default | Description |
+| ----------- | ----------- | ----------- | ----------- |
+| **list_warehouse_id** | string | The warehouse ID | The unique id of the warehouse |
+| **account_buid** | string | The account ID | The account ID that this warehouse is in |
+| **address** | string | "" | The address of the warehouse |
+| **formatted_address** | string | "" | The formatted address |
+| **country_iso3** | string | "" | The country ISO3 code of the warehouse |
+| **name** | string | "" | The name of the warehouse |
+| **domicile** | string | "" | The domicile code of the warehouse |
+| **created_at** | int64 | 0L | The timestamp, in epoch-millis, when this warehouse is created |
+| **updated_at** | int64 | 0L | The timestamp, in epoch-millis, when this warehouse is last updated |
+| **deleted** | boolean | false | Whether or not the warehouse is deleted |
+| **partner_warehouse_uuid** | string | "" | An associated warehouse reference to a partner |
+| **position** | LatLng | {} | The Lat/Lng of the warehouse |
+| **tags** | Array of Tag | Empty Array | A list of warehouse tags. These are warehouse preferences |
+
+##### LatLng Object
+
+| Field | Type | Default | Description |
+| ----------- | ----------- | ----------- | ----------- |
+| **lat** | double | 0.0 | The latitude |
+| **lng** | double | 0.0 | The longitude |
 
 #### Route Callback Example
 
@@ -261,6 +356,28 @@ The system ensures that the value of the watermark is strictly increasing. In ot
     "watermark": "1644548534781"
 }
 ```
+
+##### Route Object
+
+| Field | Type | Default | Description |
+| ----------- | ----------- | ----------- | ----------- |
+| **list_route_id** | string | The Route ID | The unique id of the route |
+| **account_buid** | string | The account ID | The account ID that this route is in |
+| **name** | string | "" | The name of the route |
+| **date_str** | string | "" | The date str (yyyy-mm-dd) |
+| **status** | string | "" | One of OPEN, CLOSED  |
+| **manifest_name** | string | "" | The name of the manifest that was loaded to create this route |
+| **assignee** | Assignee Object | {} | The Assignee object associated with this route |
+| **warehouse** | Warehouse Object | {} | The warehouse object associated with this route |
+| **route_path_md5** | string | "" | The md5 hash of the path last computed for this route |
+| **created_at** | int64 | 0L | The timestamp, in epoch-millis, when this route is created |
+| **updated_at** | int64 | 0L | The timestamp, in epoch-millis, when this route is last updated |
+| **providers** | Array of string | Empty array | 0 or more providers that are associated with this route |
+| **assignee_secondarys** | Array of string | Empty array | A list of assignee IDs acting as secondary assignees to this route |
+| **route_type** | string | "" | One of DEFAULT, STORAGE, OMBUDSMAN or empty string to indicate the type of the route |
+| **tags** | Array of Tag | Empty Array | A list of route tags. These are route preferences |
+| **start_mode** | string | "" | One of WAREHOUSE, ASSIGNEE_ADDRESS, STOP, or empty string to indicate the start location of the route |
+| **end_mode** | string | "" | One of WAREHOUSE, ASSIGNEE_ADDRESS, STOP, or empty string to indicate the end location of the route |
 
 #### Item Callback Example
 
@@ -299,6 +416,64 @@ The system ensures that the value of the watermark is strictly increasing. In ot
     "watermark": "1644548585670"
 }
 ```
+
+##### List Item Object
+
+| Field | Type | Default | Description |
+| ----------- | ----------- | ----------- | ----------- |
+| **list_item_id** | string | The item ID | The unique id of the item |
+| **account_buid** | string | The account ID | The account ID that this item is in |
+| **address** | string | "" | The original address for this item |
+| **unit** | string | "" | The original unit for this item, or secondary address line |
+| **notes** | string | "" | The notes associated with this item, this is free form text |
+| **formatted_address** | string | "" | Formatted address for this item, often is generated and cleaned during geocoding process if geocoder is enabled |
+| **deliver_from_str** | string | "" | The start of the time window that this item could be done by |
+| **deliver_by_str** | string | "" | The end of the time window that this item should be done by |
+| **tracking_id** | string | "" | The tracking ID of the stop |
+| **num_packages** | int32 | 0 | The number of packages associated with this stop |
+| **type** | string | Enum | One of PICKUP, DROPOFF |
+| **customer_name** | string | "" | The name of the customer associated with this item |
+| **customer_phone** | string | "" | The phone number of the customer associated with this item |
+| **status** | string | Enum | One of NEW, IN_PROCESS, FINISHED, FAILED< MISLOAD, NOLOCATION, DELETED |
+| **status_updated_at** | int64 | 0 | The epoch-millis when the status of the stop was updated |
+| **route** | **Dimmunitive Route object** | {} | The Route that this stop is in. This is **dimmunitive** because only the list_route_id would be populated to non-default value if there is any association with other route values set to default. Otherwise, an empty object would be returned. |
+| **route_priority** | int32 | 0 | The ordering of ths stop in the route |
+| **master_address** | string | "" | The leasing office address or community address, if associative |
+| **parent_list_item_id** | string | "" | The ID of the parent item if this list is in a group |
+| **created_at** | int64 | 0L | The timestamp, in epoch-millis, when this item is created |
+| **updated_at** | int64 | 0L | The timestamp, in epoch-millis, when this item is last updated |
+| **position** | LatLng | {} | Usually the navigate location of the address |
+| **display_position** | LatLng | {} | Usually the rooftop location of the address |
+| **is_external** | boolean | false | Whether or not the geocoders are external to Beans |
+| **origination** | string | "" | The origin of the item, set when the item is created |
+| **provider** | string | "" | The provider of the item, set when the item is created |
+| **signature_required** | boolean | false | True when signature is required to close out the item |
+| **url** | string | "" | Associated URL of the item |
+| **source_seq** | int32 | 0 | The sequence of the item, may not be correlated in a route |
+| **transfer** | string | "" | Note on whether or not this item is transferred out or tranferred in |
+| **placement** | string | "" | Free form string, usually denote the placement of the item in a truck |
+| **country_iso3** | string | "" | The ISO3 country code of the address |
+| **customer_email** | string | "" | The email of the customer associated with this item |
+| **flavors** | string | "" | Comma separated associated constrains, this is used for route planning, and is used to match, exactly, to trucks that contain all the flavors. For example, if a item has flavors "a,b", then, only trucks that has both "a", and "b" flavors can be used for this item |
+| **stop_time_seconds** | int32 | 0 | The stop time, in seconds, that this item should carry |
+| **transferred_in** | boolean | false | True when this item was transferred in from another stop or route |
+| **transferred_out** | boolean | false | True when this item was transferred out into another route |
+| **dimensions** | Dimensions object | {} | This to denote constrains on various dimensions for Route planning |
+| **third_party_reference_id** | string | "" | Third party reference ID for this stop |
+| **third_party_status** | string | "" | Third party reference status for this stop |
+
+##### Dimensions Object
+
+| Field | Type | Default | Description |
+| ----------- | ----------- | ----------- | ----------- |
+| **dims** | Array of Dimension object | [] | An Array of dimension |
+
+##### Dimension Object
+
+| Field | Type | Default | Description |
+| ----------- | ----------- | ----------- | ----------- |
+| **t** | string | Enum | Type of the dimension. One of WEIGHT, VOLUME, COUNT |
+| **v** | string | "" | respective value of the dimension. As long as the unit is aligned with the vehicle's, a numeric is sufficient |
 
 #### Item Documentation Callback Example
 ```json
@@ -343,6 +518,34 @@ The system ensures that the value of the watermark is strictly increasing. In ot
 }
 ```
 
+##### Item Documentation Object
+
+| Field | Type | Default | Description |
+| ----------- | ----------- | ----------- | ----------- |
+| **list_item_id** | string | The id of the list item | The ID of the list item (stop) that this documentation is for |
+| **list_route_id** | string | "" | The ID of the route that the item is currently on |
+| **account_buid** | string | "" | The ID of the account that the item is in |
+| **timestamp_epochSecond** | int64 | 0 | The timestamp in epoch when this documentation were entered into the system |
+| **notes** | Array of string | [] | Notes that were put down either by agents or by system |
+| **images** | Array of Image Info Object | [] | An array of images that are associated with this documentation |
+| **event_code** | Event code object | {} | The chosen event code by an agent to be associated with this documentation  |
+| **tags** | Array of Tag | Empty Array | A list of route tags. These are route preferences |
+
+##### Event Code Object
+
+| Field | Type | Default | Description |
+| ----------- | ----------- | ----------- | ----------- |
+| **code** | string | "" | The short code for the event |
+| **name** | string | "" | The name for the event |
+
+##### Image Info Object
+
+| Field | Type | Default | Description |
+| ----------- | ----------- | ----------- | ----------- |
+| **url** | string | "" | The URL of the image where it may be downloaded |
+| **type** | string | "" | The type of an image. "proof" usually denotes the proof of delivery, "signature" usually denotes the signature blocks. New types may be added in the future  |
+| **position** | LatLng | {} | The lat/lng associated with the image |
+
 #### Assignee Callback Example
 
 ```json
@@ -366,6 +569,31 @@ The system ensures that the value of the watermark is strictly increasing. In ot
 }
 ```
 
+##### Assignee Object
+
+| Field | Type | Default | Description |
+| ----------- | ----------- | ----------- | ----------- |
+| **list_assignee_id** | string | The assignee ID | The unique id of the assignee |
+| **account_buid** | string | The account ID | The account ID that this assignee is in |
+| **name** | string | "" | The name of this assignee |
+| **email** | string | "" | The email of this assignee |
+| **phone** | string | "" | The phone number of this assignee |
+| **code** | string | "" | The assignee code, if configured |
+| **lat** | double | 0.0 | The last known latitude of this assignee |
+| **lng** | double | 0.0 | The last known longitude of this assignee |
+| **state** | string | One of ACTIVE, DISABLED | The state that this assignee is in |
+| **has_used_consumer_app** | boolean | false | True when the assignee has used the consumer app |
+| **role** | string | One of ADMIN, DRIVER, MANAGER, DISPTCHER | The Role of this assignee  |
+| **employee_id** | string | "" | The employee ID of this assignee |
+| **manager_assignee_id** | string | "" | The assignee's manager ID |
+| **list_warehouse_id** | string | "" | The assignee's default warehouse ID |
+| **is_safety_enabled** | boolean | false | True when safety compliance is enabled for this assignee |
+| **safety_status** | string | "" | The safety compliance status |
+| **safety_integration_status** | string | "" | The safety provider integration status for this assignee |
+| **is_assigning_enabled** | boolean | false | True when the assignee can be put on a route |
+| **created_at** | int64 | 0L | The timestamp, in epoch-millis, when this assignee is created |
+| **updated_at** | int64 | 0L | The timestamp, in epoch-millis, when this assignee is last updated |
+
 #### Assignee Vehicle Callback Example
 
 ```json
@@ -381,6 +609,28 @@ The system ensures that the value of the watermark is strictly increasing. In ot
     "watermark": "1644548670282"
 }
 ```
+
+##### Assignee Vechile Object
+
+| Field | Type | Default | Description |
+| ----------- | ----------- | ----------- | ----------- |
+| **list_assignee_id** | string | "" | The assignee id if the vehicle is assigned |
+| **account_buid** | string | The account ID | The account ID that this vehicle is in |
+| **capacity** | int32 | 0 | The capacity of the vehicle, usually used to denote the number of packages |
+| **saddress** | string | "" | The starting address of the vehicle |
+| **sformatted_address** | string | "" | The starting address of the vehicle after being formatted |
+| **sposition** | LatLng | {} | The geocoded LatLng of the starting address |
+| **eaddress** | string | "" | The ending address of the vehicle |
+| **eformatted_address** | string | "" | The ending address of the vehicle after being formatted |
+| **eposition** | LatLng | {} | The ending position of the vehicle |
+| **start_anywhere** | boolean | false | True if the vehicle can start from anywhere on route planning |
+| **start_anytime** | boolean | false | True if the vehicle can start anytime on route planning |
+| **end_anywhere** | boolean | false | True if the vehicle can end anywhere on route planning |
+| **flavors** | string | "" | Comma separated to describe the capabilities of the vehicles, which must be matched for items during Route planning |
+| **created_at** | int64 | 0L | The timestamp, in epoch-millis, when this assignee is created |
+| **updated_at** | int64 | 0L | The timestamp, in epoch-millis, when this assignee is last updated |
+| **country_iso3** | string | "" | The ISO3 country code of the addresses |
+| **dimensions** | Dimensions object | {} | This to denote capacity on various dimensions for Route planning |
 
 #### Route What-if Async Callback Example
 
@@ -413,6 +663,55 @@ The system ensures that the value of the watermark is strictly increasing. In ot
     "watermark": "1644549844"
 }
 ```
+
+##### Route What-if Object
+
+| Field | Type | Default | Description |
+| ----------- | ----------- | ----------- | ----------- |
+| **item** | Array of Item | Empty Array | The list of items to compute |
+| **list_route_ids** | Array of string | [] | The list of route IDs to compute |
+| **route_size_limit** | int32 | 0 | The max number of stops for a route to be eligible. 0 means no limits |
+| **must_have_assignee** | boolean | 0 | The epoch millis indicating the starting of the route |
+| **request_id** | string | "" | Idempotent request ID  |
+| **asynchronous** | boolean | false | True if the request was submitted to be executed asynchronously |
+| **use_warehouse_as_terminal** | boolean | false | True to use warehouse as terminal stops |
+| **ignore_time_constrains** | boolean | false | True to ignore the time constraints |
+| **cost_limit** | Cost Limit object | {} | Only returns routes whose costs are within the limit |
+| **include_multi_day_window_stops** | boolean | false | Whether the time window across multiple days are to be supported |
+| **assignee_position_freshness_minutes** | int32 | 0 | Include assignees whose locations are fresher than this setting. 0 means no limits |
+| **include_open_stops_outside_current_date** | boolean | false | True to include stops outside of today's date |
+| **ignore_source_sequence** | boolean | false | True if the source sequence on stops were to be ignored |
+| **logs** | Array of string | [] | The list of logs appended during processing |
+| **status** | string | "" | The status of the request |
+| **account_buid** | string | Account ID | The account identifier |
+| **include_negative_delta_cost** | boolean | false | True if negative costs are allowed |
+| **heuristics** | Heuristics Filter object | {} | A set of filters |
+| **allow_unknown_assignee_location** | boolean | false | True to allow assignees with unknown locations |
+| **pair_stops_for_flex_time_window** | boolean | false | True if the stops needs to be paired |
+| **internal_ref** | string | "" | Internal reference for this request |
+| **start_time_epoch** | int64 | 0 | The epoch when the request was started |
+| **end_time_epoch** | int64 | 0 | The epoch when the request was completed |
+| **result** | Route Delta Cost Object | {} | The result of the What if analysis |
+| **completed** | boolean | false | Whether the request completed |
+| **message** | string | "" | The processing message, if any |
+
+
+##### Heuristics Filter object
+
+| Field | Type | Default | Description |
+| ----------- | ----------- | ----------- | ----------- |
+| **distance_M** | double | 0.0 | Include routes whose delta distance is less than M meters |
+| **time_S** | double | 0.0 | Include routes whose delta time is less than S seconds |
+
+
+##### Cost Limit object
+
+| Field | Type | Default | Description |
+| ----------- | ----------- | ----------- | ----------- |
+| **include_with_num_stops_N** | int32 | 0 | If route has N or less stops, it will always be included for computation |
+| **proximity_to_new_stops_M** | double | 0.0 | Only include routes containing a stop that is within M meters, crows fly distance, of any one of the new stops |
+| **include_all_stops** | boolean | false | True if all the stops are considered for proximity computations |
+
 
 #### Distance Matric Async Callback Example
 
@@ -501,7 +800,7 @@ The system ensures that the value of the watermark is strictly increasing. In ot
 }
 ```
 
-##### Driver Start Callback Example
+#### Driver Start Callback Example
 ```json
 {
     "type": "DRIVER_START",
@@ -517,4 +816,10 @@ The system ensures that the value of the watermark is strictly increasing. In ot
 
 ```
 
+##### Driver Start Object
 
+| Field | Type | Default | Description |
+| ----------- | ----------- | ----------- | ----------- |
+| **list_assignee_id** | string | "" | The unique id of the assignee that starts the route |
+| **list_route_id** | string | "" | The route ID that was started|
+| **start_epoch_millis** | int64 | 0 | The epoch millis indicating the starting of the route |
