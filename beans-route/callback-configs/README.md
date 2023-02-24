@@ -468,6 +468,7 @@ The callback is structured as an envelop that wraps around the object of concern
 | **dimensions** | Dimensions object | {} | This to denote constrains on various dimensions for Route planning |
 | **third_party_reference_id** | string | "" | Third party reference ID for this stop |
 | **third_party_status** | string | "" | Third party reference status for this stop |
+| **secondary_status** | string | "" | Secondary status for this stop |
 
 ##### Dimensions Object
 
