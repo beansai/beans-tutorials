@@ -34,6 +34,7 @@ With header **"X-Beansai-Format: native"**, the return of the same callback conf
 ## Table of contents
 - [Route Object](#route-object)
 - [List Item Object](#list-item-object)
+- [Warehouse Object](#warehouse-object)
 
 ### Route Object
 
