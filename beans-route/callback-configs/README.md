@@ -27,7 +27,7 @@ If we want to receive callbacks when data was changed, we can set the globalUrl 
       - [Route What-If Async Callback Example](#route-what-if-async-callback-example)
       - [Distance Matrix Async Callback Example](#distance-matric-async-callback-example)
       - [Driver Start Callback Example](#driver-start-callback-example)
-      - [Missing Info on Packages Add Example](#missing-info-on-packages-add)
+      - [Missing Info on Packages Add Example](#missing-info-on-packages-add-example)
 
 ## Supported Callbacks
 
@@ -468,6 +468,7 @@ The callback is structured as an envelop that wraps around the object of concern
 | **dimensions** | Dimensions object | {} | This to denote constrains on various dimensions for Route planning |
 | **third_party_reference_id** | string | "" | Third party reference ID for this stop |
 | **third_party_status** | string | "" | Third party reference status for this stop |
+| **secondary_status** | string | "" | Secondary status for this stop |
 
 ##### Dimensions Object
 
@@ -841,9 +842,29 @@ This callback is triggered when a scanned barcode does not have sufficient amoun
    - a driver scans a barcode or a label
    - the system, given the barcode or a label, could not find any matching list item
    - the system would create this callback **and wait for the response**
-   - the system would attempt to process the content received from the callback response
-      - "list" of items
-      - or a single item
+   - the system would attempt to process the content received from the callback response in either one of the following
+      - list of items
+      ```json
+      {
+        "item": [
+          {
+            "address": "3365 Deer Valley Rd, Antioch, CA 94531",
+            "trackingId": "C123456",
+            ... snipped for brevity
+          },
+          ... snipped for brevity
+        ]
+      }
+      ```
+      - a single item
+      ```json
+      {
+        "address": "3365 Deer Valley Rd, Antioch, CA 94531",
+        "trackingId": "C123456",
+        ... snipped for brevity
+      }
+      ```
+
    - if the item(s) received are valid, they would be created or updated
       - which itself would generate a Item callback if enabled, **asynchronously**
       - if the system could not safely handled the response, then, the callback response would be logged, and the system would return with failed label error
