@@ -43,7 +43,7 @@ With header **"X-Beansai-Format: native"**, the return of the same callback conf
 | **list_route_id** | listRouteId | string | The Route ID | The unique id of the route |
 | **account_buid** | accountBuid | string | The account ID | The account ID that this route is in |
 | **name** | name | string | "" | The name of the route |
-| **date_str** | dateStr | string | "" | The date str (yyyy-mm-dd) |
+| **date_str** | dateStr | string | "" | The date str (yyyy-mm-dd) and should be in route operator's local time zone |
 | **status** | status | string | "" | One of OPEN, CLOSED  |
 | **manifest_name** | manifestName | string | "" | The name of the manifest that was loaded to create this route |
 | **assignee** | assignee | Assignee Object | {} | The Assignee object associated with this route |
