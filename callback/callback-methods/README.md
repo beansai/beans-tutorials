@@ -19,9 +19,6 @@
 GET https://isp.beans.ai/enterprise/v1/lists/callbacks?startMillisInclusive={{millisecond}}}&endMillisExclusive={{millisecond}}
 ```
 
-- startMillisInclusive - query start time in millisecond
-- endMillisExclusive - query end time in millisecond
-
 **Response Example**
 
 ```json
@@ -71,7 +68,7 @@ GET https://isp.beans.ai/enterprise/v1/lists/callbacks?startMillisInclusive={{mi
 | Field | Type | Default | Description |
 | --- | --- | --- | --- |
 | **uuid** | string | The Callback ID | The unique id of the callback |
-| **accountBuid** | string | "" | The Account id that this callback is in |
+| **accountBuid** | string | The Account ID | The Account id that this callback is in |
 | **log** | string | The Callback Envelope | The envelope of callback, please see [Callback Examples](https://github.com/beansai/beans-tutorials/tree/main/callback/callback-configs#callback-examples) |
 | **config** | string | The Callback Config | The config of callback, please see [Callback Configs](https://github.com/beansai/beans-tutorials/tree/main/callback/callback-configs#callback-configs) |
 | **type** | enum | The Callback Type | Types of callback, please see [Callback Enumerations](https://github.com/beansai/beans-tutorials/tree/main/callback/callback-configs#enumerations) |
@@ -114,7 +111,7 @@ GET https://isp.beans.ai/enterprise/v1/lists/callbacks/{{callback-id}}
 | Field | Type | Default | Description |
 | --- | --- | --- | --- |
 | **uuid** | string | The Callback ID | The unique id of the callback |
-| **accountBuid** | string | "" | The Account id that this callback is in |
+| **accountBuid** | string | The Account ID | The Account id that this callback is in |
 | **log** | string | The Callback Envelope | The envelope of callback, please see [Callback Examples](https://github.com/beansai/beans-tutorials/tree/main/callback/callback-configs#callback-examples) |
 | **config** | string | The Callback Config | The config of callback, please see [Callback Configs](https://github.com/beansai/beans-tutorials/tree/main/callback/callback-configs#callback-configs) |
 | **type** | enum | The Callback Type | Types of callback, please see [Callback Enumerations](https://github.com/beansai/beans-tutorials/tree/main/callback/callback-configs#enumerations) |
