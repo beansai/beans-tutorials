@@ -117,12 +117,13 @@ With header **"X-Beansai-Format: native"**, the return of the same callback conf
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | **dims** | dims | Array of Dimension object | [] | An Array of dimension |
 
+
 ### Dimension Object
 
-| Native | Camel | Type | Default | Description |
-| ----------- | ----------- | ----------- | ----------- |
+| Native | Camel |  Type | Default | Description |
+| ----------- | ----------- | ----------- | ----------- | ----------- |
 | **t** | t | string | Enum | Type of the dimension. One of WEIGHT, VOLUME, COUNT |
-| **v** | v | string | "" | respective value of the dimension. As long as the unit is aligned with the vehicle's, a numeric is sufficient |
+| **v** | v | string | "" | respective value of the dimension. As long as the unit is aligned with the vehicle dimensions, a numeric is sufficient |
 
 
 ### Warehouse Object
