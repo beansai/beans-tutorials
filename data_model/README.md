@@ -148,6 +148,6 @@ With header **"X-Beansai-Format: native"**, the return of the same callback conf
 
 | Field | Type | Default | Description |
 | ----------- | ----------- | ----------- | ----------- |
-| **lat** | double | 0.0 | The latitude |
-| **lng** | double | 0.0 | The longitude |
+| **latitude** | double | 0.0 | The latitude |
+| **longitude** | double | 0.0 | The longitude |
 
