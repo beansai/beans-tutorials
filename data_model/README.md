@@ -82,7 +82,7 @@ With header **"X-Beansai-Format: native"**, the return of the same callback conf
 | **type** | type | string | Enum | One of PICKUP, DROPOFF |
 | **customer_name** | customerName | string | "" | The name of the customer associated with this item |
 | **customer_phone** | customerPhone | string | "" | The phone number of the customer associated with this item |
-| **status** | status | string | Enum | One of NEW, IN_PROCESS, FINISHED, FAILED< MISLOAD, NOLOCATION, DELETED |
+| **status** | status | string | Enum | One of NEW, IN_PROCESS, FINISHED, FAILED, MISLOAD, NOLOCATION, DELETED |
 | **status_updated_at** | statusUpdatedAt | int64 | 0 | The epoch-millis when the status of the stop was updated |
 | **route** | route | **Dimmunitive Route object** | {} | The Route that this stop is in. This is **dimmunitive** because only the list_route_id would be populated to non-default value if there is any association with other route values set to default. Otherwise, an empty object would be returned. |
 | **route_priority** | routePriority | int32 | 0 | The ordering of ths stop in the route |
