@@ -93,7 +93,7 @@ With header **"X-Beansai-Format: native"**, the return of the same callback conf
 | **position** | position | LatLng | {} | Usually the navigate location of the address |
 | **display_position** | displayPosition | LatLng | {} | Usually the rooftop location of the address |
 | **is_external** | isExternal | boolean | false | Whether or not the geocoders are external to Beans |
-| **origination** | origination | string | "" | The origin of the item, set when the item is created |
+| **origination** | origination | string | "NOT_SPECIFIED" | The origin of the item, set when the item is created. MANIFEST_AMEND, MANIFEST_SYNC, MANIFEST_UPLOAD, SCANNED, CALLBACK, DISPATCH, SYSTEM, NOT_SPECIFIED |
 | **provider** | provider | string | "" | The provider of the item, set when the item is created |
 | **signature_required** | signatureRequired | boolean | false | True when signature is required to close out the item |
 | **url** | url | string | "" | Associated URL of the item |
