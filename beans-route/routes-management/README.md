@@ -182,6 +182,9 @@ POST https://isp.beans.ai/enterprise/v1/lists/routes/{{list-route-id}}
 GET https://isp.beans.ai/enterprise/v1/lists/routes
 ```
 
+***Query Parameters***
+   - dateStr : optional, if not specified, all, and when specified, it will be exact literal match of the dateStr field (e.g. 2023-01-10). If specified but empty, then, only routes with empty dateStr would be returned
+
 **Response Example**
 
 ```json
