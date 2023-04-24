@@ -169,4 +169,4 @@ With header **"X-Beansai-Format: native"**, the return of the same callback conf
 | **longitude** | longitude | double | 0.0 | The last known longitude of the assignee |
 | **state** | state | string | "" | ACTIVE or DISABLED |
 | **role** | role | string | "" | The role of the assignee, DRIVER, MANAGER, DISPATCHER, ADMIN |
-| **employee_id | employeeId | string | "" | The employee id of the assignee or a reference id |
+| **employee_id** | employeeId | string | "" | The employee id of the assignee or a reference id |
