@@ -1,6 +1,6 @@
 
 
-<img src="../../assets/images/beans-128x128.png" align="right" />
+<img src="../assets/images/beans-128x128.png" align="right" />
 
 # Data Models
 
