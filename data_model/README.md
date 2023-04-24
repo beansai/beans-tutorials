@@ -151,3 +151,22 @@ With header **"X-Beansai-Format: native"**, the return of the same callback conf
 | **latitude** | double | 0.0 | The latitude |
 | **longitude** | double | 0.0 | The longitude |
 
+
+### Assignee Object
+
+| Native | Camel | Type | Default | Description |
+| ----------- | ----------- | ----------- | ----------- | ----------- |
+| **list_assignee_id** | listAssigneeId | string | The assignee ID | The unique id of the assignee |
+| **account_buid** | accountBuid | string | The account ID | The account ID that this assignee is in |
+| **name** | name | string | "" | The name of the assignee |
+| **email** | email | string | "" | The email of the assignee |
+| **phone** | phone | string | "" | The phone of the assignee |
+| **name** | name | string | "" | The name of the warehouse |
+| **code** | code | string | "" | The short code of the assignee |
+| **created_at** | createdAt | int64 | 0L | The timestamp, in epoch-millis, when this assignee is created |
+| **updated_at** | updatedAt | int64 | 0L | The timestamp, in epoch-millis, when this assignee is last updated |
+| **latitude** | latitude | double | 0.0 | The last known latitude of the assignee |
+| **longitude** | longitude | double | 0.0 | The last known longitude of the assignee |
+| **state** | state | string | "" | ACTIVE or DISABLED |
+| **role** | role | string | "" | The role of the assignee, DRIVER, MANAGER, DISPATCHER, ADMIN |
+| **employee_id | employeeId | string | "" | The employee id of the assignee or a reference id |
