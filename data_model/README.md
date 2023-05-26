@@ -111,6 +111,7 @@ With header **"X-Beansai-Format: native"**, the return of the same callback conf
 | **third_party_reference_id** | thirdPartyReferenceId | string | "" | Third party reference ID for this stop |
 | **third_party_status** | thirdPartyStatus | string | "" | Third party reference status for this stop |
 | **secondary_status** | secondaryStatus | string | "" | Secondary status for this stop |
+| **is_parent** | isParent | boolean | false | Whether or not the stop is constructed for grouping stops |
 
 ### Dimensions Object
 
