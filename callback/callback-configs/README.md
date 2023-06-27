@@ -542,6 +542,7 @@ As part of the driver/dispatcher workflows, Item Documentation (PoD) may be gene
 | **images** | Array of Image Info Object | [] | An array of images that are associated with this documentation |
 | **event_code** | Event code object | {} | The chosen event code by an agent to be associated with this documentation  |
 | **tags** | Array of Tag | Empty Array | A list of route tags. These are route preferences |
+| **labels** | Array of Label | Empty Array | A list of labels that may have been scanned |
 
 ##### Event Code Object
 
@@ -557,6 +558,12 @@ As part of the driver/dispatcher workflows, Item Documentation (PoD) may be gene
 | **url** | string | "" | The URL of the image where it may be downloaded |
 | **type** | string | "" | The type of an image. "proof" usually denotes the proof of delivery, "signature" usually denotes the signature blocks. New types may be added in the future  |
 | **position** | LatLng | {} | The lat/lng associated with the image |
+
+##### Label Object
+
+| Field | Type | Default | Description |
+| ----------- | ----------- | ----------- | ----------- |
+| **barcode** | string | "" | The barcode on the label |
 
 #### Assignee Callback Example
 
