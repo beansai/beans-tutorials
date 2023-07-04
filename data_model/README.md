@@ -112,6 +112,11 @@ With header **"X-Beansai-Format: native"**, the return of the same callback conf
 | **third_party_status** | thirdPartyStatus | string | "" | Third party reference status for this stop |
 | **secondary_status** | secondaryStatus | string | "" | Secondary status for this stop |
 | **is_parent** | isParent | boolean | false | Whether or not the stop is constructed for grouping stops |
+| **shipper_name** | shipperName | string | "" | The name of the shipper, up to 250 characters |
+| **shipper_note** | shipperNote | string | "" | Note associated with the shipper, up to 1000 characters |
+| **extra_info_1** | extraInfo1 | string | "" | Integrator specific extra information, up to 60 characters |
+| **extra_info_2** | extraInfo1 | string | "" | Integrator specific extra information, up to 250 characters |
+| **extra_info_3** | extraInfo1 | string | "" | Integrator specific extra information, up to 1000 characters |
 
 ### Dimensions Object
 
