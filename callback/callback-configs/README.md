@@ -519,6 +519,11 @@ As part of the driver/dispatcher workflows, Item Documentation (PoD) may be gene
             "code": "014",
             "name": "DroppedOfAtCustomer"
         },
+        "pod_timestamp_epoch": 1692662393,
+        "pod_position": {
+            "lat":33.9546435,
+            "lng":-118.3483595
+        },
         "tags": [
             {
                 "key": "/FEDEX/package_size",
@@ -541,6 +546,8 @@ As part of the driver/dispatcher workflows, Item Documentation (PoD) may be gene
 | **notes** | Array of string | [] | Notes that were put down either by agents or by system |
 | **images** | Array of Image Info Object | [] | An array of images that are associated with this documentation |
 | **event_code** | Event code object | {} | The chosen event code by an agent to be associated with this documentation  |
+| **pod_timestamp_epoch** | Integer | 0 | Integer epoch (so, in seconds) when the POD was generated  |
+| **pod_position** | LatLng | {} | The lat/lng where the POD was generated  |
 | **tags** | Array of Tag | Empty Array | A list of route tags. These are route preferences |
 
 ##### Event Code Object
