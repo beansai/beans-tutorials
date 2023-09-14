@@ -155,6 +155,7 @@ POST {{baseURL}}/enterprise/v1/lists/itemsdocumentation
 | **images** | Array of Image Info Object | [] | An array of images that are associated with this documentation |
 | **eventCode** | Event code object | {} | The chosen event code by an agent to be associated with this documentation  |
 | **tags** | Array of Tag | Empty Array | A list of route tags. These are route preferences |
+| **pod_timestamp_epoch** | Timestamp epoch | 0 | The timestamp of which the documentation is recorded |
 
 ### Event Code Object
 
