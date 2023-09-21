@@ -28,6 +28,7 @@ If we want to receive callbacks when data was changed, we can set the globalUrl 
       - [Distance Matrix Async Callback Example](#distance-matric-async-callback-example)
       - [Driver Start Callback Example](#driver-start-callback-example)
       - [Missing Info on Packages Add Example](#missing-info-on-packages-add-example)
+      - [Driver Arrived At Callback Example](#driver-arrived-at-callback-example)
 
 ## Supported Callbacks
 
@@ -44,6 +45,7 @@ Callbacks would trigger an HTTP POST on the following object changes or event is
 - DistanceMatrix
 - DriverStart
 - Missing info on Packages Add
+- DriverArrivedAt
 
 ## Callback Config API
 
@@ -101,6 +103,7 @@ GET https://isp.beans.ai/enterprise/v1/lists/callback_configs
 | **distanceMatrix** | boolean | false | Whether to receive Distance Matrix object callbacks  |
 | **driverStart** | boolean | false | Whether to receive Driver Start object callbacks  |
 | **barcodeMissingInfo** | boolean | false | Whether to receive Barcode missing info callbacks. This is only triggered when a scanned barcode does not have sufficient amount of information to be resolved by the system. |
+| **driverArrivedAt** | boolean | false | Whether to receive Driver Arrived At callbacks  |
 | **globalUrl** | string | "" | The global endpoint to POST the callback object to  |
 | **headers** | Array of Header | Empty List| Headers to include while performing the POST |
 | **includeDefaultValues** | boolean | false | Whether or not default values of callback object should be included in the payload |
@@ -134,6 +137,7 @@ POST https://isp.beans.ai/enterprise/v1/lists/callback_configs
   "itemDocumentation": true,
   "distanceMatrix":true,
   "driverStart":true,
+  "driverArrivedAt":true,
   "barcodeMissingInfo": true,
   "globalUrl": "https://96d2-36-237-115-38.ngrok.io",
   "headers": [{"key":"X-Special-Header-1","value":"special-value1"},{"key":"X-Special-Header-2","value":"special-value2"}]
@@ -168,7 +172,8 @@ POST https://isp.beans.ai/enterprise/v1/lists/callback_configs
     "itemDocumentation": true,
     "distanceMatrix": true,
     "driverStart": true,
-    "barcodeMissingInfo": true
+    "barcodeMissingInfo": true,
+    "driverArrivedAt": true
 }
 ```
 
@@ -192,6 +197,7 @@ We can dynamically resolve the object type by parsing the "type" field to determ
 - DISTANCE_MATRIX
 - DRIVER_START
 - BARCODE_MISSING_INFO
+- DRIVER_ARRIVED_AT
 
 **Actions**
 
@@ -905,3 +911,55 @@ In other words, this callback would be blocking on the driver scans to await the
 | **timestamp_millis** | int64 | 0 | The epoch millis when the system receives the scan request |
 | **barcode** | string | "" | The barcode that the system could not find information on |
 | **response** | string | "" | **System** use only |
+
+#### Driver Arrived At Callback Example
+```json
+{
+  "type": "DRIVER_ARRIVED_AT",
+  "action": "CREATE",
+  "account_buid": "0c7b4398-ea62-39a0-bdbc-ac9460350ac4",
+  "object": {
+    "list_assignee_id": "49pq6pf604cny92lp21o7",
+    "item": {
+      "list_item_id": "0hu7vvdw0izl3v8pk03tnex",
+      "account_buid": "0c7b4398-ea62-39a0-bdbc-ac9460350ac4",
+      "address": "2651 Briarfield Avenue, Redwood City, CA, USA",
+      "formatted_address": "2651 Briarfield Ave, Redwood City, CA",
+      "status": "NEW",
+      "created_at": "1664909865000",
+      "updated_at": "1664909865000",
+      "status_updated_at": "1664909865000",
+      "route": {
+        "list_route_id": "2oqs8yu902s62ipw99i8fe"
+      },
+      "route_priority": 3,
+      "num_packages": 1,
+      "type": "DROPOFF",
+            ... snipped for brevity
+    },
+    "arrived_at_position": {
+      "lat": 37.462201,
+      "lng": -122.24360648
+    },
+    "arrived_at_timestamp_epoch": "1695145798",
+    "tags": [
+      {
+        "key": "tag_1_key",
+        "value": "tag_1_value"
+      }
+    ]
+  },
+  "watermark": "1695145798000"
+}
+
+```
+
+##### Driver Arrived At Object
+
+| Field | Type | Default | Description |
+| ----------- | ----------- | ----------- | ----------- |
+| **list_assignee_id** | string | "" | The unique id of the assignee that is on a route |
+| **item** | List Item Object | {} | The list item that the assignee marks the arrived at signal |
+| **arrived_at_position** | LatLng | {} | The location recorded where the assignee marks the arrived at signal |
+| **arrived_at_timestamp_epoch** | int64 | 0 | The epoch (seconds) recorded where the assignee marks the arrived at signal |
+| **tags** | Array of Tag | [] | A list of tags that are associated with this arrived at signal |
