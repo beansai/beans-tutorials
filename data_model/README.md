@@ -169,7 +169,6 @@ With header **"X-Beansai-Format: native"**, the return of the same callback conf
 | **name** | name | string | "" | The name of the assignee |
 | **email** | email | string | "" | The email of the assignee |
 | **phone** | phone | string | "" | The phone of the assignee |
-| **name** | name | string | "" | The name of the warehouse |
 | **code** | code | string | "" | The short code of the assignee |
 | **created_at** | createdAt | int64 | 0L | The timestamp, in epoch-millis, when this assignee is created |
 | **updated_at** | updatedAt | int64 | 0L | The timestamp, in epoch-millis, when this assignee is last updated |
@@ -178,3 +177,4 @@ With header **"X-Beansai-Format: native"**, the return of the same callback conf
 | **state** | state | string | "" | ACTIVE or DISABLED |
 | **role** | role | string | "" | The role of the assignee, DRIVER, MANAGER, DISPATCHER, ADMIN |
 | **employee_id** | employeeId | string | "" | The employee id of the assignee or a reference id |
+| **employee_type** | employeeType | string | "" | The employee type, employee, contractor, contingent |
