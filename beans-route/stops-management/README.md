@@ -151,6 +151,8 @@ POST https://isp.beans.ai/enterprise/v1/lists/items/{{list-item-id}}
 - deliver_to_str - in "yyyy-MM-dd H24:MM" format with localtime and it is interpreted to the local time as configured on the account or the route.
 - placement - we can use this to denote the stop which size is varchar(64)
 
+  <b>VERY IMPORTANT</b> This performs a whole object replacements, and thus, if you wish to maintain existing values, they need to be passed in as well to maintain their value. Otherwise, type default would be used.
+
 ```json
 {
     "address": "3365 Deer Valley Rd, Antioch, CA 94532",
