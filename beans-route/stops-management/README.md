@@ -144,24 +144,35 @@ POST https://isp.beans.ai/enterprise/v1/lists/items/{{list-item-id}}
 ```
 
 **Body**
-- list_item_id - ID of listItem, it is unique within the account.
-- address - The address of the item.
-- type - Either of DROPOFF of PICKUP
-- deliver_from_str - in "yyyy-MM-dd H24:MM" format with localtime and it is interpreted to the local time as configured on the account or the route.
-- deliver_to_str - in "yyyy-MM-dd H24:MM" format with localtime and it is interpreted to the local time as configured on the account or the route.
-- placement - we can use this to denote the stop which size is varchar(64)
-
   <b>VERY IMPORTANT</b> This performs a whole object replacements, and thus, if you wish to maintain existing values, they need to be passed in as well to maintain their value. Otherwise, type default would be used.
 
 ```json
 {
-    "address": "3365 Deer Valley Rd, Antioch, CA 94532",
+    "listItemId": "d3f6-a801b3605afbd726df743cc66",
+    "address": "3365 Deer Valley Rd, Antioch, CA 94531",
+    "formattedAddress": "3365 Deer Valley Rd, Antioch, CA",
+    "status": "NEW",
+    "updatedAt": 1644400351640,
+    "statusUpdatedAt": 1643267011000,
     "route": {
-    "list_route_id": "d3f68d55-00e7-4b7b-959d-9866c651c0eb"
+        "listRouteId": "d3f68d55-00e7-4b7b-959d-9866c651c0eb"
     },
-    "type":"DROPOFF",
-    "deliver_from_str":"2033-01-01 13:00",
-    "deliver_by_str":"2033-01-01 18:00",
+    "routePriority": 6,
+    "type": "PICKUP",
+    "position": {
+        "latitude": 37.98784,
+        "longitude": -121.78451
+    },
+    "displayPosition": {
+        "latitude": 37.98784,
+        "longitude": -121.78445
+    },
+    "deliverFromStr": "2033-01-01 13:00",
+    "deliverByStr": "2033-01-01 18:00",
+    "addressComponents": {
+        "zipcode": "94531",
+        "countryIso3": "USA"
+    },
     "placement":"T:R"
 }
 ```
