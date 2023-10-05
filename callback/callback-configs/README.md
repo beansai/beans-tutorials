@@ -476,6 +476,8 @@ The callback is structured as an envelop that wraps around the object of concern
 | **third_party_status** | string | "" | Third party reference status for this stop |
 | **secondary_status** | string | "" | Secondary status for this stop |
 | **is_parent** | boolean | false | Whether or not the stop is constructed for grouping stops |
+| **shipper_name** | string | "" | The name of the shipper |
+| **address_classification** | AddressClassification | {} | The best effort address classification |
 
 ##### Dimensions Object
 
@@ -489,6 +491,13 @@ The callback is structured as an envelop that wraps around the object of concern
 | ----------- | ----------- | ----------- | ----------- |
 | **t** | string | Enum | Type of the dimension. One of WEIGHT, VOLUME, COUNT |
 | **v** | string | "" | respective value of the dimension. As long as the unit is aligned with the vehicle's, a numeric is sufficient |
+
+##### AddressClassification Object
+
+| Field | Type | Default | Description |
+| ----------- | ----------- | ----------- | ----------- |
+| **is_residential** | boolean | false | A best effort signal on whether or not an address is residential |
+| **is_MDU** | boolean | false | A best effort signal on whether or not an address is Multi-Dwelling-Unit |
 
 #### Item Documentation Callback Example
 
