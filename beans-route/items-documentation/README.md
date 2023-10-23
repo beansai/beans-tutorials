@@ -12,13 +12,13 @@ For example, when a package is dropped of, the driver could ask the recipient of
 
 - [Items Documentation](#items-documentation)
   - [Get Item Documentation](#get-item-documentation)
+  - [Search Item Documentation By Tracking ID](#search-item-documentation-by-tracking-id)
   - [Post Item Documentation](#post-item-documentation)
   - [Objects](#objects)
     - [Item Documentation Object](#item-documentation-object)
     - [Event Code Object](#event-code-object)
     - [Image Info Object](#image-info-object)
   - [Notes](#notes)
-
 
 ## Get Item Documentation
 
@@ -60,6 +60,44 @@ GET {{baseURL}}/enterprise/v1/lists/itemsdocumentation/{list-item-id}
             "value": "true"
         }
     ]
+}
+```
+
+## Search Item Documentation by Tracking ID
+
+**Request Example**
+
+```
+GET {{baseURL}}/enterprise/v1/lists/itemsdocumentation?tracking_id=08342343
+```
+
+**Response Example**
+
+```json
+{
+  "pod": [
+    {
+      "listItemId": "372a629f-a0ed-4b01-91fe-238009c1567b",
+      "listRouteId": "6022e66f-fd73-4497-bb04-0f946591e376",
+      "accountBuid": "902592b7-6888-4599-9f21-ae112fe09c09",
+      "timestampEpochSecond": 1697832840,
+      "eventCode": {
+        "code": "DELIVERED",
+        "name": "delivered"
+      },
+      "generatedFrom": "APP",
+      "generatedBy": "driver@example.com",
+      "podTimestampEpoch": 1697832838,
+      "listAssigneeId": "0f07d2d1-8de6-4409-a21d-aa670782ca5d",
+      "tags": [
+        {
+          "key": "/FEDEX/package_size",
+          "value": "regular"
+        }
+      ],
+      "ts": 1697822840000
+    }
+  ]
 }
 ```
 
