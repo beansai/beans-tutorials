@@ -81,6 +81,7 @@ With header **"X-Beansai-Format: native"**, the return of the same callback conf
 | **tracking_id** | trackingId | string | "" | The tracking ID of the stop |
 | **num_packages** | numPackages | int32 | 0 | The number of packages associated with this stop |
 | **type** | type | string | Enum | One of PICKUP, DROPOFF |
+| **sub_type** | subType | string | "" | Subtypes for this stop, up to 70 characters. For example "Commerical", "Residential", "Medical", "Dock", "Student", ... |
 | **customer_name** | customerName | string | "" | The name of the customer associated with this item |
 | **customer_phone** | customerPhone | string | "" | The phone number of the customer associated with this item |
 | **status** | status | string | Enum | One of NEW, IN_PROCESS, FINISHED, FAILED, MISLOAD, NOLOCATION, DELETED |
