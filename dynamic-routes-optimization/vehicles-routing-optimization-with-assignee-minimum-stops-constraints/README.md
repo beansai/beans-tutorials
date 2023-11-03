@@ -83,8 +83,39 @@ POST https://isp.beans.ai/enterprise/v1/lists/items
 
 **Request Body**
 Please see the full payload at [assets/stops.json](assets/stops.json) which contains 9 stops.
-- An important thing to note is that each stop contains the route reference to the route that was created above with route id `74d63f25-664e-4846-bb8d-a6c725fb5311`
+- An important thing to note is that each stop contains the route reference to the route that was created above with route id `134bgemjfdlp8k8cva8cx13`
 
 Here's a visualization of the stops.
 
 ![stops](assets/images/stops.png)
+
+### Configure assignees
+
+**Request example**
+
+```
+POST https://isp.beans.ai/enterprise/v1/lists/assignees
+```
+
+```json
+{
+  "assignee": [
+    {
+      "list_assignee_id": "6b3f-be278c75-1",
+      "name": "Achilles I"
+    },
+    {
+      "list_assignee_id": "6b3f-be278c75-2",
+      "name": "Achilles II"
+    },
+    {
+      "list_assignee_id": "6b3f-be278c75-3",
+      "name": "Achilles III"
+    }
+  ]
+}
+```
+
+**Note**: Your list_assignee_id(s) will be different from the example.
+
+
