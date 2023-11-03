@@ -119,3 +119,46 @@ POST https://isp.beans.ai/enterprise/v1/lists/assignees
 **Note**: Your list_assignee_id(s) will be different from the example.
 
 
+### Run stateless DRO
+
+There are 2 ways that can be used in conjunction to set the minimum stops that each assignee must visit
+1) Configure vehicle's min stops for each assignee
+
+```json
+    "assignee_with_vehicle": [
+        {
+            "list_assignee_id": "6b3f-be278c75-1",
+            "capacity": 100,
+            "assignee_min_stops": 3
+        },
+        {
+            "list_assignee_id": "6b3f-be278c75-2",
+            "capacity": 100,
+            "assignee_min_stops": 3
+        },
+        {
+            "list_assignee_id": "6b3f-be278c75-3",
+            "capacity": 100,
+        }
+    ],
+```
+2) Configure the default assignee min stops from the main dro request
+```json
+{
+  "items": [...],
+  "assignee_with_vehicle": [...],
+  "warehouse": {...},
+  ....
+  "default_assignee_min_stops": 3
+}
+      
+```
+
+- <b>default_assignee_min_stops</b>: int, non-negative value to set the minimum number of stops
+- specified in the vehicle, and if negative or if the field is not set, it will be defaulted to 0.
+
+- <b>assignee_min_stops</b>: int, non-negative value to set the minimum number of stops
+- specified in the vehicle, and if negative, it will be defaulted to 0. 
+- If 0 or if the field not set, it will take the value of the default_assignee_min_stops.
+
+
