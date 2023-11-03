@@ -73,11 +73,6 @@ POST https://isp.beans.ai/enterprise/v1/lists/routes
 
 **Note**: Your list_warehouse_id, list_route_id will be different from the example
 
-Here's a visualization of the route with the warehouse
-
-![warehouse](assets/images/route-with-only-warehouse.png)
-
-
 ### Add stops to the route
 
 **Request example**
