@@ -46,6 +46,7 @@ Callbacks would trigger an HTTP POST on the following object changes or event is
 - DriverStart
 - Missing info on Packages Add
 - DriverArrivedAt
+- ScanEvent
 
 ## Callback Config API
 
@@ -83,7 +84,8 @@ GET https://isp.beans.ai/enterprise/v1/lists/callback_configs
     "itemDocumentation": true,
     "distanceMatrix": true,
     "driverStart": true,
-    "barcodeMissingInfo": true
+    "barcodeMissingInfo": true,
+    "scanEvent": true
 }
 ```
 
@@ -102,6 +104,7 @@ GET https://isp.beans.ai/enterprise/v1/lists/callback_configs
 | **itemDocumentation** | boolean | false | Whether to receive Item Documentation, PoD, object callbacks  |
 | **distanceMatrix** | boolean | false | Whether to receive Distance Matrix object callbacks  |
 | **driverStart** | boolean | false | Whether to receive Driver Start object callbacks  |
+| **scanEvent** | boolean | false | Whether to receive Scan Event callbacks  |
 | **barcodeMissingInfo** | boolean | false | Whether to receive Barcode missing info callbacks. This is only triggered when a scanned barcode does not have sufficient amount of information to be resolved by the system. |
 | **driverArrivedAt** | boolean | false | Whether to receive Driver Arrived At callbacks  |
 | **globalUrl** | string | "" | The global endpoint to POST the callback object to  |
@@ -972,3 +975,14 @@ In other words, this callback would be blocking on the driver scans to await the
 | **arrived_at_position** | LatLng | {} | The location recorded where the assignee marks the arrived at signal |
 | **arrived_at_timestamp_epoch** | int64 | 0 | The epoch (seconds) recorded where the assignee marks the arrived at signal |
 | **tags** | Array of Tag | [] | A list of tags that are associated with this arrived at signal |
+
+##### Scan Event Object
+
+| Field | Type | Default | Description |
+| ----------- | ----------- | ----------- | ----------- |
+| **scan_type** | string | "" | The type of the scan event |
+| **workflow_route_id** | List Item Object | {} | The list route id that this scan event is associated with |
+| **workflow_assignee_id** | LatLng | {} | The assignee id that initiated this scan event |
+| **ts_millis** | int64 | 0 | The epoch millis (millisseconds) recorded where the event is received by the system |
+| **item** | List Item Object | {} | The list item that scan event is associated with |
+| **tags** | Array of Tag | [] | A list of tags that are associated with this scan event |
