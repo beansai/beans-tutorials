@@ -26,7 +26,7 @@ POST https://isp.beans.ai/enterprise/v1/lists/warehouses
 ```
 
 **Request Body**
-- It is important to set list_warehouse_id to a value that is unique within your account.
+- It is important to set listWarehouseId to a value that is unique within your account.
 ```json
 {
   "warehouse": [
@@ -176,4 +176,5 @@ that each have a minimum of 3 stops each.
 ![stops](assets/images/min_stops_response.png)
 
 **Response**
+
 Please see the full response at [assets/stateless-dro-reponse](assets/stateless-dro-response.json)
