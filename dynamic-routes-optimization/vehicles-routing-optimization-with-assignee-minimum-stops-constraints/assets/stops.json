@@ -1,0 +1,84 @@
+{
+  "item": [
+    {
+      "list_item_id": "bd17f-a801b3605afbd726df743cc66",
+      "address": "1450 Page Mill Rd, Palo Alto, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "134bgemjfdlp8k8cva8cx13"
+      }
+    },
+    {
+      "list_item_id": "bd17f-8eca53fefb635f19958ab0cbf",
+      "address": "1985 Louis Rd, Palo Alto, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "134bgemjfdlp8k8cva8cx13"
+      }
+    },
+    {
+      "list_item_id": "bd17f-faf623593a6ddc608a0f1a9c4",
+      "address": "250 Hamilton Ave, Palo Alto, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "134bgemjfdlp8k8cva8cx13"
+      }
+    },
+    {
+      "list_item_id": "bd17f-b4d913523baaee8f2ba5e1a25",
+      "address": "1050 Arastradero Rd, Palo Alto, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "134bgemjfdlp8k8cva8cx13"
+      }
+    },
+    {
+      "list_item_id": "bd17f-6a1633a539ac12ace7513403e",
+      "address": "3450 Hillview Ave, Palo Alto, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "134bgemjfdlp8k8cva8cx13"
+      }
+    },
+    {
+      "list_item_id": "bd17f-a6f4c36d69394ba11f52b63a7",
+      "address": "4250 El Camino Real, Palo Alto, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "134bgemjfdlp8k8cva8cx13"
+      }
+    },
+    {
+      "list_item_id": "bd17f-2fd6f3f3ab12cebdddb97ca0f",
+      "address": "875 Blake Wilbur Dr, Palo Alto, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "134bgemjfdlp8k8cva8cx13"
+      }
+    },
+    {
+      "list_item_id": "bd17f-2a8f93e3fbbd4f2d8b9e3a1ce",
+      "address": "3801 Miranda Ave, Palo Alto, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "134bgemjfdlp8k8cva8cx13"
+      }
+    },
+    {
+      "list_item_id": "bd17f-7baf93e3fbbd4f2d8b9e3a1ce",
+      "address": "2285 Yale St, Palo Alto, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "134bgemjfdlp8k8cva8cx13"
+      }
+    },
+    {
+      "list_item_id": "bd17f-1aaef3f3ab12cebdddb97ca0f",
+      "address": "600 Homer Ave, Palo Alto, CA",
+      "unit": "",
+      "route": {
+        "list_route_id": "134bgemjfdlp8k8cva8cx13"
+      }
+    }
+  ]
+}
