@@ -1,0 +1,123 @@
+{
+  "item": [
+    {
+      "listItemId": "bd17f-a801b3605afbd726df743cc66",
+			"num_packages": 1,
+      "position": {
+        "latitude": 37.41654,
+        "longitude": -122.14894
+      },
+      "address": "1501 Page Mill Rd, Palo Alto, CA 94304, United States"
+    },
+    {
+      "listItemId": "bd17f-8eca53fefb635f19958ab0cbf",
+			"num_packages": 1,
+      "position": {
+        "latitude": 37.44424,
+        "longitude": -122.13321
+      },
+      "address": "1600 Amphitheatre Parkway, Mountain View, CA 94043, United States"
+    },
+    {
+      "listItemId": "bd17f-faf623593a6ddc608a0f1a9c4",
+			"num_packages": 1,
+      "position": {
+        "latitude": 37.44393,
+        "longitude": -122.16002
+      },
+      "address": "162 Jefferson Dr, Menlo Park, CA 94025, United States"
+    },
+    {
+      "listItemId": "bd17f-b4d913523baaee8f2ba5e1a25",
+			"num_packages": 1,
+      "position": {
+        "latitude": 37.39479,
+        "longitude": -122.14577
+      },
+      "address": "345 Spear St, San Francisco, CA 94105, United States"
+    },
+    {
+      "listItemId": "bd17f-6a1633a539ac12ace7513403e",
+			"num_packages": 1,
+      "position": {
+        "latitude": 37.39572,
+        "longitude": -122.14354
+      },
+      "address": "1 Hacker Way, Menlo Park, CA 94025, United States"
+    },
+    {
+      "listItemId": "bd17f-a6f4c36d69394ba11f52b63a7",
+			"num_packages": 1,
+      "position": {
+        "latitude": 37.406948445084694,
+        "longitude": -122.12154785206782
+      },
+      "address": "500 Terry A Francois Blvd, San Francisco, CA 94158, United States"
+    },
+    {
+      "listItemId": "bd17f-2fd6f3f3ab12cebdddb97ca0f",
+			"num_packages": 1,
+      "position": {
+        "latitude": 37.43572,
+        "longitude": -122.17661
+      },
+      "address": "1 Infinite Loop, Cupertino, CA 95014, United States"
+    },
+    {
+      "listItemId": "bd17f-2a8f93e3fbbd4f2d8b9e3a1ce",
+			"num_packages": 1,
+      "position": {
+        "latitude": 37.40491,
+        "longitude": -122.1404
+      },
+      "address": "3000 Tannery Way, Santa Clara, CA 95054, United States"
+    },
+    {
+      "listItemId": "bd17f-7baf93e3fbbd4f2d8b9e3a1ce",
+			"num_packages": 1,
+      "position": {
+        "latitude": 37.330509,
+        "longitude": -122.029548
+      },
+      "address": "1065 La Avenida St, Mountain View, CA 94043, United States"
+    }
+  ],
+  "assignee_with_vehicle": [
+    {
+      "list_assignee_id": "6b3f-be278c75-1",
+      "name": "Achilles I",
+      "shift_start_time": "07:00",
+      "shift_length": 11,
+      "capacity": 10,
+      "assignee_min_stops": 3
+    },
+    {
+      "list_assignee_id": "6b3f-be278c75-2",
+      "name": "Achilles II",
+      "shift_start_time": "07:00",
+      "shift_length": 11,
+      "capacity": 10,
+      "assignee_min_stops": 3
+    },
+    {
+      "list_assignee_id": "6b3f-be278c75-3",
+      "name": "Achilles III",
+      "shift_start_time": "07:00",
+      "shift_length": 11,
+      "capacity": 10,
+      "assignee_min_stops": 3
+    }
+  ],
+  "warehouse": {
+    "listWarehouseId": "a13mzgslg8w9ngaw1h8r13"
+  },
+  "default_shift_start_time": "07:00",
+  "default_shift_length": 11,
+  "default_stop_time_seconds": 30,
+  "timeout_seconds": 30,
+  "solution_strategy": "",
+  "search_strategy": "",
+  "disallow_pickup_dropoff_mode": true,
+  "optimize_for": "DISTANCE",
+  "default_assignee_min_stops": 3
+}
