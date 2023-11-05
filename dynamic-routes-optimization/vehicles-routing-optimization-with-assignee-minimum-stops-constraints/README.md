@@ -81,7 +81,7 @@ POST https://isp.beans.ai/enterprise/v1/lists/items
 ```
 
 **Request Body**
-Please see the full payload at [assets/stops.json](assets/stops.json) which contains 9 stops.
+Please see the full payload at [assets/stops.json](assets/stops.json) which contains 10 stops.
 - An important thing to note is that each stop contains the route reference to the route that was created above with route id `134bgemjfdlp8k8cva8cx13`
 
 Here's a visualization of the stops.
