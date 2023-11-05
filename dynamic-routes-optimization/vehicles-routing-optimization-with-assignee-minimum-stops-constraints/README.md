@@ -5,7 +5,7 @@
 Sometimes we would want our vehicles to adhere to a minimum number of stops; this tutorial will guide you through configuring this constraint.
 
 ## Table of contents
-- [Vehicles routing optimization with customized assignee location](#vehicles-routing-optimization-with-assignee-minimum-stops-constraints)
+- [Vehicles routing optimization with assignee minimum stops](#vehicles-routing-optimization-with-assignee-minimum-stops-constraints)
     - [Table of contents](#table-of-contents)
     - [Create the data](#create-the-data)
         - [Create a warehouse](#create-a-warehouse)
