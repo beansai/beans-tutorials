@@ -155,10 +155,13 @@ There are 2 ways that can be used in conjunction to set the minimum stops that e
 ```
 
 - <b>default_assignee_min_stops</b>: int, non-negative value to set the minimum number of stops
-- specified in the vehicle, and if negative or if the field is not set, it will be defaulted to 0.
+specified in the vehicle, and if negative or if the field is not set, it will be defaulted to 0.
 
 - <b>assignee_min_stops</b>: int, non-negative value to set the minimum number of stops
-- specified in the vehicle, and if negative, it will be defaulted to 0. 
-- If 0 or if the field not set, it will take the value of the default_assignee_min_stops.
+specified in the vehicle, and if negative, it will be defaulted to 0. 
+If 0 or if the field not set, it will take the value of the default_assignee_min_stops.
 
+Here is a visualization of the response, where the 10 stops have been split across the 3 vehicles, 
+that each have a minimum of 3 stops each.
 
+![stops](assets/images/min_stops_response.png)
