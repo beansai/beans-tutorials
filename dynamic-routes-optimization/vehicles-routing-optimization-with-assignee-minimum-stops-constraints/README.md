@@ -2,8 +2,7 @@
 
 # Vehicles routing optimization with assignee minimum stops
 
-Sometimes we would want our vehicles to have a minimum stops constraint that we would want each vehicle to visit,
-and here's the tutorial for how we configure for this use case.
+Sometimes we would want our vehicles to adhere to a minimum number of stops; this tutorial will guide you through configuring this constraint.
 
 ## Table of contents
 - [Vehicles routing optimization with customized assignee location](#vehicles-routing-optimization-with-assignee-minimum-stops-constraints)
