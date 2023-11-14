@@ -128,7 +128,8 @@ The respective configurations for the above scenario is at [assets/stateless-dro
     "default_shift_length": 8,
     "default_stop_time_seconds": 60,
     "default_dropoff_time_seconds": 60,
-    "default_pickup_time_seconds": 60
+    "default_pickup_time_seconds": 60,
+    "disallow_pickup_dropoff_mode": true
 ```
 
 **Request**
