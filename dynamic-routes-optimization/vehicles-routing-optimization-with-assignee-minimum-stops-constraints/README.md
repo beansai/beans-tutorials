@@ -176,4 +176,17 @@ that each have a minimum of 3 stops each.
 
 **Response**
 
-Please see the full response at [assets/stateless-dro-reponse](assets/stateless-dro-response.json)
+Please see the full response at [assets/stateless-dro-response](assets/stateless-dro-response.json)
+
+**Request example 2**
+
+Please see the full payload at [assets/stateless-dro-request_2](assets/stateless_dro_request_2.json)
+
+Here is a visualization of the response, where the 359 stops have been split across the 5 vehicles,
+that each have a minimum of 60 stops each.
+
+![stops](assets/images/min_stops_response_2.png)
+
+**Response**
+
+Please see the full response at [assets/stateless-dro-response_2](assets/stateless_dro_response_2.json)
