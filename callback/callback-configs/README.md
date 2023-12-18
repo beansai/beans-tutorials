@@ -336,6 +336,7 @@ The callback is structured as an envelop that wraps around the object of concern
 | **partner_warehouse_uuid** | string | "" | An associated warehouse reference to a partner |
 | **position** | LatLng | {} | The Lat/Lng of the warehouse |
 | **tags** | Array of Tag | Empty Array | A list of warehouse tags. These are warehouse preferences |
+| **code** | string | "" | Warehouse code |
 
 ##### LatLng Object
 
