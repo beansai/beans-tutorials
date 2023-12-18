@@ -152,6 +152,7 @@ With header **"X-Beansai-Format: native"**, the return of the same callback conf
 | **partner_warehouse_uuid** | partnerWarehouseUuid | string | "" | An associated warehouse reference to a partner |
 | **position** | position | LatLng | {} | The Lat/Lng of the warehouse |
 | **tags** | tags | Array of Tag | Empty Array | A list of warehouse tags. These are warehouse preferences |
+| **code** | code | string | "" | Warehouse code |
 
 ### LatLng Object
 
