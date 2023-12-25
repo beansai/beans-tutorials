@@ -395,6 +395,7 @@ The callback is structured as an envelop that wraps around the object of concern
 | **tags** | Array of Tag | Empty Array | A list of route tags. These are route preferences |
 | **start_mode** | string | "" | One of WAREHOUSE, ASSIGNEE_ADDRESS, STOP, or empty string to indicate the start location of the route |
 | **end_mode** | string | "" | One of WAREHOUSE, ASSIGNEE_ADDRESS, STOP, or empty string to indicate the end location of the route |
+| **vechile_type** | string | "" | One of CAR, TRUCK, BIKE, WALK or empty string to indicate the vehicle type of the route|
 
 #### Item Callback Example
 
