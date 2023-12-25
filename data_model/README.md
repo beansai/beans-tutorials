@@ -58,6 +58,7 @@ With header **"X-Beansai-Format: native"**, the return of the same callback conf
 | **tags** | tags | Array of Tag | Empty Array | A list of route tags. These are route preferences |
 | **start_mode** |startMode | string | "" | One of WAREHOUSE, ASSIGNEE_ADDRESS, STOP, or empty string to indicate the start location of the route |
 | **end_mode** | endMode | string | "" | One of WAREHOUSE, ASSIGNEE_ADDRESS, STOP, or empty string to indicate the end location of the route |
+| **vehicle_type** | vehicleType | string | "" | One of CAR, TRUCK, BIKE, WALK or empty string. Empty string would be same as CAR. This, when specified, would be used for Route optimizations and ETA computations |
 
 ### Tag object
 | Native | Camel | Type | Default | Description |
