@@ -391,7 +391,7 @@ The callback is structured as an envelop that wraps around the object of concern
 | **updated_at** | int64 | 0L | The timestamp, in epoch-millis, when this route is last updated |
 | **providers** | Array of string | Empty array | 0 or more providers that are associated with this route |
 | **assignee_secondarys** | Array of string | Empty array | A list of assignee IDs acting as secondary assignees to this route |
-| **route_type** | string | "" | One of DEFAULT, STORAGE, OMBUDSMAN or empty string to indicate the type of the route |
+| **route_type** | string | "" | One of DEFAULT, SORTING_RECEIVED, TRAILER, WAREHOUSE_RECEIVED, STORAGE, OMBUDSMAN, RETURN_TO_SENDER, RETURN_TO_HUB or an empty string to indicate the type of the route |
 | **tags** | Array of Tag | Empty Array | A list of route tags. These are route preferences |
 | **start_mode** | string | "" | One of WAREHOUSE, ASSIGNEE_ADDRESS, STOP, or empty string to indicate the start location of the route |
 | **end_mode** | string | "" | One of WAREHOUSE, ASSIGNEE_ADDRESS, STOP, or empty string to indicate the end location of the route |
