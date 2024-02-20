@@ -1,7 +1,7 @@
 # beans-tutorials
-<img src="https://www.beans.ai/img/img-logo-black.png" alt="OHF Logo" style="height: 100px; width:100px;"/>
+<img src="https://www.beans.ai/assets/consumerapp-with-name-white.png" alt="OHF Logo" style="height: 100px; width:100px;"/>
 
-Welcome to [One Hundred Feet](https://www.beans.ai) Developer Tutorials!
+Welcome to [Beans.ai](https://www.beans.ai) Developer Tutorials!
 
 
 ## Tutorials
@@ -12,3 +12,4 @@ Welcome to [One Hundred Feet](https://www.beans.ai) Developer Tutorials!
 - [Matrix](/matrix) - Time and Distance Matrix
 - [Report](/report) - Reports for routes, timesheets...
 - [Callback](/callback) - Get callback when data was changed
+- [AI](/intelligence) - Intelligence through Data and heuristics
