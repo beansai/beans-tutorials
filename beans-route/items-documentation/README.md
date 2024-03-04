@@ -43,7 +43,7 @@ GET {{baseURL}}/enterprise/v1/lists/itemsdocumentation/{list-item-id}
     "images": [
         {
             "url": "https://storage.googleapis.com/beans-images/testing/small/2022-11-22/2022-11-22_b27d61c6-21d8-4188-a0e2-f184360907d2.png",
-            "type": "signatures",
+            "type": "signature",
             "position": {
                 "latitude": 38.003654,
                 "longitude": -121.783137
@@ -124,7 +124,7 @@ POST {{baseURL}}/enterprise/v1/lists/itemsdocumentation
     "images": [
         {
             "url": "https://storage.googleapis.com/beans-images/testing/small/2022-11-22/2022-11-22_b27d61c6-21d8-4188-a0e2-f184360907d2.png",
-            "type": "signatures",
+            "type": "signature",
             "position": {
                 "lat": "38.003654",
                 "lng": "-121.783137"
@@ -160,7 +160,7 @@ POST {{baseURL}}/enterprise/v1/lists/itemsdocumentation
     "images": [
         {
             "url": "https://storage.googleapis.com/beans-images/testing/small/2022-11-22/2022-11-22_b27d61c6-21d8-4188-a0e2-f184360907d2.png",
-            "type": "signatures",
+            "type": "signature",
             "position": {
                 "latitude": 38.003654,
                 "longitude": -121.783137
@@ -195,6 +195,7 @@ POST {{baseURL}}/enterprise/v1/lists/itemsdocumentation
 | **tags** | Array of Tag | Empty Array | A list of route tags. These are route preferences |
 | **pod_timestamp_epoch** | Timestamp epoch | 0 | The timestamp of which the documentation is recorded |
 | **labels** | Array of Label | Empty Array | A list of label objects that are associated with the Item Documentation |
+| **consignee_name** | Array of Label | Empty Array | A list of label objects that are associated with the Item Documentation |
 
 ### Event Code Object
 
