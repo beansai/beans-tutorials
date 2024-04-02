@@ -15,6 +15,7 @@ For details of a stop (Item)  please see https://www.beansroute.ai/route-api-v1.
 - [Get Stop List](#get-stop-list)
 - [Get Stops By Route ID](#get-stops-by-route-id)
 - [Get Stop](#get-stop)
+- [Get Stop By Tracking ID](#get-stop-by-tracking-id)
 - [Delete Stop](#delete-stop)
 - [Get all item IDs from a Route that have documentations](#get-all-item-ids-from-a-route-that-have-documentations)
 - [Get Item Documentation](#get-item-documentation)
@@ -388,6 +389,47 @@ GET https://isp.beans.ai/enterprise/v1/lists/items/{{list-item-id}}
     "route": {
         "listRouteId": "d3f68d55-00e7-4b7b-959d-9866c651c0eb"
     },
+    "routePriority": 4,
+    "type": "DROPOFF",
+    "position": {
+        "latitude": 37.96883,
+        "longitude": -121.6603
+    },
+    "displayPosition": {
+        "latitude": 37.96792,
+        "longitude": -121.6603
+    },
+    "deliverFromStr": "2033-01-01 07:00",
+    "deliverByStr": "2033-01-01 11:00",
+    "addressComponents": {
+        "zipcode": "94548",
+        "countryIso3": "USA"
+    }
+}
+```
+
+## Get Stop By Tracking ID
+
+**Request Example**
+
+```
+GET https://isp.beans.ai/enterprise/v1/lists/item_by_tracking_id?tracking_id=ABCD
+```
+
+**Response Example**
+
+```json
+{
+    "listItemId": "a2920718-1129-43b4-8c3a-cd04178bf972",
+    "address": "1923 Delta Rd, Knightsen, CA 94548",
+    "formattedAddress": "1923 Delta Rd, Knightsen, CA",
+    "status": "NEW",
+    "updatedAt": 1644400352000,
+    "statusUpdatedAt": 1643267011000,
+    "route": {
+        "listRouteId": "d3f68d55-00e7-4b7b-959d-9866c651c0eb"
+    },
+    "trackingId": "ABCD",
     "routePriority": 4,
     "type": "DROPOFF",
     "position": {
