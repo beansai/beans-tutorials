@@ -141,7 +141,8 @@ The respective configurations for the above is at [assets/stateless-dro-request]
   "default_stop_time_seconds": 60,
   "default_dropoff_time_seconds": 60,
   "default_pickup_time_seconds": 60,
-  "optimize_for": "DISTANCE"
+  "optimize_for": "DISTANCE",
+  "allow_drop_time_constraints": false
 ```
 
 **Request example**
