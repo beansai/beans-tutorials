@@ -306,7 +306,7 @@ DELETE {{baseURL}}/enterprise/v1/lists/items/{{list-item-id}}
 | **updatedAt** | int64 | 0L | The timestamp, in epoch-millis, when this route is last updated |
 | **providers** | Array of string | Empty array | 0 or more providers that are associated with this route |
 | **assigneeSecondarys** | Array of string | Empty array | A list of assignee IDs acting as secondary assignees to this route |
-| **routeType** | string | "" | One of DEFAULT, SORTING_RECEIVED, TRAILER, WAREHOUSE_RECEIVED, STORAGE, OMBUDSMAN, RETURN_TO_SENDER, RETURN_TO_HUB, BAD_ADDRESS or an empty string to indicate the type of the route |
+| **routeType** | string | "" | One of DEFAULT, HOLDING, SORTING_RECEIVED, TRAILER, WAREHOUSE_RECEIVED, STORAGE, OMBUDSMAN, RETURN_TO_SENDER, RETURN_TO_HUB, BAD_ADDRESS or an empty string to indicate the type of the route |
 | **tags** | Array of Tag | Empty Array | A list of route tags. These are route preferences |
 | **startMode** | string | "" | One of WAREHOUSE, ASSIGNEE_ADDRESS, STOP, or empty string to indicate the start location of the route |
 | **endMode** | string | "" | One of WAREHOUSE, ASSIGNEE_ADDRESS, STOP, or empty string to indicate the end location of the route |
