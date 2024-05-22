@@ -47,7 +47,7 @@ POST https://isp.beans.ai/enterprise/v1/lists/routes
             },
             "list_route_id": "9d0b5ee9-fa02-4d6e-8633-f7980b225ae1",
             "status": "OPEN",
-            "route_type": "DEFAULT",
+            "routeType": "DEFAULT",
             "date_str": "2022-02-09"
         }
     ]
@@ -124,7 +124,7 @@ POST https://isp.beans.ai/enterprise/v1/lists/routes/{{list-route-id}}
     "name": "Route Name 3-1",
     "date_str": "2022-02-09",
     "status": "OPEN",
-    "route_type": "DEFAULT",
+    "routeType": "DEFAULT",
     "assignee":
     {
         "list_assignee_id": "tu1-tutorial-driver-1"
