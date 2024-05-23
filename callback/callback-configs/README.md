@@ -50,6 +50,8 @@ Callbacks would trigger an HTTP POST on the following object changes or event is
 
 ## Callback Config API
 
+All API calls require "Authorization" header.
+
 ### Get Callback Configs
 
 **Request Example**
