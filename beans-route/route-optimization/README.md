@@ -4,10 +4,10 @@
 
 ## Table of contents
 
+- [Route Optimization with Stops](#route-optimization-with-stops)
 - [Route Optimization](#route-optimization)
-- [Optimize Route](#optimize-route)
 
-## Optimize Route
+## Optimize Route with stops
 ![stops](assets/images/stops.png)
 Let's say we have a route with 10 stops in LA, and we want to optimize the route for assignee who will start/end work at warehouse.
 
@@ -126,13 +126,30 @@ You can find the full response content from here [response](assets/optimize-rout
 }
 
 ```
-**Note**
+***Note***
 - route_priority may not start from 1, in other words the route_priority may looks like this 3,6,10,15,23,100,200...
 - We have priority 0 (and -1) which is meant to be out of the path.
 
 The Route Optimization algorithm will update each stop's route_priority which is the system's suggestion of stop visiting priority.
 
-Here's a visualization of result.
-As we can see the stops' visiting suggestion meets the condition of start/end work at warehouse.
-![Optimize Result](assets/images/optimize-route-result.png)
+## Route Optimization
+For some scenarios, one wishes to optimize an entire route regardless of how many stops there are, especially when the stops are being added dynamically. The following is a shorter version that would execute the same optimization process.
+
+**Request example**
+
+```
+POST {{baseURL}}/lists/routes/{listRouteID}/do/optimize?startMode=WAREHOUSE&endMode=WAREHOUSE
+```
+Here is a list of startMode, endMode which we are supporting for optimization conditions.
+- WAREHOUSE
+- ASSIGNEE_LOCATION
+- ASSIGNEE_ADDRESS
+- PREVIOUS_STOP
+- <lat>,<lng> (e.g. 37.12423,-123.2323)
+
+**Body**
+None
+
+***Note***
+- POST request without the body
 
