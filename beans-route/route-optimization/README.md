@@ -6,6 +6,7 @@
 
 - [Route Optimization with Stops](#route-optimization-with-stops)
 - [Route Optimization](#route-optimization-1)
+- [Route Path](#route-path)
 
 ## Optimize Route with stops
 ![stops](assets/images/stops.png)
@@ -152,4 +153,45 @@ None
 
 ***Note***
 - POST request without the body
+
+## Route Path
+The path line show on the image above can be GET via the following call
+
+**Request example**
+
+```
+GET {{baseURL}}/lists/routes/{listRouteID}/path?enc=true&force_refresh=true
+```
+- enc: true/false, where true would return the route path in much much more efficient Google encoded polygon (https://github.com/googlemaps/js-polyline-codec)
+- force_refresh: true/false, when true would trigger the system to recompute (this could be computational expensive, and thus, our recommendation is to call this only when something material has changed)
+
+**Response**
+```
+{
+  "line": [
+    {
+      "encoded": "}zqlFn_qaQ???K@qA?WM?iA?K?A?[?BzK@bHDhO?X?d@XAP?|B?l@AlCI|@AdHC\\?pA??N?r@?v@@dE?d@Cj@Gv@?NB^D^HRDLX^PVHNHPHNHXFVDb@Fp@PjChAGJ?Z?T@j@HZJZL\\TXTt@z@VR\\N\\H\\@V?VGVMRSLYLa@Rw@ZiAB[[C_@QIGQMa@k@Yg@So@M{@Cg@a@AIAUCYS]]o...<snipped>",
+      "referenceId": "xanvvhq3ijkvgb4dnrwbz"
+    },
+    {
+      "distanceM": 1627.3,
+      "timeS": 180,
+      "referenceId": "cvkxup94rnrg5gdbyaz68m"
+    },
+    {
+      "distanceM": 729.4,
+      "timeS": 115.1,
+      "referenceId": "ey2vayohxe56daa9qpmlj8"
+    },
+    {
+      "distanceM": 978.8,
+<snipped>
+  ]
+}
+```
+- The lines is an array of points, where the 0th index kine contains the path. The referenceId is matching to the list_item_id of the items on the Route, and the items are sorted based on the way points
+
+
+***Note***
+- as usual, ignore any unknown fields in your parsing
 
