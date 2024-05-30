@@ -5,7 +5,7 @@
 ## Table of contents
 
 - [Route Optimization with Stops](#route-optimization-with-stops)
-- [Route Optimization](#route-optimization)
+- [Route Optimization](#route-optimization-1)
 
 ## Optimize Route with stops
 ![stops](assets/images/stops.png)
