@@ -571,6 +571,7 @@ As part of the driver/dispatcher workflows, Item Documentation (PoD) may be gene
 | **pod_timestamp_epoch** | Integer | 0 | Integer epoch (so, in seconds) when the POD was generated  |
 | **pod_position** | LatLng | {} | The lat/lng where the POD was generated  |
 | **tags** | Array of Tag | Empty Array | A list of route tags. These are route preferences |
+| **consignee_name** | string | The name of the consignee | The name of the consignee that signs the POD in signature field |
 
 ##### Event Code Object
 
