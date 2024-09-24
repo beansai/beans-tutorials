@@ -133,7 +133,11 @@ POST https://isp.beans.ai/enterprise/v1/lists/callbacks_rerun
     "endMillisExclusive":"1646320000000"
 }
 ```
-
+| Field | Type | Description |
+| --- | --- | --- |
+| **startMillisInclusive** | long | The start epoch milli-second of the time window, inclusive |
+| **endMillisExclusive** | long | The end epoch milli-second of the time window, exclusive |
+| **type** | string | The type of the Callback object, and if not specified, all of them. |
 
 **Response Example**
 ```json
