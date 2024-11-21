@@ -14,6 +14,7 @@ For details of a warehouse's shape please see https://www.beansroute.ai/route-ap
 - [Update Warehouse](#update-warehouse)
 - [Get Warehouse list](#get-warehouse-list)
 - [Get Warehouse](#get-warehouse)
+- [Get Routes associated to Warehouse](#get-warehouse-routes)
 - [Delete Warehouse](#delete-warehouse)
 - [Objects](#objects)
   - [Array of Warehouse Object](#array-of-warehouse-object)
@@ -161,6 +162,21 @@ GET https://isp.beans.ai/enterprise/v1/lists/warehouses/{{list-warehouse-id}}
     "name": "Tutorial Warehouse2"
 }
 ```
+
+## Get Warehouse Routes
+
+**Request Example**
+
+```
+GET https://isp.beans.ai/enterprise/v1/lists/warehouses/{{list-warehouse-id}}/routes
+```
+Optional Query parameters
+   - dateStr: 2024-11-01 (to filter for the date str on the routes associated to this warehouse)
+
+If dateStr is specified and non-empty, then *ALL* routes associated to that warehouse on that date would be returned (regardless of the status).
+If dateStr is Not specified or empty, then, *ALL OPEN* routes associated to that warehouse would be returned
+
+The returned structure is the same as https://github.com/beansai/beans-tutorials/tree/main/beans-route/routes-management#get-route-list
 
 ## Delete Warehouse
 This will perform a soft-delete action, and the deleted warehouse will still be return in get warehouse by id response.
