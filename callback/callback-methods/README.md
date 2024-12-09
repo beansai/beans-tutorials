@@ -130,14 +130,16 @@ POST https://isp.beans.ai/enterprise/v1/lists/callbacks_rerun
 ```json
 {
     "startMillisInclusive":"1646313000000",
-    "endMillisExclusive":"1646320000000"
+    "endMillisExclusive":"1646320000000",
+    "non200Code":true
 }
 ```
-| Field | Type | Description |
-| --- | --- | --- |
-| **startMillisInclusive** | long | The start epoch milli-second of the time window, inclusive |
-| **endMillisExclusive** | long | The end epoch milli-second of the time window, exclusive |
-| **type** | string | The type of the Callback object, and if not specified, all of them. |
+| Field | Required | Type | Description |
+| --- | --- | --- | --- |
+| **startMillisInclusive** | yes | long | The start epoch milli-second of the time window, inclusive |
+| **endMillisExclusive** | yes | long | The end epoch milli-second of the time window, exclusive |
+| **type** | no | string | The type of the Callback object, and if not specified, all of them. |
+| **non200Code** | no | boolean | Whether or not only non-200 respond codes were rerun. If this is true, only Callbacks that the system did NOT have a 200 respond code would be run. If this is false, then, all the matching callbacks would be rerun |
 
 **Response Example**
 ```json
