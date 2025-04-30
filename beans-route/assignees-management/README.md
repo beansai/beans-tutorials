@@ -207,6 +207,9 @@ DELETE {{baseURL}}/enterprise/v1/lists/assignees/{{list-assignee-id}}
 | --- | --- | --- | --- |
 | **assignee** | Array of Assignee Object | [] | A list of Assignee Object |
 
+* When processing objects, ignore fields you do not need
+* When a field isn't there, assume nominal default (e.g "" for String, 0 for number, etc)
+
 ### Assignee Object
 | Field | Type | Default | Description |
 | ----------- | ----------- | ----------- | ----------- |
@@ -230,5 +233,6 @@ DELETE {{baseURL}}/enterprise/v1/lists/assignees/{{list-assignee-id}}
 | **isAssigningEnabled** | boolean | false | True when the assignee can be put on a route |
 | **createdAt** | int64 | 0L | The timestamp, in epoch-millis, when this assignee is created |
 | **updatedAt** | int64 | 0L | The timestamp, in epoch-millis, when this assignee is last updated |
+| **nickname** | string | "" | The nickname of this assignee |
 
 
