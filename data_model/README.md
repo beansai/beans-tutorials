@@ -120,6 +120,7 @@ With header **"X-Beansai-Format: native"**, the return of the same callback conf
 | **extra_info_2** | extraInfo1 | string | "" | Integrator specific extra information, up to 250 characters |
 | **extra_info_3** | extraInfo1 | string | "" | Integrator specific extra information, up to 1000 characters |
 | **adult_signature_required** | adultSignatureRequired | boolean | false | True when an adult signature is required, which may trigger age verification workflow |
+| **cod_amount** | codAmount | string | "" | The amouont to be collected on delivery. Account's own currency is the default if not specified. "12.5", "USD 12.5" are both accepted, where the currency code can be used |
 
 ### Dimensions Object
 
