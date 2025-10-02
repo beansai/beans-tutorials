@@ -546,6 +546,11 @@ As part of the driver/dispatcher workflows, Item Documentation (PoD) may be gene
             "lat":33.9546435,
             "lng":-118.3483595
         },
+        "cod": {
+            "amount_asked": "USD 20.5",
+            "amount_shown": "USD 20.5",
+            "amount_collected": "20"
+        },
         "tags": [
             {
                 "key": "/FEDEX/package_size",
@@ -570,6 +575,7 @@ As part of the driver/dispatcher workflows, Item Documentation (PoD) may be gene
 | **event_code** | Event code object | {} | The chosen event code by an agent to be associated with this documentation  |
 | **pod_timestamp_epoch** | Integer | 0 | Integer epoch (so, in seconds) when the POD was generated  |
 | **pod_position** | LatLng | {} | The lat/lng where the POD was generated  |
+| **cod** | COD object | {} | The information on money collected on delivery (COD)  |
 | **tags** | Array of Tag | Empty Array | A list of route tags. These are route preferences |
 | **consignee_name** | string | The name of the consignee | The name of the consignee that signs the POD in signature field |
 
@@ -587,6 +593,14 @@ As part of the driver/dispatcher workflows, Item Documentation (PoD) may be gene
 | **url** | string | "" | The URL of the image where it may be downloaded |
 | **type** | string | "" | The type of an image. "proof" usually denotes the proof of delivery, "signature" usually denotes the signature blocks. New types may be added in the future  |
 | **position** | LatLng | {} | The lat/lng associated with the image |
+
+##### COD Object
+
+| Field | Type | Default | Description |
+| ----------- | ----------- | ----------- | ----------- |
+| **amount_asked** | string | "" | The amount in currency string that is asked on the shipment, and is commonly equal to the ones specified on the stop |
+| **amount_shown** | string | "" | The amount in currency string that is shown to the driver, and although is commonly equal to the amount_asked, it may differ  |
+| **amount_collected** | string | "" | The amount string that is entered by the driver on the amount collected  |
 
 #### Assignee Callback Example
 
