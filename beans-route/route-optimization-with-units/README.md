@@ -1,6 +1,6 @@
 <img src="../../assets/images/beans-128x128.png" align="right" />
 
-# Route Optimization With Units
+# Route Optimization With Units (Grouping)
 
 Route Optimization With Units is a grouping mechanism to condense the stops.
 
@@ -238,5 +238,24 @@ You can see the full response at [optimize-with-units-response.json](assets/opti
 }
 ```
 
+## Convience method on a Route
+For some scenarios, one wishes to optimize an entire route regardless of how many stops there are, especially when the stops are being added dynamically. The following is a shorter version that would execute the same grouping process.
+
+**Request example**
+
+```
+POST {{baseURL}}/lists/routes/{listRouteID}/do/optimizewithunits?mode=INPUT_ADDRESS
+```
+
+**Body**
+None
+
+***Note***
+- POST request without the body
+- 
 ## Supported Mode
 - INPUT_ADDRESS - To group up stops that have the same address.
+- INPUT_ADDRESS_UNIT_AND_CUSTOMER_NAME - to group stops that has the same (address, unit, customer name)
+- INPUT_ADDRESS_AND_UNIT - to group stops that has the same (address, unit)
+- BUILDING_ADDRESS - to group stops that has the same formatted_address
+- FORMATTED_ADDRESS_AND_UNIT_NO_TIME_WINDOW - to group stops that has the same (formatted_address, unit)
