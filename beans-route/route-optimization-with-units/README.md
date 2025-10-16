@@ -9,6 +9,7 @@ For other route optimization conditions like pickup-dropoff pair, time window, a
 ## Table of contents
 - [Route Optimization with units](#route-optimization-with-units)
     - [To Group stops that have same address](#to-group-stops-that-have-same-address)
+    - [Group by Route](#group-by-route)
     - [Supported Mode](#supported-mode)
 
 ## To group stops that have same address
@@ -238,7 +239,7 @@ You can see the full response at [optimize-with-units-response.json](assets/opti
 }
 ```
 
-## Convience method on a Route
+## Group by Route
 For some scenarios, one wishes to optimize an entire route regardless of how many stops there are, especially when the stops are being added dynamically. The following is a shorter version that would execute the same grouping process.
 
 **Request example**
