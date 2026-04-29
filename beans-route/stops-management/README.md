@@ -261,6 +261,7 @@ GET https://isp.beans.ai/enterprise/v1/lists/items
 
 ## Get Stops By Route ID
 To get non-deleted items by route id.
+   - to include deleted items, include query parameter *include_deleted=true*
 
 **Request**
 ```
