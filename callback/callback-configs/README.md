@@ -29,6 +29,8 @@ If we want to receive callbacks when data was changed, we can set the globalUrl 
       - [Driver Start Callback Example](#driver-start-callback-example)
       - [Missing Info on Packages Add Example](#missing-info-on-packages-add-example)
       - [Driver Arrived At Callback Example](#driver-arrived-at-callback-example)
+      - [Clock In Callback Example](#clock-in-callback-example)
+      - [Clock Out Callback Example](#clock-out-callback-example)
 
 ## Supported Callbacks
 
@@ -47,6 +49,8 @@ Callbacks would trigger an HTTP POST on the following object changes or event is
 - Missing info on Packages Add
 - DriverArrivedAt
 - ScanEvent
+- ClockIn
+- ClockOut
 
 ## Callback Config API
 
@@ -109,6 +113,8 @@ GET https://isp.beans.ai/enterprise/v1/lists/callback_configs
 | **scanEvent** | boolean | false | Whether to receive Scan Event callbacks  |
 | **barcodeMissingInfo** | boolean | false | Whether to receive Barcode missing info callbacks. This is only triggered when a scanned barcode does not have sufficient amount of information to be resolved by the system. |
 | **driverArrivedAt** | boolean | false | Whether to receive Driver Arrived At callbacks  |
+| **clockIn** | boolean | false | Whether to receive Clock In callbacks |
+| **clockOut** | boolean | false | Whether to receive Clock Out callbacks |
 | **globalUrl** | string | "" | The global endpoint to POST the callback object to  |
 | **headers** | Array of Header | Empty List| Headers to include while performing the POST |
 | **includeDefaultValues** | boolean | false | Whether or not default values of callback object should be included in the payload |
@@ -143,6 +149,8 @@ POST https://isp.beans.ai/enterprise/v1/lists/callback_configs
   "distanceMatrix":true,
   "driverStart":true,
   "driverArrivedAt":true,
+  "clockIn": true,
+  "clockOut": true,
   "barcodeMissingInfo": true,
   "globalUrl": "https://96d2-36-237-115-38.ngrok.io",
   "headers": [{"key":"X-Special-Header-1","value":"special-value1"},{"key":"X-Special-Header-2","value":"special-value2"}]
@@ -178,7 +186,9 @@ POST https://isp.beans.ai/enterprise/v1/lists/callback_configs
     "distanceMatrix": true,
     "driverStart": true,
     "barcodeMissingInfo": true,
-    "driverArrivedAt": true
+    "driverArrivedAt": true,
+    "clockIn": true,
+    "clockOut": true
 }
 ```
 
@@ -203,6 +213,8 @@ We can dynamically resolve the object type by parsing the "type" field to determ
 - DRIVER_START
 - BARCODE_MISSING_INFO
 - DRIVER_ARRIVED_AT
+- CLOCK_IN
+- CLOCK_OUT
 
 **Actions**
 
@@ -1005,3 +1017,112 @@ In other words, this callback would be blocking on the driver scans to await the
 | **ts_millis** | int64 | 0 | The epoch millis (millisseconds) recorded where the event is received by the system |
 | **item** | List Item Object | {} | The list item that scan event is associated with |
 | **tags** | Array of Tag | [] | A list of tags that are associated with this scan event |
+
+
+### Clock In Callback Example
+
+Triggered when a driver clocks in for their shift.
+
+```json
+{
+    "type": "CLOCK_IN",
+    "action": "CREATE",
+    "account_buid": "4022a1aada0e4c4684e61e3f73290a68",
+    "object": {
+        "assignee": {
+            "list_assignee_id": "tu1-tutorial-driver-1",
+            "account_buid": "4022a1aada0e4c4684e61e3f73290a68",
+            "name": "New Driver 2",
+            "code": "cd787cc3-fd8",
+            "role": "DRIVER",
+            "state": "ACTIVE",
+            "list_warehouse_id": "lzt6vwxta2o0e1hsl9k75u"
+        },
+        "route": {
+            "list_route_id": "xbzqzamtj7e1664jmvcdd8",
+            "name": "Route Name 3-1",
+            "route_type": "DEFAULT",
+            "date_str": "2022-02-10"
+        },
+        "warehouse": {
+            "list_warehouse_id": "7bc71186-9d6f-4541-a1b3-ffcfe0b6234f2",
+            "name": "Tutorial Warehouse 2",
+            "code": "TW2",
+            "domicile": "SFO1"
+        },
+        "clockin_epoch_millis": "1644550508000",
+        "clockin_ts": "2022-02-11T02:35:08Z",
+        "triggered_by": "tu1-tutorial-driver-1",
+        "origination": "app"
+    },
+    "watermark": "1644550508947"
+}
+```
+
+##### Clock In Object
+
+| Field | Type | Default | Description |
+| ----------- | ----------- | ----------- | ----------- |
+| **assignee** | Assignee Object | {} | The driver who clocked in. Full [Assignee Object](#assignee-object) shape |
+| **route** | Route Object (partial) | {} | The driver's primary route at the time of clock-in, if one exists. Only `list_route_id`, `name`, `route_type`, and `date_str` are populated — not the full [Route Object](#route-object) shape |
+| **warehouse** | Warehouse Object (partial) | {} | The warehouse associated with the route (or, failing that, the driver's default warehouse). Only `list_warehouse_id`, `name`, `code`, `deleted`, and `domicile` are populated — not the full [Warehouse Object](#warehouse-object) shape |
+| **clockin_epoch_millis** | int64 | 0 | The epoch-millis timestamp of when the driver clocked in |
+| **clockin_ts** | string | "" | ISO-8601 timestamp of when the driver clocked in |
+| **triggered_by** | string | "" | The assignee ID that triggered the clock-in |
+| **origination** | string | "" | Where the clock-in was triggered from, e.g. `"app"` for the driver mobile app |
+
+### Clock Out Callback Example
+
+Triggered when a driver clocks out of their shift.
+
+```json
+{
+    "type": "CLOCK_OUT",
+    "action": "CREATE",
+    "account_buid": "4022a1aada0e4c4684e61e3f73290a68",
+    "object": {
+        "assignee": {
+            "list_assignee_id": "tu1-tutorial-driver-1",
+            "account_buid": "4022a1aada0e4c4684e61e3f73290a68",
+            "name": "New Driver 2",
+            "code": "cd787cc3-fd8",
+            "role": "DRIVER",
+            "state": "ACTIVE",
+            "list_warehouse_id": "lzt6vwxta2o0e1hsl9k75u"
+        },
+        "route": {
+            "list_route_id": "xbzqzamtj7e1664jmvcdd8",
+            "name": "Route Name 3-1",
+            "route_type": "DEFAULT",
+            "date_str": "2022-02-10"
+        },
+        "warehouse": {
+            "list_warehouse_id": "7bc71186-9d6f-4541-a1b3-ffcfe0b6234f2",
+            "name": "Tutorial Warehouse 2",
+            "code": "TW2",
+            "domicile": "SFO1"
+        },
+        "clockin_epoch_millis": "1644550508000",
+        "clockin_ts": "2022-02-11T02:35:08Z",
+        "clockout_epoch_millis": "1644579308000",
+        "clockout_ts": "2022-02-11T10:35:08Z",
+        "triggered_by": "tu1-tutorial-driver-1",
+        "origination": "app"
+    },
+    "watermark": "1644579308947"
+}
+```
+
+##### Clock Out Object
+
+| Field | Type | Default | Description |
+| ----------- | ----------- | ----------- | ----------- |
+| **assignee** | Assignee Object | {} | The driver who clocked out. Full [Assignee Object](#assignee-object) shape |
+| **route** | Route Object (partial) | {} | Same partial shape as in the Clock In Object: only `list_route_id`, `name`, `route_type`, `date_str` |
+| **warehouse** | Warehouse Object (partial) | {} | Same partial shape as in the Clock In Object: only `list_warehouse_id`, `name`, `code`, `deleted`, `domicile` |
+| **clockin_epoch_millis** | int64 | 0 | The epoch-millis timestamp of when the driver clocked in for this shift |
+| **clockin_ts** | string | "" | ISO-8601 timestamp of when the driver clocked in for this shift |
+| **clockout_epoch_millis** | int64 | 0 | The epoch-millis timestamp of when the driver clocked out |
+| **clockout_ts** | string | "" | ISO-8601 timestamp of when the driver clocked out |
+| **triggered_by** | string | "" | The assignee ID that triggered the clock-out |
+| **origination** | string | "" | Where the clock-out was triggered from, e.g. `"app"` for the driver mobile app |
