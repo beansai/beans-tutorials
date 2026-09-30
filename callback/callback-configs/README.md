@@ -31,6 +31,7 @@ If we want to receive callbacks when data was changed, we can set the globalUrl 
       - [Driver Arrived At Callback Example](#driver-arrived-at-callback-example)
       - [Clock In Callback Example](#clock-in-callback-example)
       - [Clock Out Callback Example](#clock-out-callback-example)
+      - [Search Note Callback Example](#search-note-callback-example)
 
 ## Supported Callbacks
 
@@ -51,6 +52,7 @@ Callbacks would trigger an HTTP POST on the following object changes or event is
 - ScanEvent
 - ClockIn
 - ClockOut
+- SearchNote
 
 ## Callback Config API
 
@@ -115,6 +117,7 @@ GET https://isp.beans.ai/enterprise/v1/lists/callback_configs
 | **driverArrivedAt** | boolean | false | Whether to receive Driver Arrived At callbacks  |
 | **clockIn** | boolean | false | Whether to receive Clock In callbacks |
 | **clockOut** | boolean | false | Whether to receive Clock Out callbacks |
+| **searchNote** | boolean | false | Whether to receive Search Note callbacks |
 | **globalUrl** | string | "" | The global endpoint to POST the callback object to  |
 | **headers** | Array of Header | Empty List| Headers to include while performing the POST |
 | **includeDefaultValues** | boolean | false | Whether or not default values of callback object should be included in the payload |
@@ -151,6 +154,7 @@ POST https://isp.beans.ai/enterprise/v1/lists/callback_configs
   "driverArrivedAt":true,
   "clockIn": true,
   "clockOut": true,
+  "searchNote": true,
   "barcodeMissingInfo": true,
   "globalUrl": "https://96d2-36-237-115-38.ngrok.io",
   "headers": [{"key":"X-Special-Header-1","value":"special-value1"},{"key":"X-Special-Header-2","value":"special-value2"}]
@@ -215,6 +219,7 @@ We can dynamically resolve the object type by parsing the "type" field to determ
 - DRIVER_ARRIVED_AT
 - CLOCK_IN
 - CLOCK_OUT
+- SEARCH_NOTE
 
 **Actions**
 
@@ -1126,3 +1131,120 @@ Triggered when a driver clocks out of their shift.
 | **clockout_ts** | string | "" | ISO-8601 timestamp of when the driver clocked out |
 | **triggered_by** | string | "" | The assignee ID that triggered the clock-out |
 | **origination** | string | "" | Where the clock-out was triggered from, e.g. `"app"` for the driver mobile app |
+
+
+### Search Note Callback Example
+
+Triggered when an address note is created or modified — free-form notes, gate codes, and map markers (entrances, parking, mailboxes, units and so on), along with any images attached to them.
+
+Only `CREATE` and `UPDATE` are emitted. Deleting a marker, a note item, or an image arrives as an `UPDATE` carrying the note **after** the deletion, so the receiver should compare against the previous payload to determine what was removed.
+
+```json
+{
+    "type": "SEARCH_NOTE",
+    "action": "UPDATE",
+    "account_buid": "35138aee-b003-3ac9-ba7a-9c8bca9eb906",
+    "object": {
+        "id": "b7f1c0d4e9a74f0b9c2d",
+        "address": "600 Driscoll Rd, Fremont, CA",
+        "account_buid": "35138aee-b003-3ac9-ba7a-9c8bca9eb906",
+        "user_id": "9f2a7c11-5ce0-4a31-bb02-1f9d33ac77e1",
+        "fallback_location": {
+            "lat": 37.51283,
+            "lng": -121.93042
+        },
+        "items": [
+            {
+                "type": "ENTRANCE",
+                "note": "Gate code #4471, use the right keypad",
+                "timestamp": "2026-09-01T18:22:41Z"
+            }
+        ],
+        "markers": [
+            {
+                "marker_id": "3f1d8a52-6b0e-4c77-9a11-2ce4f0b7d891",
+                "type": "MAILBOX",
+                "text": "Cluster box left of the lobby door",
+                "timestamp": "2026-09-01T18:24:03Z",
+                "location": {
+                    "lat": 37.51291,
+                    "lng": -121.93037
+                },
+                "images": [
+                    {
+                        "image_id": "aHR0cHM6Ly9jZG4uYmVhbnMuYWkvbm90ZXMvYWJjMTIzLmpwZw",
+                        "image": "https://cdn.beans.ai/notes/abc123.jpg",
+                        "text": "Mailbox cluster",
+                        "updated_at_epoch": "1756751043",
+                        "location": {
+                            "lat": 37.51291,
+                            "lng": -121.93037
+                        },
+                        "address": "600 Driscoll Rd, Fremont, CA"
+                    }
+                ]
+            }
+        ]
+    },
+    "operator": {
+        "assignee_code": "qqq7qq3-aa8",
+        "user_id": "9f2a7c11-5ce0-4a31-bb02-1f9d33ere1",
+        "email": "driver@beans.ai"
+    },
+    "watermark": "1756751043221"
+}
+```
+
+##### Search Note Object
+
+| Field | Type | Default | Description |
+| ----------- | ----------- | ----------- | ----------- |
+| **id** | string | "" | Unique identifier of the note |
+| **address** | string | "" | The formatted address that the note is attached to. Falls back to the cleaned address where a formatted address does not exist |
+| **account_buid** | string | "" | The account ID that this note belongs to |
+| **user_id** | string | "" | The user ID that this note is attributed to |
+| **fallback_location** | LatLng | {} | The approximate position of the address, used when no marker carries a location |
+| **items** | Array of Feedback | [] | The free-form note entries, one per note type |
+| **markers** | Array of Marker | [] | The map markers recorded against this address |
+
+##### Feedback Object
+
+| Field | Type | Default | Description |
+| ----------- | ----------- | ----------- | ----------- |
+| **type** | string | "" | The note type, e.g. `TEXT`, `ENTRANCE`, `PARKING`, `GATECODE`, `TIP`, `WAY_POINT` |
+| **note** | string | "" | The text of the note |
+| **timestamp** | string | "" | ISO-8601 timestamp of when the note was last written |
+| **images** | Array of Image | [] | The images attached to this note |
+
+##### Marker Object
+
+| Field | Type | Default | Description |
+| ----------- | ----------- | ----------- | ----------- |
+| **marker_id** | string | "" | Unique identifier of the marker within the note |
+| **type** | string | "" | The marker type, e.g. `ENTRANCE`, `PARKING`, `UNIT`, `LOBBY`, `MAILBOX`, `STOP_POINT` |
+| **text** | string | "" | The description of the marker |
+| **unit** | string | "" | The unit that the marker belongs to, where appropriate |
+| **custom_title** | string | "" | The title given to the marker by the operator |
+| **timestamp** | string | "" | ISO-8601 timestamp of when the marker was last written |
+| **location** | LatLng | {} | The position of the marker |
+| **images** | Array of Image | [] | The images attached to this marker |
+
+##### Image Object
+
+| Field | Type | Default | Description |
+| ----------- | ----------- | ----------- | ----------- |
+| **image_id** | string | "" | The identifier of the image, the URL-safe Base64 encoding of **image** |
+| **image** | string | "" | The URL of the image |
+| **text** | string | "" | The caption recorded with the image |
+| **updated_at_epoch** | int64 | 0 | The timestamp, in epoch-**seconds**, of when the image was last written |
+| **location** | LatLng | {} | The position where the image was captured |
+| **address** | string | "" | The address that the image was captured against |
+| **unit** | string | "" | The unit that the image was captured against |
+
+##### Operator Object
+
+| Field | Type | Default | Description |
+| ----------- | ----------- | ----------- | ----------- |
+| **assignee_code** | string | "" | The code of the assignee who made the change |
+| **user_id** | string | "" | The user ID of whoever made the change |
+| **email** | string | "" | The email of whoever made the change |
