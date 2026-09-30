@@ -1143,11 +1143,11 @@ Only `CREATE` and `UPDATE` are emitted. Deleting a marker, a note item, or an im
 {
     "type": "SEARCH_NOTE",
     "action": "UPDATE",
-    "account_buid": "4022a1aada0e4c4684e61e3f73290a68",
+    "account_buid": "35138aee-b003-3ac9-ba7a-9c8bca9eb906",
     "object": {
         "id": "b7f1c0d4e9a74f0b9c2d",
         "address": "600 Driscoll Rd, Fremont, CA",
-        "account_buid": "4022a1aada0e4c4684e61e3f73290a68",
+        "account_buid": "35138aee-b003-3ac9-ba7a-9c8bca9eb906",
         "user_id": "9f2a7c11-5ce0-4a31-bb02-1f9d33ac77e1",
         "fallback_location": {
             "lat": 37.51283,
@@ -1187,8 +1187,8 @@ Only `CREATE` and `UPDATE` are emitted. Deleting a marker, a note item, or an im
         ]
     },
     "operator": {
-        "assignee_code": "cd787cc3-fd8",
-        "user_id": "9f2a7c11-5ce0-4a31-bb02-1f9d33ac77e1",
+        "assignee_code": "qqq7qq3-aa8",
+        "user_id": "9f2a7c11-5ce0-4a31-bb02-1f9d33ere1",
         "email": "driver@beans.ai"
     },
     "watermark": "1756751043221"
